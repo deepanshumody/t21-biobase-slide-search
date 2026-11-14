@@ -1,0 +1,13 @@
+{
+  "model": "dinov2_vits14",
+  "checkpoint_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "preprocessing": {
+    "resize": 256,
+    "crop": 224,
+    "interpolation": "bicubic",
+    "normalization": "ImageNet"
+  },
+  "torch_version": "2.11.0",
+  "device": "cpu",
+  "blank_list_sha256": "7851cba91f32758499d94027b09e8ea15a177a0b207dc67fb78d5c77d6b4ffba"
+}

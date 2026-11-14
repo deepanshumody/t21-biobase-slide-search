@@ -1,0 +1,173 @@
+{
+  "labelled_slides_used": 188,
+  "heldout_slides": 67,
+  "excluded_labelled_ids": [
+    "SUPP-03-bb_03_wsi_0004",
+    "SUPP-03-bb_03_wsi_0005"
+  ],
+  "selected_method": "giga_clip-ridge-0.1",
+  "exploratory_loo_accuracy": 0.8829787234042553,
+  "candidates": [
+    {
+      "method": "gigapath-knn-1",
+      "loo_accuracy": 0.7872340425531915
+    },
+    {
+      "method": "gigapath-knn-3",
+      "loo_accuracy": 0.7925531914893617
+    },
+    {
+      "method": "gigapath-knn-5",
+      "loo_accuracy": 0.7925531914893617
+    },
+    {
+      "method": "biomedclip-knn-1",
+      "loo_accuracy": 0.5904255319148937
+    },
+    {
+      "method": "biomedclip-knn-3",
+      "loo_accuracy": 0.5851063829787234
+    },
+    {
+      "method": "biomedclip-knn-5",
+      "loo_accuracy": 0.6117021276595744
+    },
+    {
+      "method": "hoptimus-knn-1",
+      "loo_accuracy": 0.5851063829787234
+    },
+    {
+      "method": "hoptimus-knn-3",
+      "loo_accuracy": 0.5851063829787234
+    },
+    {
+      "method": "hoptimus-knn-5",
+      "loo_accuracy": 0.6117021276595744
+    },
+    {
+      "method": "dinov2-knn-1",
+      "loo_accuracy": 0.5691489361702128
+    },
+    {
+      "method": "dinov2-knn-3",
+      "loo_accuracy": 0.5585106382978723
+    },
+    {
+      "method": "dinov2-knn-5",
+      "loo_accuracy": 0.5319148936170213
+    },
+    {
+      "method": "giga_clip-knn-1",
+      "loo_accuracy": 0.7819148936170213
+    },
+    {
+      "method": "giga_clip-knn-3",
+      "loo_accuracy": 0.7978723404255319
+    },
+    {
+      "method": "giga_clip-knn-5",
+      "loo_accuracy": 0.8085106382978723
+    },
+    {
+      "method": "gigapath-ridge-0.01",
+      "loo_accuracy": 0.8563829787234043
+    },
+    {
+      "method": "gigapath-ridge-0.1",
+      "loo_accuracy": 0.8617021276595744
+    },
+    {
+      "method": "gigapath-ridge-1.0",
+      "loo_accuracy": 0.8457446808510638
+    },
+    {
+      "method": "biomedclip-ridge-0.01",
+      "loo_accuracy": 0.6702127659574468
+    },
+    {
+      "method": "biomedclip-ridge-0.1",
+      "loo_accuracy": 0.6117021276595744
+    },
+    {
+      "method": "biomedclip-ridge-1.0",
+      "loo_accuracy": 0.5478723404255319
+    },
+    {
+      "method": "giga_clip-ridge-0.01",
+      "loo_accuracy": 0.8776595744680851
+    },
+    {
+      "method": "giga_clip-ridge-0.1",
+      "loo_accuracy": 0.8829787234042553
+    },
+    {
+      "method": "giga_clip-ridge-1.0",
+      "loo_accuracy": 0.8191489361702128
+    }
+  ],
+  "nested_cv": {
+    "design": "3 repeated stratified 3-fold outer splits; inner leave-one-out model selection",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_by_repeat": [
+      0.8457446808510638,
+      0.8191489361702128,
+      0.8670212765957447
+    ],
+    "mean_accuracy": 0.8439716312056738,
+    "gigapath_1nn_accuracy_by_repeat": [
+      0.7712765957446809,
+      0.7340425531914894,
+      0.75
+    ],
+    "gigapath_1nn_mean": 0.75177304964539,
+    "accuracy_by_supplier": {
+      "SUPP-01": 0.8104575163398693,
+      "SUPP-02": 0.8645833333333334,
+      "SUPP-03": 0.5555555555555556,
+      "SUPP-04": 0.8333333333333334
+    },
+    "recall_by_organ": {
+      "Colon and rectum": 0.9583333333333334,
+      "Lung": 0.8333333333333334,
+      "Breast": 0.7777777777777778,
+      "Stomach": 0.7555555555555555,
+      "Bone marrow": 0.8333333333333334,
+      "Bladder": 0.6666666666666666,
+      "Thyroid": 0.8571428571428571,
+      "Other or mixed": 0.5555555555555556,
+      "Bone": 1.0,
+      "Prostate": 0.9523809523809523,
+      "Liver": 0.8205128205128205,
+      "Kidney": 1.0,
+      "Uterus": 0.9375,
+      "Skin": 0.8,
+      "Esophagus": 1.0
+    }
+  },
+  "predicted_counts": {
+    "Breast": 12,
+    "Prostate": 6,
+    "Colon and rectum": 11,
+    "Stomach": 6,
+    "Lung": 6,
+    "Uterus": 5,
+    "Thyroid": 6,
+    "Kidney": 4,
+    "Liver": 4,
+    "Bladder": 6,
+    "Skin": 1
+  },
+  "notes": [
+    "No official held-out answer key was used.",
+    "LOO scores select the final candidate and are exploratory, not independent test accuracy.",
+    "Nested validation estimates candidate selection with less training data than the final model.",
+    "Repeated validation uses the same slides; repeats are not independent samples.",
+    "Slide-level splits cannot rule out patient-level overlap because no patient grouping is supplied.",
+    "Two labelled slides lack GigaPath vectors; all models use the same 188-slide comparison set.",
+    "Review margins and cross-model agreement are not calibrated probabilities."
+  ]
+}

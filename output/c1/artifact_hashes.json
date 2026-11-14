@@ -1,0 +1,6 @@
+{
+  "scripts/c1_embeddings.py": "59b6d0e1d90c4bfd2b21dce91fc3e0ca399d4167046ff96c7517f7ddd4ce2bdc",
+  "pack_slides/slides_manifest.json": "1d07d56b5b39e3b1e72d68f843f2896d5c1a2f0fdae7b70db6e52594053c8f22",
+  "output/c1/submission_organ.csv": "3601bc781638c7cbf0728884ea14e96f64765d3dd69b57e65a1d8c2dfd35ec03",
+  "output/c1/validation_summary.json": "ddd6e4f5af0569a236b440efae30743dd986d1d0c1db3ba8c5e718a162553381"
+}

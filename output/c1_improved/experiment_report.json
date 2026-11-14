@@ -1,0 +1,63 @@
+{
+  "final_method": "Equal average of three ridge models using GigaPath, BiomedCLIP, and DINOv2/H-optimus tile quantiles.",
+  "final_submission": "output/c1_improved/submission_organ.csv",
+  "original_submission_preserved": "output/c1/submission_organ.csv",
+  "run_command": "python3 scripts/c1_evaluate_improved.py",
+  "dependencies": "python3 -m pip install -r scripts/requirements_c1.txt",
+  "tests": "python3 scripts/test_c1.py",
+  "paired_nested_cv": {
+    "slides": 188,
+    "repeats": 10,
+    "outer_folds": 3,
+    "old_selection_accuracy": 0.85,
+    "old_fixed_model_accuracy": 0.8526595744680853,
+    "new_accuracy": 0.8563829787234043,
+    "gain_95pct_slide_bootstrap": [
+      -0.002659574468085107,
+      0.01595744680851064
+    ]
+  },
+  "interpretation": "The observed gain is small and the uncertainty interval includes zero. Official held-out performance is unknown. Feature-family development reused the labelled data.",
+  "final_training_slides": 190,
+  "heldout_predictions_changed": 1,
+  "experiments": [
+    {
+      "name": "Existing tile-level distribution features",
+      "outcome": "Retained DINOv2 and H-optimus quantiles in the stable ensemble."
+    },
+    {
+      "name": "20x DINOv2",
+      "tiles_embedded": 6893,
+      "listed_blank_tiles_excluded": 461,
+      "outcome": "Did not improve validation; excluded from final model. Features retained for future experiments."
+    },
+    {
+      "name": "DINOv2 whole-slide thumbnail and quadrant views",
+      "views": 1315,
+      "outcome": "Did not improve exploratory validation; excluded."
+    },
+    {
+      "name": "Support-vector classifiers",
+      "outcome": "All tested candidates scored below the retained ridge models in exploratory leave-one-out validation."
+    },
+    {
+      "name": "Multinomial logistic classifiers",
+      "outcome": "All tested candidates scored below the retained ridge models in exploratory leave-one-out validation."
+    },
+    {
+      "name": "Broad kernel search",
+      "outcome": "Reduced to three stable feature families; broad selection was less consistent."
+    }
+  ],
+  "limitations": [
+    "Larger pathology-specific checkpoints could not be downloaded because this execution environment lacks network access.",
+    "The cached DINOv2 model ran locally on CPU.",
+    "No official answer key, filenames as features, supplier identifiers as features, or report text was used."
+  ],
+  "checks": [
+    "4 numerical and data-isolation tests passed.",
+    "All 67 output IDs and organ groups validated.",
+    "Original artifacts are unchanged.",
+    "No exact duplicate thumbnail hashes or GigaPath vector pairs with cosine above 0.999 were found; this does not establish patient independence."
+  ]
+}

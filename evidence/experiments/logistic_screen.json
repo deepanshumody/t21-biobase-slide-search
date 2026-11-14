@@ -1,0 +1,56 @@
+[
+  {
+    "kernel": "gigapath",
+    "C": 10.0,
+    "loo_correct": 155,
+    "total": 188
+  },
+  {
+    "kernel": "gigapath",
+    "C": 100.0,
+    "loo_correct": 163,
+    "total": 188
+  },
+  {
+    "kernel": "gigapath",
+    "C": 1000.0,
+    "loo_correct": 162,
+    "total": 188
+  },
+  {
+    "kernel": "giga_clip_0.5",
+    "C": 10.0,
+    "loo_correct": 154,
+    "total": 188
+  },
+  {
+    "kernel": "giga_clip_0.5",
+    "C": 100.0,
+    "loo_correct": 161,
+    "total": 188
+  },
+  {
+    "kernel": "giga_clip_0.5",
+    "C": 1000.0,
+    "loo_correct": 162,
+    "total": 188
+  },
+  {
+    "kernel": "anchor_dinov2_quantiles",
+    "C": 10.0,
+    "loo_correct": 153,
+    "total": 188
+  },
+  {
+    "kernel": "anchor_dinov2_quantiles",
+    "C": 100.0,
+    "loo_correct": 157,
+    "total": 188
+  },
+  {
+    "kernel": "anchor_dinov2_quantiles",
+    "C": 1000.0,
+    "loo_correct": 160,
+    "total": 188
+  }
+]

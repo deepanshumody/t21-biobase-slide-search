@@ -1,0 +1,12 @@
+{
+  "model": "dinov2_vits14",
+  "checkpoint_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "preprocessing": "Crop outer glass by fixed RGB mask; square-pad full view and four quadrants to 224; ImageNet normalization",
+  "views": [
+    "full",
+    "top_left",
+    "top_right",
+    "bottom_left",
+    "bottom_right"
+  ]
+}

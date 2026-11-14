@@ -1,0 +1,185 @@
+{
+  "source_directory": "Original Biobase challenge workspace",
+  "files": [
+    {
+      "source": "scripts/build_c1_report.py",
+      "repository_path": "scripts/build_c1_report.py",
+      "sha256": "87b979ec62a8a9ef6155c271aec8e1a29443a1d9ae3b73d10ab8b4df69f88ba6"
+    },
+    {
+      "source": "scripts/c1_embeddings.py",
+      "repository_path": "scripts/c1_embeddings.py",
+      "sha256": "59b6d0e1d90c4bfd2b21dce91fc3e0ca399d4167046ff96c7517f7ddd4ce2bdc"
+    },
+    {
+      "source": "scripts/c1_evaluate_improved.py",
+      "repository_path": "scripts/c1_evaluate_improved.py",
+      "sha256": "01aa98364ba5603608effa5e5b44feaf847d08ea084462cf2831ecc6a0e44881"
+    },
+    {
+      "source": "scripts/c1_extract_20x.py",
+      "repository_path": "scripts/c1_extract_20x.py",
+      "sha256": "c6a78ef7656133c3fd7ae55dbd1a78936fe23252e062f290550793a208e71a31"
+    },
+    {
+      "source": "scripts/c1_extract_overview.py",
+      "repository_path": "scripts/c1_extract_overview.py",
+      "sha256": "3001af96b9afe2fc642c60c7244a970ea00d3f79a1a3178d236c02874fbb39a8"
+    },
+    {
+      "source": "scripts/c1_features.py",
+      "repository_path": "scripts/c1_features.py",
+      "sha256": "70081fe4ff7c82be9f29d1cdcf6a2adc18c445425efb3ea1657d98aab6c517d6"
+    },
+    {
+      "source": "scripts/c1_screen.py",
+      "repository_path": "scripts/c1_screen.py",
+      "sha256": "68fdc00946d3235b5305bf952a87f00fa2ac0e619843a65db19827ca87f3bcc8"
+    },
+    {
+      "source": "scripts/c1_screen_logistic.py",
+      "repository_path": "scripts/c1_screen_logistic.py",
+      "sha256": "4a1372e21acb372ad059526a11888cb7284de7c1e7e83e710056e4375a5c70aa"
+    },
+    {
+      "source": "scripts/c1_screen_svm.py",
+      "repository_path": "scripts/c1_screen_svm.py",
+      "sha256": "46c03883965778ad23205c016b86f5c543a482d545e876fe7699522e5b70eb81"
+    },
+    {
+      "source": "scripts/test_c1.py",
+      "repository_path": "scripts/test_c1.py",
+      "sha256": "3555ed7d04cc1f3155f169eb22e822ddc62436aaccacde671ef7b72c40119256"
+    },
+    {
+      "source": "scripts/requirements_c1.txt",
+      "repository_path": "scripts/requirements_c1.txt",
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+    },
+    {
+      "source": "output/c1/artifact_hashes.json",
+      "repository_path": "output/c1/artifact_hashes.json",
+      "sha256": "490672b863f7875f704550ea0682c7c66b2f898ec6bcf9ce62195b6b70916acd"
+    },
+    {
+      "source": "output/c1/baseline/baseline_organ.csv",
+      "repository_path": "output/c1/baseline/baseline_organ.csv",
+      "sha256": "189c52e8b53ef377ab02445ee79212b13b8d8362ebe79318ca9e405a7ab057aa"
+    },
+    {
+      "source": "output/c1/baseline/baseline_similar.csv",
+      "repository_path": "output/c1/baseline/baseline_similar.csv",
+      "sha256": "eed165624703b768d560f5c7aa91143501865521454a133e7c2daec6424439b7"
+    },
+    {
+      "source": "output/c1/review_queue.csv",
+      "repository_path": "output/c1/review_queue.csv",
+      "sha256": "44db07697f35c8a6174d96077ebf752436d4431ecad5f492c63c48968257f015"
+    },
+    {
+      "source": "output/c1/submission_organ.csv",
+      "repository_path": "output/c1/submission_organ.csv",
+      "sha256": "3601bc781638c7cbf0728884ea14e96f64765d3dd69b57e65a1d8c2dfd35ec03"
+    },
+    {
+      "source": "output/c1/validation_predictions.csv",
+      "repository_path": "output/c1/validation_predictions.csv",
+      "sha256": "d4b6fc26fd3edcd08ee7a986c1d67ab53d9648680acdbb5b4f381c9a53e7c7ad"
+    },
+    {
+      "source": "output/c1/validation_summary.json",
+      "repository_path": "output/c1/validation_summary.json",
+      "sha256": "ddd6e4f5af0569a236b440efae30743dd986d1d0c1db3ba8c5e718a162553381"
+    },
+    {
+      "source": "output/c1_improved/artifact_hashes.json",
+      "repository_path": "output/c1_improved/artifact_hashes.json",
+      "sha256": "aff9bc21d2c7a72602b00d862cf5327e38b5b08e3f383b5a99ebcca24e117be0"
+    },
+    {
+      "source": "output/c1_improved/experiment_report.json",
+      "repository_path": "output/c1_improved/experiment_report.json",
+      "sha256": "c0cceb411a44e3e79c56bab78e57ad168f0fe959976b3ee92f48f48fd02ff9c8"
+    },
+    {
+      "source": "output/c1_improved/fold_model_selections.json",
+      "repository_path": "output/c1_improved/fold_model_selections.json",
+      "sha256": "717d18cb9c762cedb0c714f5ea05d4d839498b4513db66c4b482e3e8bb0f34cc"
+    },
+    {
+      "source": "output/c1_improved/review_queue.csv",
+      "repository_path": "output/c1_improved/review_queue.csv",
+      "sha256": "c9a5032b4351567fbe326637b961e9a00053b9b1ee812f4aa97d98e6f4475a89"
+    },
+    {
+      "source": "output/c1_improved/submission_changes.csv",
+      "repository_path": "output/c1_improved/submission_changes.csv",
+      "sha256": "9af792f2a53267e4c0effb7613c14f9e2a1d4398d1bf969052b6ea501653933f"
+    },
+    {
+      "source": "output/c1_improved/submission_organ.csv",
+      "repository_path": "output/c1_improved/submission_organ.csv",
+      "sha256": "3bab1d38a707723f0701e525851cda5e4b957e316531f8efa3207cb512cc46f5"
+    },
+    {
+      "source": "output/c1_improved/validation_predictions.csv",
+      "repository_path": "output/c1_improved/validation_predictions.csv",
+      "sha256": "3c1547ce27b69fbdd6885fd8d7d929f4664cc0a758c0d274fd68fb3d7aeaa97f"
+    },
+    {
+      "source": "output/c1_improved/validation_summary.json",
+      "repository_path": "output/c1_improved/validation_summary.json",
+      "sha256": "2aa2ed7146e5b83d621e18d448ccbe897edd9b2f65b11244dc3f1ecbfaa22572"
+    },
+    {
+      "source": "output/pdf/c1_methodology_report.pdf",
+      "repository_path": "output/pdf/c1_methodology_report.pdf",
+      "sha256": "47e839850ffe6fe1cd7f6dcc81d1e932e8d3cbbb34bc49ff95bb8463f718c54b"
+    },
+    {
+      "source": "tmp/c1_improved/logistic_screen.json",
+      "repository_path": "evidence/experiments/logistic_screen.json",
+      "sha256": "5141d64f3cece058dc873857e85fcf26d8d443de6d669dc9ce2dcc53ae47e1f2"
+    },
+    {
+      "source": "tmp/c1_improved/near_duplicate_audit.json",
+      "repository_path": "evidence/experiments/near_duplicate_audit.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "source": "tmp/c1_improved/screen.json",
+      "repository_path": "evidence/experiments/screen.json",
+      "sha256": "56da6468641224a54987ffbc0189ab4e80ff5187583c8b0bcc0c9e4239e76673"
+    },
+    {
+      "source": "tmp/c1_improved/screen_20x.json",
+      "repository_path": "evidence/experiments/screen_20x.json",
+      "sha256": "4d5634cef12afb86d1abaeeeb419b1f8f9dd4514e782c80941e4ea242a733eb7"
+    },
+    {
+      "source": "tmp/c1_improved/screen_overview.json",
+      "repository_path": "evidence/experiments/screen_overview.json",
+      "sha256": "7cca1662e86b3c93a9855dc19a3eb5df5b4287b86b87e79d60824629c8272e58"
+    },
+    {
+      "source": "tmp/c1_improved/svm_screen.json",
+      "repository_path": "evidence/experiments/svm_screen.json",
+      "sha256": "44a0f339e40bd91cde89bf48595fc1dc41ed20c9806a0f86a193314debadd145"
+    },
+    {
+      "source": "output/c1_20x_features/provenance.json",
+      "repository_path": "evidence/c1_20x_features/provenance.json",
+      "sha256": "536f3dbb3eff38837db1964ed9ba3bd25862ea6f86dad2d6934a6b6eb1dfd041"
+    },
+    {
+      "source": "output/c1_20x_features/summary.json",
+      "repository_path": "evidence/c1_20x_features/summary.json",
+      "sha256": "67061c6ac664278d18578ac9d42f8368c2aad9d45095b4dd17bf312a16f6441d"
+    },
+    {
+      "source": "output/c1_overview_features/provenance.json",
+      "repository_path": "evidence/c1_overview_features/provenance.json",
+      "sha256": "86009e4e98a236946d468ed2beff6e36680c173cfd2f5ac2ed031eaad97eed98"
+    }
+  ]
+}

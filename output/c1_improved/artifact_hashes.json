@@ -1,0 +1,20 @@
+{
+  "scripts/c1_embeddings.py": "59b6d0e1d90c4bfd2b21dce91fc3e0ca399d4167046ff96c7517f7ddd4ce2bdc",
+  "scripts/c1_features.py": "70081fe4ff7c82be9f29d1cdcf6a2adc18c445425efb3ea1657d98aab6c517d6",
+  "scripts/c1_screen.py": "68fdc00946d3235b5305bf952a87f00fa2ac0e619843a65db19827ca87f3bcc8",
+  "scripts/c1_evaluate_improved.py": "01aa98364ba5603608effa5e5b44feaf847d08ea084462cf2831ecc6a0e44881",
+  "scripts/c1_extract_20x.py": "c6a78ef7656133c3fd7ae55dbd1a78936fe23252e062f290550793a208e71a31",
+  "pack_slides/slides_manifest.json": "1d07d56b5b39e3b1e72d68f843f2896d5c1a2f0fdae7b70db6e52594053c8f22",
+  "output/c1_improved/submission_organ.csv": "3bab1d38a707723f0701e525851cda5e4b957e316531f8efa3207cb512cc46f5",
+  "output/c1_improved/validation_summary.json": "2aa2ed7146e5b83d621e18d448ccbe897edd9b2f65b11244dc3f1ecbfaa22572",
+  "tilepack/embeddings/gigapath/slide-vectors.json": "a12350969f733118f9447b05aaf397cfa88ac5728b335fdaff01006137a85a05",
+  "tilepack/embeddings/biomedclip/slide-vectors.json": "f7addeb24ffba2c6f5662cce2dc5471d1fe49541c680cc8844a11ac32e47d8b5",
+  "tilepack/embeddings/biomedclip/tile-meta.json": "a3cd38f4ea7bf5532ef9febfa7cd859fbdd56985775a206d4b834ed356a5a3a7",
+  "tilepack/embeddings/biomedclip/tile-vectors.i8": "1df0c0a27ef13fb8825ececc4cb90b9b60cceb489851bdd2b4bd223957ac1c6a",
+  "tilepack/embeddings/hoptimus/slide-vectors.json": "b505ab01f0e68ed3001fda1a035dbd86c909ff422e3a9a084b9957f4ea352bd5",
+  "tilepack/embeddings/hoptimus/tile-meta.json": "a653fe79cada583e5eb62d6f4a8f74688c894f65da5868b3e0fe85e160895e1a",
+  "tilepack/embeddings/hoptimus/tile-vectors.i8": "e099911869bb3c8600898c77fd9ef36a891c7feea37f2f35391406c465e7fd30",
+  "tilepack/embeddings/dinov2/slide-vectors.json": "7f0a87c714ac00cbef10db0a8310b08696becbab63bdeb438d0b296ad09706a9",
+  "tilepack/embeddings/dinov2/tile-meta.json": "8106575539153b0fdd33fe66c906cfdcade5878ee4407ca17fc46389f575f92f",
+  "tilepack/embeddings/dinov2/tile-vectors.i8": "f1267f376ad0284ef96abeb2c1944077bb56591d99b7ffd0ebb923904f2fbbdf"
+}

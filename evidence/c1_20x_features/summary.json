@@ -1,0 +1,9 @@
+{
+  "slides": 263,
+  "tiles_total": 7354,
+  "tiles_excluded": 461,
+  "tiles_embedded": 6893,
+  "slides_without_usable_tiles": [
+    "SUPP-04-bb_04_wsi_0009"
+  ]
+}

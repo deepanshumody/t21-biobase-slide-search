@@ -1,0 +1,565 @@
+seed,fold,slide_id,supplier,actual,prediction,method
+17,0,SUPP-01-biobase_7e7ec0c3-aed6-48c0-8477-0473e8b9de6e,SUPP-01,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_82bc7974-395d-4fac-8f79-1a8922f05381,SUPP-01,Lung,Lung,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_9bc076eb-a447-479f-ad9b-e1c04e64ccf2,SUPP-01,Stomach,Stomach,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_a1ae093a-e0c8-42d7-a031-1d73bbbadef2,SUPP-01,Bone marrow,Bone marrow,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_b62b0588-d850-4b9d-92b9-b404885fa041,SUPP-01,Bladder,Bladder,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_bc425c93-8d37-4adc-9d4a-2faaef5494e4,SUPP-01,Thyroid,Thyroid,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_c0ca9632-0ed4-4eba-bf13-868f45ba4805,SUPP-01,Other or mixed,Other or mixed,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_c3236075-626c-472c-a09a-3cb78bc9b4de,SUPP-01,Stomach,Stomach,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_cb184ebf-262c-46fd-b0d2-c4b19e8918ed,SUPP-01,Other or mixed,Other or mixed,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_d55e76b7-baa8-4429-a3b9-0641dacf3852,SUPP-01,Bone,Bone,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_d9123eb7-27fb-44ee-8434-9663b7649cbd,SUPP-01,Other or mixed,Other or mixed,giga_clip-ridge-0.1
+17,0,SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0017,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0018,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0023,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0026,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0027,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0028,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0029,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0039,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0043,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0044,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0051,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0054,SUPP-02,Lung,Colon and rectum,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0061,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0065,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0070,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0085,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0086,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0087,SUPP-02,Stomach,Stomach,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0089,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0098,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0105,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0116,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0119,SUPP-02,Stomach,Stomach,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0129,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0136,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0137,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0139,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0142,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0144,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0145,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0154,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0158,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0168,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0169,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0174,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0180,SUPP-02,Liver,Kidney,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0185,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0189,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0192,SUPP-02,Bladder,Breast,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0195,SUPP-02,Bladder,Bladder,giga_clip-ridge-0.1
+17,0,SUPP-02-bb_02_wsi_0197,SUPP-02,Bladder,Breast,giga_clip-ridge-0.1
+17,0,SUPP-03-bb_03_wsi_0002,SUPP-03,Breast,Uterus,giga_clip-ridge-0.1
+17,0,SUPP-04-bb_04_wsi_0001,SUPP-04,Skin,Skin,giga_clip-ridge-0.1
+17,0,SUPP-04-bb_04_wsi_0008,SUPP-04,Stomach,Stomach,giga_clip-ridge-0.1
+17,1,SUPP-01-biobase_7ed52131-a4bb-476f-94d3-15179a33d00d,SUPP-01,Stomach,Stomach,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_9dfafdd6-5840-4949-b02f-5a12689d30a3,SUPP-01,Lung,Lung,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_a031ae07-b033-48c5-96b9-db7ab34ce7d4,SUPP-01,Other or mixed,Breast,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_a9bb6ef5-a7d1-4c96-8f8e-db70c05250aa,SUPP-01,Other or mixed,Other or mixed,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_abaf58ed-457e-40d6-a043-a6bb4e20eeb8,SUPP-01,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_b4c22acd-549b-4e05-849c-dbe0caa785b1,SUPP-01,Bone,Bone,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_b5eab65e-77e1-482d-8cda-838316436ec1,SUPP-01,Other or mixed,Other or mixed,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a,SUPP-01,Breast,Uterus,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_c75b0997-4013-4519-9679-99c75a7bc432,SUPP-01,Uterus,Uterus,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_c811079f-bf4e-4ceb-bc4b-3358116d8408,SUPP-01,Breast,Stomach,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_d40402be-eb5e-4c67-a50a-77f31093c9fa,SUPP-01,Bone marrow,Bone marrow,gigapath-ridge-0.1
+17,1,SUPP-01-biobase_e3fa77e2-d369-4322-b0c1-5a00eb4a94aa,SUPP-01,Bone marrow,Bone marrow,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0034,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0035,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0036,SUPP-02,Prostate,Breast,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0046,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0048,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0052,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0053,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0062,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0063,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0066,SUPP-02,Breast,Breast,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0068,SUPP-02,Stomach,Stomach,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0073,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0075,SUPP-02,Breast,Breast,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0081,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0083,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0099,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0106,SUPP-02,Stomach,Stomach,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0109,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0110,SUPP-02,Breast,Breast,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0111,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0112,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0113,SUPP-02,Colon and rectum,Bone,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0115,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0120,SUPP-02,Stomach,Stomach,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0122,SUPP-02,Breast,Other or mixed,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0124,SUPP-02,Stomach,Stomach,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0128,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0143,SUPP-02,Thyroid,Stomach,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0146,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0148,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0149,SUPP-02,Bladder,Bladder,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0150,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0153,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0156,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0162,SUPP-02,Bladder,Breast,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0163,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0165,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0167,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0170,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0177,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0183,SUPP-02,Liver,Kidney,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0184,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0188,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0194,SUPP-02,Bladder,Uterus,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0196,SUPP-02,Bladder,Bladder,gigapath-ridge-0.1
+17,1,SUPP-02-bb_02_wsi_0200,SUPP-02,Bladder,Colon and rectum,gigapath-ridge-0.1
+17,1,SUPP-03-bb_03_wsi_0001,SUPP-03,Skin,Breast,gigapath-ridge-0.1
+17,1,SUPP-04-bb_04_wsi_0004,SUPP-04,Esophagus,Esophagus,gigapath-ridge-0.1
+17,1,SUPP-04-bb_04_wsi_0006,SUPP-04,Skin,Skin,gigapath-ridge-0.1
+17,2,SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_7ebffc23-d19b-4167-8f5d-4f1beaff480b,SUPP-01,Uterus,Uterus,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_83cb2f93-9895-4e5b-80d8-9d772720f018,SUPP-01,Skin,Other or mixed,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_8407d108-54e2-4545-bcdd-7c02a88a0e4e,SUPP-01,Skin,Other or mixed,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_9240d74b-1535-40da-bf86-0600f1e5993b,SUPP-01,Prostate,Prostate,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_964e60c2-b5b3-499e-9883-e45a6eeb2d8d,SUPP-01,Bone,Bone,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_a0759071-f8d6-45fd-b8b7-e97681b4a691,SUPP-01,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_aa9e10ff-4cbf-4aa7-9af3-b81e35b6e1df,SUPP-01,Lung,Lung,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f,SUPP-01,Breast,Other or mixed,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_baf1ef91-5a0d-41b3-9533-99a474471f47,SUPP-01,Stomach,Stomach,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_cb2f57e2-5ec7-439a-8826-6be2a3d09166,SUPP-01,Prostate,Prostate,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_cca7c7b1-71ee-4e4a-bf2c-95d35c4bd7ab,SUPP-01,Uterus,Uterus,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_ccfccbf1-5618-4f15-b883-22201c8292bf,SUPP-01,Other or mixed,Liver,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_cf249f18-6eaf-4026-a18e-36af6c1a913c,SUPP-01,Bone marrow,Bone marrow,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_edad9dc3-5af6-45d4-99c5-7485c83cf164,SUPP-01,Bone,Bone,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_f568b0a4-7925-4c3b-beac-df7f0827bea3,SUPP-01,Bladder,Bladder,gigapath-ridge-0.01
+17,2,SUPP-01-biobase_ff35d136-b4e2-48a6-93c0-4c89cd7a6bac,SUPP-01,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0021,SUPP-02,Prostate,Prostate,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0022,SUPP-02,Lung,Lung,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0025,SUPP-02,Breast,Bladder,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0031,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0033,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0037,SUPP-02,Stomach,Prostate,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0040,SUPP-02,Prostate,Prostate,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0041,SUPP-02,Lung,Lung,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0057,SUPP-02,Breast,Breast,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0071,SUPP-02,Lung,Lung,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0072,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0076,SUPP-02,Lung,Colon and rectum,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0080,SUPP-02,Stomach,Stomach,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0082,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0084,SUPP-02,Stomach,Stomach,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0088,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0095,SUPP-02,Thyroid,Bladder,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0096,SUPP-02,Uterus,Lung,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0100,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0101,SUPP-02,Breast,Breast,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0102,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0103,SUPP-02,Stomach,Stomach,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0108,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0121,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0123,SUPP-02,Bladder,Bladder,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0125,SUPP-02,Bladder,Uterus,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0133,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0134,SUPP-02,Uterus,Uterus,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0140,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0141,SUPP-02,Uterus,Uterus,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0147,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0151,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0152,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0164,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0173,SUPP-02,Liver,Liver,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0175,SUPP-02,Bladder,Bladder,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0178,SUPP-02,Liver,Liver,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0179,SUPP-02,Liver,Liver,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0181,SUPP-02,Liver,Liver,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0186,SUPP-02,Liver,Liver,gigapath-ridge-0.01
+17,2,SUPP-02-bb_02_wsi_0199,SUPP-02,Bladder,Uterus,gigapath-ridge-0.01
+17,2,SUPP-03-bb_03_wsi_0003,SUPP-03,Other or mixed,Other or mixed,gigapath-ridge-0.01
+17,2,SUPP-04-bb_04_wsi_0003,SUPP-04,Other or mixed,Esophagus,gigapath-ridge-0.01
+17,2,SUPP-04-bb_04_wsi_0009,SUPP-04,Esophagus,Esophagus,gigapath-ridge-0.01
+29,0,SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_7ed52131-a4bb-476f-94d3-15179a33d00d,SUPP-01,Stomach,Stomach,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_8407d108-54e2-4545-bcdd-7c02a88a0e4e,SUPP-01,Skin,Skin,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_9bc076eb-a447-479f-ad9b-e1c04e64ccf2,SUPP-01,Stomach,Breast,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_a031ae07-b033-48c5-96b9-db7ab34ce7d4,SUPP-01,Other or mixed,Breast,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_a1ae093a-e0c8-42d7-a031-1d73bbbadef2,SUPP-01,Bone marrow,Breast,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_b5eab65e-77e1-482d-8cda-838316436ec1,SUPP-01,Other or mixed,Other or mixed,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_b62b0588-d850-4b9d-92b9-b404885fa041,SUPP-01,Bladder,Bladder,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a,SUPP-01,Breast,Uterus,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_bc425c93-8d37-4adc-9d4a-2faaef5494e4,SUPP-01,Thyroid,Thyroid,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_cb2f57e2-5ec7-439a-8826-6be2a3d09166,SUPP-01,Prostate,Prostate,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_d55e76b7-baa8-4429-a3b9-0641dacf3852,SUPP-01,Bone,Bone,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_e3fa77e2-d369-4322-b0c1-5a00eb4a94aa,SUPP-01,Bone marrow,Bone marrow,gigapath-ridge-0.1
+29,0,SUPP-01-biobase_edad9dc3-5af6-45d4-99c5-7485c83cf164,SUPP-01,Bone,Bone,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0017,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0018,SUPP-02,Breast,Breast,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0027,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0028,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0029,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0036,SUPP-02,Prostate,Breast,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0041,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0046,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0048,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0057,SUPP-02,Breast,Breast,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0061,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0063,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0071,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0072,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0073,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0080,SUPP-02,Stomach,Uterus,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0082,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0086,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0088,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0089,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0095,SUPP-02,Thyroid,Bladder,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0096,SUPP-02,Uterus,Lung,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0098,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0099,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0100,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0109,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0110,SUPP-02,Breast,Breast,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0111,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0115,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0122,SUPP-02,Breast,Bladder,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0124,SUPP-02,Stomach,Stomach,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0133,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0134,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0141,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0147,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0149,SUPP-02,Bladder,Bladder,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0156,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0162,SUPP-02,Bladder,Breast,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0167,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0179,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0180,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0184,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0186,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0194,SUPP-02,Bladder,Bladder,gigapath-ridge-0.1
+29,0,SUPP-02-bb_02_wsi_0195,SUPP-02,Bladder,Bladder,gigapath-ridge-0.1
+29,0,SUPP-04-bb_04_wsi_0001,SUPP-04,Skin,Skin,gigapath-ridge-0.1
+29,0,SUPP-04-bb_04_wsi_0003,SUPP-04,Other or mixed,Breast,gigapath-ridge-0.1
+29,0,SUPP-04-bb_04_wsi_0004,SUPP-04,Esophagus,Esophagus,gigapath-ridge-0.1
+29,0,SUPP-04-bb_04_wsi_0008,SUPP-04,Stomach,Stomach,gigapath-ridge-0.1
+29,1,SUPP-01-biobase_7e7ec0c3-aed6-48c0-8477-0473e8b9de6e,SUPP-01,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_7ebffc23-d19b-4167-8f5d-4f1beaff480b,SUPP-01,Uterus,Uterus,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_aa9e10ff-4cbf-4aa7-9af3-b81e35b6e1df,SUPP-01,Lung,Lung,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_b4c22acd-549b-4e05-849c-dbe0caa785b1,SUPP-01,Bone,Bone,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_c3236075-626c-472c-a09a-3cb78bc9b4de,SUPP-01,Stomach,Stomach,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_c75b0997-4013-4519-9679-99c75a7bc432,SUPP-01,Uterus,Uterus,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_c811079f-bf4e-4ceb-bc4b-3358116d8408,SUPP-01,Breast,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_cb184ebf-262c-46fd-b0d2-c4b19e8918ed,SUPP-01,Other or mixed,Other or mixed,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_ccfccbf1-5618-4f15-b883-22201c8292bf,SUPP-01,Other or mixed,Breast,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_cf249f18-6eaf-4026-a18e-36af6c1a913c,SUPP-01,Bone marrow,Breast,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_f568b0a4-7925-4c3b-beac-df7f0827bea3,SUPP-01,Bladder,Bladder,giga_clip-ridge-0.1
+29,1,SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0022,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0025,SUPP-02,Breast,Bladder,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0031,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0033,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0034,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0040,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0044,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0051,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0053,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0054,SUPP-02,Lung,Uterus,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0062,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0065,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0068,SUPP-02,Stomach,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0075,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0076,SUPP-02,Lung,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0084,SUPP-02,Stomach,Stomach,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0085,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0087,SUPP-02,Stomach,Stomach,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0102,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0105,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0108,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0112,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0119,SUPP-02,Stomach,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0128,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0129,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0140,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0142,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0143,SUPP-02,Thyroid,Stomach,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0145,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0151,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0164,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0168,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0169,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0175,SUPP-02,Bladder,Bladder,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0178,SUPP-02,Liver,Bladder,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0183,SUPP-02,Liver,Kidney,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0188,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0189,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0196,SUPP-02,Bladder,Bladder,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0199,SUPP-02,Bladder,Bladder,giga_clip-ridge-0.1
+29,1,SUPP-02-bb_02_wsi_0200,SUPP-02,Bladder,Colon and rectum,giga_clip-ridge-0.1
+29,1,SUPP-03-bb_03_wsi_0001,SUPP-03,Skin,Skin,giga_clip-ridge-0.1
+29,1,SUPP-03-bb_03_wsi_0003,SUPP-03,Other or mixed,Other or mixed,giga_clip-ridge-0.1
+29,1,SUPP-04-bb_04_wsi_0006,SUPP-04,Skin,Skin,giga_clip-ridge-0.1
+29,1,SUPP-04-bb_04_wsi_0009,SUPP-04,Esophagus,Esophagus,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_82bc7974-395d-4fac-8f79-1a8922f05381,SUPP-01,Lung,Other or mixed,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_83cb2f93-9895-4e5b-80d8-9d772720f018,SUPP-01,Skin,Skin,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66,SUPP-01,Breast,Stomach,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_9240d74b-1535-40da-bf86-0600f1e5993b,SUPP-01,Prostate,Prostate,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_964e60c2-b5b3-499e-9883-e45a6eeb2d8d,SUPP-01,Bone,Bone,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_9dfafdd6-5840-4949-b02f-5a12689d30a3,SUPP-01,Lung,Lung,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_a0759071-f8d6-45fd-b8b7-e97681b4a691,SUPP-01,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_a9bb6ef5-a7d1-4c96-8f8e-db70c05250aa,SUPP-01,Other or mixed,Breast,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_abaf58ed-457e-40d6-a043-a6bb4e20eeb8,SUPP-01,Colon and rectum,Breast,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_baf1ef91-5a0d-41b3-9533-99a474471f47,SUPP-01,Stomach,Stomach,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_c0ca9632-0ed4-4eba-bf13-868f45ba4805,SUPP-01,Other or mixed,Other or mixed,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_cca7c7b1-71ee-4e4a-bf2c-95d35c4bd7ab,SUPP-01,Uterus,Uterus,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_d40402be-eb5e-4c67-a50a-77f31093c9fa,SUPP-01,Bone marrow,Bone marrow,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_d9123eb7-27fb-44ee-8434-9663b7649cbd,SUPP-01,Other or mixed,Breast,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+29,2,SUPP-01-biobase_ff35d136-b4e2-48a6-93c0-4c89cd7a6bac,SUPP-01,Colon and rectum,Breast,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0021,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0023,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0026,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0035,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0037,SUPP-02,Stomach,Colon and rectum,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0039,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0043,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0052,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0066,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0070,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0081,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0083,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0101,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0103,SUPP-02,Stomach,Bladder,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0106,SUPP-02,Stomach,Stomach,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0113,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0116,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0120,SUPP-02,Stomach,Stomach,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0121,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0123,SUPP-02,Bladder,Bladder,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0125,SUPP-02,Bladder,Bladder,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0136,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0137,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0139,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0144,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0146,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0148,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0150,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0152,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0153,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0154,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0158,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0163,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0165,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0170,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0173,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0174,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0177,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0181,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0185,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0192,SUPP-02,Bladder,Stomach,giga_clip-ridge-0.1
+29,2,SUPP-02-bb_02_wsi_0197,SUPP-02,Bladder,Breast,giga_clip-ridge-0.1
+29,2,SUPP-03-bb_03_wsi_0002,SUPP-03,Breast,Uterus,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_83cb2f93-9895-4e5b-80d8-9d772720f018,SUPP-01,Skin,Skin,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_9240d74b-1535-40da-bf86-0600f1e5993b,SUPP-01,Prostate,Prostate,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_a1ae093a-e0c8-42d7-a031-1d73bbbadef2,SUPP-01,Bone marrow,Bone marrow,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_a9bb6ef5-a7d1-4c96-8f8e-db70c05250aa,SUPP-01,Other or mixed,Other or mixed,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_abaf58ed-457e-40d6-a043-a6bb4e20eeb8,SUPP-01,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_bc425c93-8d37-4adc-9d4a-2faaef5494e4,SUPP-01,Thyroid,Lung,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_c3236075-626c-472c-a09a-3cb78bc9b4de,SUPP-01,Stomach,Stomach,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_c75b0997-4013-4519-9679-99c75a7bc432,SUPP-01,Uterus,Uterus,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_cb2f57e2-5ec7-439a-8826-6be2a3d09166,SUPP-01,Prostate,Prostate,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_cca7c7b1-71ee-4e4a-bf2c-95d35c4bd7ab,SUPP-01,Uterus,Uterus,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_ccfccbf1-5618-4f15-b883-22201c8292bf,SUPP-01,Other or mixed,Breast,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_cf249f18-6eaf-4026-a18e-36af6c1a913c,SUPP-01,Bone marrow,Bone marrow,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_d55e76b7-baa8-4429-a3b9-0641dacf3852,SUPP-01,Bone,Bone,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b,SUPP-01,Breast,Breast,giga_clip-ridge-0.1
+43,0,SUPP-01-biobase_f568b0a4-7925-4c3b-beac-df7f0827bea3,SUPP-01,Bladder,Bladder,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0018,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0023,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0025,SUPP-02,Breast,Bladder,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0026,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0027,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0033,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0034,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0035,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0041,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0046,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0051,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0052,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0057,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0063,SUPP-02,Prostate,Prostate,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0065,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0066,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0075,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0081,SUPP-02,Lung,Lung,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0086,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0087,SUPP-02,Stomach,Stomach,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0100,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0103,SUPP-02,Stomach,Bladder,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0116,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0121,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0124,SUPP-02,Stomach,Stomach,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0129,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0133,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0134,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0136,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0137,SUPP-02,Breast,Breast,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0139,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0142,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0148,SUPP-02,Colon and rectum,Colon and rectum,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0151,SUPP-02,Kidney,Kidney,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0154,SUPP-02,Thyroid,Thyroid,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0167,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0169,SUPP-02,Uterus,Uterus,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0173,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0175,SUPP-02,Bladder,Bladder,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0177,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0181,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0189,SUPP-02,Liver,Liver,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0196,SUPP-02,Bladder,Bladder,giga_clip-ridge-0.1
+43,0,SUPP-02-bb_02_wsi_0197,SUPP-02,Bladder,Bladder,giga_clip-ridge-0.1
+43,0,SUPP-03-bb_03_wsi_0003,SUPP-03,Other or mixed,Other or mixed,giga_clip-ridge-0.1
+43,0,SUPP-04-bb_04_wsi_0001,SUPP-04,Skin,Skin,giga_clip-ridge-0.1
+43,0,SUPP-04-bb_04_wsi_0008,SUPP-04,Stomach,Stomach,giga_clip-ridge-0.1
+43,1,SUPP-01-biobase_7ed52131-a4bb-476f-94d3-15179a33d00d,SUPP-01,Stomach,Stomach,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_964e60c2-b5b3-499e-9883-e45a6eeb2d8d,SUPP-01,Bone,Bone,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_9bc076eb-a447-479f-ad9b-e1c04e64ccf2,SUPP-01,Stomach,Breast,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_9dfafdd6-5840-4949-b02f-5a12689d30a3,SUPP-01,Lung,Lung,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_aa9e10ff-4cbf-4aa7-9af3-b81e35b6e1df,SUPP-01,Lung,Lung,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_b5eab65e-77e1-482d-8cda-838316436ec1,SUPP-01,Other or mixed,Other or mixed,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_b62b0588-d850-4b9d-92b9-b404885fa041,SUPP-01,Bladder,Bladder,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a,SUPP-01,Breast,Uterus,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d,SUPP-01,Breast,Breast,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_c0ca9632-0ed4-4eba-bf13-868f45ba4805,SUPP-01,Other or mixed,Bladder,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_cb184ebf-262c-46fd-b0d2-c4b19e8918ed,SUPP-01,Other or mixed,Other or mixed,gigapath-ridge-0.1
+43,1,SUPP-01-biobase_d40402be-eb5e-4c67-a50a-77f31093c9fa,SUPP-01,Bone marrow,Bone marrow,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0017,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0022,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0031,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0036,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0039,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0043,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0044,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0053,SUPP-02,Prostate,Prostate,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0061,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0070,SUPP-02,Breast,Breast,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0076,SUPP-02,Lung,Lung,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0080,SUPP-02,Stomach,Uterus,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0083,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0084,SUPP-02,Stomach,Stomach,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0085,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0088,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0089,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0096,SUPP-02,Uterus,Lung,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0099,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0101,SUPP-02,Breast,Breast,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0108,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0109,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0111,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0115,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0120,SUPP-02,Stomach,Stomach,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0123,SUPP-02,Bladder,Bladder,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0128,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0140,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0141,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0143,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0145,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0147,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0152,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0156,SUPP-02,Kidney,Kidney,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0158,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0168,SUPP-02,Uterus,Uterus,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0180,SUPP-02,Liver,Kidney,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0184,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0186,SUPP-02,Liver,Liver,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0195,SUPP-02,Bladder,Bladder,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0199,SUPP-02,Bladder,Bladder,gigapath-ridge-0.1
+43,1,SUPP-02-bb_02_wsi_0200,SUPP-02,Bladder,Bladder,gigapath-ridge-0.1
+43,1,SUPP-03-bb_03_wsi_0002,SUPP-03,Breast,Bladder,gigapath-ridge-0.1
+43,1,SUPP-04-bb_04_wsi_0004,SUPP-04,Esophagus,Esophagus,gigapath-ridge-0.1
+43,1,SUPP-04-bb_04_wsi_0006,SUPP-04,Skin,Skin,gigapath-ridge-0.1
+43,2,SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_7e7ec0c3-aed6-48c0-8477-0473e8b9de6e,SUPP-01,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_7ebffc23-d19b-4167-8f5d-4f1beaff480b,SUPP-01,Uterus,Uterus,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_82bc7974-395d-4fac-8f79-1a8922f05381,SUPP-01,Lung,Stomach,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_8407d108-54e2-4545-bcdd-7c02a88a0e4e,SUPP-01,Skin,Skin,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66,SUPP-01,Breast,Stomach,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_a031ae07-b033-48c5-96b9-db7ab34ce7d4,SUPP-01,Other or mixed,Breast,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_a0759071-f8d6-45fd-b8b7-e97681b4a691,SUPP-01,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_b4c22acd-549b-4e05-849c-dbe0caa785b1,SUPP-01,Bone,Bone,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_baf1ef91-5a0d-41b3-9533-99a474471f47,SUPP-01,Stomach,Stomach,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_c811079f-bf4e-4ceb-bc4b-3358116d8408,SUPP-01,Breast,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_d9123eb7-27fb-44ee-8434-9663b7649cbd,SUPP-01,Other or mixed,Other or mixed,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_e3fa77e2-d369-4322-b0c1-5a00eb4a94aa,SUPP-01,Bone marrow,Bone marrow,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_edad9dc3-5af6-45d4-99c5-7485c83cf164,SUPP-01,Bone,Bone,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179,SUPP-01,Breast,Breast,gigapath-ridge-0.01
+43,2,SUPP-01-biobase_ff35d136-b4e2-48a6-93c0-4c89cd7a6bac,SUPP-01,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0021,SUPP-02,Prostate,Prostate,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0028,SUPP-02,Prostate,Prostate,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0029,SUPP-02,Lung,Lung,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0037,SUPP-02,Stomach,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0040,SUPP-02,Prostate,Prostate,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0048,SUPP-02,Prostate,Prostate,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0054,SUPP-02,Lung,Uterus,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0062,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0068,SUPP-02,Stomach,Stomach,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0071,SUPP-02,Lung,Lung,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0072,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0073,SUPP-02,Lung,Lung,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0082,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0095,SUPP-02,Thyroid,Uterus,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0098,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0102,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0105,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0106,SUPP-02,Stomach,Stomach,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0110,SUPP-02,Breast,Breast,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0112,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0113,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0119,SUPP-02,Stomach,Stomach,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0122,SUPP-02,Breast,Bladder,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0125,SUPP-02,Bladder,Bladder,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0144,SUPP-02,Uterus,Uterus,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0146,SUPP-02,Colon and rectum,Colon and rectum,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0149,SUPP-02,Bladder,Bladder,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0150,SUPP-02,Thyroid,Thyroid,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0153,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0162,SUPP-02,Bladder,Breast,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0163,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0164,SUPP-02,Kidney,Kidney,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0165,SUPP-02,Uterus,Uterus,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0170,SUPP-02,Uterus,Uterus,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0174,SUPP-02,Uterus,Uterus,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0178,SUPP-02,Liver,Bladder,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0179,SUPP-02,Liver,Liver,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0183,SUPP-02,Liver,Kidney,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0185,SUPP-02,Liver,Liver,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0188,SUPP-02,Liver,Liver,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0192,SUPP-02,Bladder,Stomach,gigapath-ridge-0.01
+43,2,SUPP-02-bb_02_wsi_0194,SUPP-02,Bladder,Breast,gigapath-ridge-0.01
+43,2,SUPP-03-bb_03_wsi_0001,SUPP-03,Skin,Skin,gigapath-ridge-0.01
+43,2,SUPP-04-bb_04_wsi_0003,SUPP-04,Other or mixed,Esophagus,gigapath-ridge-0.01
+43,2,SUPP-04-bb_04_wsi_0009,SUPP-04,Esophagus,Esophagus,gigapath-ridge-0.01

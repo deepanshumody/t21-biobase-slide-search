@@ -1,0 +1,280 @@
+{
+  "includes_20x": false,
+  "includes_overview": false,
+  "ensemble_size": 3,
+  "kernel_count": 3,
+  "candidate_kernels": [
+    "anchor_dinov2_quantiles",
+    "anchor_hoptimus_quantiles",
+    "giga_clip_0.75"
+  ],
+  "alpha_grid": [
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0
+  ],
+  "selection": "Top distinct kernels by training-only leave-one-out accuracy, averaged equally",
+  "paired_common_cohort": 188,
+  "validation_design": "Repeated stratified 3-fold outer CV with inner leave-one-out model selection",
+  "comparison": [
+    {
+      "seed": 101,
+      "old_accuracy": 0.824468085106383,
+      "new_accuracy": 0.8351063829787234,
+      "old_correct": 155,
+      "new_correct": 157,
+      "slides": 188,
+      "old_fixed_accuracy": 0.8191489361702128
+    },
+    {
+      "seed": 211,
+      "old_accuracy": 0.824468085106383,
+      "new_accuracy": 0.8297872340425532,
+      "old_correct": 155,
+      "new_correct": 156,
+      "slides": 188,
+      "old_fixed_accuracy": 0.824468085106383
+    },
+    {
+      "seed": 307,
+      "old_accuracy": 0.8297872340425532,
+      "new_accuracy": 0.8670212765957447,
+      "old_correct": 156,
+      "new_correct": 163,
+      "slides": 188,
+      "old_fixed_accuracy": 0.851063829787234
+    },
+    {
+      "seed": 401,
+      "old_accuracy": 0.8617021276595744,
+      "new_accuracy": 0.8617021276595744,
+      "old_correct": 162,
+      "new_correct": 162,
+      "slides": 188,
+      "old_fixed_accuracy": 0.8670212765957447
+    },
+    {
+      "seed": 503,
+      "old_accuracy": 0.8563829787234043,
+      "new_accuracy": 0.8617021276595744,
+      "old_correct": 161,
+      "new_correct": 162,
+      "slides": 188,
+      "old_fixed_accuracy": 0.8563829787234043
+    },
+    {
+      "seed": 607,
+      "old_accuracy": 0.8563829787234043,
+      "new_accuracy": 0.8617021276595744,
+      "old_correct": 161,
+      "new_correct": 162,
+      "slides": 188,
+      "old_fixed_accuracy": 0.8563829787234043
+    },
+    {
+      "seed": 701,
+      "old_accuracy": 0.8617021276595744,
+      "new_accuracy": 0.8670212765957447,
+      "old_correct": 162,
+      "new_correct": 163,
+      "slides": 188,
+      "old_fixed_accuracy": 0.8723404255319149
+    },
+    {
+      "seed": 809,
+      "old_accuracy": 0.8617021276595744,
+      "new_accuracy": 0.8723404255319149,
+      "old_correct": 162,
+      "new_correct": 164,
+      "slides": 188,
+      "old_fixed_accuracy": 0.8829787234042553
+    },
+    {
+      "seed": 907,
+      "old_accuracy": 0.8617021276595744,
+      "new_accuracy": 0.8617021276595744,
+      "old_correct": 162,
+      "new_correct": 162,
+      "slides": 188,
+      "old_fixed_accuracy": 0.8617021276595744
+    },
+    {
+      "seed": 1009,
+      "old_accuracy": 0.8617021276595744,
+      "new_accuracy": 0.8457446808510638,
+      "old_correct": 162,
+      "new_correct": 159,
+      "slides": 188,
+      "old_fixed_accuracy": 0.8351063829787234
+    }
+  ],
+  "old_mean_accuracy": 0.85,
+  "old_fixed_model_mean_accuracy": 0.8526595744680853,
+  "new_mean_accuracy": 0.8563829787234043,
+  "paired_gain_95pct_slide_bootstrap": [
+    -0.002659574468085107,
+    0.01595744680851064
+  ],
+  "final_training_slides": 190,
+  "all_labelled_accuracy_by_repeat": [
+    0.8368421052631579,
+    0.8421052631578947,
+    0.8421052631578947,
+    0.8631578947368421,
+    0.8526315789473684,
+    0.8631578947368421,
+    0.868421052631579,
+    0.8368421052631579,
+    0.8631578947368421,
+    0.8421052631578947
+  ],
+  "all_labelled_mean_accuracy": 0.8510526315789473,
+  "selected_models": [
+    {
+      "kernel": "anchor_dinov2_quantiles",
+      "alpha": 0.01,
+      "inner_correct": 172,
+      "inner_total": 190
+    },
+    {
+      "kernel": "anchor_hoptimus_quantiles",
+      "alpha": 0.1,
+      "inner_correct": 171,
+      "inner_total": 190
+    },
+    {
+      "kernel": "giga_clip_0.75",
+      "alpha": 0.3,
+      "inner_correct": 171,
+      "inner_total": 190
+    }
+  ],
+  "changed_predictions": 1,
+  "heldout_slides": 67,
+  "predicted_counts": {
+    "Breast": 12,
+    "Prostate": 6,
+    "Colon and rectum": 12,
+    "Stomach": 6,
+    "Lung": 6,
+    "Thyroid": 6,
+    "Kidney": 4,
+    "Uterus": 4,
+    "Liver": 4,
+    "Bladder": 6,
+    "Skin": 1
+  },
+  "per_organ": {
+    "Colon and rectum": {
+      "old_recall": 0.9583333333333334,
+      "new_recall": 0.975,
+      "slides": 24
+    },
+    "Uterus": {
+      "old_recall": 0.90625,
+      "new_recall": 0.89375,
+      "slides": 16
+    },
+    "Breast": {
+      "old_recall": 0.7925925925925926,
+      "new_recall": 0.8222222222222222,
+      "slides": 27
+    },
+    "Stomach": {
+      "old_recall": 0.86,
+      "new_recall": 0.8266666666666667,
+      "slides": 15
+    },
+    "Other or mixed": {
+      "old_recall": 0.5444444444444444,
+      "new_recall": 0.5333333333333333,
+      "slides": 9
+    },
+    "Thyroid": {
+      "old_recall": 0.8642857142857143,
+      "new_recall": 0.8642857142857143,
+      "slides": 14
+    },
+    "Bone": {
+      "old_recall": 1.0,
+      "new_recall": 1.0,
+      "slides": 4
+    },
+    "Bone marrow": {
+      "old_recall": 0.9,
+      "new_recall": 0.975,
+      "slides": 4
+    },
+    "Bladder": {
+      "old_recall": 0.6428571428571429,
+      "new_recall": 0.6642857142857143,
+      "slides": 14
+    },
+    "Prostate": {
+      "old_recall": 0.9428571428571428,
+      "new_recall": 0.95,
+      "slides": 14
+    },
+    "Lung": {
+      "old_recall": 0.8071428571428572,
+      "new_recall": 0.8285714285714286,
+      "slides": 14
+    },
+    "Kidney": {
+      "old_recall": 0.9769230769230769,
+      "new_recall": 0.9769230769230769,
+      "slides": 13
+    },
+    "Liver": {
+      "old_recall": 0.8692307692307693,
+      "new_recall": 0.8538461538461538,
+      "slides": 13
+    },
+    "Skin": {
+      "old_recall": 0.78,
+      "new_recall": 0.78,
+      "slides": 5
+    },
+    "Esophagus": {
+      "old_recall": 1.0,
+      "new_recall": 1.0,
+      "slides": 2
+    }
+  },
+  "per_supplier": {
+    "SUPP-01": {
+      "old_accuracy": 0.8372549019607843,
+      "new_accuracy": 0.8568627450980392,
+      "slides": 51
+    },
+    "SUPP-02": {
+      "old_accuracy": 0.87265625,
+      "new_accuracy": 0.87421875,
+      "slides": 128
+    },
+    "SUPP-03": {
+      "old_accuracy": 0.36666666666666664,
+      "new_accuracy": 0.36666666666666664,
+      "slides": 3
+    },
+    "SUPP-04": {
+      "old_accuracy": 0.7166666666666667,
+      "new_accuracy": 0.7166666666666667,
+      "slides": 6
+    }
+  },
+  "notes": [
+    "Official held-out labels were never used.",
+    "Feature families were explored on these labelled data; internal CV is not an untouched external test.",
+    "Selection is nested; every validation slide and its tiles are excluded from all classifier fits for that fold.",
+    "Feature pooling and image encoding use fixed pretrained weights and only the individual slide.",
+    "Missing feature blocks are zero vectors, preserving positive-semidefinite kernels.",
+    "Final fitting uses 190 labelled slides; paired old/new comparison uses exactly the original 188-slide cohort.",
+    "No filename order, supplier identifier, reports, age or sex is used as a predictive feature.",
+    "Repeated folds share slides; bootstrap resamples slides and does not cover every source of uncertainty.",
+    "No patient identifier was supplied, so patient-level overlap cannot be excluded."
+  ]
+}
