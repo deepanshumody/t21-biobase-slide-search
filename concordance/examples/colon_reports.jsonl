@@ -1,0 +1,4 @@
+{"id":"DEMO-001","organ":"colon","report_text":"SYNTHETIC DEMO REPORT. Histologic type: Adenocarcinoma. Pathologic stage: pT3 pN1a. Lymphovascular invasion: Present.","clinical":{"age":74}}
+{"id":"DEMO-002","organ":"colon","report_text":"SYNTHETIC DEMO REPORT. Histologic type: Adenocarcinoma. Pathologic stage: pT2 pN0. Lymphovascular invasion: Not identified.","clinical":{"age":75}}
+{"id":"DEMO-003","organ":"colon","report_text":"SYNTHETIC DEMO REPORT. Histologic type: Adenocarcinoma. Lymphovascular invasion: Present.","clinical":{"age":71}}
+{"id":"DEMO-004","organ":"colon","report_text":"SYNTHETIC DEMO REPORT. Histologic type: Adenocarcinoma. Pathologic stage: pT3 pN1a. Lymphovascular invasion: Present.","clinical":{"age":55}}

@@ -16,7 +16,10 @@ import re
 import sys
 from collections import defaultdict
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from criteria import CRITERIA, answers_from_gold, answers_from_sheet
+from evaluation_metrics import calibration_metrics, print_calibration, print_review_budget, review_budget
 from reader import read_report
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -35,14 +38,13 @@ def is_holdout(pid):
 def is_correct(fact, read_v, gold_v):
     if fact in ("nodes_pos", "n_major"):
         return (read_v >= 1) == (gold_v >= 1)
-    if fact == "t_major":
-        return (read_v == 4) == (gold_v == 4) and abs(read_v - gold_v) <= 0 or read_v == gold_v
     return read_v == gold_v
 
 
 def run(recs, reader):
     sheets = {r["id"]: reader(r["report_text"]) for r in recs}
-    answers = {r["id"]: answers_from_sheet(sheets[r["id"]], r["gold"].get("age")) for r in recs}
+    answers = {r["id"]: answers_from_sheet(sheets[r["id"]], r["gold"].get("age"),
+                                          age_source="TCGA clinical labels") for r in recs}
     return sheets, answers
 
 
@@ -73,28 +75,12 @@ def crit_rows(recs, answers, gold):
 
 
 def ece(recs, answers, gold, bins=10):
-    pts = [(answers[r["id"]][c]["conf"], answers[r["id"]][c]["answer"] == gold[r["id"]][c])
-           for r in recs for c in CRITERIA
-           if gold[r["id"]][c] != "undetermined" and answers[r["id"]][c]["answer"] != "undetermined"]
-    table, e = [], 0.0
-    for b in range(bins):
-        lo, hi = b / bins, (b + 1) / bins
-        sel = [(c, ok) for c, ok in pts if lo < c <= hi]
-        if sel:
-            mc, acc = sum(c for c, _ in sel) / len(sel), sum(ok for _, ok in sel) / len(sel)
-            e += len(sel) / len(pts) * abs(acc - mc)
-            table.append((f"{lo:.1f}-{hi:.1f}", len(sel), mc, acc))
-    return e, table, len(pts)
+    return calibration_metrics(recs, answers, gold, CRITERIA, bins=bins)
 
 
 def recall_at(recs, answers, gold, ks=(10, 25, 50)):
-    out = {}
-    for cid in CRITERIA:
-        pos = {r["id"] for r in recs if gold[r["id"]][cid] == "match"}
-        ranked = sorted((r["id"] for r in recs if answers[r["id"]][cid]["answer"] == "match"),
-                        key=lambda i: -answers[i][cid]["conf"])
-        out[cid] = [len(set(ranked[:k]) & pos) / max(1, min(k, len(pos))) for k in ks]
-    return out
+    rows = review_budget(recs, answers, gold, CRITERIA, ks)
+    return {cid: [row["recall"] for row in values] for cid, values in rows.items()}
 
 
 def fit(dev):
@@ -108,10 +94,12 @@ def fit(dev):
             for tab, key in ((pair, f"{f}|{s[f]['kind']}"), (kind, s[f]["kind"])):
                 tab[key][0] += ok
                 tab[key][1] += 1
-    sm = lambda c, n: round((c + 1) / (n + 2), 3)
+    def sm(c, n):
+        return round((c + 1) / (n + 2), 3)
     cal = {"kind": {k: sm(*v) for k, v in kind.items()}, "pair": {k: sm(*v) for k, v in pair.items() if v[1] >= 15},
            "counts": dict(pair)}
-    json.dump(cal, open(CAL, "w"), indent=1)
+    with open(CAL, "w") as handle:
+        json.dump(cal, handle, indent=1)
     print(f"wrote {CAL}")
     for k, (c, n) in sorted(pair.items()):
         print(f"  {k:22} n={n:4} acc={c / n:.2f}")
@@ -144,7 +132,10 @@ def audit(dev, n=30):
 
 
 def main(args):
-    recs = [json.loads(l) for l in open(DATA)]
+    if "--holdout" in args and ("--fit" in args or "--audit" in args):
+        raise SystemExit("Calibration fitting and disagreement audits are DEV only; remove --holdout.")
+    with open(DATA) as handle:
+        recs = [json.loads(line) for line in handle]
     holdout = "--holdout" in args
     split = [r for r in recs if is_holdout(r["id"]) == holdout]
     if "--fit" in args:
@@ -152,7 +143,10 @@ def main(args):
     if "--audit" in args:
         return audit(split)
     gold = {r["id"]: answers_from_gold(r["gold"]) for r in split}
-    cal = json.load(open(CAL)) if os.path.exists(CAL) else None
+    cal = None
+    if os.path.exists(CAL):
+        with open(CAL) as handle:
+            cal = json.load(handle)
     readers = {"rules": lambda t: read_report(t), "naive": lambda t: read_report(t, naive=True)}
     if cal:
         readers["rules+cal"] = lambda t: read_report(t, calibration=cal)
@@ -172,14 +166,10 @@ def main(args):
             print(f"  {cid:3} {n:4} {npos:4} {d:8.0%} {a:8.0%} {p:6.2f} {rc:6.2f} {f1:6.2f}  {CRITERIA[cid][0]}")
         print(f"  MEAN F1 = {sum(x[-1] for x in cr) / len(cr):.3f}")
     for name in [k for k in ("rules", "rules+cal") if k in res]:
-        e, table, npts = ece(split, res[name][1], gold)
-        print(f"\nCALIBRATION [{name}] {npts} decided answers, ECE = {e:.3f}")
-        for b, n, c, a in table:
-            print(f"  {b:9} n={n:5} conf={c:.2f} acc={a:.2f}")
-    best = "rules+cal" if "rules+cal" in res else "rules"
-    print(f"\nRECALL AT REVIEW BUDGET [{best}]  K=10/25/50")
-    for cid, v in recall_at(split, res[best][1], gold).items():
-        print(f"  {cid}  " + "  ".join(f"{x:5.2f}" for x in v))
+        print_calibration(split, res[name][1], gold, CRITERIA, name)
+    for name in ("rules", "naive", "rules+cal"):
+        if name in res:
+            print_review_budget(split, res[name][1], gold, CRITERIA, name)
     if "--errors" in args and not holdout:
         f = args[args.index("--errors") + 1]
         s = res["rules"][0]

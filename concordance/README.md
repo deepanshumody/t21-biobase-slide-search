@@ -1,65 +1,94 @@
-# Concordance: trial matching from pathology reports
+# Concordance: cohort search with evidence and missing facts
 
-Team T21's report-side work for the Biobase challenge: Task A (criteria search over the
-synthetic pathology reports), plus validation of the same approach on **real** TCGA
-pathology reports and a first step towards matching patients to real clinical trials.
+Concordance is Team T21's open-idea prototype for finding report-defined cohorts.
+It extracts facts from pathology reports, checks a selected criterion, and returns matches, exclusions, or undetermined cases with supporting text.
+The working scope is report search; clinical-trial matching and specimen-inventory linkage are future work.
 
-> Trial matches you can trust, and know when not to.
-
-## What's here
-
-| Folder | What it is | Headline result |
-|---|---|---|
-| [`criteria_search/`](criteria_search/) | **Task A.** Biobase reports → fact card → 30 criterion rules. Writes `submission.json`. | Train mean F1 **1.000** (keyword baseline 0.27). Prose-only robustness check: 0.975 on a held-out half. |
-| [`concordance_breast/`](concordance_breast/) | External validation on **1,034 real TCGA breast reports** with curated labels (ER/PR/HER2, pT/pN, nodes, margin, histology) | Holdout F1 0.52; accurate when it answers (82–98%); **ECE 0.097 → 0.022** after calibration |
-| [`concordance_colon/`](concordance_colon/) | Same framework on **580 real TCGA colorectal reports**; criteria mirror the challenge's colon criteria | Holdout F1 **0.68**; 95–100% accurate when it answers; **ECE 0.011** |
-| [`trial_twins/`](trial_twins/) | Digital twins (the fact card) matched against **real recruiting trials** from ClinicalTrials.gov | Design + trial fetch done; matching not built yet |
-
-Each folder has a `*_design.md` covering how it works, its results and its limits. Start with
-[`criteria_search/criteria_search_design.md`](criteria_search/criteria_search_design.md).
-
-Key findings:
-- **The template parser** reaches 1.0 on Biobase but **0 on real reports**: the
-  synthetic summary block is written by code.
-- **A reader built for real reports** generalises back: run unchanged on Biobase it scores
-  **0.94** mean F1 on 8 overlapping criteria (0.99 without c13, which needs a size fact it lacks).
-- **On real reports, confidence is calibrated.** Answers given ≥ 0.9 confidence were right
-  **98%** of the time on held-out patients, in both organs. Recall is limited mostly by
-  facts the report doesn't contain (e.g. ER/PR are mentioned in only ~65% of breast reports).
-- **About half of audited disagreements look like TCGA label errors.** The verdicts in
-  `*/audit/disagreements.csv` are suggestions until a person confirms them.
-
-## Running it
+## Run the cohort-search demo
 
 Python 3.9+, standard library only.
+From the repository root:
 
 ```bash
-cd concordance
+python3 concordance/search.py --organ colon --criterion C7 \
+  --input concordance/examples/colon_reports.jsonl \
+  --output /tmp/concordance_candidates.json
+```
 
-# Task A: needs the Biobase report pack (restricted; see below) at criteria_search/pack_reports/
-cd criteria_search && python3 evaluate.py && python3 run.py && cd ..
+The four invented demo reports produce one match, two exclusions, and one undetermined case for age at least 70 with positive nodes.
+The JSON export contains a ranked shortlist, every patient's decision, supporting evidence, and facts the reader could not establish.
+This demo illustrates behavior; it is not an accuracy benchmark.
 
-# TCGA validation: download the public data first (~100 MB, not in Git)
-bash fetch_public_data.sh
-cd concordance_breast && python3 calibrate.py && python3 evaluate.py && cd ..   # add --holdout for the held-out half
-cd concordance_colon  && python3 evaluate.py --fit && python3 evaluate.py && cd ..
+For your own data, provide a JSONL file of reports from one selected organ with `id` and `report_text` fields.
+An optional `organ` field must agree with `--organ`.
+For the colon age criterion, provide age explicitly as `clinical.age`; its provenance appears in the explanation.
+The search command never reads `gold` or `labels` fields to fill missing facts.
+Choose B1-B8 for breast or C1-C8 for colon, and use `--limit` to set the shortlist size.
+The criteria are fixed definitions, not arbitrary natural-language queries.
 
-# Trial twins: refresh candidate trials from ClinicalTrials.gov (public API, generic queries only)
-cd trial_twins && python3 fetch_trials.py
+Confidence is hand-set by default.
+Use `--calibration concordance/concordance_colon/calibration.json` to apply the frozen development-fit table for colon, or the corresponding breast table for breast.
+A confidence value is not proof of trial eligibility.
+
+## What is implemented
+
+| Folder or file | Working capability | Evidence and scope |
+|---|---|---|
+| [`criteria_search/`](criteria_search/) | Task A: synthetic reports to facts to 30 fixed rules | Training mean F1 1.000; rules were developed against the training answers |
+| [`concordance_breast/`](concordance_breast/) | Real-report reader, eight criteria, evidence, uncertainty, calibration | Recorded holdout F1 0.523 versus naive 0.557, on 521 patients |
+| [`concordance_colon/`](concordance_colon/) | Same workflow for eight colorectal criteria | Recorded holdout F1 0.680 versus naive 0.671, on 319 patients |
+| [`search.py`](search.py) | Ranked cohort export with match, no_match, and undetermined decisions | Runnable using the included invented demo reports |
+| [`evaluation_metrics.py`](evaluation_metrics.py) | Shared review-budget and decision-specific calibration metrics | Covered by unit tests and both evaluator CLIs |
+| [`trial_twins/`](trial_twins/) | Trial-fetch script, downloaded records, and a design | No encoded trial rules, matcher, or trial-eligibility validation yet |
+
+The real-report scores above are historical results from the committed output files.
+The linked TCGA inputs were unavailable during the metric correction, and the public-data download failed in the restricted execution environment.
+Full-cohort corrected results have not been regenerated.
+The old sections titled `RECALL AT REVIEW BUDGET` use an incorrect denominator and must not be cited as recall.
+See [evaluation definitions and reproduction](EVALUATION.md).
+
+## What the evidence supports
+
+- The synthetic template parser recorded zero fact coverage on the real breast reports; the real-report readers recover useful evidence from less structured text.
+- Breast rules underperform the naive reader on mean F1; the small colorectal improvement has no uncertainty estimate and should not be presented as a demonstrated general advantage.
+- Historical calibrated ECE was 0.022 for breast and 0.011 for colon, pooling match and no_match decisions.
+  The reported 98% correctness at high confidence includes exclusions and is not shortlist precision.
+  Updated evaluators report match-only and exclusion-only calibration separately.
+- Missing facts constrain retrieval, and imperfect extraction also loses information that is present in the text.
+- Audit suggestions have not been confirmed by a person.
+  Neither the label-error rate nor an adjusted reader accuracy has been established.
+- The colon age criterion uses age from TCGA clinical labels in evaluation, so it is not a report-only extraction result.
+
+## Evaluate and reproduce
+
+```bash
+python3 -m unittest discover -s concordance/tests -v
+
+# Download public data, then evaluate the frozen readers and calibration tables.
+bash concordance/fetch_public_data.sh
+python3 concordance/concordance_breast/evaluate.py
+python3 concordance/concordance_breast/evaluate.py --holdout
+python3 concordance/concordance_colon/evaluate.py
+python3 concordance/concordance_colon/evaluate.py --holdout
+```
+
+The regression tests use invented fixtures and require no network or TCGA download.
+Changes to extraction rules after inspecting holdout results require a new untouched evaluation set.
+Correcting metric code does not create a new holdout or justify retuning the readers on it.
+
+Task A requires the authorized Biobase report pack at `criteria_search/pack_reports/`:
+
+```bash
+cd concordance/criteria_search
+python3 evaluate.py
+python3 run.py
 ```
 
 ## Data and permissions
 
-- **Biobase challenge data is not in this repository**, following
-  [`biobase/docs/DATA_AND_ACCESS.md`](../biobase/docs/DATA_AND_ACCESS.md). To run Task A,
-  unzip the report pack so that `criteria_search/pack_reports/` exists.
-  `criteria_search/submission.json` and `cross_check.json` are derived records: report ids
-  and predictions only.
-- **The TCGA data is public but not committed** (size). `fetch_public_data.sh` recreates it:
-  - TCGA-Reports (Kefeli & Tatonetti, *Patterns* 2024, MIT licence)
-  - cBioPortal `brca_tcga` / `coadread_tcga` clinical data
-  
-  The audit CSVs quote short snippets of those public reports.
-- **`trial_twins/trials/raw/`** holds ClinicalTrials.gov records as fetched on 2026-11-14.
-  Trial text changes over time, so each record carries its fetch date.
-- Synthetic and research data only. Nothing here is for clinical or enrollment decisions.
+Biobase challenge inputs are excluded from Git; see [`biobase/docs/DATA_AND_ACCESS.md`](../biobase/docs/DATA_AND_ACCESS.md).
+Task A submission artifacts contain report identifiers and predictions.
+The included demo records are invented examples with no patient data.
+Public TCGA inputs are also excluded from Git for size; the fetch script downloads TCGA-Reports and cBioPortal clinical labels.
+Trial records are dated snapshots, not confirmation of current recruitment status.
+This prototype retrieves report-defined cohorts and does not establish clinical enrollment eligibility or sample availability.

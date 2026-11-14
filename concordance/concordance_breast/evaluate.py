@@ -1,9 +1,9 @@
 """
 EVALUATION against TCGA gold. See concordance_breast_design.md, section 5.
 
-    python3 -I evaluate.py                 # DEV half: all metrics, three readers
-    python3 -I evaluate.py --holdout       # HOLDOUT half: run once, at the end
-    python3 -I evaluate.py --errors er     # DEV: show disagreements for one fact
+    python3 evaluate.py                 # DEV half: all metrics, three readers
+    python3 evaluate.py --holdout       # HOLDOUT half: evaluate frozen reader
+    python3 evaluate.py --errors er     # DEV: show disagreements for one fact
 
 Readers compared:
   rules     reader.read_report            (this project)
@@ -16,7 +16,10 @@ import os
 import random
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from criteria import CRITERIA, answers_from_gold, answers_from_sheet
+from evaluation_metrics import calibration_metrics, print_calibration, print_review_budget, review_budget
 from reader import read_report
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -93,47 +96,30 @@ def criterion_metrics(recs, answers, gold_answers):
 
 
 def calibration(recs, answers, gold_answers, bins=10):
-    """Pool decided answers; confidence vs observed correctness. Returns (ECE, table)."""
-    pts = []
-    for r in recs:
-        for cid in CRITERIA:
-            g, a = gold_answers[r["id"]][cid], answers[r["id"]][cid]
-            if g == "undetermined" or a["answer"] == "undetermined":
-                continue
-            pts.append((a["conf"], a["answer"] == g))
-    table, ece = [], 0.0
-    for b in range(bins):
-        lo, hi = b / bins, (b + 1) / bins
-        sel = [ok for c, ok in pts if lo < c <= hi or (b == 0 and c == 0)]
-        if sel:
-            conf = sum(c for c, _ in pts if lo < c <= hi) / len(sel)
-            acc = sum(sel) / len(sel)
-            ece += len(sel) / len(pts) * abs(acc - conf)
-            table.append((f"{lo:.1f}-{hi:.1f}", len(sel), conf, acc))
-    return ece, table, len(pts)
+    """Pooled decision calibration; use match-only calibration for shortlist precision."""
+    return calibration_metrics(recs, answers, gold_answers, CRITERIA, bins=bins)
 
 
 def recall_at_budget(recs, answers, gold_answers, ks=(10, 25, 50)):
     """Rank 'match' answers by confidence; share of all true matches in the top K."""
-    out = {}
-    for cid in CRITERIA:
-        pos = {r["id"] for r in recs if gold_answers[r["id"]][cid] == "match"}
-        ranked = sorted((r["id"] for r in recs if answers[r["id"]][cid]["answer"] == "match"),
-                        key=lambda i: -answers[i][cid]["conf"])
-        out[cid] = [len(set(ranked[:k]) & pos) / max(1, min(k, len(pos))) for k in ks]
-    return out
+    rows = review_budget(recs, answers, gold_answers, CRITERIA, ks)
+    return {cid: [row["recall"] for row in values] for cid, values in rows.items()}
 
 
 # ---------------------------------------------------------------------------
 def main(args):
     holdout = "--holdout" in args
-    recs = [json.loads(l) for l in open(DATA)]
+    with open(DATA) as handle:
+        recs = [json.loads(line) for line in handle]
     recs = [r for r in recs if is_holdout(r["id"]) == holdout]
     split = "HOLDOUT" if holdout else "DEV"
     gold_answers = {r["id"]: answers_from_gold(r["gold"]) for r in recs}
 
     cal_path = os.path.join(HERE, "calibration.json")
-    cal = json.load(open(cal_path)) if os.path.exists(cal_path) else None
+    cal = None
+    if os.path.exists(cal_path):
+        with open(cal_path) as handle:
+            cal = json.load(handle)
     readers = {"rules": lambda t: read_report(t), "naive": lambda t: read_report(t, naive=True),
                "template": template_sheet}
     if cal:
@@ -163,17 +149,11 @@ def main(args):
         print(f"  MEAN F1 = {sum(r[-1] for r in crows) / len(crows):.3f}")
 
     for name in [n for n in ("rules", "rules+cal") if n in results]:
-        ece, table, npts = calibration(recs, results[name][1], gold_answers)
-        note = "  (confidences fit on DEV)" if name == "rules+cal" else "  (hand-set confidences)"
-        print(f"\nCALIBRATION [{name}]{note}: {npts} decided answers, ECE = {ece:.3f}")
-        print(f"  {'bin':9} {'n':>5} {'mean conf':>10} {'accuracy':>9}")
-        for b, n, c, a in table:
-            print(f"  {b:9} {n:5} {c:10.2f} {a:9.2f}")
+        print_calibration(recs, results[name][1], gold_answers, CRITERIA, name)
 
-    best = "rules+cal" if "rules+cal" in results else "rules"
-    print(f"\nRECALL AT REVIEW BUDGET ({best}; top-K by confidence)   K=10 / 25 / 50")
-    for cid, vals in recall_at_budget(recs, results[best][1], gold_answers).items():
-        print(f"  {cid}  " + "  ".join(f"{v:5.2f}" for v in vals))
+    for name in ("rules", "naive", "rules+cal"):
+        if name in results:
+            print_review_budget(recs, results[name][1], gold_answers, CRITERIA, name)
 
     if "--errors" in args and not holdout:
         fact = args[args.index("--errors") + 1]

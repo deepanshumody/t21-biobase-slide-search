@@ -2,8 +2,8 @@
 CRITERIA (colon): C1-C8, three-valued, same logic as ../concordance_breast/criteria.py.
 See concordance_colon_design.md, section 3.
 
-Age comes from the TCGA labels (reports are de-identified); it is passed in as the
-pseudo-fact "age" with confidence 1.0 and flagged as such in the "why".
+Age is supplied separately from report text, with its source recorded in "why".
+The evaluator uses TCGA clinical labels; cohort search uses explicit clinical.age metadata.
 """
 CRITERIA = {
     "C1": ("Node positive (pN>=1)  [c08]",
@@ -20,7 +20,7 @@ CRITERIA = {
     "C6": ("Lymphovascular invasion present",
            [("lvi", lambda v: v is True, "LVI present")]),
     "C7": ("Age >= 70 and node positive  [c29]",
-           [("age", lambda v: v >= 70, "age >= 70 (from labels)"),
+           [("age", lambda v: v >= 70, "age >= 70"),
             ("n_major", lambda v: v >= 1, "pN >= 1")]),
     "C8": ("Tumor left at resection (R1/R2)  [weak gold]",
            [("residual", lambda v: v is True, "R1/R2")]),
@@ -45,10 +45,10 @@ def evaluate_criterion(cid, get):
     return {"answer": "undetermined", "conf": None, "why": why}
 
 
-def answers_from_sheet(sheet, age=None):
+def answers_from_sheet(sheet, age=None, age_source="clinical metadata"):
     def get(fact):
         if fact == "age":
-            return (age, 1.0, "label") if age is not None else None
+            return (age, 1.0, age_source) if age is not None else None
         f = sheet.get(fact)
         return (f["value"], f["conf"], f["evidence"]) if f else None
     return {cid: evaluate_criterion(cid, get) for cid in CRITERIA}
