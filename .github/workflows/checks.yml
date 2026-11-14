@@ -22,3 +22,6 @@ jobs:
       - run: python -m pip install -r scripts/requirements_c1.txt
       - run: python scripts/test_c1.py
       - run: python scripts/verify_repository_artifacts.py
+      - run: python -m pip install -r scripts/requirements_c2.txt
+      - run: python scripts/test_c2.py
+      - run: python scripts/verify_c2.py

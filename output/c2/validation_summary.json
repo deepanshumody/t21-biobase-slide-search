@@ -1,0 +1,334 @@
+{
+  "validation_design": "Five repeated stratified 4-fold outer splits by default; three repeated inner 4-fold runs for retrieval-weight selection; train-only LOO ridge selection and temperature fitting",
+  "inner_seed_offsets": [
+    0,
+    17,
+    43
+  ],
+  "seeds": [
+    1201,
+    1301,
+    1409,
+    1511,
+    1601
+  ],
+  "labelled_slides": 190,
+  "evaluation_slides": 188,
+  "heldout_slides": 67,
+  "evaluation_gallery": "188 organ-labelled slides with GigaPath vectors; fold labels hidden for classification and gallery scoring; self excluded",
+  "runtime": {
+    "numpy": "1.26.4"
+  },
+  "selection_objective": "Unweighted mean of precision at 1, 5 and 10; exact ties favor smaller organ weight",
+  "weight_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "temperature_grid": [
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "alpha_grid": [
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0
+  ],
+  "baseline": {
+    "p_at_1": 0.7872340425531915,
+    "p_at_5": 0.563829787234042,
+    "p_at_10": 0.4500000000000004
+  },
+  "organ_aware": {
+    "p_at_1": 0.8787234042553191,
+    "p_at_5": 0.8446808510638303,
+    "p_at_10": 0.8135106382978717
+  },
+  "paired_gain": {
+    "p_at_1": 0.09148936170212765,
+    "p_at_5": 0.28085106382978736,
+    "p_at_10": 0.3635106382978723
+  },
+  "paired_gain_95pct_slide_bootstrap": {
+    "p_at_1": [
+      0.048936170212765945,
+      0.13723404255319152
+    ],
+    "p_at_5": [
+      0.23978723404255325,
+      0.3223404255319148
+    ],
+    "p_at_10": [
+      0.3222340425531916,
+      0.4034095744680853
+    ]
+  },
+  "gallery_ceiling": {
+    "p_at_1": 1.0,
+    "p_at_5": 0.9691489361702128,
+    "p_at_10": 0.9351063829787234
+  },
+  "outer_selected_weights": {
+    "0.5": 3,
+    "1.0": 14,
+    "0.75": 3
+  },
+  "final_weight": 0.75,
+  "final_selection": [
+    {
+      "weight": 0.0,
+      "p_at_1": 0.7872340425531915,
+      "p_at_5": 0.5638297872340423,
+      "p_at_10": 0.44999999999999996,
+      "objective": 0.600354609929078
+    },
+    {
+      "weight": 0.25,
+      "p_at_1": 0.8652482269503546,
+      "p_at_5": 0.8187943262411352,
+      "p_at_10": 0.782624113475177,
+      "objective": 0.8222222222222223
+    },
+    {
+      "weight": 0.5,
+      "p_at_1": 0.8617021276595744,
+      "p_at_5": 0.8251773049645394,
+      "p_at_10": 0.7950354609929076,
+      "objective": 0.8273049645390071
+    },
+    {
+      "weight": 0.75,
+      "p_at_1": 0.8581560283687943,
+      "p_at_5": 0.8301418439716317,
+      "p_at_10": 0.7992907801418441,
+      "objective": 0.82919621749409
+    },
+    {
+      "weight": 1.0,
+      "p_at_1": 0.8581560283687943,
+      "p_at_5": 0.8280141843971636,
+      "p_at_10": 0.7984042553191492,
+      "objective": 0.8281914893617023
+    }
+  ],
+  "final_classifier": {
+    "models": [
+      {
+        "kernel": "anchor_dinov2_quantiles",
+        "alpha": 0.01
+      },
+      {
+        "kernel": "anchor_hoptimus_quantiles",
+        "alpha": 0.1
+      },
+      {
+        "kernel": "giga_clip_0.75",
+        "alpha": 0.3
+      }
+    ],
+    "temperature": 0.075,
+    "training_loo_nll": 0.4400858211003385,
+    "training_slides": 190
+  },
+  "final_gallery_slides": 263,
+  "final_rows": 670,
+  "breakdown": {
+    "organ": {
+      "Bladder": {
+        "slides": 14,
+        "baseline_p_at_1": 0.5,
+        "baseline_p_at_5": 0.2285714285714285,
+        "baseline_p_at_10": 0.17857142857142855,
+        "new_p_at_1": 0.6714285714285714,
+        "new_p_at_5": 0.6571428571428571,
+        "new_p_at_10": 0.6614285714285715
+      },
+      "Bone": {
+        "slides": 4,
+        "baseline_p_at_1": 1.0,
+        "baseline_p_at_5": 0.4999999999999999,
+        "baseline_p_at_10": 0.275,
+        "new_p_at_1": 1.0,
+        "new_p_at_5": 0.5999999999999999,
+        "new_p_at_10": 0.29999999999999993
+      },
+      "Bone marrow": {
+        "slides": 4,
+        "baseline_p_at_1": 0.75,
+        "baseline_p_at_5": 0.3000000000000001,
+        "baseline_p_at_10": 0.2,
+        "new_p_at_1": 1.0,
+        "new_p_at_5": 0.5999999999999999,
+        "new_p_at_10": 0.29999999999999993
+      },
+      "Breast": {
+        "slides": 27,
+        "baseline_p_at_1": 0.6666666666666666,
+        "baseline_p_at_5": 0.5703703703703703,
+        "baseline_p_at_10": 0.45185185185185184,
+        "new_p_at_1": 0.8444444444444444,
+        "new_p_at_5": 0.845925925925926,
+        "new_p_at_10": 0.8466666666666667
+      },
+      "Colon and rectum": {
+        "slides": 24,
+        "baseline_p_at_1": 0.8333333333333334,
+        "baseline_p_at_5": 0.525,
+        "baseline_p_at_10": 0.4666666666666667,
+        "new_p_at_1": 0.9666666666666667,
+        "new_p_at_5": 0.9633333333333333,
+        "new_p_at_10": 0.9683333333333334
+      },
+      "Esophagus": {
+        "slides": 2,
+        "baseline_p_at_1": 1.0,
+        "baseline_p_at_5": 0.2,
+        "baseline_p_at_10": 0.1,
+        "new_p_at_1": 1.0,
+        "new_p_at_5": 0.2,
+        "new_p_at_10": 0.1
+      },
+      "Kidney": {
+        "slides": 13,
+        "baseline_p_at_1": 1.0,
+        "baseline_p_at_5": 0.9538461538461539,
+        "baseline_p_at_10": 0.9,
+        "new_p_at_1": 1.0,
+        "new_p_at_5": 1.0,
+        "new_p_at_10": 1.0
+      },
+      "Liver": {
+        "slides": 13,
+        "baseline_p_at_1": 0.7692307692307693,
+        "baseline_p_at_5": 0.7846153846153846,
+        "baseline_p_at_10": 0.6230769230769232,
+        "new_p_at_1": 0.8769230769230769,
+        "new_p_at_5": 0.8769230769230769,
+        "new_p_at_10": 0.8723076923076923
+      },
+      "Lung": {
+        "slides": 14,
+        "baseline_p_at_1": 0.7142857142857143,
+        "baseline_p_at_5": 0.5571428571428572,
+        "baseline_p_at_10": 0.4142857142857143,
+        "new_p_at_1": 0.8714285714285714,
+        "new_p_at_5": 0.8685714285714285,
+        "new_p_at_10": 0.862857142857143
+      },
+      "Other or mixed": {
+        "slides": 9,
+        "baseline_p_at_1": 0.6666666666666666,
+        "baseline_p_at_5": 0.40000000000000013,
+        "baseline_p_at_10": 0.2777777777777778,
+        "new_p_at_1": 0.5777777777777777,
+        "new_p_at_5": 0.5777777777777777,
+        "new_p_at_10": 0.4355555555555556
+      },
+      "Prostate": {
+        "slides": 14,
+        "baseline_p_at_1": 1.0,
+        "baseline_p_at_5": 0.7428571428571429,
+        "baseline_p_at_10": 0.6071428571428571,
+        "new_p_at_1": 1.0,
+        "new_p_at_5": 0.9742857142857143,
+        "new_p_at_10": 0.9700000000000001
+      },
+      "Skin": {
+        "slides": 5,
+        "baseline_p_at_1": 1.0,
+        "baseline_p_at_5": 0.28,
+        "baseline_p_at_10": 0.16,
+        "new_p_at_1": 0.96,
+        "new_p_at_5": 0.7680000000000001,
+        "new_p_at_10": 0.38400000000000006
+      },
+      "Stomach": {
+        "slides": 15,
+        "baseline_p_at_1": 0.8,
+        "baseline_p_at_5": 0.45333333333333325,
+        "baseline_p_at_10": 0.25333333333333335,
+        "new_p_at_1": 0.8133333333333334,
+        "new_p_at_5": 0.8133333333333334,
+        "new_p_at_10": 0.8133333333333334
+      },
+      "Thyroid": {
+        "slides": 14,
+        "baseline_p_at_1": 0.7857142857142857,
+        "baseline_p_at_5": 0.8285714285714286,
+        "baseline_p_at_10": 0.6999999999999998,
+        "new_p_at_1": 0.8714285714285714,
+        "new_p_at_5": 0.8714285714285714,
+        "new_p_at_10": 0.8685714285714285
+      },
+      "Uterus": {
+        "slides": 16,
+        "baseline_p_at_1": 0.8125,
+        "baseline_p_at_5": 0.4375,
+        "baseline_p_at_10": 0.35,
+        "new_p_at_1": 0.925,
+        "new_p_at_5": 0.925,
+        "new_p_at_10": 0.9237500000000001
+      }
+    },
+    "supplier": {
+      "SUPP-01": {
+        "slides": 51,
+        "baseline_p_at_1": 0.7843137254901961,
+        "baseline_p_at_5": 0.45098039215686275,
+        "baseline_p_at_10": 0.3196078431372549,
+        "new_p_at_1": 0.8901960784313725,
+        "new_p_at_5": 0.8133333333333332,
+        "new_p_at_10": 0.7266666666666666
+      },
+      "SUPP-02": {
+        "slides": 128,
+        "baseline_p_at_1": 0.7890625,
+        "baseline_p_at_5": 0.628125,
+        "baseline_p_at_10": 0.52109375,
+        "new_p_at_1": 0.8890625,
+        "new_p_at_5": 0.8865624999999999,
+        "new_p_at_10": 0.8859375
+      },
+      "SUPP-03": {
+        "slides": 3,
+        "baseline_p_at_1": 0.6666666666666666,
+        "baseline_p_at_5": 0.3333333333333333,
+        "baseline_p_at_10": 0.26666666666666666,
+        "new_p_at_1": 0.4,
+        "new_p_at_5": 0.3333333333333333,
+        "new_p_at_10": 0.18666666666666665
+      },
+      "SUPP-04": {
+        "slides": 6,
+        "baseline_p_at_1": 0.8333333333333334,
+        "baseline_p_at_5": 0.26666666666666666,
+        "baseline_p_at_10": 0.13333333333333333,
+        "new_p_at_1": 0.8,
+        "new_p_at_5": 0.47333333333333333,
+        "new_p_at_10": 0.32
+      }
+    }
+  },
+  "limitations": [
+    "These are internal estimates, not official challenge scores; no held-out answer key was read.",
+    "C1 feature families were previously explored on these labelled slides; new seeds do not create an untouched external test.",
+    "Unknown true labels prevent scoring the full 263-slide gallery internally; validation uses the 188-slide labelled subset with a similar labelled/unlabelled mixture.",
+    "Both validation methods use the same 188-slide gallery with GigaPath vectors. Final fitting uses all 190 labels; the full 263-slide gallery includes two slides with zero GigaPath evidence.",
+    "Ridge softmax scores are temperature-fitted from training LOO estimates, not independently established probability calibration.",
+    "Organ agreement is a proxy for retrieval relevance; it does not establish diagnosis, cancer subtype, or patient similarity.",
+    "Rare organs cannot fill ten relevant slots in the validation gallery; ceilings are reported.",
+    "Slide bootstrap intervals reuse the same folds and do not include model-selection or patient-clustering uncertainty.",
+    "Patient IDs were not supplied, so patient-level overlap cannot be excluded."
+  ]
+}

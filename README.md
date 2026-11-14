@@ -2,14 +2,14 @@
 
 - **Team ID:** T21
 - **Sponsor prize:** Biobase only, as the team's intended entry.
-- **Project status:** C1 classifier and submission completed; C2 retrieval baseline available, with improved retrieval still exploratory.
+- **Project status:** C1 classifier and C2 organ-aware retrieval submissions completed, with internal validation and reproducible artifacts.
 - **Repository visibility:** Keep this repository private and limit access to the team, organizers, and assigned judges.
 
 ## Problem
 
 Finding pathology slides from the right organ is a useful first step in building a searchable tissue collection.
 Biobase's Find the Right Patients challenge provides a small collection of de-identified slides with incomplete organ labels.
-We address organ classification for held-out slides (C1) and establish a similar-slide retrieval baseline (C2).
+We address organ classification for held-out slides (C1) and organ-aware similar-slide retrieval (C2).
 A successful result assigns an organ group to every query slide and retrieves relevant slides with evidence that the method generalizes beyond its training examples.
 
 ## What we built
@@ -26,9 +26,12 @@ The original submission is preserved for comparison.
 
 ### C2: similar-slide retrieval
 
-The supplied GigaPath cosine-similarity baseline has produced 10 ranked matches for each of the 67 held-out queries: 670 rows in total.
-The archived baseline has been checked for valid rank sequences, duplicate results, and self-matches.
-Using C1 organ scores to rerank visually similar candidates is a promising next experiment, but an improved C2 system has not yet been finalized or independently validated.
+We combine C1 organ scores with GigaPath visual similarity, using supplied organ labels for known gallery slides and model scores for unlabelled slides.
+The final ranker weights organ agreement by 0.75 and rescaled visual cosine by 0.25, with the weight selected through repeated training-only validation.
+It retrieves ten distinct other slides for each of 67 queries from the full 263-slide collection, producing a validated 670-row submission.
+Five repeated nested four-fold runs on the same 188-slide gallery improved mean precision at 1/5/10 from 78.72%/56.38%/45.00% for GigaPath to 87.87%/84.47%/81.35% for organ-aware retrieval.
+These are internal results, not official held-out scores or an untouched external evaluation.
+See [C2 methods and limitations](docs/C2_RETRIEVAL.md) and the [validation summary](output/c2/validation_summary.json).
 
 ### Biobase prize scope
 
@@ -73,6 +76,9 @@ See [reproduction details](docs/REPRODUCIBILITY.md) for the optional image-featu
 | [C1 candidate](output/c1_improved/submission_organ.csv) | 67 organ predictions |
 | [Original C1 submission](output/c1/submission_organ.csv) | Preserved comparison |
 | [C2 baseline](output/c1/baseline/baseline_similar.csv) | 10 results for each of 67 queries |
+| [C2 candidate](output/c2/submission_similar.csv) | 670 organ-aware retrieval results, ready for challenge scoring |
+| [C2 retrieval evidence](output/c2/retrieval_evidence.csv) | Organ evidence and visual similarity for every returned match |
+| [C2 review queue](output/c2/review_queue.csv) | Query uncertainty and availability of same-organ candidates |
 | [Changed C1 predictions](output/c1_improved/submission_changes.csv) | One changed prediction, not a verified correction |
 | [C1 review queue](output/c1_improved/review_queue.csv) | Alternatives, score margins, and nearby labelled examples |
 
@@ -114,9 +120,9 @@ See [data access and repository contents](docs/DATA_AND_ACCESS.md).
 
 ## Next step
 
-Evaluate organ-aware C2 reranking with a realistic mixture of labelled and unlabelled gallery slides, using out-of-fold organ predictions and an untouched validation partition.
-Compare precision at 1, 5, and 10 against the GigaPath baseline before changing the C2 submission.
-Use the resulting failure cases to draft concrete evaluation questions for the Biobase prize.
+Score the completed C1/C2 submissions using the official challenge evaluator when the answer key is available.
+Keep official results separate from the internal validation estimates above.
+Use the C2 review queue and validation failure cases to draft concrete evaluation questions for the Biobase prize.
 
 ## Event handoff
 

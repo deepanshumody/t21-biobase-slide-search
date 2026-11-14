@@ -63,7 +63,27 @@ python3 pack_slides/baseline_slides.py \
 The baseline ranks other slides by GigaPath cosine similarity and writes `baseline_similar.csv`.
 Its candidate pool includes labelled and held-out slides, excludes the query itself, and returns ten matches per query when vectors are available.
 The archived baseline contains all 67 queries.
-An improved organ-aware C2 submission is not included in this snapshot.
+The improved C2 submission is available at `output/c2/submission_similar.csv`.
+
+## Recompute organ-aware C2 retrieval
+
+With the authorized challenge packs available, use Python 3.12 and the C2 runtime pin:
+
+```bash
+python3 -m pip install -r scripts/requirements_c2.txt
+python3 scripts/test_c2.py
+python3 scripts/c2_retrieval.py --out-dir output/c2_reproduced
+python3 scripts/verify_c2.py
+```
+
+The pipeline repeats four-fold outer validation five times and selects retrieval weight using three repeated four-fold inner runs.
+It fits regularization and temperature using only training-fold labels, then fits the final classifier on all 190 labelled slides.
+The comparison uses 188 labelled slides with GigaPath vectors; the final submission searches all 263 slides.
+The original C1 outputs are not modified.
+The artifact audit checks the archived `output/c2` files, their code hashes, exact baseline parity, and the 670-row submission contract.
+It can run without private inputs, explicitly reporting skipped private-input checks.
+The recorded C2 runtime is NumPy 1.26.4; C1's original runtime pin is retained separately.
+See [C2 retrieval methods](C2_RETRIEVAL.md) for the score formula, limitations, and results.
 
 ## Optional development experiments
 

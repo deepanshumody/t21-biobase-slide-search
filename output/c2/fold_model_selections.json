@@ -1,0 +1,2202 @@
+[
+  {
+    "seed": 1201,
+    "fold": 0,
+    "selected_weight": 0.5,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7730496453900709,
+        "p_at_5": 0.5021276595744683,
+        "p_at_10": 0.37234042553191454,
+        "objective": 0.5491725768321513
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8439716312056738,
+        "p_at_5": 0.7654846335697397,
+        "p_at_10": 0.6917257683215134,
+        "objective": 0.7670606776989756
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8274231678486997,
+        "p_at_5": 0.7825059101654845,
+        "p_at_10": 0.7170212765957451,
+        "objective": 0.7756501182033096
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8226950354609929,
+        "p_at_5": 0.7782505910165483,
+        "p_at_10": 0.7177304964539012,
+        "objective": 0.7728920409771475
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8250591016548463,
+        "p_at_5": 0.7777777777777778,
+        "p_at_10": 0.7189125295508277,
+        "objective": 0.7739164696611506
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.1
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.03
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.1
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.6089101277051893,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7e7ec0c3-aed6-48c0-8477-0473e8b9de6e",
+      "SUPP-01-biobase_964e60c2-b5b3-499e-9883-e45a6eeb2d8d",
+      "SUPP-01-biobase_9dfafdd6-5840-4949-b02f-5a12689d30a3",
+      "SUPP-01-biobase_a1ae093a-e0c8-42d7-a031-1d73bbbadef2",
+      "SUPP-01-biobase_aa9e10ff-4cbf-4aa7-9af3-b81e35b6e1df",
+      "SUPP-01-biobase_abaf58ed-457e-40d6-a043-a6bb4e20eeb8",
+      "SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5",
+      "SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d",
+      "SUPP-01-biobase_c0ca9632-0ed4-4eba-bf13-868f45ba4805",
+      "SUPP-01-biobase_c3236075-626c-472c-a09a-3cb78bc9b4de",
+      "SUPP-01-biobase_c811079f-bf4e-4ceb-bc4b-3358116d8408",
+      "SUPP-01-biobase_cca7c7b1-71ee-4e4a-bf2c-95d35c4bd7ab",
+      "SUPP-01-biobase_d9123eb7-27fb-44ee-8434-9663b7649cbd",
+      "SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb",
+      "SUPP-02-bb_02_wsi_0017",
+      "SUPP-02-bb_02_wsi_0022",
+      "SUPP-02-bb_02_wsi_0028",
+      "SUPP-02-bb_02_wsi_0034",
+      "SUPP-02-bb_02_wsi_0039",
+      "SUPP-02-bb_02_wsi_0057",
+      "SUPP-02-bb_02_wsi_0063",
+      "SUPP-02-bb_02_wsi_0065",
+      "SUPP-02-bb_02_wsi_0080",
+      "SUPP-02-bb_02_wsi_0085",
+      "SUPP-02-bb_02_wsi_0087",
+      "SUPP-02-bb_02_wsi_0095",
+      "SUPP-02-bb_02_wsi_0098",
+      "SUPP-02-bb_02_wsi_0101",
+      "SUPP-02-bb_02_wsi_0106",
+      "SUPP-02-bb_02_wsi_0109",
+      "SUPP-02-bb_02_wsi_0111",
+      "SUPP-02-bb_02_wsi_0122",
+      "SUPP-02-bb_02_wsi_0140",
+      "SUPP-02-bb_02_wsi_0145",
+      "SUPP-02-bb_02_wsi_0148",
+      "SUPP-02-bb_02_wsi_0151",
+      "SUPP-02-bb_02_wsi_0167",
+      "SUPP-02-bb_02_wsi_0169",
+      "SUPP-02-bb_02_wsi_0175",
+      "SUPP-02-bb_02_wsi_0178",
+      "SUPP-02-bb_02_wsi_0181",
+      "SUPP-02-bb_02_wsi_0183",
+      "SUPP-02-bb_02_wsi_0184",
+      "SUPP-02-bb_02_wsi_0192",
+      "SUPP-02-bb_02_wsi_0194",
+      "SUPP-02-bb_02_wsi_0199",
+      "SUPP-03-bb_03_wsi_0001"
+    ]
+  },
+  {
+    "seed": 1201,
+    "fold": 1,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.6737588652482269,
+        "p_at_5": 0.5106382978723402,
+        "p_at_10": 0.38510638297872335,
+        "objective": 0.5231678486997634
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8226950354609929,
+        "p_at_5": 0.7588652482269502,
+        "p_at_10": 0.6990543735224585,
+        "objective": 0.7602048857368006
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8203309692671394,
+        "p_at_5": 0.7758865248226948,
+        "p_at_10": 0.716784869976359,
+        "objective": 0.7710007880220644
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.817966903073286,
+        "p_at_5": 0.7796690307328604,
+        "p_at_10": 0.7210401891252955,
+        "objective": 0.7728920409771473
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8203309692671394,
+        "p_at_5": 0.7858156028368793,
+        "p_at_10": 0.7248226950354615,
+        "objective": 0.77698975571316
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.1
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.1
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.003
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.6004524585229014,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89",
+      "SUPP-01-biobase_7ed52131-a4bb-476f-94d3-15179a33d00d",
+      "SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66",
+      "SUPP-01-biobase_9240d74b-1535-40da-bf86-0600f1e5993b",
+      "SUPP-01-biobase_9bc076eb-a447-479f-ad9b-e1c04e64ccf2",
+      "SUPP-01-biobase_a0759071-f8d6-45fd-b8b7-e97681b4a691",
+      "SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56",
+      "SUPP-01-biobase_b5eab65e-77e1-482d-8cda-838316436ec1",
+      "SUPP-01-biobase_b62b0588-d850-4b9d-92b9-b404885fa041",
+      "SUPP-01-biobase_c75b0997-4013-4519-9679-99c75a7bc432",
+      "SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e",
+      "SUPP-01-biobase_e3fa77e2-d369-4322-b0c1-5a00eb4a94aa",
+      "SUPP-01-biobase_edad9dc3-5af6-45d4-99c5-7485c83cf164",
+      "SUPP-02-bb_02_wsi_0023",
+      "SUPP-02-bb_02_wsi_0027",
+      "SUPP-02-bb_02_wsi_0029",
+      "SUPP-02-bb_02_wsi_0037",
+      "SUPP-02-bb_02_wsi_0040",
+      "SUPP-02-bb_02_wsi_0043",
+      "SUPP-02-bb_02_wsi_0046",
+      "SUPP-02-bb_02_wsi_0053",
+      "SUPP-02-bb_02_wsi_0061",
+      "SUPP-02-bb_02_wsi_0068",
+      "SUPP-02-bb_02_wsi_0071",
+      "SUPP-02-bb_02_wsi_0072",
+      "SUPP-02-bb_02_wsi_0073",
+      "SUPP-02-bb_02_wsi_0081",
+      "SUPP-02-bb_02_wsi_0088",
+      "SUPP-02-bb_02_wsi_0099",
+      "SUPP-02-bb_02_wsi_0116",
+      "SUPP-02-bb_02_wsi_0121",
+      "SUPP-02-bb_02_wsi_0125",
+      "SUPP-02-bb_02_wsi_0128",
+      "SUPP-02-bb_02_wsi_0134",
+      "SUPP-02-bb_02_wsi_0144",
+      "SUPP-02-bb_02_wsi_0152",
+      "SUPP-02-bb_02_wsi_0162",
+      "SUPP-02-bb_02_wsi_0164",
+      "SUPP-02-bb_02_wsi_0170",
+      "SUPP-02-bb_02_wsi_0179",
+      "SUPP-02-bb_02_wsi_0180",
+      "SUPP-02-bb_02_wsi_0188",
+      "SUPP-02-bb_02_wsi_0196",
+      "SUPP-03-bb_03_wsi_0002",
+      "SUPP-03-bb_03_wsi_0003",
+      "SUPP-04-bb_04_wsi_0001",
+      "SUPP-04-bb_04_wsi_0004"
+    ]
+  },
+  {
+    "seed": 1201,
+    "fold": 2,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.75177304964539,
+        "p_at_5": 0.5333333333333339,
+        "p_at_10": 0.3872340425531914,
+        "objective": 0.5574468085106384
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8368794326241135,
+        "p_at_5": 0.7891252955082741,
+        "p_at_10": 0.7330969267139472,
+        "objective": 0.7863672182821116
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8368794326241135,
+        "p_at_5": 0.8033096926713945,
+        "p_at_10": 0.7510638297872329,
+        "objective": 0.7970843183609136
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.83451536643026,
+        "p_at_5": 0.8052009456264775,
+        "p_at_10": 0.7522458628841596,
+        "objective": 0.797320724980299
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8368794326241135,
+        "p_at_5": 0.8070921985815602,
+        "p_at_10": 0.7531914893617011,
+        "objective": 0.7990543735224582
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.03
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.5171443034785055,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_83cb2f93-9895-4e5b-80d8-9d772720f018",
+      "SUPP-01-biobase_a031ae07-b033-48c5-96b9-db7ab34ce7d4",
+      "SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0",
+      "SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a",
+      "SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f",
+      "SUPP-01-biobase_baf1ef91-5a0d-41b3-9533-99a474471f47",
+      "SUPP-01-biobase_bc425c93-8d37-4adc-9d4a-2faaef5494e4",
+      "SUPP-01-biobase_cb2f57e2-5ec7-439a-8826-6be2a3d09166",
+      "SUPP-01-biobase_ccfccbf1-5618-4f15-b883-22201c8292bf",
+      "SUPP-01-biobase_d40402be-eb5e-4c67-a50a-77f31093c9fa",
+      "SUPP-01-biobase_d55e76b7-baa8-4429-a3b9-0641dacf3852",
+      "SUPP-01-biobase_ff35d136-b4e2-48a6-93c0-4c89cd7a6bac",
+      "SUPP-02-bb_02_wsi_0018",
+      "SUPP-02-bb_02_wsi_0021",
+      "SUPP-02-bb_02_wsi_0025",
+      "SUPP-02-bb_02_wsi_0026",
+      "SUPP-02-bb_02_wsi_0031",
+      "SUPP-02-bb_02_wsi_0035",
+      "SUPP-02-bb_02_wsi_0051",
+      "SUPP-02-bb_02_wsi_0052",
+      "SUPP-02-bb_02_wsi_0054",
+      "SUPP-02-bb_02_wsi_0075",
+      "SUPP-02-bb_02_wsi_0082",
+      "SUPP-02-bb_02_wsi_0089",
+      "SUPP-02-bb_02_wsi_0096",
+      "SUPP-02-bb_02_wsi_0102",
+      "SUPP-02-bb_02_wsi_0108",
+      "SUPP-02-bb_02_wsi_0119",
+      "SUPP-02-bb_02_wsi_0123",
+      "SUPP-02-bb_02_wsi_0124",
+      "SUPP-02-bb_02_wsi_0129",
+      "SUPP-02-bb_02_wsi_0137",
+      "SUPP-02-bb_02_wsi_0141",
+      "SUPP-02-bb_02_wsi_0142",
+      "SUPP-02-bb_02_wsi_0146",
+      "SUPP-02-bb_02_wsi_0147",
+      "SUPP-02-bb_02_wsi_0149",
+      "SUPP-02-bb_02_wsi_0150",
+      "SUPP-02-bb_02_wsi_0156",
+      "SUPP-02-bb_02_wsi_0158",
+      "SUPP-02-bb_02_wsi_0163",
+      "SUPP-02-bb_02_wsi_0165",
+      "SUPP-02-bb_02_wsi_0185",
+      "SUPP-02-bb_02_wsi_0189",
+      "SUPP-02-bb_02_wsi_0197",
+      "SUPP-04-bb_04_wsi_0006",
+      "SUPP-04-bb_04_wsi_0009"
+    ]
+  },
+  {
+    "seed": 1201,
+    "fold": 3,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7446808510638298,
+        "p_at_5": 0.49787234042553236,
+        "p_at_10": 0.37304964539007057,
+        "objective": 0.538534278959811
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8085106382978723,
+        "p_at_5": 0.7508274231678491,
+        "p_at_10": 0.6886524822695038,
+        "objective": 0.749330181245075
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.806146572104019,
+        "p_at_5": 0.7631205673758865,
+        "p_at_10": 0.7148936170212771,
+        "objective": 0.7613869188337276
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8085106382978723,
+        "p_at_5": 0.7640661938534279,
+        "p_at_10": 0.7148936170212769,
+        "objective": 0.7624901497241923
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8108747044917257,
+        "p_at_5": 0.7650118203309692,
+        "p_at_10": 0.7189125295508276,
+        "objective": 0.7649330181245074
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.03
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.3
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.6394672806478459,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7ebffc23-d19b-4167-8f5d-4f1beaff480b",
+      "SUPP-01-biobase_82bc7974-395d-4fac-8f79-1a8922f05381",
+      "SUPP-01-biobase_8407d108-54e2-4545-bcdd-7c02a88a0e4e",
+      "SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9",
+      "SUPP-01-biobase_a9bb6ef5-a7d1-4c96-8f8e-db70c05250aa",
+      "SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399",
+      "SUPP-01-biobase_b4c22acd-549b-4e05-849c-dbe0caa785b1",
+      "SUPP-01-biobase_cb184ebf-262c-46fd-b0d2-c4b19e8918ed",
+      "SUPP-01-biobase_cf249f18-6eaf-4026-a18e-36af6c1a913c",
+      "SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b",
+      "SUPP-01-biobase_f568b0a4-7925-4c3b-beac-df7f0827bea3",
+      "SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179",
+      "SUPP-02-bb_02_wsi_0033",
+      "SUPP-02-bb_02_wsi_0036",
+      "SUPP-02-bb_02_wsi_0041",
+      "SUPP-02-bb_02_wsi_0044",
+      "SUPP-02-bb_02_wsi_0048",
+      "SUPP-02-bb_02_wsi_0062",
+      "SUPP-02-bb_02_wsi_0066",
+      "SUPP-02-bb_02_wsi_0070",
+      "SUPP-02-bb_02_wsi_0076",
+      "SUPP-02-bb_02_wsi_0083",
+      "SUPP-02-bb_02_wsi_0084",
+      "SUPP-02-bb_02_wsi_0086",
+      "SUPP-02-bb_02_wsi_0100",
+      "SUPP-02-bb_02_wsi_0103",
+      "SUPP-02-bb_02_wsi_0105",
+      "SUPP-02-bb_02_wsi_0110",
+      "SUPP-02-bb_02_wsi_0112",
+      "SUPP-02-bb_02_wsi_0113",
+      "SUPP-02-bb_02_wsi_0115",
+      "SUPP-02-bb_02_wsi_0120",
+      "SUPP-02-bb_02_wsi_0133",
+      "SUPP-02-bb_02_wsi_0136",
+      "SUPP-02-bb_02_wsi_0139",
+      "SUPP-02-bb_02_wsi_0143",
+      "SUPP-02-bb_02_wsi_0153",
+      "SUPP-02-bb_02_wsi_0154",
+      "SUPP-02-bb_02_wsi_0168",
+      "SUPP-02-bb_02_wsi_0173",
+      "SUPP-02-bb_02_wsi_0174",
+      "SUPP-02-bb_02_wsi_0177",
+      "SUPP-02-bb_02_wsi_0186",
+      "SUPP-02-bb_02_wsi_0195",
+      "SUPP-02-bb_02_wsi_0200",
+      "SUPP-04-bb_04_wsi_0003",
+      "SUPP-04-bb_04_wsi_0008"
+    ]
+  },
+  {
+    "seed": 1301,
+    "fold": 0,
+    "selected_weight": 0.75,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7304964539007093,
+        "p_at_5": 0.5120567375886522,
+        "p_at_10": 0.3794326241134749,
+        "objective": 0.5406619385342788
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8085106382978723,
+        "p_at_5": 0.7418439716312055,
+        "p_at_10": 0.6813238770685585,
+        "objective": 0.7438928289992122
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.7990543735224587,
+        "p_at_5": 0.7517730496453899,
+        "p_at_10": 0.6983451536643028,
+        "objective": 0.7497241922773838
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.7990543735224587,
+        "p_at_5": 0.7508274231678487,
+        "p_at_10": 0.7002364066193857,
+        "objective": 0.7500394011032311
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.7966903073286052,
+        "p_at_5": 0.7513002364066192,
+        "p_at_10": 0.6983451536643029,
+        "objective": 0.7487785657998424
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.003
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.6048136372910029,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7e7ec0c3-aed6-48c0-8477-0473e8b9de6e",
+      "SUPP-01-biobase_83cb2f93-9895-4e5b-80d8-9d772720f018",
+      "SUPP-01-biobase_9240d74b-1535-40da-bf86-0600f1e5993b",
+      "SUPP-01-biobase_9bc076eb-a447-479f-ad9b-e1c04e64ccf2",
+      "SUPP-01-biobase_a0759071-f8d6-45fd-b8b7-e97681b4a691",
+      "SUPP-01-biobase_a1ae093a-e0c8-42d7-a031-1d73bbbadef2",
+      "SUPP-01-biobase_a9bb6ef5-a7d1-4c96-8f8e-db70c05250aa",
+      "SUPP-01-biobase_b5eab65e-77e1-482d-8cda-838316436ec1",
+      "SUPP-01-biobase_b62b0588-d850-4b9d-92b9-b404885fa041",
+      "SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a",
+      "SUPP-01-biobase_baf1ef91-5a0d-41b3-9533-99a474471f47",
+      "SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5",
+      "SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d",
+      "SUPP-01-biobase_c75b0997-4013-4519-9679-99c75a7bc432",
+      "SUPP-01-biobase_d55e76b7-baa8-4429-a3b9-0641dacf3852",
+      "SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb",
+      "SUPP-02-bb_02_wsi_0021",
+      "SUPP-02-bb_02_wsi_0026",
+      "SUPP-02-bb_02_wsi_0041",
+      "SUPP-02-bb_02_wsi_0043",
+      "SUPP-02-bb_02_wsi_0076",
+      "SUPP-02-bb_02_wsi_0080",
+      "SUPP-02-bb_02_wsi_0081",
+      "SUPP-02-bb_02_wsi_0086",
+      "SUPP-02-bb_02_wsi_0088",
+      "SUPP-02-bb_02_wsi_0095",
+      "SUPP-02-bb_02_wsi_0100",
+      "SUPP-02-bb_02_wsi_0108",
+      "SUPP-02-bb_02_wsi_0110",
+      "SUPP-02-bb_02_wsi_0111",
+      "SUPP-02-bb_02_wsi_0113",
+      "SUPP-02-bb_02_wsi_0120",
+      "SUPP-02-bb_02_wsi_0122",
+      "SUPP-02-bb_02_wsi_0129",
+      "SUPP-02-bb_02_wsi_0133",
+      "SUPP-02-bb_02_wsi_0137",
+      "SUPP-02-bb_02_wsi_0145",
+      "SUPP-02-bb_02_wsi_0152",
+      "SUPP-02-bb_02_wsi_0162",
+      "SUPP-02-bb_02_wsi_0167",
+      "SUPP-02-bb_02_wsi_0169",
+      "SUPP-02-bb_02_wsi_0179",
+      "SUPP-02-bb_02_wsi_0183",
+      "SUPP-02-bb_02_wsi_0185",
+      "SUPP-02-bb_02_wsi_0188",
+      "SUPP-02-bb_02_wsi_0195",
+      "SUPP-02-bb_02_wsi_0197"
+    ]
+  },
+  {
+    "seed": 1301,
+    "fold": 1,
+    "selected_weight": 0.75,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.8014184397163121,
+        "p_at_5": 0.5475177304964539,
+        "p_at_10": 0.3893617021276592,
+        "objective": 0.5794326241134751
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8770685579196218,
+        "p_at_5": 0.8264775413711584,
+        "p_at_10": 0.7531914893617015,
+        "objective": 0.8189125295508273
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8723404255319149,
+        "p_at_5": 0.835933806146572,
+        "p_at_10": 0.7742316784869969,
+        "objective": 0.8275019700551614
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8723404255319149,
+        "p_at_5": 0.835933806146572,
+        "p_at_10": 0.7765957446808504,
+        "objective": 0.828289992119779
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8699763593380615,
+        "p_at_5": 0.833096926713948,
+        "p_at_10": 0.775650118203309,
+        "objective": 0.8262411347517729
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.1
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.1
+        }
+      ],
+      "temperature": 0.075,
+      "training_loo_nll": 0.4233398650908057,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_a031ae07-b033-48c5-96b9-db7ab34ce7d4",
+      "SUPP-01-biobase_abaf58ed-457e-40d6-a043-a6bb4e20eeb8",
+      "SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f",
+      "SUPP-01-biobase_c811079f-bf4e-4ceb-bc4b-3358116d8408",
+      "SUPP-01-biobase_cf249f18-6eaf-4026-a18e-36af6c1a913c",
+      "SUPP-01-biobase_d9123eb7-27fb-44ee-8434-9663b7649cbd",
+      "SUPP-01-biobase_edad9dc3-5af6-45d4-99c5-7485c83cf164",
+      "SUPP-02-bb_02_wsi_0022",
+      "SUPP-02-bb_02_wsi_0025",
+      "SUPP-02-bb_02_wsi_0029",
+      "SUPP-02-bb_02_wsi_0031",
+      "SUPP-02-bb_02_wsi_0033",
+      "SUPP-02-bb_02_wsi_0034",
+      "SUPP-02-bb_02_wsi_0035",
+      "SUPP-02-bb_02_wsi_0036",
+      "SUPP-02-bb_02_wsi_0037",
+      "SUPP-02-bb_02_wsi_0040",
+      "SUPP-02-bb_02_wsi_0048",
+      "SUPP-02-bb_02_wsi_0054",
+      "SUPP-02-bb_02_wsi_0057",
+      "SUPP-02-bb_02_wsi_0072",
+      "SUPP-02-bb_02_wsi_0075",
+      "SUPP-02-bb_02_wsi_0096",
+      "SUPP-02-bb_02_wsi_0098",
+      "SUPP-02-bb_02_wsi_0102",
+      "SUPP-02-bb_02_wsi_0103",
+      "SUPP-02-bb_02_wsi_0106",
+      "SUPP-02-bb_02_wsi_0109",
+      "SUPP-02-bb_02_wsi_0119",
+      "SUPP-02-bb_02_wsi_0121",
+      "SUPP-02-bb_02_wsi_0128",
+      "SUPP-02-bb_02_wsi_0136",
+      "SUPP-02-bb_02_wsi_0149",
+      "SUPP-02-bb_02_wsi_0153",
+      "SUPP-02-bb_02_wsi_0163",
+      "SUPP-02-bb_02_wsi_0168",
+      "SUPP-02-bb_02_wsi_0170",
+      "SUPP-02-bb_02_wsi_0173",
+      "SUPP-02-bb_02_wsi_0174",
+      "SUPP-02-bb_02_wsi_0180",
+      "SUPP-02-bb_02_wsi_0181",
+      "SUPP-02-bb_02_wsi_0192",
+      "SUPP-02-bb_02_wsi_0194",
+      "SUPP-02-bb_02_wsi_0199",
+      "SUPP-03-bb_03_wsi_0001",
+      "SUPP-03-bb_03_wsi_0002",
+      "SUPP-04-bb_04_wsi_0009"
+    ]
+  },
+  {
+    "seed": 1301,
+    "fold": 2,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7092198581560284,
+        "p_at_5": 0.49645390070921985,
+        "p_at_10": 0.3687943262411344,
+        "objective": 0.5248226950354609
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.7872340425531915,
+        "p_at_5": 0.7465721040189126,
+        "p_at_10": 0.6808510638297872,
+        "objective": 0.7382190701339638
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.789598108747045,
+        "p_at_5": 0.7494089834515366,
+        "p_at_10": 0.7054373522458626,
+        "objective": 0.748148148148148
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.7848699763593381,
+        "p_at_5": 0.7555555555555556,
+        "p_at_10": 0.7042553191489358,
+        "objective": 0.74822695035461
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.7848699763593381,
+        "p_at_5": 0.7565011820330969,
+        "p_at_10": 0.7061465721040187,
+        "objective": 0.7491725768321512
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.03
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.03
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.1
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.7211972957299793,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89",
+      "SUPP-01-biobase_7ebffc23-d19b-4167-8f5d-4f1beaff480b",
+      "SUPP-01-biobase_7ed52131-a4bb-476f-94d3-15179a33d00d",
+      "SUPP-01-biobase_82bc7974-395d-4fac-8f79-1a8922f05381",
+      "SUPP-01-biobase_8407d108-54e2-4545-bcdd-7c02a88a0e4e",
+      "SUPP-01-biobase_9dfafdd6-5840-4949-b02f-5a12689d30a3",
+      "SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9",
+      "SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0",
+      "SUPP-01-biobase_b4c22acd-549b-4e05-849c-dbe0caa785b1",
+      "SUPP-01-biobase_bc425c93-8d37-4adc-9d4a-2faaef5494e4",
+      "SUPP-01-biobase_c3236075-626c-472c-a09a-3cb78bc9b4de",
+      "SUPP-01-biobase_cb184ebf-262c-46fd-b0d2-c4b19e8918ed",
+      "SUPP-01-biobase_cca7c7b1-71ee-4e4a-bf2c-95d35c4bd7ab",
+      "SUPP-01-biobase_ccfccbf1-5618-4f15-b883-22201c8292bf",
+      "SUPP-01-biobase_d40402be-eb5e-4c67-a50a-77f31093c9fa",
+      "SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b",
+      "SUPP-01-biobase_f568b0a4-7925-4c3b-beac-df7f0827bea3",
+      "SUPP-02-bb_02_wsi_0018",
+      "SUPP-02-bb_02_wsi_0027",
+      "SUPP-02-bb_02_wsi_0044",
+      "SUPP-02-bb_02_wsi_0051",
+      "SUPP-02-bb_02_wsi_0053",
+      "SUPP-02-bb_02_wsi_0061",
+      "SUPP-02-bb_02_wsi_0063",
+      "SUPP-02-bb_02_wsi_0070",
+      "SUPP-02-bb_02_wsi_0073",
+      "SUPP-02-bb_02_wsi_0089",
+      "SUPP-02-bb_02_wsi_0099",
+      "SUPP-02-bb_02_wsi_0101",
+      "SUPP-02-bb_02_wsi_0115",
+      "SUPP-02-bb_02_wsi_0116",
+      "SUPP-02-bb_02_wsi_0124",
+      "SUPP-02-bb_02_wsi_0134",
+      "SUPP-02-bb_02_wsi_0139",
+      "SUPP-02-bb_02_wsi_0140",
+      "SUPP-02-bb_02_wsi_0142",
+      "SUPP-02-bb_02_wsi_0146",
+      "SUPP-02-bb_02_wsi_0147",
+      "SUPP-02-bb_02_wsi_0148",
+      "SUPP-02-bb_02_wsi_0150",
+      "SUPP-02-bb_02_wsi_0154",
+      "SUPP-02-bb_02_wsi_0184",
+      "SUPP-02-bb_02_wsi_0189",
+      "SUPP-02-bb_02_wsi_0196",
+      "SUPP-02-bb_02_wsi_0200",
+      "SUPP-04-bb_04_wsi_0004",
+      "SUPP-04-bb_04_wsi_0006"
+    ]
+  },
+  {
+    "seed": 1301,
+    "fold": 3,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7092198581560284,
+        "p_at_5": 0.49645390070921924,
+        "p_at_10": 0.3624113475177301,
+        "objective": 0.5226950354609925
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.817966903073286,
+        "p_at_5": 0.7536643026004731,
+        "p_at_10": 0.672576832151301,
+        "objective": 0.7480693459416866
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8156028368794326,
+        "p_at_5": 0.7716312056737588,
+        "p_at_10": 0.7063829787234048,
+        "objective": 0.7645390070921986
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8156028368794326,
+        "p_at_5": 0.7749408983451536,
+        "p_at_10": 0.7111111111111118,
+        "objective": 0.7672182821118994
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8156028368794326,
+        "p_at_5": 0.7749408983451536,
+        "p_at_10": 0.7127659574468092,
+        "objective": 0.7677698975571318
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.03
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.03
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.6723270789845067,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66",
+      "SUPP-01-biobase_964e60c2-b5b3-499e-9883-e45a6eeb2d8d",
+      "SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399",
+      "SUPP-01-biobase_aa9e10ff-4cbf-4aa7-9af3-b81e35b6e1df",
+      "SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56",
+      "SUPP-01-biobase_c0ca9632-0ed4-4eba-bf13-868f45ba4805",
+      "SUPP-01-biobase_cb2f57e2-5ec7-439a-8826-6be2a3d09166",
+      "SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e",
+      "SUPP-01-biobase_e3fa77e2-d369-4322-b0c1-5a00eb4a94aa",
+      "SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179",
+      "SUPP-01-biobase_ff35d136-b4e2-48a6-93c0-4c89cd7a6bac",
+      "SUPP-02-bb_02_wsi_0017",
+      "SUPP-02-bb_02_wsi_0023",
+      "SUPP-02-bb_02_wsi_0028",
+      "SUPP-02-bb_02_wsi_0039",
+      "SUPP-02-bb_02_wsi_0046",
+      "SUPP-02-bb_02_wsi_0052",
+      "SUPP-02-bb_02_wsi_0062",
+      "SUPP-02-bb_02_wsi_0065",
+      "SUPP-02-bb_02_wsi_0066",
+      "SUPP-02-bb_02_wsi_0068",
+      "SUPP-02-bb_02_wsi_0071",
+      "SUPP-02-bb_02_wsi_0082",
+      "SUPP-02-bb_02_wsi_0083",
+      "SUPP-02-bb_02_wsi_0084",
+      "SUPP-02-bb_02_wsi_0085",
+      "SUPP-02-bb_02_wsi_0087",
+      "SUPP-02-bb_02_wsi_0105",
+      "SUPP-02-bb_02_wsi_0112",
+      "SUPP-02-bb_02_wsi_0123",
+      "SUPP-02-bb_02_wsi_0125",
+      "SUPP-02-bb_02_wsi_0141",
+      "SUPP-02-bb_02_wsi_0143",
+      "SUPP-02-bb_02_wsi_0144",
+      "SUPP-02-bb_02_wsi_0151",
+      "SUPP-02-bb_02_wsi_0156",
+      "SUPP-02-bb_02_wsi_0158",
+      "SUPP-02-bb_02_wsi_0164",
+      "SUPP-02-bb_02_wsi_0165",
+      "SUPP-02-bb_02_wsi_0175",
+      "SUPP-02-bb_02_wsi_0177",
+      "SUPP-02-bb_02_wsi_0178",
+      "SUPP-02-bb_02_wsi_0186",
+      "SUPP-03-bb_03_wsi_0003",
+      "SUPP-04-bb_04_wsi_0001",
+      "SUPP-04-bb_04_wsi_0003",
+      "SUPP-04-bb_04_wsi_0008"
+    ]
+  },
+  {
+    "seed": 1409,
+    "fold": 0,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7659574468085106,
+        "p_at_5": 0.547517730496454,
+        "p_at_10": 0.38510638297872307,
+        "objective": 0.566193853427896
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.83451536643026,
+        "p_at_5": 0.7763593380614658,
+        "p_at_10": 0.6973995271867617,
+        "objective": 0.7694247438928291
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8439716312056738,
+        "p_at_5": 0.7929078014184396,
+        "p_at_10": 0.7234042553191493,
+        "objective": 0.7867612293144209
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8416075650118203,
+        "p_at_5": 0.7947990543735224,
+        "p_at_10": 0.7222222222222225,
+        "objective": 0.7862096138691884
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8416075650118203,
+        "p_at_5": 0.7966903073286052,
+        "p_at_10": 0.7255319148936177,
+        "objective": 0.7879432624113477
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.03
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.1
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.5578700685753968,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7e7ec0c3-aed6-48c0-8477-0473e8b9de6e",
+      "SUPP-01-biobase_82bc7974-395d-4fac-8f79-1a8922f05381",
+      "SUPP-01-biobase_a031ae07-b033-48c5-96b9-db7ab34ce7d4",
+      "SUPP-01-biobase_a0759071-f8d6-45fd-b8b7-e97681b4a691",
+      "SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0",
+      "SUPP-01-biobase_aa9e10ff-4cbf-4aa7-9af3-b81e35b6e1df",
+      "SUPP-01-biobase_abaf58ed-457e-40d6-a043-a6bb4e20eeb8",
+      "SUPP-01-biobase_b4c22acd-549b-4e05-849c-dbe0caa785b1",
+      "SUPP-01-biobase_b5eab65e-77e1-482d-8cda-838316436ec1",
+      "SUPP-01-biobase_c811079f-bf4e-4ceb-bc4b-3358116d8408",
+      "SUPP-01-biobase_cf249f18-6eaf-4026-a18e-36af6c1a913c",
+      "SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179",
+      "SUPP-02-bb_02_wsi_0018",
+      "SUPP-02-bb_02_wsi_0028",
+      "SUPP-02-bb_02_wsi_0033",
+      "SUPP-02-bb_02_wsi_0036",
+      "SUPP-02-bb_02_wsi_0048",
+      "SUPP-02-bb_02_wsi_0053",
+      "SUPP-02-bb_02_wsi_0062",
+      "SUPP-02-bb_02_wsi_0066",
+      "SUPP-02-bb_02_wsi_0075",
+      "SUPP-02-bb_02_wsi_0081",
+      "SUPP-02-bb_02_wsi_0083",
+      "SUPP-02-bb_02_wsi_0084",
+      "SUPP-02-bb_02_wsi_0087",
+      "SUPP-02-bb_02_wsi_0111",
+      "SUPP-02-bb_02_wsi_0115",
+      "SUPP-02-bb_02_wsi_0120",
+      "SUPP-02-bb_02_wsi_0121",
+      "SUPP-02-bb_02_wsi_0122",
+      "SUPP-02-bb_02_wsi_0124",
+      "SUPP-02-bb_02_wsi_0129",
+      "SUPP-02-bb_02_wsi_0139",
+      "SUPP-02-bb_02_wsi_0142",
+      "SUPP-02-bb_02_wsi_0147",
+      "SUPP-02-bb_02_wsi_0150",
+      "SUPP-02-bb_02_wsi_0156",
+      "SUPP-02-bb_02_wsi_0165",
+      "SUPP-02-bb_02_wsi_0175",
+      "SUPP-02-bb_02_wsi_0177",
+      "SUPP-02-bb_02_wsi_0179",
+      "SUPP-02-bb_02_wsi_0180",
+      "SUPP-02-bb_02_wsi_0183",
+      "SUPP-02-bb_02_wsi_0192",
+      "SUPP-02-bb_02_wsi_0194",
+      "SUPP-02-bb_02_wsi_0197",
+      "SUPP-03-bb_03_wsi_0001"
+    ]
+  },
+  {
+    "seed": 1409,
+    "fold": 1,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.6950354609929078,
+        "p_at_5": 0.4978723404255321,
+        "p_at_10": 0.3787234042553195,
+        "objective": 0.5238770685579198
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.789598108747045,
+        "p_at_5": 0.7380614657210401,
+        "p_at_10": 0.677777777777778,
+        "objective": 0.7351457840819543
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.789598108747045,
+        "p_at_5": 0.7555555555555556,
+        "p_at_10": 0.6955082742316788,
+        "objective": 0.7468873128447598
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.7919621749408984,
+        "p_at_5": 0.7541371158392435,
+        "p_at_10": 0.7023640661938537,
+        "objective": 0.7494877856579985
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.7919621749408984,
+        "p_at_5": 0.7569739952718675,
+        "p_at_10": 0.7028368794326242,
+        "objective": 0.7505910165484634
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.03
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.003
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.7120105087438984,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89",
+      "SUPP-01-biobase_7ebffc23-d19b-4167-8f5d-4f1beaff480b",
+      "SUPP-01-biobase_9bc076eb-a447-479f-ad9b-e1c04e64ccf2",
+      "SUPP-01-biobase_a1ae093a-e0c8-42d7-a031-1d73bbbadef2",
+      "SUPP-01-biobase_b62b0588-d850-4b9d-92b9-b404885fa041",
+      "SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f",
+      "SUPP-01-biobase_baf1ef91-5a0d-41b3-9533-99a474471f47",
+      "SUPP-01-biobase_c3236075-626c-472c-a09a-3cb78bc9b4de",
+      "SUPP-01-biobase_cca7c7b1-71ee-4e4a-bf2c-95d35c4bd7ab",
+      "SUPP-01-biobase_d55e76b7-baa8-4429-a3b9-0641dacf3852",
+      "SUPP-01-biobase_d9123eb7-27fb-44ee-8434-9663b7649cbd",
+      "SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e",
+      "SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb",
+      "SUPP-01-biobase_f568b0a4-7925-4c3b-beac-df7f0827bea3",
+      "SUPP-01-biobase_ff35d136-b4e2-48a6-93c0-4c89cd7a6bac",
+      "SUPP-02-bb_02_wsi_0022",
+      "SUPP-02-bb_02_wsi_0025",
+      "SUPP-02-bb_02_wsi_0029",
+      "SUPP-02-bb_02_wsi_0034",
+      "SUPP-02-bb_02_wsi_0035",
+      "SUPP-02-bb_02_wsi_0039",
+      "SUPP-02-bb_02_wsi_0043",
+      "SUPP-02-bb_02_wsi_0044",
+      "SUPP-02-bb_02_wsi_0061",
+      "SUPP-02-bb_02_wsi_0065",
+      "SUPP-02-bb_02_wsi_0068",
+      "SUPP-02-bb_02_wsi_0073",
+      "SUPP-02-bb_02_wsi_0095",
+      "SUPP-02-bb_02_wsi_0099",
+      "SUPP-02-bb_02_wsi_0105",
+      "SUPP-02-bb_02_wsi_0125",
+      "SUPP-02-bb_02_wsi_0133",
+      "SUPP-02-bb_02_wsi_0136",
+      "SUPP-02-bb_02_wsi_0137",
+      "SUPP-02-bb_02_wsi_0144",
+      "SUPP-02-bb_02_wsi_0148",
+      "SUPP-02-bb_02_wsi_0151",
+      "SUPP-02-bb_02_wsi_0158",
+      "SUPP-02-bb_02_wsi_0164",
+      "SUPP-02-bb_02_wsi_0169",
+      "SUPP-02-bb_02_wsi_0178",
+      "SUPP-02-bb_02_wsi_0181",
+      "SUPP-02-bb_02_wsi_0188",
+      "SUPP-02-bb_02_wsi_0196",
+      "SUPP-03-bb_03_wsi_0003",
+      "SUPP-04-bb_04_wsi_0004",
+      "SUPP-04-bb_04_wsi_0006"
+    ]
+  },
+  {
+    "seed": 1409,
+    "fold": 2,
+    "selected_weight": 0.5,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7375886524822695,
+        "p_at_5": 0.5063829787234045,
+        "p_at_10": 0.3773049645390071,
+        "objective": 0.5404255319148937
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8085106382978723,
+        "p_at_5": 0.7484633569739954,
+        "p_at_10": 0.6891252955082745,
+        "objective": 0.7486997635933808
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.7990543735224587,
+        "p_at_5": 0.7664302600472814,
+        "p_at_10": 0.723404255319149,
+        "objective": 0.7629629629629631
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.7872340425531915,
+        "p_at_5": 0.7621749408983451,
+        "p_at_10": 0.7212765957446807,
+        "objective": 0.7568951930654059
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.7872340425531915,
+        "p_at_5": 0.7645390070921986,
+        "p_at_10": 0.7219858156028367,
+        "objective": 0.757919621749409
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.01
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.01
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.6903129995433914,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7ed52131-a4bb-476f-94d3-15179a33d00d",
+      "SUPP-01-biobase_83cb2f93-9895-4e5b-80d8-9d772720f018",
+      "SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66",
+      "SUPP-01-biobase_9240d74b-1535-40da-bf86-0600f1e5993b",
+      "SUPP-01-biobase_964e60c2-b5b3-499e-9883-e45a6eeb2d8d",
+      "SUPP-01-biobase_9dfafdd6-5840-4949-b02f-5a12689d30a3",
+      "SUPP-01-biobase_a9bb6ef5-a7d1-4c96-8f8e-db70c05250aa",
+      "SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399",
+      "SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56",
+      "SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5",
+      "SUPP-01-biobase_bc425c93-8d37-4adc-9d4a-2faaef5494e4",
+      "SUPP-01-biobase_c0ca9632-0ed4-4eba-bf13-868f45ba4805",
+      "SUPP-01-biobase_c75b0997-4013-4519-9679-99c75a7bc432",
+      "SUPP-01-biobase_cb2f57e2-5ec7-439a-8826-6be2a3d09166",
+      "SUPP-01-biobase_e3fa77e2-d369-4322-b0c1-5a00eb4a94aa",
+      "SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b",
+      "SUPP-02-bb_02_wsi_0021",
+      "SUPP-02-bb_02_wsi_0023",
+      "SUPP-02-bb_02_wsi_0031",
+      "SUPP-02-bb_02_wsi_0037",
+      "SUPP-02-bb_02_wsi_0041",
+      "SUPP-02-bb_02_wsi_0046",
+      "SUPP-02-bb_02_wsi_0051",
+      "SUPP-02-bb_02_wsi_0071",
+      "SUPP-02-bb_02_wsi_0088",
+      "SUPP-02-bb_02_wsi_0089",
+      "SUPP-02-bb_02_wsi_0100",
+      "SUPP-02-bb_02_wsi_0101",
+      "SUPP-02-bb_02_wsi_0102",
+      "SUPP-02-bb_02_wsi_0112",
+      "SUPP-02-bb_02_wsi_0113",
+      "SUPP-02-bb_02_wsi_0123",
+      "SUPP-02-bb_02_wsi_0128",
+      "SUPP-02-bb_02_wsi_0134",
+      "SUPP-02-bb_02_wsi_0143",
+      "SUPP-02-bb_02_wsi_0146",
+      "SUPP-02-bb_02_wsi_0149",
+      "SUPP-02-bb_02_wsi_0153",
+      "SUPP-02-bb_02_wsi_0154",
+      "SUPP-02-bb_02_wsi_0170",
+      "SUPP-02-bb_02_wsi_0174",
+      "SUPP-02-bb_02_wsi_0184",
+      "SUPP-02-bb_02_wsi_0186",
+      "SUPP-02-bb_02_wsi_0195",
+      "SUPP-04-bb_04_wsi_0001",
+      "SUPP-04-bb_04_wsi_0008",
+      "SUPP-04-bb_04_wsi_0009"
+    ]
+  },
+  {
+    "seed": 1409,
+    "fold": 3,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.75177304964539,
+        "p_at_5": 0.5191489361702131,
+        "p_at_10": 0.37517730496453905,
+        "objective": 0.5486997635933807
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8463356973995272,
+        "p_at_5": 0.7900709219858155,
+        "p_at_10": 0.7229314420803791,
+        "objective": 0.7864460204885738
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8392434988179669,
+        "p_at_5": 0.7929078014184396,
+        "p_at_10": 0.7390070921985821,
+        "objective": 0.790386130811663
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8392434988179669,
+        "p_at_5": 0.7943262411347518,
+        "p_at_10": 0.7401891252955086,
+        "objective": 0.7912529550827424
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8416075650118203,
+        "p_at_5": 0.7971631205673758,
+        "p_at_10": 0.7420803782505914,
+        "objective": 0.7936170212765958
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.1
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.4202809296134067,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_8407d108-54e2-4545-bcdd-7c02a88a0e4e",
+      "SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9",
+      "SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a",
+      "SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d",
+      "SUPP-01-biobase_cb184ebf-262c-46fd-b0d2-c4b19e8918ed",
+      "SUPP-01-biobase_ccfccbf1-5618-4f15-b883-22201c8292bf",
+      "SUPP-01-biobase_d40402be-eb5e-4c67-a50a-77f31093c9fa",
+      "SUPP-01-biobase_edad9dc3-5af6-45d4-99c5-7485c83cf164",
+      "SUPP-02-bb_02_wsi_0017",
+      "SUPP-02-bb_02_wsi_0026",
+      "SUPP-02-bb_02_wsi_0027",
+      "SUPP-02-bb_02_wsi_0040",
+      "SUPP-02-bb_02_wsi_0052",
+      "SUPP-02-bb_02_wsi_0054",
+      "SUPP-02-bb_02_wsi_0057",
+      "SUPP-02-bb_02_wsi_0063",
+      "SUPP-02-bb_02_wsi_0070",
+      "SUPP-02-bb_02_wsi_0072",
+      "SUPP-02-bb_02_wsi_0076",
+      "SUPP-02-bb_02_wsi_0080",
+      "SUPP-02-bb_02_wsi_0082",
+      "SUPP-02-bb_02_wsi_0085",
+      "SUPP-02-bb_02_wsi_0086",
+      "SUPP-02-bb_02_wsi_0096",
+      "SUPP-02-bb_02_wsi_0098",
+      "SUPP-02-bb_02_wsi_0103",
+      "SUPP-02-bb_02_wsi_0106",
+      "SUPP-02-bb_02_wsi_0108",
+      "SUPP-02-bb_02_wsi_0109",
+      "SUPP-02-bb_02_wsi_0110",
+      "SUPP-02-bb_02_wsi_0116",
+      "SUPP-02-bb_02_wsi_0119",
+      "SUPP-02-bb_02_wsi_0140",
+      "SUPP-02-bb_02_wsi_0141",
+      "SUPP-02-bb_02_wsi_0145",
+      "SUPP-02-bb_02_wsi_0152",
+      "SUPP-02-bb_02_wsi_0162",
+      "SUPP-02-bb_02_wsi_0163",
+      "SUPP-02-bb_02_wsi_0167",
+      "SUPP-02-bb_02_wsi_0168",
+      "SUPP-02-bb_02_wsi_0173",
+      "SUPP-02-bb_02_wsi_0185",
+      "SUPP-02-bb_02_wsi_0189",
+      "SUPP-02-bb_02_wsi_0199",
+      "SUPP-02-bb_02_wsi_0200",
+      "SUPP-03-bb_03_wsi_0002",
+      "SUPP-04-bb_04_wsi_0003"
+    ]
+  },
+  {
+    "seed": 1511,
+    "fold": 0,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7801418439716312,
+        "p_at_5": 0.5248226950354614,
+        "p_at_10": 0.36028368794326254,
+        "objective": 0.5550827423167851
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8747044917257684,
+        "p_at_5": 0.8018912529550827,
+        "p_at_10": 0.7174940898345155,
+        "objective": 0.7980299448384555
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8652482269503546,
+        "p_at_5": 0.8137115839243496,
+        "p_at_10": 0.7394799054373523,
+        "objective": 0.8061465721040189
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8652482269503546,
+        "p_at_5": 0.8156028368794324,
+        "p_at_10": 0.7453900709219858,
+        "objective": 0.8087470449172575
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8652482269503546,
+        "p_at_5": 0.8198581560283686,
+        "p_at_10": 0.7501182033096927,
+        "objective": 0.8117415287628053
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.03
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.01
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.03
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.5194830762393535,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89",
+      "SUPP-01-biobase_7ebffc23-d19b-4167-8f5d-4f1beaff480b",
+      "SUPP-01-biobase_7ed52131-a4bb-476f-94d3-15179a33d00d",
+      "SUPP-01-biobase_964e60c2-b5b3-499e-9883-e45a6eeb2d8d",
+      "SUPP-01-biobase_9bc076eb-a447-479f-ad9b-e1c04e64ccf2",
+      "SUPP-01-biobase_9dfafdd6-5840-4949-b02f-5a12689d30a3",
+      "SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9",
+      "SUPP-01-biobase_a031ae07-b033-48c5-96b9-db7ab34ce7d4",
+      "SUPP-01-biobase_a1ae093a-e0c8-42d7-a031-1d73bbbadef2",
+      "SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0",
+      "SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a",
+      "SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f",
+      "SUPP-01-biobase_bc425c93-8d37-4adc-9d4a-2faaef5494e4",
+      "SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e",
+      "SUPP-02-bb_02_wsi_0026",
+      "SUPP-02-bb_02_wsi_0027",
+      "SUPP-02-bb_02_wsi_0029",
+      "SUPP-02-bb_02_wsi_0031",
+      "SUPP-02-bb_02_wsi_0034",
+      "SUPP-02-bb_02_wsi_0036",
+      "SUPP-02-bb_02_wsi_0041",
+      "SUPP-02-bb_02_wsi_0063",
+      "SUPP-02-bb_02_wsi_0075",
+      "SUPP-02-bb_02_wsi_0085",
+      "SUPP-02-bb_02_wsi_0089",
+      "SUPP-02-bb_02_wsi_0099",
+      "SUPP-02-bb_02_wsi_0103",
+      "SUPP-02-bb_02_wsi_0109",
+      "SUPP-02-bb_02_wsi_0120",
+      "SUPP-02-bb_02_wsi_0121",
+      "SUPP-02-bb_02_wsi_0133",
+      "SUPP-02-bb_02_wsi_0134",
+      "SUPP-02-bb_02_wsi_0136",
+      "SUPP-02-bb_02_wsi_0140",
+      "SUPP-02-bb_02_wsi_0142",
+      "SUPP-02-bb_02_wsi_0147",
+      "SUPP-02-bb_02_wsi_0163",
+      "SUPP-02-bb_02_wsi_0169",
+      "SUPP-02-bb_02_wsi_0175",
+      "SUPP-02-bb_02_wsi_0180",
+      "SUPP-02-bb_02_wsi_0185",
+      "SUPP-02-bb_02_wsi_0189",
+      "SUPP-02-bb_02_wsi_0192",
+      "SUPP-02-bb_02_wsi_0194",
+      "SUPP-02-bb_02_wsi_0200",
+      "SUPP-04-bb_04_wsi_0003",
+      "SUPP-04-bb_04_wsi_0006"
+    ]
+  },
+  {
+    "seed": 1511,
+    "fold": 1,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7446808510638298,
+        "p_at_5": 0.5460992907801421,
+        "p_at_10": 0.40780141843971585,
+        "objective": 0.566193853427896
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.806146572104019,
+        "p_at_5": 0.7602836879432627,
+        "p_at_10": 0.6957446808510639,
+        "objective": 0.754058313632782
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8085106382978723,
+        "p_at_5": 0.7725768321513002,
+        "p_at_10": 0.7108747044917264,
+        "objective": 0.7639873916469663
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8085106382978723,
+        "p_at_5": 0.7763593380614656,
+        "p_at_10": 0.7193853427895984,
+        "objective": 0.7680851063829787
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8108747044917257,
+        "p_at_5": 0.7768321513002364,
+        "p_at_10": 0.7217494089834519,
+        "objective": 0.769818754925138
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.1
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.03
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.6478097654356824,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_83cb2f93-9895-4e5b-80d8-9d772720f018",
+      "SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66",
+      "SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399",
+      "SUPP-01-biobase_b4c22acd-549b-4e05-849c-dbe0caa785b1",
+      "SUPP-01-biobase_b5eab65e-77e1-482d-8cda-838316436ec1",
+      "SUPP-01-biobase_c0ca9632-0ed4-4eba-bf13-868f45ba4805",
+      "SUPP-01-biobase_cb2f57e2-5ec7-439a-8826-6be2a3d09166",
+      "SUPP-01-biobase_cca7c7b1-71ee-4e4a-bf2c-95d35c4bd7ab",
+      "SUPP-01-biobase_cf249f18-6eaf-4026-a18e-36af6c1a913c",
+      "SUPP-01-biobase_ff35d136-b4e2-48a6-93c0-4c89cd7a6bac",
+      "SUPP-02-bb_02_wsi_0017",
+      "SUPP-02-bb_02_wsi_0018",
+      "SUPP-02-bb_02_wsi_0022",
+      "SUPP-02-bb_02_wsi_0025",
+      "SUPP-02-bb_02_wsi_0035",
+      "SUPP-02-bb_02_wsi_0037",
+      "SUPP-02-bb_02_wsi_0039",
+      "SUPP-02-bb_02_wsi_0043",
+      "SUPP-02-bb_02_wsi_0044",
+      "SUPP-02-bb_02_wsi_0046",
+      "SUPP-02-bb_02_wsi_0066",
+      "SUPP-02-bb_02_wsi_0072",
+      "SUPP-02-bb_02_wsi_0073",
+      "SUPP-02-bb_02_wsi_0076",
+      "SUPP-02-bb_02_wsi_0083",
+      "SUPP-02-bb_02_wsi_0088",
+      "SUPP-02-bb_02_wsi_0095",
+      "SUPP-02-bb_02_wsi_0098",
+      "SUPP-02-bb_02_wsi_0101",
+      "SUPP-02-bb_02_wsi_0106",
+      "SUPP-02-bb_02_wsi_0108",
+      "SUPP-02-bb_02_wsi_0113",
+      "SUPP-02-bb_02_wsi_0116",
+      "SUPP-02-bb_02_wsi_0119",
+      "SUPP-02-bb_02_wsi_0125",
+      "SUPP-02-bb_02_wsi_0128",
+      "SUPP-02-bb_02_wsi_0146",
+      "SUPP-02-bb_02_wsi_0149",
+      "SUPP-02-bb_02_wsi_0165",
+      "SUPP-02-bb_02_wsi_0174",
+      "SUPP-02-bb_02_wsi_0177",
+      "SUPP-02-bb_02_wsi_0183",
+      "SUPP-02-bb_02_wsi_0188",
+      "SUPP-02-bb_02_wsi_0195",
+      "SUPP-02-bb_02_wsi_0197",
+      "SUPP-04-bb_04_wsi_0008",
+      "SUPP-04-bb_04_wsi_0009"
+    ]
+  },
+  {
+    "seed": 1511,
+    "fold": 2,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7092198581560284,
+        "p_at_5": 0.502127659574468,
+        "p_at_10": 0.3702127659574468,
+        "objective": 0.5271867612293144
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.7754137115839244,
+        "p_at_5": 0.7271867612293145,
+        "p_at_10": 0.6685579196217497,
+        "objective": 0.7237194641449962
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.7872340425531915,
+        "p_at_5": 0.7418439716312057,
+        "p_at_10": 0.6917257683215132,
+        "objective": 0.7402679275019702
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.7777777777777778,
+        "p_at_5": 0.7446808510638298,
+        "p_at_10": 0.6995271867612297,
+        "objective": 0.7406619385342791
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.7801418439716312,
+        "p_at_5": 0.7460992907801419,
+        "p_at_10": 0.7002364066193854,
+        "objective": 0.7421591804570529
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.03
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.01
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.7818042526557359,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7e7ec0c3-aed6-48c0-8477-0473e8b9de6e",
+      "SUPP-01-biobase_82bc7974-395d-4fac-8f79-1a8922f05381",
+      "SUPP-01-biobase_a0759071-f8d6-45fd-b8b7-e97681b4a691",
+      "SUPP-01-biobase_a9bb6ef5-a7d1-4c96-8f8e-db70c05250aa",
+      "SUPP-01-biobase_aa9e10ff-4cbf-4aa7-9af3-b81e35b6e1df",
+      "SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56",
+      "SUPP-01-biobase_c75b0997-4013-4519-9679-99c75a7bc432",
+      "SUPP-01-biobase_ccfccbf1-5618-4f15-b883-22201c8292bf",
+      "SUPP-01-biobase_e3fa77e2-d369-4322-b0c1-5a00eb4a94aa",
+      "SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb",
+      "SUPP-01-biobase_edad9dc3-5af6-45d4-99c5-7485c83cf164",
+      "SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179",
+      "SUPP-02-bb_02_wsi_0021",
+      "SUPP-02-bb_02_wsi_0023",
+      "SUPP-02-bb_02_wsi_0033",
+      "SUPP-02-bb_02_wsi_0048",
+      "SUPP-02-bb_02_wsi_0053",
+      "SUPP-02-bb_02_wsi_0057",
+      "SUPP-02-bb_02_wsi_0065",
+      "SUPP-02-bb_02_wsi_0068",
+      "SUPP-02-bb_02_wsi_0071",
+      "SUPP-02-bb_02_wsi_0080",
+      "SUPP-02-bb_02_wsi_0081",
+      "SUPP-02-bb_02_wsi_0086",
+      "SUPP-02-bb_02_wsi_0110",
+      "SUPP-02-bb_02_wsi_0111",
+      "SUPP-02-bb_02_wsi_0112",
+      "SUPP-02-bb_02_wsi_0115",
+      "SUPP-02-bb_02_wsi_0123",
+      "SUPP-02-bb_02_wsi_0124",
+      "SUPP-02-bb_02_wsi_0129",
+      "SUPP-02-bb_02_wsi_0137",
+      "SUPP-02-bb_02_wsi_0144",
+      "SUPP-02-bb_02_wsi_0148",
+      "SUPP-02-bb_02_wsi_0150",
+      "SUPP-02-bb_02_wsi_0153",
+      "SUPP-02-bb_02_wsi_0158",
+      "SUPP-02-bb_02_wsi_0164",
+      "SUPP-02-bb_02_wsi_0170",
+      "SUPP-02-bb_02_wsi_0173",
+      "SUPP-02-bb_02_wsi_0181",
+      "SUPP-02-bb_02_wsi_0184",
+      "SUPP-02-bb_02_wsi_0196",
+      "SUPP-02-bb_02_wsi_0199",
+      "SUPP-03-bb_03_wsi_0001",
+      "SUPP-04-bb_04_wsi_0001",
+      "SUPP-04-bb_04_wsi_0004"
+    ]
+  },
+  {
+    "seed": 1511,
+    "fold": 3,
+    "selected_weight": 0.75,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7801418439716312,
+        "p_at_5": 0.5106382978723406,
+        "p_at_10": 0.3695035460992908,
+        "objective": 0.5534278959810875
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8557919621749409,
+        "p_at_5": 0.7962174940898346,
+        "p_at_10": 0.7335697399527192,
+        "objective": 0.7951930654058316
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8557919621749409,
+        "p_at_5": 0.8127659574468087,
+        "p_at_10": 0.7567375886524826,
+        "objective": 0.8084318360914108
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8581560283687943,
+        "p_at_5": 0.815130023640662,
+        "p_at_10": 0.7621749408983454,
+        "objective": 0.8118203309692672
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8581560283687943,
+        "p_at_5": 0.8141843971631205,
+        "p_at_10": 0.7619385342789599,
+        "objective": 0.8114263199369582
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.1
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.1
+        }
+      ],
+      "temperature": 0.075,
+      "training_loo_nll": 0.434893835278561,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_8407d108-54e2-4545-bcdd-7c02a88a0e4e",
+      "SUPP-01-biobase_9240d74b-1535-40da-bf86-0600f1e5993b",
+      "SUPP-01-biobase_abaf58ed-457e-40d6-a043-a6bb4e20eeb8",
+      "SUPP-01-biobase_b62b0588-d850-4b9d-92b9-b404885fa041",
+      "SUPP-01-biobase_baf1ef91-5a0d-41b3-9533-99a474471f47",
+      "SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5",
+      "SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d",
+      "SUPP-01-biobase_c3236075-626c-472c-a09a-3cb78bc9b4de",
+      "SUPP-01-biobase_c811079f-bf4e-4ceb-bc4b-3358116d8408",
+      "SUPP-01-biobase_cb184ebf-262c-46fd-b0d2-c4b19e8918ed",
+      "SUPP-01-biobase_d40402be-eb5e-4c67-a50a-77f31093c9fa",
+      "SUPP-01-biobase_d55e76b7-baa8-4429-a3b9-0641dacf3852",
+      "SUPP-01-biobase_d9123eb7-27fb-44ee-8434-9663b7649cbd",
+      "SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b",
+      "SUPP-01-biobase_f568b0a4-7925-4c3b-beac-df7f0827bea3",
+      "SUPP-02-bb_02_wsi_0028",
+      "SUPP-02-bb_02_wsi_0040",
+      "SUPP-02-bb_02_wsi_0051",
+      "SUPP-02-bb_02_wsi_0052",
+      "SUPP-02-bb_02_wsi_0054",
+      "SUPP-02-bb_02_wsi_0061",
+      "SUPP-02-bb_02_wsi_0062",
+      "SUPP-02-bb_02_wsi_0070",
+      "SUPP-02-bb_02_wsi_0082",
+      "SUPP-02-bb_02_wsi_0084",
+      "SUPP-02-bb_02_wsi_0087",
+      "SUPP-02-bb_02_wsi_0096",
+      "SUPP-02-bb_02_wsi_0100",
+      "SUPP-02-bb_02_wsi_0102",
+      "SUPP-02-bb_02_wsi_0105",
+      "SUPP-02-bb_02_wsi_0122",
+      "SUPP-02-bb_02_wsi_0139",
+      "SUPP-02-bb_02_wsi_0141",
+      "SUPP-02-bb_02_wsi_0143",
+      "SUPP-02-bb_02_wsi_0145",
+      "SUPP-02-bb_02_wsi_0151",
+      "SUPP-02-bb_02_wsi_0152",
+      "SUPP-02-bb_02_wsi_0154",
+      "SUPP-02-bb_02_wsi_0156",
+      "SUPP-02-bb_02_wsi_0162",
+      "SUPP-02-bb_02_wsi_0167",
+      "SUPP-02-bb_02_wsi_0168",
+      "SUPP-02-bb_02_wsi_0178",
+      "SUPP-02-bb_02_wsi_0179",
+      "SUPP-02-bb_02_wsi_0186",
+      "SUPP-03-bb_03_wsi_0002",
+      "SUPP-03-bb_03_wsi_0003"
+    ]
+  },
+  {
+    "seed": 1601,
+    "fold": 0,
+    "selected_weight": 0.5,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7872340425531915,
+        "p_at_5": 0.5304964539007093,
+        "p_at_10": 0.3858156028368789,
+        "objective": 0.5678486997635932
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8794326241134752,
+        "p_at_5": 0.8009456264775416,
+        "p_at_10": 0.7267139479905432,
+        "objective": 0.8023640661938534
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8770685579196218,
+        "p_at_5": 0.8241134751773047,
+        "p_at_10": 0.762884160756501,
+        "objective": 0.8213553979511424
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8628841607565012,
+        "p_at_5": 0.8231678486997633,
+        "p_at_10": 0.7702127659574467,
+        "objective": 0.8187549251379037
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8628841607565012,
+        "p_at_5": 0.8236406619385341,
+        "p_at_10": 0.7711583924349878,
+        "objective": 0.8192277383766745
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.3
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.493704176252294,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_9240d74b-1535-40da-bf86-0600f1e5993b",
+      "SUPP-01-biobase_a9bb6ef5-a7d1-4c96-8f8e-db70c05250aa",
+      "SUPP-01-biobase_abaf58ed-457e-40d6-a043-a6bb4e20eeb8",
+      "SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5",
+      "SUPP-01-biobase_cb184ebf-262c-46fd-b0d2-c4b19e8918ed",
+      "SUPP-01-biobase_cb2f57e2-5ec7-439a-8826-6be2a3d09166",
+      "SUPP-01-biobase_cf249f18-6eaf-4026-a18e-36af6c1a913c",
+      "SUPP-01-biobase_d55e76b7-baa8-4429-a3b9-0641dacf3852",
+      "SUPP-02-bb_02_wsi_0025",
+      "SUPP-02-bb_02_wsi_0029",
+      "SUPP-02-bb_02_wsi_0031",
+      "SUPP-02-bb_02_wsi_0036",
+      "SUPP-02-bb_02_wsi_0037",
+      "SUPP-02-bb_02_wsi_0041",
+      "SUPP-02-bb_02_wsi_0046",
+      "SUPP-02-bb_02_wsi_0053",
+      "SUPP-02-bb_02_wsi_0057",
+      "SUPP-02-bb_02_wsi_0068",
+      "SUPP-02-bb_02_wsi_0072",
+      "SUPP-02-bb_02_wsi_0075",
+      "SUPP-02-bb_02_wsi_0081",
+      "SUPP-02-bb_02_wsi_0087",
+      "SUPP-02-bb_02_wsi_0095",
+      "SUPP-02-bb_02_wsi_0099",
+      "SUPP-02-bb_02_wsi_0100",
+      "SUPP-02-bb_02_wsi_0101",
+      "SUPP-02-bb_02_wsi_0106",
+      "SUPP-02-bb_02_wsi_0110",
+      "SUPP-02-bb_02_wsi_0111",
+      "SUPP-02-bb_02_wsi_0115",
+      "SUPP-02-bb_02_wsi_0122",
+      "SUPP-02-bb_02_wsi_0128",
+      "SUPP-02-bb_02_wsi_0141",
+      "SUPP-02-bb_02_wsi_0147",
+      "SUPP-02-bb_02_wsi_0153",
+      "SUPP-02-bb_02_wsi_0156",
+      "SUPP-02-bb_02_wsi_0165",
+      "SUPP-02-bb_02_wsi_0168",
+      "SUPP-02-bb_02_wsi_0173",
+      "SUPP-02-bb_02_wsi_0175",
+      "SUPP-02-bb_02_wsi_0177",
+      "SUPP-02-bb_02_wsi_0185",
+      "SUPP-02-bb_02_wsi_0186",
+      "SUPP-02-bb_02_wsi_0192",
+      "SUPP-02-bb_02_wsi_0196",
+      "SUPP-02-bb_02_wsi_0200",
+      "SUPP-04-bb_04_wsi_0001"
+    ]
+  },
+  {
+    "seed": 1601,
+    "fold": 1,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7446808510638298,
+        "p_at_5": 0.5120567375886529,
+        "p_at_10": 0.38014184397163125,
+        "objective": 0.5456264775413713
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8297872340425532,
+        "p_at_5": 0.7768321513002362,
+        "p_at_10": 0.7052009456264776,
+        "objective": 0.7706067769897557
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8226950354609929,
+        "p_at_5": 0.7825059101654847,
+        "p_at_10": 0.7217494089834517,
+        "objective": 0.7756501182033096
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8203309692671394,
+        "p_at_5": 0.7853427895981088,
+        "p_at_10": 0.7243498817966904,
+        "objective": 0.776674546887313
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.817966903073286,
+        "p_at_5": 0.7867612293144207,
+        "p_at_10": 0.7262411347517733,
+        "objective": 0.77698975571316
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.1
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.1
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.612724929769833,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89",
+      "SUPP-01-biobase_7e7ec0c3-aed6-48c0-8477-0473e8b9de6e",
+      "SUPP-01-biobase_7ebffc23-d19b-4167-8f5d-4f1beaff480b",
+      "SUPP-01-biobase_82bc7974-395d-4fac-8f79-1a8922f05381",
+      "SUPP-01-biobase_83cb2f93-9895-4e5b-80d8-9d772720f018",
+      "SUPP-01-biobase_964e60c2-b5b3-499e-9883-e45a6eeb2d8d",
+      "SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9",
+      "SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399",
+      "SUPP-01-biobase_b62b0588-d850-4b9d-92b9-b404885fa041",
+      "SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f",
+      "SUPP-01-biobase_baf1ef91-5a0d-41b3-9533-99a474471f47",
+      "SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d",
+      "SUPP-01-biobase_c75b0997-4013-4519-9679-99c75a7bc432",
+      "SUPP-01-biobase_d40402be-eb5e-4c67-a50a-77f31093c9fa",
+      "SUPP-01-biobase_d9123eb7-27fb-44ee-8434-9663b7649cbd",
+      "SUPP-02-bb_02_wsi_0017",
+      "SUPP-02-bb_02_wsi_0022",
+      "SUPP-02-bb_02_wsi_0026",
+      "SUPP-02-bb_02_wsi_0028",
+      "SUPP-02-bb_02_wsi_0033",
+      "SUPP-02-bb_02_wsi_0040",
+      "SUPP-02-bb_02_wsi_0043",
+      "SUPP-02-bb_02_wsi_0054",
+      "SUPP-02-bb_02_wsi_0061",
+      "SUPP-02-bb_02_wsi_0065",
+      "SUPP-02-bb_02_wsi_0076",
+      "SUPP-02-bb_02_wsi_0080",
+      "SUPP-02-bb_02_wsi_0098",
+      "SUPP-02-bb_02_wsi_0102",
+      "SUPP-02-bb_02_wsi_0103",
+      "SUPP-02-bb_02_wsi_0105",
+      "SUPP-02-bb_02_wsi_0129",
+      "SUPP-02-bb_02_wsi_0136",
+      "SUPP-02-bb_02_wsi_0139",
+      "SUPP-02-bb_02_wsi_0142",
+      "SUPP-02-bb_02_wsi_0144",
+      "SUPP-02-bb_02_wsi_0151",
+      "SUPP-02-bb_02_wsi_0179",
+      "SUPP-02-bb_02_wsi_0184",
+      "SUPP-02-bb_02_wsi_0188",
+      "SUPP-02-bb_02_wsi_0194",
+      "SUPP-02-bb_02_wsi_0195",
+      "SUPP-02-bb_02_wsi_0197",
+      "SUPP-03-bb_03_wsi_0002",
+      "SUPP-04-bb_04_wsi_0003",
+      "SUPP-04-bb_04_wsi_0008",
+      "SUPP-04-bb_04_wsi_0009"
+    ]
+  },
+  {
+    "seed": 1601,
+    "fold": 2,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7163120567375887,
+        "p_at_5": 0.5290780141843968,
+        "p_at_10": 0.3865248226950356,
+        "objective": 0.5439716312056737
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.8014184397163121,
+        "p_at_5": 0.7569739952718678,
+        "p_at_10": 0.6895981087470451,
+        "objective": 0.749330181245075
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8014184397163121,
+        "p_at_5": 0.7669030732860522,
+        "p_at_10": 0.7106382978723399,
+        "objective": 0.759653270291568
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8014184397163121,
+        "p_at_5": 0.7659574468085107,
+        "p_at_10": 0.7130023640661936,
+        "objective": 0.7601260835303387
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.7966903073286052,
+        "p_at_5": 0.7692671394799055,
+        "p_at_10": 0.7165484633569736,
+        "objective": 0.7608353033884948
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.01
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.003
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.6544685549856918,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66",
+      "SUPP-01-biobase_a031ae07-b033-48c5-96b9-db7ab34ce7d4",
+      "SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0",
+      "SUPP-01-biobase_aa9e10ff-4cbf-4aa7-9af3-b81e35b6e1df",
+      "SUPP-01-biobase_bc425c93-8d37-4adc-9d4a-2faaef5494e4",
+      "SUPP-01-biobase_cca7c7b1-71ee-4e4a-bf2c-95d35c4bd7ab",
+      "SUPP-01-biobase_e3fa77e2-d369-4322-b0c1-5a00eb4a94aa",
+      "SUPP-01-biobase_edad9dc3-5af6-45d4-99c5-7485c83cf164",
+      "SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b",
+      "SUPP-01-biobase_f568b0a4-7925-4c3b-beac-df7f0827bea3",
+      "SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179",
+      "SUPP-01-biobase_ff35d136-b4e2-48a6-93c0-4c89cd7a6bac",
+      "SUPP-02-bb_02_wsi_0018",
+      "SUPP-02-bb_02_wsi_0023",
+      "SUPP-02-bb_02_wsi_0027",
+      "SUPP-02-bb_02_wsi_0035",
+      "SUPP-02-bb_02_wsi_0039",
+      "SUPP-02-bb_02_wsi_0048",
+      "SUPP-02-bb_02_wsi_0062",
+      "SUPP-02-bb_02_wsi_0063",
+      "SUPP-02-bb_02_wsi_0071",
+      "SUPP-02-bb_02_wsi_0073",
+      "SUPP-02-bb_02_wsi_0082",
+      "SUPP-02-bb_02_wsi_0084",
+      "SUPP-02-bb_02_wsi_0085",
+      "SUPP-02-bb_02_wsi_0086",
+      "SUPP-02-bb_02_wsi_0089",
+      "SUPP-02-bb_02_wsi_0116",
+      "SUPP-02-bb_02_wsi_0120",
+      "SUPP-02-bb_02_wsi_0124",
+      "SUPP-02-bb_02_wsi_0125",
+      "SUPP-02-bb_02_wsi_0133",
+      "SUPP-02-bb_02_wsi_0137",
+      "SUPP-02-bb_02_wsi_0143",
+      "SUPP-02-bb_02_wsi_0150",
+      "SUPP-02-bb_02_wsi_0152",
+      "SUPP-02-bb_02_wsi_0162",
+      "SUPP-02-bb_02_wsi_0164",
+      "SUPP-02-bb_02_wsi_0169",
+      "SUPP-02-bb_02_wsi_0170",
+      "SUPP-02-bb_02_wsi_0174",
+      "SUPP-02-bb_02_wsi_0180",
+      "SUPP-02-bb_02_wsi_0183",
+      "SUPP-03-bb_03_wsi_0001",
+      "SUPP-03-bb_03_wsi_0003",
+      "SUPP-04-bb_04_wsi_0004",
+      "SUPP-04-bb_04_wsi_0006"
+    ]
+  },
+  {
+    "seed": 1601,
+    "fold": 3,
+    "selected_weight": 1.0,
+    "inner_selection": [
+      {
+        "weight": 0.0,
+        "p_at_1": 0.7375886524822695,
+        "p_at_5": 0.5035460992907803,
+        "p_at_10": 0.36099290780141796,
+        "objective": 0.5340425531914893
+      },
+      {
+        "weight": 0.25,
+        "p_at_1": 0.806146572104019,
+        "p_at_5": 0.7650118203309695,
+        "p_at_10": 0.7016548463356979,
+        "objective": 0.7576044129235622
+      },
+      {
+        "weight": 0.5,
+        "p_at_1": 0.8226950354609929,
+        "p_at_5": 0.7791962174940898,
+        "p_at_10": 0.7262411347517732,
+        "objective": 0.7760441292356187
+      },
+      {
+        "weight": 0.75,
+        "p_at_1": 0.8297872340425532,
+        "p_at_5": 0.7848699763593381,
+        "p_at_10": 0.729550827423168,
+        "objective": 0.7814026792750197
+      },
+      {
+        "weight": 1.0,
+        "p_at_1": 0.8321513002364066,
+        "p_at_5": 0.78628841607565,
+        "p_at_10": 0.7302600472813241,
+        "objective": 0.7828999211977936
+      }
+    ],
+    "classifier": {
+      "models": [
+        {
+          "kernel": "anchor_dinov2_quantiles",
+          "alpha": 0.003
+        },
+        {
+          "kernel": "anchor_hoptimus_quantiles",
+          "alpha": 0.1
+        },
+        {
+          "kernel": "giga_clip_0.75",
+          "alpha": 0.1
+        }
+      ],
+      "temperature": 0.1,
+      "training_loo_nll": 0.6084977996153786,
+      "training_slides": 141
+    },
+    "hidden_ids": [
+      "SUPP-01-biobase_7ed52131-a4bb-476f-94d3-15179a33d00d",
+      "SUPP-01-biobase_8407d108-54e2-4545-bcdd-7c02a88a0e4e",
+      "SUPP-01-biobase_9bc076eb-a447-479f-ad9b-e1c04e64ccf2",
+      "SUPP-01-biobase_9dfafdd6-5840-4949-b02f-5a12689d30a3",
+      "SUPP-01-biobase_a0759071-f8d6-45fd-b8b7-e97681b4a691",
+      "SUPP-01-biobase_a1ae093a-e0c8-42d7-a031-1d73bbbadef2",
+      "SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56",
+      "SUPP-01-biobase_b4c22acd-549b-4e05-849c-dbe0caa785b1",
+      "SUPP-01-biobase_b5eab65e-77e1-482d-8cda-838316436ec1",
+      "SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a",
+      "SUPP-01-biobase_c0ca9632-0ed4-4eba-bf13-868f45ba4805",
+      "SUPP-01-biobase_c3236075-626c-472c-a09a-3cb78bc9b4de",
+      "SUPP-01-biobase_c811079f-bf4e-4ceb-bc4b-3358116d8408",
+      "SUPP-01-biobase_ccfccbf1-5618-4f15-b883-22201c8292bf",
+      "SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e",
+      "SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb",
+      "SUPP-02-bb_02_wsi_0021",
+      "SUPP-02-bb_02_wsi_0034",
+      "SUPP-02-bb_02_wsi_0044",
+      "SUPP-02-bb_02_wsi_0051",
+      "SUPP-02-bb_02_wsi_0052",
+      "SUPP-02-bb_02_wsi_0066",
+      "SUPP-02-bb_02_wsi_0070",
+      "SUPP-02-bb_02_wsi_0083",
+      "SUPP-02-bb_02_wsi_0088",
+      "SUPP-02-bb_02_wsi_0096",
+      "SUPP-02-bb_02_wsi_0108",
+      "SUPP-02-bb_02_wsi_0109",
+      "SUPP-02-bb_02_wsi_0112",
+      "SUPP-02-bb_02_wsi_0113",
+      "SUPP-02-bb_02_wsi_0119",
+      "SUPP-02-bb_02_wsi_0121",
+      "SUPP-02-bb_02_wsi_0123",
+      "SUPP-02-bb_02_wsi_0134",
+      "SUPP-02-bb_02_wsi_0140",
+      "SUPP-02-bb_02_wsi_0145",
+      "SUPP-02-bb_02_wsi_0146",
+      "SUPP-02-bb_02_wsi_0148",
+      "SUPP-02-bb_02_wsi_0149",
+      "SUPP-02-bb_02_wsi_0154",
+      "SUPP-02-bb_02_wsi_0158",
+      "SUPP-02-bb_02_wsi_0163",
+      "SUPP-02-bb_02_wsi_0167",
+      "SUPP-02-bb_02_wsi_0178",
+      "SUPP-02-bb_02_wsi_0181",
+      "SUPP-02-bb_02_wsi_0189",
+      "SUPP-02-bb_02_wsi_0199"
+    ]
+  }
+]

@@ -1,0 +1,671 @@
+query_slide_id,rank,result_slide_id,query_predicted_organ,result_organ,result_organ_source,organ_agreement_score,visual_cosine,visual_model
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,1,SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f,Breast,Breast,provided,0.5345553214127581,0.6500316761900276,gigapath
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,2,SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399,Breast,Breast,provided,0.5345553214127581,0.6292433361833194,gigapath
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,3,SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb,Breast,Breast,provided,0.5345553214127581,0.61720859581986,gigapath
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,4,SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89,Breast,Breast,provided,0.5345553214127581,0.6041515638206537,gigapath
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,5,SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,Breast,Breast,predicted,0.5095492102768743,0.704873910697234,gigapath
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,6,SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5,Breast,Breast,provided,0.5345553214127581,0.5536134335049354,gigapath
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,7,SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0,Breast,Breast,provided,0.5345553214127581,0.528476709506402,gigapath
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,8,SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179,Breast,Breast,provided,0.5345553214127581,0.5238266380644435,gigapath
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,9,SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66,Breast,Breast,provided,0.5345553214127581,0.5218871480512297,gigapath
+SUPP-01-biobase_77b8a66e-116e-494c-a2d1-5ab7a565d79d,10,SUPP-02-bb_02_wsi_0023,Breast,Breast,provided,0.5345553214127581,0.5167061922192194,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,1,SUPP-02-bb_02_wsi_0040,Prostate,Prostate,provided,0.9939117201164611,0.5281701944635023,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,2,SUPP-02-bb_02_wsi_0053,Prostate,Prostate,provided,0.9939117201164611,0.5072924515624943,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,3,SUPP-02-bb_02_wsi_0024,Prostate,Prostate,predicted,0.9932710402247232,0.4919957863243758,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,4,SUPP-02-bb_02_wsi_0047,Prostate,Prostate,predicted,0.9938076833191783,0.4860190743118889,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,5,SUPP-02-bb_02_wsi_0028,Prostate,Prostate,provided,0.9939117201164611,0.4712867845658528,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,6,SUPP-02-bb_02_wsi_0063,Prostate,Prostate,provided,0.9939117201164611,0.45341200595662795,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,7,SUPP-02-bb_02_wsi_0059,Prostate,Prostate,predicted,0.984796555820487,0.49879142015420835,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,8,SUPP-02-bb_02_wsi_0048,Prostate,Prostate,provided,0.9939117201164611,0.43518816578678676,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,9,SUPP-01-biobase_9240d74b-1535-40da-bf86-0600f1e5993b,Prostate,Prostate,provided,0.9939117201164611,0.4246228984825013,gigapath
+SUPP-01-biobase_7cf08652-dc4a-4060-a6c8-a501882d81f9,10,SUPP-01-biobase_cb2f57e2-5ec7-439a-8826-6be2a3d09166,Prostate,Prostate,provided,0.9939117201164611,0.4074875567566924,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,1,SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,Breast,Breast,predicted,0.9999756390424838,0.9149151270710728,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,2,SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,Breast,Breast,predicted,0.9999425952321486,0.8534238925356955,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,3,SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,Breast,Breast,predicted,0.9997040726864801,0.8536523233799782,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,4,SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56,Breast,Breast,provided,0.9999919260565687,0.848310938826256,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,5,SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9,Breast,Breast,provided,0.9999919260565687,0.8309482848811214,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,6,SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e,Breast,Breast,provided,0.9999919260565687,0.7715305469796029,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,7,SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b,Breast,Breast,provided,0.9999919260565687,0.763645488171944,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,8,SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a,Breast,Breast,provided,0.9999919260565687,0.48694677224380184,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,9,SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0,Breast,Breast,provided,0.9999919260565687,0.45113864621016786,gigapath
+SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,10,SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66,Breast,Breast,provided,0.9999919260565687,0.4395717872423316,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,1,SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,Breast,Breast,predicted,0.9999756390424838,0.9149151270710728,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,2,SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9,Breast,Breast,provided,0.9999837128386472,0.7789774082397797,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,3,SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,Breast,Breast,predicted,0.9999343824787449,0.7789362318930224,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,4,SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,Breast,Breast,predicted,0.9996958620480058,0.7618089638275171,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,5,SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56,Breast,Breast,provided,0.9999837128386472,0.7576532663088321,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,6,SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e,Breast,Breast,provided,0.9999837128386472,0.6131345770136577,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,7,SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b,Breast,Breast,provided,0.9999837128386472,0.5852629600882244,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,8,SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a,Breast,Breast,provided,0.9999837128386472,0.5454774371239312,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,9,SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66,Breast,Breast,provided,0.9999837128386472,0.5032958638297009,gigapath
+SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,10,SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0,Breast,Breast,provided,0.9999837128386472,0.4462904257825293,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,1,SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,Breast,Breast,predicted,0.9999425952321486,0.8534238925356955,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,2,SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,Breast,Breast,predicted,0.999662828624524,0.8377824242017403,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,3,SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b,Breast,Breast,provided,0.9999506687284265,0.8022125058797559,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,4,SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,Breast,Breast,predicted,0.9999343824787449,0.7789362318930224,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,5,SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56,Breast,Breast,provided,0.9999506687284265,0.6855563779655515,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,6,SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e,Breast,Breast,provided,0.9999506687284265,0.6779765443156042,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,7,SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9,Breast,Breast,provided,0.9999506687284265,0.6611518172196801,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,8,SUPP-01-biobase_c811079f-bf4e-4ceb-bc4b-3358116d8408,Breast,Breast,provided,0.9999506687284265,0.5185245000679171,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,9,SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66,Breast,Breast,provided,0.9999506687284265,0.473559470844334,gigapath
+SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,10,SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a,Breast,Breast,provided,0.9999506687284265,0.43226464650506413,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,1,SUPP-01-biobase_ff35d136-b4e2-48a6-93c0-4c89cd7a6bac,Colon and rectum,Colon and rectum,provided,0.43443102516657073,0.3329660687268554,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,2,SUPP-01-biobase_a0759071-f8d6-45fd-b8b7-e97681b4a691,Colon and rectum,Colon and rectum,provided,0.43443102516657073,0.3290877660263747,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,3,SUPP-01-biobase_7e7ec0c3-aed6-48c0-8477-0473e8b9de6e,Colon and rectum,Colon and rectum,provided,0.43443102516657073,0.31337953720232214,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,4,SUPP-02-bb_02_wsi_0118,Colon and rectum,Colon and rectum,predicted,0.43430427189096305,0.3129332601515316,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,5,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.43443102516657073,0.3056155480057524,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,6,SUPP-01-biobase_abaf58ed-457e-40d6-a043-a6bb4e20eeb8,Colon and rectum,Colon and rectum,provided,0.43443102516657073,0.26541859855232786,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,7,SUPP-02-bb_02_wsi_0067,Colon and rectum,Colon and rectum,predicted,0.4344129516922192,0.2621861930511103,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,8,SUPP-02-bb_02_wsi_0027,Colon and rectum,Colon and rectum,provided,0.43443102516657073,0.25205067000376613,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,9,SUPP-02-bb_02_wsi_0091,Colon and rectum,Colon and rectum,predicted,0.43443028480202384,0.24985937369470695,gigapath
+SUPP-01-biobase_bd3fc079-2e80-4aed-9213-6537dfce9e38,10,SUPP-02-bb_02_wsi_0121,Colon and rectum,Colon and rectum,provided,0.43443102516657073,0.24705408966572,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,1,SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f,Breast,Breast,provided,0.9496504900496902,0.6752788780259775,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,2,SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0,Breast,Breast,provided,0.9496504900496902,0.6742343532253302,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,3,SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399,Breast,Breast,provided,0.9496504900496902,0.6613366046384814,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,4,SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb,Breast,Breast,provided,0.9496504900496902,0.6460606245661581,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,5,SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89,Breast,Breast,provided,0.9496504900496902,0.6458088168644641,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,6,SUPP-02-bb_02_wsi_0023,Breast,Breast,provided,0.9496504900496902,0.5692318915033366,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,7,SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5,Breast,Breast,provided,0.9496504900496902,0.5621242337073883,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,8,SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179,Breast,Breast,provided,0.9496504900496902,0.5428043861792933,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,9,SUPP-02-bb_02_wsi_0049,Breast,Breast,predicted,0.949342837344023,0.5430787749150253,gigapath
+SUPP-01-biobase_ced7259e-36d4-42e2-8c7c-fd70a4af49a2,10,SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d,Breast,Breast,provided,0.9496504900496902,0.5244795236952601,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,1,SUPP-01-biobase_7e6ecf2a-88aa-4921-8652-c9db1c54e4a8,Breast,Breast,predicted,0.9997040726864801,0.8536523233799782,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,2,SUPP-01-biobase_a5531201-e2c1-4f92-a82e-beedf120810c,Breast,Breast,predicted,0.999662828624524,0.8377824242017403,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,3,SUPP-01-biobase_e33dbf3e-985e-4a2b-9dc4-efbaf917873e,Breast,Breast,provided,0.9997121441020677,0.7807977190301004,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,4,SUPP-01-biobase_84276032-141e-4d86-baac-8718aef36c9c,Breast,Breast,predicted,0.9996958620480058,0.7618089638275171,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,5,SUPP-01-biobase_f55a5053-6a7d-4d62-a94d-e4606d4b9b3b,Breast,Breast,provided,0.9997121441020677,0.7043102013898884,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,6,SUPP-01-biobase_b43bcaf1-d5af-4cc0-88b0-e543e4383d56,Breast,Breast,provided,0.9997121441020677,0.693244714803678,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,7,SUPP-01-biobase_9feb555c-ce1d-4617-834b-ff5ed843c5f9,Breast,Breast,provided,0.9997121441020677,0.6755084694037145,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,8,SUPP-01-biobase_8c09822b-13d4-4729-8530-b31610a73a66,Breast,Breast,provided,0.9997121441020677,0.528868009264343,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,9,SUPP-01-biobase_b836bc3e-392f-420d-a095-5e8f3ad38d0a,Breast,Breast,provided,0.9997121441020677,0.44799435015685624,gigapath
+SUPP-01-biobase_e6731e46-9853-4798-9b91-cf1c67502d1f,10,SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f,Breast,Breast,provided,0.9997121441020677,0.4388915675930811,gigapath
+SUPP-02-bb_02_wsi_0016,1,SUPP-02-bb_02_wsi_0019,Stomach,Stomach,predicted,0.9160672205289526,0.6860432265981806,gigapath
+SUPP-02-bb_02_wsi_0016,2,SUPP-02-bb_02_wsi_0068,Stomach,Stomach,provided,0.9201407727370616,0.5847968605836765,gigapath
+SUPP-02-bb_02_wsi_0016,3,SUPP-02-bb_02_wsi_0084,Stomach,Stomach,provided,0.9201407727370616,0.5664071762075762,gigapath
+SUPP-02-bb_02_wsi_0016,4,SUPP-02-bb_02_wsi_0120,Stomach,Stomach,provided,0.9201407727370616,0.5514738050654413,gigapath
+SUPP-02-bb_02_wsi_0016,5,SUPP-02-bb_02_wsi_0038,Stomach,Stomach,predicted,0.9196832853901222,0.4964493808388191,gigapath
+SUPP-02-bb_02_wsi_0016,6,SUPP-02-bb_02_wsi_0080,Stomach,Stomach,provided,0.9201407727370616,0.47327164517384074,gigapath
+SUPP-02-bb_02_wsi_0016,7,SUPP-02-bb_02_wsi_0119,Stomach,Stomach,provided,0.9201407727370616,0.44126577678361123,gigapath
+SUPP-02-bb_02_wsi_0016,8,SUPP-02-bb_02_wsi_0087,Stomach,Stomach,provided,0.9201407727370616,0.37171773237967953,gigapath
+SUPP-02-bb_02_wsi_0016,9,SUPP-02-bb_02_wsi_0106,Stomach,Stomach,provided,0.9201407727370616,0.36463398827572874,gigapath
+SUPP-02-bb_02_wsi_0016,10,SUPP-02-bb_02_wsi_0103,Stomach,Stomach,provided,0.9201407727370616,0.325817979025948,gigapath
+SUPP-02-bb_02_wsi_0019,1,SUPP-02-bb_02_wsi_0080,Stomach,Stomach,provided,0.9955095036553507,0.6096208979979313,gigapath
+SUPP-02-bb_02_wsi_0019,2,SUPP-02-bb_02_wsi_0084,Stomach,Stomach,provided,0.9955095036553507,0.5973447389860487,gigapath
+SUPP-02-bb_02_wsi_0019,3,SUPP-02-bb_02_wsi_0068,Stomach,Stomach,provided,0.9955095036553507,0.5325176871706586,gigapath
+SUPP-02-bb_02_wsi_0019,4,SUPP-02-bb_02_wsi_0119,Stomach,Stomach,provided,0.9955095036553507,0.4976579504145524,gigapath
+SUPP-02-bb_02_wsi_0019,5,SUPP-02-bb_02_wsi_0120,Stomach,Stomach,provided,0.9955095036553507,0.4914087233255013,gigapath
+SUPP-02-bb_02_wsi_0019,6,SUPP-02-bb_02_wsi_0038,Stomach,Stomach,predicted,0.9950015464141745,0.489517497091451,gigapath
+SUPP-02-bb_02_wsi_0019,7,SUPP-02-bb_02_wsi_0087,Stomach,Stomach,provided,0.9955095036553507,0.39184152654166865,gigapath
+SUPP-02-bb_02_wsi_0019,8,SUPP-02-bb_02_wsi_0106,Stomach,Stomach,provided,0.9955095036553507,0.328876463425691,gigapath
+SUPP-02-bb_02_wsi_0019,9,SUPP-02-bb_02_wsi_0103,Stomach,Stomach,provided,0.9955095036553507,0.29511018265624067,gigapath
+SUPP-02-bb_02_wsi_0019,10,SUPP-02-bb_02_wsi_0124,Stomach,Stomach,provided,0.9955095036553507,0.2939394512203657,gigapath
+SUPP-02-bb_02_wsi_0020,1,SUPP-02-bb_02_wsi_0103,Stomach,Stomach,provided,0.32227658209936866,0.5053600589505773,gigapath
+SUPP-02-bb_02_wsi_0020,2,SUPP-02-bb_02_wsi_0080,Stomach,Stomach,provided,0.32227658209936866,0.48709804888692915,gigapath
+SUPP-02-bb_02_wsi_0020,3,SUPP-02-bb_02_wsi_0019,Stomach,Stomach,predicted,0.32112224503732395,0.48829875184225346,gigapath
+SUPP-02-bb_02_wsi_0020,4,SUPP-02-bb_02_wsi_0106,Stomach,Stomach,provided,0.32227658209936866,0.45734184095717073,gigapath
+SUPP-02-bb_02_wsi_0020,5,SUPP-02-bb_02_wsi_0087,Stomach,Stomach,provided,0.32227658209936866,0.4233053577186755,gigapath
+SUPP-02-bb_02_wsi_0020,6,SUPP-02-bb_02_wsi_0038,Stomach,Stomach,predicted,0.32212946973477735,0.40082126711075444,gigapath
+SUPP-02-bb_02_wsi_0020,7,SUPP-02-bb_02_wsi_0120,Stomach,Stomach,provided,0.32227658209936866,0.3800946186116453,gigapath
+SUPP-02-bb_02_wsi_0020,8,SUPP-02-bb_02_wsi_0124,Stomach,Stomach,provided,0.32227658209936866,0.36710094494954615,gigapath
+SUPP-02-bb_02_wsi_0020,9,SUPP-02-bb_02_wsi_0084,Stomach,Stomach,provided,0.32227658209936866,0.36002830643863787,gigapath
+SUPP-02-bb_02_wsi_0020,10,SUPP-02-bb_02_wsi_0119,Stomach,Stomach,provided,0.32227658209936866,0.35807791812105094,gigapath
+SUPP-02-bb_02_wsi_0024,1,SUPP-02-bb_02_wsi_0034,Prostate,Prostate,provided,0.9993549525072332,0.7397249243191728,gigapath
+SUPP-02-bb_02_wsi_0024,2,SUPP-02-bb_02_wsi_0028,Prostate,Prostate,provided,0.9993549525072332,0.7385109572498012,gigapath
+SUPP-02-bb_02_wsi_0024,3,SUPP-02-bb_02_wsi_0047,Prostate,Prostate,predicted,0.9992502965658053,0.7289743828757129,gigapath
+SUPP-02-bb_02_wsi_0024,4,SUPP-02-bb_02_wsi_0026,Prostate,Prostate,provided,0.9993549525072332,0.7127238281176506,gigapath
+SUPP-02-bb_02_wsi_0024,5,SUPP-02-bb_02_wsi_0044,Prostate,Prostate,provided,0.9993549525072332,0.7108770568814803,gigapath
+SUPP-02-bb_02_wsi_0024,6,SUPP-02-bb_02_wsi_0036,Prostate,Prostate,provided,0.9993549525072332,0.6846890519875027,gigapath
+SUPP-02-bb_02_wsi_0024,7,SUPP-02-bb_02_wsi_0063,Prostate,Prostate,provided,0.9993549525072332,0.6825929875242417,gigapath
+SUPP-02-bb_02_wsi_0024,8,SUPP-02-bb_02_wsi_0059,Prostate,Prostate,predicted,0.9901841794695372,0.7365486384781499,gigapath
+SUPP-02-bb_02_wsi_0024,9,SUPP-02-bb_02_wsi_0050,Prostate,Prostate,predicted,0.9992439004010574,0.6700644548671332,gigapath
+SUPP-02-bb_02_wsi_0024,10,SUPP-02-bb_02_wsi_0039,Prostate,Prostate,provided,0.9993549525072332,0.6385153982397483,gigapath
+SUPP-02-bb_02_wsi_0030,1,SUPP-02-bb_02_wsi_0054,Lung,Lung,provided,0.727910141986217,0.6783256034801609,gigapath
+SUPP-02-bb_02_wsi_0030,2,SUPP-02-bb_02_wsi_0074,Lung,Lung,predicted,0.7273638085310541,0.5935684665424453,gigapath
+SUPP-02-bb_02_wsi_0030,3,SUPP-02-bb_02_wsi_0073,Lung,Lung,provided,0.727910141986217,0.5821097782592357,gigapath
+SUPP-02-bb_02_wsi_0030,4,SUPP-02-bb_02_wsi_0078,Lung,Lung,predicted,0.7253113819477216,0.5835379466094756,gigapath
+SUPP-02-bb_02_wsi_0030,5,SUPP-02-bb_02_wsi_0058,Lung,Lung,predicted,0.7277990847088204,0.5451014419319417,gigapath
+SUPP-02-bb_02_wsi_0030,6,SUPP-02-bb_02_wsi_0064,Lung,Lung,predicted,0.7264064246673457,0.5451273933546995,gigapath
+SUPP-02-bb_02_wsi_0030,7,SUPP-02-bb_02_wsi_0076,Lung,Lung,provided,0.727910141986217,0.5193682663444779,gigapath
+SUPP-02-bb_02_wsi_0030,8,SUPP-02-bb_02_wsi_0022,Lung,Lung,provided,0.727910141986217,0.5142004178714268,gigapath
+SUPP-02-bb_02_wsi_0030,9,SUPP-02-bb_02_wsi_0052,Lung,Lung,provided,0.727910141986217,0.5047829010525688,gigapath
+SUPP-02-bb_02_wsi_0030,10,SUPP-02-bb_02_wsi_0081,Lung,Lung,provided,0.727910141986217,0.49608097386577477,gigapath
+SUPP-02-bb_02_wsi_0032,1,SUPP-02-bb_02_wsi_0027,Colon and rectum,Colon and rectum,provided,0.5916622446069094,0.7303321421811233,gigapath
+SUPP-02-bb_02_wsi_0032,2,SUPP-02-bb_02_wsi_0067,Colon and rectum,Colon and rectum,predicted,0.591634459361025,0.6506758672960824,gigapath
+SUPP-02-bb_02_wsi_0032,3,SUPP-02-bb_02_wsi_0099,Colon and rectum,Colon and rectum,provided,0.5916622446069094,0.6393860372538367,gigapath
+SUPP-02-bb_02_wsi_0032,4,SUPP-02-bb_02_wsi_0091,Colon and rectum,Colon and rectum,predicted,0.5916610494409943,0.6320986426856625,gigapath
+SUPP-02-bb_02_wsi_0032,5,SUPP-02-bb_02_wsi_0115,Colon and rectum,Colon and rectum,provided,0.5916622446069094,0.6060594687558131,gigapath
+SUPP-02-bb_02_wsi_0032,6,SUPP-02-bb_02_wsi_0102,Colon and rectum,Colon and rectum,provided,0.5916622446069094,0.5636077847872769,gigapath
+SUPP-02-bb_02_wsi_0032,7,SUPP-02-bb_02_wsi_0107,Colon and rectum,Colon and rectum,predicted,0.5906902322945635,0.5509582767321355,gigapath
+SUPP-02-bb_02_wsi_0032,8,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.5916622446069094,0.5327599344936143,gigapath
+SUPP-02-bb_02_wsi_0032,9,SUPP-02-bb_02_wsi_0031,Colon and rectum,Colon and rectum,provided,0.5916622446069094,0.45846262818998645,gigapath
+SUPP-02-bb_02_wsi_0032,10,SUPP-02-bb_02_wsi_0161,Colon and rectum,Colon and rectum,predicted,0.5888683955776256,0.41347587607979946,gigapath
+SUPP-02-bb_02_wsi_0038,1,SUPP-02-bb_02_wsi_0120,Stomach,Stomach,provided,0.9994894674070102,0.7594832298947128,gigapath
+SUPP-02-bb_02_wsi_0038,2,SUPP-02-bb_02_wsi_0084,Stomach,Stomach,provided,0.9994894674070102,0.7242451430319774,gigapath
+SUPP-02-bb_02_wsi_0038,3,SUPP-02-bb_02_wsi_0119,Stomach,Stomach,provided,0.9994894674070102,0.633001155843822,gigapath
+SUPP-02-bb_02_wsi_0038,4,SUPP-02-bb_02_wsi_0068,Stomach,Stomach,provided,0.9994894674070102,0.5465311696238027,gigapath
+SUPP-02-bb_02_wsi_0038,5,SUPP-02-bb_02_wsi_0037,Stomach,Stomach,provided,0.9994894674070102,0.48542994071740325,gigapath
+SUPP-02-bb_02_wsi_0038,6,SUPP-02-bb_02_wsi_0019,Stomach,Stomach,predicted,0.9950015464141745,0.489517497091451,gigapath
+SUPP-02-bb_02_wsi_0038,7,SUPP-02-bb_02_wsi_0124,Stomach,Stomach,provided,0.9994894674070102,0.38270051198945054,gigapath
+SUPP-02-bb_02_wsi_0038,8,SUPP-02-bb_02_wsi_0080,Stomach,Stomach,provided,0.9994894674070102,0.3732435330143368,gigapath
+SUPP-02-bb_02_wsi_0038,9,SUPP-02-bb_02_wsi_0106,Stomach,Stomach,provided,0.9994894674070102,0.3629798351639503,gigapath
+SUPP-02-bb_02_wsi_0038,10,SUPP-02-bb_02_wsi_0087,Stomach,Stomach,provided,0.9994894674070102,0.35591245442875336,gigapath
+SUPP-02-bb_02_wsi_0042,1,SUPP-02-bb_02_wsi_0120,Stomach,Stomach,provided,0.9493375701048591,0.5866595727420986,gigapath
+SUPP-02-bb_02_wsi_0042,2,SUPP-02-bb_02_wsi_0038,Stomach,Stomach,predicted,0.9488543354390084,0.5480778103210053,gigapath
+SUPP-02-bb_02_wsi_0042,3,SUPP-02-bb_02_wsi_0019,Stomach,Stomach,predicted,0.9450855448595574,0.5609382810164361,gigapath
+SUPP-02-bb_02_wsi_0042,4,SUPP-02-bb_02_wsi_0084,Stomach,Stomach,provided,0.9493375701048591,0.523652171952125,gigapath
+SUPP-02-bb_02_wsi_0042,5,SUPP-02-bb_02_wsi_0068,Stomach,Stomach,provided,0.9493375701048591,0.5189991400682348,gigapath
+SUPP-02-bb_02_wsi_0042,6,SUPP-02-bb_02_wsi_0080,Stomach,Stomach,provided,0.9493375701048591,0.4139700407060671,gigapath
+SUPP-02-bb_02_wsi_0042,7,SUPP-02-bb_02_wsi_0087,Stomach,Stomach,provided,0.9493375701048591,0.3920322080428434,gigapath
+SUPP-02-bb_02_wsi_0042,8,SUPP-02-bb_02_wsi_0037,Stomach,Stomach,provided,0.9493375701048591,0.35915244238892524,gigapath
+SUPP-02-bb_02_wsi_0042,9,SUPP-02-bb_02_wsi_0119,Stomach,Stomach,provided,0.9493375701048591,0.35327192727036494,gigapath
+SUPP-02-bb_02_wsi_0042,10,SUPP-02-bb_02_wsi_0106,Stomach,Stomach,provided,0.9493375701048591,0.30791746950328247,gigapath
+SUPP-02-bb_02_wsi_0045,1,SUPP-02-bb_02_wsi_0040,Prostate,Prostate,provided,0.9937172937522101,0.7673290892844618,gigapath
+SUPP-02-bb_02_wsi_0045,2,SUPP-02-bb_02_wsi_0059,Prostate,Prostate,predicted,0.9846039590076067,0.8098733980379771,gigapath
+SUPP-02-bb_02_wsi_0045,3,SUPP-02-bb_02_wsi_0021,Prostate,Prostate,provided,0.9937172937522101,0.7424312897030205,gigapath
+SUPP-02-bb_02_wsi_0045,4,SUPP-02-bb_02_wsi_0028,Prostate,Prostate,provided,0.9937172937522101,0.7358554170449682,gigapath
+SUPP-02-bb_02_wsi_0045,5,SUPP-02-bb_02_wsi_0063,Prostate,Prostate,provided,0.9937172937522101,0.7349579529966599,gigapath
+SUPP-02-bb_02_wsi_0045,6,SUPP-02-bb_02_wsi_0050,Prostate,Prostate,predicted,0.9936069178708518,0.6985582157302751,gigapath
+SUPP-02-bb_02_wsi_0045,7,SUPP-02-bb_02_wsi_0034,Prostate,Prostate,provided,0.9937172937522101,0.6790845599212258,gigapath
+SUPP-02-bb_02_wsi_0045,8,SUPP-02-bb_02_wsi_0036,Prostate,Prostate,provided,0.9937172937522101,0.6576495117836346,gigapath
+SUPP-02-bb_02_wsi_0045,9,SUPP-02-bb_02_wsi_0047,Prostate,Prostate,predicted,0.9936132677227609,0.6575407564965805,gigapath
+SUPP-02-bb_02_wsi_0045,10,SUPP-02-bb_02_wsi_0024,Prostate,Prostate,predicted,0.9930767512142006,0.6520210743481929,gigapath
+SUPP-02-bb_02_wsi_0047,1,SUPP-02-bb_02_wsi_0034,Prostate,Prostate,provided,0.9998952727286824,0.8620092264577296,gigapath
+SUPP-02-bb_02_wsi_0047,2,SUPP-02-bb_02_wsi_0039,Prostate,Prostate,provided,0.9998952727286824,0.7890637986392838,gigapath
+SUPP-02-bb_02_wsi_0047,3,SUPP-02-bb_02_wsi_0044,Prostate,Prostate,provided,0.9998952727286824,0.7600583226319306,gigapath
+SUPP-02-bb_02_wsi_0047,4,SUPP-02-bb_02_wsi_0026,Prostate,Prostate,provided,0.9998952727286824,0.7401243810940454,gigapath
+SUPP-02-bb_02_wsi_0047,5,SUPP-02-bb_02_wsi_0024,Prostate,Prostate,predicted,0.9992502965658053,0.7289743828757129,gigapath
+SUPP-02-bb_02_wsi_0047,6,SUPP-02-bb_02_wsi_0040,Prostate,Prostate,provided,0.9998952727286824,0.7230081542180524,gigapath
+SUPP-02-bb_02_wsi_0047,7,SUPP-02-bb_02_wsi_0036,Prostate,Prostate,provided,0.9998952727286824,0.6946627412525613,gigapath
+SUPP-02-bb_02_wsi_0047,8,SUPP-02-bb_02_wsi_0063,Prostate,Prostate,provided,0.9998952727286824,0.6927551150182405,gigapath
+SUPP-02-bb_02_wsi_0047,9,SUPP-02-bb_02_wsi_0021,Prostate,Prostate,provided,0.9998952727286824,0.6687063323675357,gigapath
+SUPP-02-bb_02_wsi_0047,10,SUPP-02-bb_02_wsi_0053,Prostate,Prostate,provided,0.9998952727286824,0.6647489110753613,gigapath
+SUPP-02-bb_02_wsi_0049,1,SUPP-02-bb_02_wsi_0023,Breast,Breast,provided,0.9996740260001222,0.9467102177785549,gigapath
+SUPP-02-bb_02_wsi_0049,2,SUPP-02-bb_02_wsi_0057,Breast,Breast,provided,0.9996740260001222,0.8802444419939568,gigapath
+SUPP-02-bb_02_wsi_0049,3,SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f,Breast,Breast,provided,0.9996740260001222,0.6296380891012615,gigapath
+SUPP-02-bb_02_wsi_0049,4,SUPP-01-biobase_e56a6878-3d6e-4f09-aa13-d5ad92df4dfb,Breast,Breast,provided,0.9996740260001222,0.5632452012171981,gigapath
+SUPP-02-bb_02_wsi_0049,5,SUPP-01-biobase_aa3efbfd-1ea8-4f71-ab83-4054d79e8399,Breast,Breast,provided,0.9996740260001222,0.5593316091575176,gigapath
+SUPP-02-bb_02_wsi_0049,6,SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89,Breast,Breast,provided,0.9996740260001222,0.5379268622990333,gigapath
+SUPP-02-bb_02_wsi_0049,7,SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0,Breast,Breast,provided,0.9996740260001222,0.5136911682940368,gigapath
+SUPP-02-bb_02_wsi_0049,8,SUPP-01-biobase_bb0f6bbf-4246-4a1d-98c3-a238490ed6e5,Breast,Breast,provided,0.9996740260001222,0.5133256905304584,gigapath
+SUPP-02-bb_02_wsi_0049,9,SUPP-01-biobase_bdaca9f1-9f78-4cf9-bfb2-3720668e166d,Breast,Breast,provided,0.9996740260001222,0.4870428934828961,gigapath
+SUPP-02-bb_02_wsi_0049,10,SUPP-01-biobase_fafcab11-9057-49d1-8927-f2dc9021e179,Breast,Breast,provided,0.9996740260001222,0.4682993901049563,gigapath
+SUPP-02-bb_02_wsi_0050,1,SUPP-02-bb_02_wsi_0063,Prostate,Prostate,provided,0.99988886774828,0.8498300126171169,gigapath
+SUPP-02-bb_02_wsi_0050,2,SUPP-02-bb_02_wsi_0021,Prostate,Prostate,provided,0.99988886774828,0.8416027953159231,gigapath
+SUPP-02-bb_02_wsi_0050,3,SUPP-02-bb_02_wsi_0044,Prostate,Prostate,provided,0.99988886774828,0.7417220924545709,gigapath
+SUPP-02-bb_02_wsi_0050,4,SUPP-02-bb_02_wsi_0028,Prostate,Prostate,provided,0.99988886774828,0.7175306024347344,gigapath
+SUPP-02-bb_02_wsi_0050,5,SUPP-02-bb_02_wsi_0059,Prostate,Prostate,predicted,0.9907124843481431,0.771949484881729,gigapath
+SUPP-02-bb_02_wsi_0050,6,SUPP-02-bb_02_wsi_0026,Prostate,Prostate,provided,0.99988886774828,0.6886188879696651,gigapath
+SUPP-02-bb_02_wsi_0050,7,SUPP-02-bb_02_wsi_0024,Prostate,Prostate,predicted,0.9992439004010574,0.6700644548671332,gigapath
+SUPP-02-bb_02_wsi_0050,8,SUPP-02-bb_02_wsi_0034,Prostate,Prostate,provided,0.99988886774828,0.6611600325758505,gigapath
+SUPP-02-bb_02_wsi_0050,9,SUPP-02-bb_02_wsi_0045,Prostate,Prostate,predicted,0.9936069178708518,0.6985582157302751,gigapath
+SUPP-02-bb_02_wsi_0050,10,SUPP-02-bb_02_wsi_0040,Prostate,Prostate,provided,0.99988886774828,0.639324921530763,gigapath
+SUPP-02-bb_02_wsi_0055,1,SUPP-02-bb_02_wsi_0137,Breast,Breast,provided,0.6389454917010358,0.47181082898372434,gigapath
+SUPP-02-bb_02_wsi_0055,2,SUPP-02-bb_02_wsi_0101,Breast,Breast,provided,0.6389454917010358,0.407477625752326,gigapath
+SUPP-02-bb_02_wsi_0055,3,SUPP-02-bb_02_wsi_0018,Breast,Breast,provided,0.6389454917010358,0.3853360806613164,gigapath
+SUPP-02-bb_02_wsi_0055,4,SUPP-02-bb_02_wsi_0056,Breast,Breast,predicted,0.6389249880252278,0.36940598287581244,gigapath
+SUPP-02-bb_02_wsi_0055,5,SUPP-02-bb_02_wsi_0070,Breast,Breast,provided,0.6389454917010358,0.35949959188682434,gigapath
+SUPP-02-bb_02_wsi_0055,6,SUPP-02-bb_02_wsi_0075,Breast,Breast,provided,0.6389454917010358,0.3347894894494088,gigapath
+SUPP-02-bb_02_wsi_0055,7,SUPP-02-bb_02_wsi_0110,Breast,Breast,provided,0.6389454917010358,0.32355725597598395,gigapath
+SUPP-02-bb_02_wsi_0055,8,SUPP-02-bb_02_wsi_0066,Breast,Breast,provided,0.6389454917010358,0.3038121497371609,gigapath
+SUPP-02-bb_02_wsi_0055,9,SUPP-02-bb_02_wsi_0025,Breast,Breast,provided,0.6389454917010358,0.27690955960366315,gigapath
+SUPP-02-bb_02_wsi_0055,10,SUPP-02-bb_02_wsi_0057,Breast,Breast,provided,0.6389454917010358,0.27065086482257267,gigapath
+SUPP-02-bb_02_wsi_0056,1,SUPP-02-bb_02_wsi_0137,Breast,Breast,provided,0.9999670649590927,0.8574334840231498,gigapath
+SUPP-02-bb_02_wsi_0056,2,SUPP-02-bb_02_wsi_0075,Breast,Breast,provided,0.9999670649590927,0.7552909071644696,gigapath
+SUPP-02-bb_02_wsi_0056,3,SUPP-02-bb_02_wsi_0018,Breast,Breast,provided,0.9999670649590927,0.7311104100172031,gigapath
+SUPP-02-bb_02_wsi_0056,4,SUPP-02-bb_02_wsi_0070,Breast,Breast,provided,0.9999670649590927,0.7021004447685192,gigapath
+SUPP-02-bb_02_wsi_0056,5,SUPP-02-bb_02_wsi_0066,Breast,Breast,provided,0.9999670649590927,0.6952785718892385,gigapath
+SUPP-02-bb_02_wsi_0056,6,SUPP-02-bb_02_wsi_0101,Breast,Breast,provided,0.9999670649590927,0.6000991692121715,gigapath
+SUPP-02-bb_02_wsi_0056,7,SUPP-02-bb_02_wsi_0122,Breast,Breast,provided,0.9999670649590927,0.5232685829629462,gigapath
+SUPP-02-bb_02_wsi_0056,8,SUPP-02-bb_02_wsi_0110,Breast,Breast,provided,0.9999670649590927,0.4984035847997301,gigapath
+SUPP-02-bb_02_wsi_0056,9,SUPP-02-bb_02_wsi_0025,Breast,Breast,provided,0.9999670649590927,0.42819116097729526,gigapath
+SUPP-02-bb_02_wsi_0056,10,SUPP-02-bb_02_wsi_0023,Breast,Breast,provided,0.9999670649590927,0.41106811841312957,gigapath
+SUPP-02-bb_02_wsi_0058,1,SUPP-02-bb_02_wsi_0074,Lung,Lung,predicted,0.9990660823319444,0.8114560504940476,gigapath
+SUPP-02-bb_02_wsi_0058,2,SUPP-02-bb_02_wsi_0052,Lung,Lung,provided,0.9998422388079674,0.7767857362460379,gigapath
+SUPP-02-bb_02_wsi_0058,3,SUPP-02-bb_02_wsi_0073,Lung,Lung,provided,0.9998422388079674,0.7709223604237923,gigapath
+SUPP-02-bb_02_wsi_0058,4,SUPP-02-bb_02_wsi_0071,Lung,Lung,provided,0.9998422388079674,0.7611022392440528,gigapath
+SUPP-02-bb_02_wsi_0058,5,SUPP-02-bb_02_wsi_0022,Lung,Lung,provided,0.9998422388079674,0.7417297713489881,gigapath
+SUPP-02-bb_02_wsi_0058,6,SUPP-02-bb_02_wsi_0064,Lung,Lung,predicted,0.9976497968720278,0.746942560458898,gigapath
+SUPP-02-bb_02_wsi_0058,7,SUPP-02-bb_02_wsi_0081,Lung,Lung,provided,0.9998422388079674,0.7256390779435073,gigapath
+SUPP-02-bb_02_wsi_0058,8,SUPP-02-bb_02_wsi_0051,Lung,Lung,provided,0.9998422388079674,0.7238184706274511,gigapath
+SUPP-02-bb_02_wsi_0058,9,SUPP-02-bb_02_wsi_0060,Lung,Lung,predicted,0.9994241920352829,0.6573005171926319,gigapath
+SUPP-02-bb_02_wsi_0058,10,SUPP-02-bb_02_wsi_0029,Lung,Lung,provided,0.9998422388079674,0.6286683825143957,gigapath
+SUPP-02-bb_02_wsi_0059,1,SUPP-02-bb_02_wsi_0028,Prostate,Prostate,provided,0.9908224822039321,0.8515737752307267,gigapath
+SUPP-02-bb_02_wsi_0059,2,SUPP-02-bb_02_wsi_0063,Prostate,Prostate,provided,0.9908224822039321,0.7897565815044555,gigapath
+SUPP-02-bb_02_wsi_0059,3,SUPP-02-bb_02_wsi_0021,Prostate,Prostate,provided,0.9908224822039321,0.7754888827801868,gigapath
+SUPP-02-bb_02_wsi_0059,4,SUPP-02-bb_02_wsi_0045,Prostate,Prostate,predicted,0.9846039590076067,0.8098733980379771,gigapath
+SUPP-02-bb_02_wsi_0059,5,SUPP-02-bb_02_wsi_0050,Prostate,Prostate,predicted,0.9907124843481431,0.771949484881729,gigapath
+SUPP-02-bb_02_wsi_0059,6,SUPP-02-bb_02_wsi_0040,Prostate,Prostate,provided,0.9908224822039321,0.73915697841854,gigapath
+SUPP-02-bb_02_wsi_0059,7,SUPP-02-bb_02_wsi_0024,Prostate,Prostate,predicted,0.9901841794695372,0.7365486384781499,gigapath
+SUPP-02-bb_02_wsi_0059,8,SUPP-02-bb_02_wsi_0034,Prostate,Prostate,provided,0.9908224822039321,0.6623365955429106,gigapath
+SUPP-02-bb_02_wsi_0059,9,SUPP-02-bb_02_wsi_0047,Prostate,Prostate,predicted,0.9907187707739754,0.6553807054437902,gigapath
+SUPP-02-bb_02_wsi_0059,10,SUPP-02-bb_02_wsi_0044,Prostate,Prostate,provided,0.9908224822039321,0.6378920986312857,gigapath
+SUPP-02-bb_02_wsi_0060,1,SUPP-02-bb_02_wsi_0051,Lung,Lung,provided,0.9995818853716499,0.7684744630463543,gigapath
+SUPP-02-bb_02_wsi_0060,2,SUPP-02-bb_02_wsi_0074,Lung,Lung,predicted,0.9988059513544407,0.7547419830346012,gigapath
+SUPP-02-bb_02_wsi_0060,3,SUPP-02-bb_02_wsi_0073,Lung,Lung,provided,0.9995818853716499,0.7481334471736011,gigapath
+SUPP-02-bb_02_wsi_0060,4,SUPP-02-bb_02_wsi_0052,Lung,Lung,provided,0.9995818853716499,0.6842150247324968,gigapath
+SUPP-02-bb_02_wsi_0060,5,SUPP-02-bb_02_wsi_0071,Lung,Lung,provided,0.9995818853716499,0.6735003275389264,gigapath
+SUPP-02-bb_02_wsi_0060,6,SUPP-02-bb_02_wsi_0058,Lung,Lung,predicted,0.9994241920352829,0.6573005171926319,gigapath
+SUPP-02-bb_02_wsi_0060,7,SUPP-02-bb_02_wsi_0081,Lung,Lung,provided,0.9995818853716499,0.6556856826471534,gigapath
+SUPP-02-bb_02_wsi_0060,8,SUPP-02-bb_02_wsi_0022,Lung,Lung,provided,0.9995818853716499,0.6427096452511911,gigapath
+SUPP-02-bb_02_wsi_0060,9,SUPP-02-bb_02_wsi_0064,Lung,Lung,predicted,0.9973900242960966,0.6531314723953504,gigapath
+SUPP-02-bb_02_wsi_0060,10,SUPP-02-bb_02_wsi_0041,Lung,Lung,provided,0.9995818853716499,0.5976058526638915,gigapath
+SUPP-02-bb_02_wsi_0064,1,SUPP-02-bb_02_wsi_0074,Lung,Lung,predicted,0.9970327680980172,0.807966239699615,gigapath
+SUPP-02-bb_02_wsi_0064,2,SUPP-02-bb_02_wsi_0058,Lung,Lung,predicted,0.9976497968720278,0.746942560458898,gigapath
+SUPP-02-bb_02_wsi_0064,3,SUPP-02-bb_02_wsi_0071,Lung,Lung,provided,0.9978071873756085,0.7397007327590486,gigapath
+SUPP-02-bb_02_wsi_0064,4,SUPP-02-bb_02_wsi_0076,Lung,Lung,provided,0.9978071873756085,0.7197035652431985,gigapath
+SUPP-02-bb_02_wsi_0064,5,SUPP-02-bb_02_wsi_0081,Lung,Lung,provided,0.9978071873756085,0.7006710900577514,gigapath
+SUPP-02-bb_02_wsi_0064,6,SUPP-02-bb_02_wsi_0022,Lung,Lung,provided,0.9978071873756085,0.6992767184211836,gigapath
+SUPP-02-bb_02_wsi_0064,7,SUPP-02-bb_02_wsi_0052,Lung,Lung,provided,0.9978071873756085,0.6951017350220151,gigapath
+SUPP-02-bb_02_wsi_0064,8,SUPP-02-bb_02_wsi_0054,Lung,Lung,provided,0.9978071873756085,0.6511297547718709,gigapath
+SUPP-02-bb_02_wsi_0064,9,SUPP-02-bb_02_wsi_0060,Lung,Lung,predicted,0.9973900242960966,0.6531314723953504,gigapath
+SUPP-02-bb_02_wsi_0064,10,SUPP-02-bb_02_wsi_0041,Lung,Lung,provided,0.9978071873756085,0.6502384683569549,gigapath
+SUPP-02-bb_02_wsi_0067,1,SUPP-02-bb_02_wsi_0091,Colon and rectum,Colon and rectum,predicted,0.9999491939138578,0.8091941611326053,gigapath
+SUPP-02-bb_02_wsi_0067,2,SUPP-02-bb_02_wsi_0099,Colon and rectum,Colon and rectum,provided,0.9999513613628744,0.7963978492992012,gigapath
+SUPP-02-bb_02_wsi_0067,3,SUPP-02-bb_02_wsi_0027,Colon and rectum,Colon and rectum,provided,0.9999513613628744,0.7946304451707693,gigapath
+SUPP-02-bb_02_wsi_0067,4,SUPP-02-bb_02_wsi_0102,Colon and rectum,Colon and rectum,provided,0.9999513613628744,0.7210254702742398,gigapath
+SUPP-02-bb_02_wsi_0067,5,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.9999513613628744,0.7149901137012118,gigapath
+SUPP-02-bb_02_wsi_0067,6,SUPP-02-bb_02_wsi_0107,Colon and rectum,Colon and rectum,predicted,0.9982046886764155,0.7252872634289645,gigapath
+SUPP-02-bb_02_wsi_0067,7,SUPP-02-bb_02_wsi_0115,Colon and rectum,Colon and rectum,provided,0.9999513613628744,0.6315600152727081,gigapath
+SUPP-02-bb_02_wsi_0067,8,SUPP-02-bb_02_wsi_0161,Colon and rectum,Colon and rectum,predicted,0.9950386858737588,0.6423432801574559,gigapath
+SUPP-02-bb_02_wsi_0067,9,SUPP-02-bb_02_wsi_0062,Colon and rectum,Colon and rectum,provided,0.9999513613628744,0.59080696989451,gigapath
+SUPP-02-bb_02_wsi_0067,10,SUPP-02-bb_02_wsi_0094,Colon and rectum,Colon and rectum,predicted,0.9998190315525978,0.5658710963257904,gigapath
+SUPP-02-bb_02_wsi_0069,1,SUPP-02-bb_02_wsi_0154,Thyroid,Thyroid,provided,0.9943755298196366,0.7164273533248262,gigapath
+SUPP-02-bb_02_wsi_0069,2,SUPP-02-bb_02_wsi_0109,Thyroid,Thyroid,provided,0.9943755298196366,0.702637237020037,gigapath
+SUPP-02-bb_02_wsi_0069,3,SUPP-02-bb_02_wsi_0152,Thyroid,Thyroid,provided,0.9943755298196366,0.6733953096079798,gigapath
+SUPP-02-bb_02_wsi_0069,4,SUPP-02-bb_02_wsi_0140,Thyroid,Thyroid,provided,0.9943755298196366,0.6226605741883019,gigapath
+SUPP-02-bb_02_wsi_0069,5,SUPP-02-bb_02_wsi_0072,Thyroid,Thyroid,provided,0.9943755298196366,0.6101421546057209,gigapath
+SUPP-02-bb_02_wsi_0069,6,SUPP-02-bb_02_wsi_0046,Thyroid,Thyroid,provided,0.9943755298196366,0.6029447569167353,gigapath
+SUPP-02-bb_02_wsi_0069,7,SUPP-02-bb_02_wsi_0158,Thyroid,Thyroid,provided,0.9943755298196366,0.5824112199746626,gigapath
+SUPP-02-bb_02_wsi_0069,8,SUPP-02-bb_02_wsi_0033,Thyroid,Thyroid,provided,0.9943755298196366,0.5769310260104705,gigapath
+SUPP-02-bb_02_wsi_0069,9,SUPP-02-bb_02_wsi_0105,Thyroid,Thyroid,provided,0.9943755298196366,0.5531053336518817,gigapath
+SUPP-02-bb_02_wsi_0069,10,SUPP-02-bb_02_wsi_0150,Thyroid,Thyroid,provided,0.9943755298196366,0.5411256557172334,gigapath
+SUPP-02-bb_02_wsi_0074,1,SUPP-02-bb_02_wsi_0058,Lung,Lung,predicted,0.9990660823319444,0.8114560504940476,gigapath
+SUPP-02-bb_02_wsi_0074,2,SUPP-02-bb_02_wsi_0081,Lung,Lung,provided,0.9992237138116885,0.8082919836824634,gigapath
+SUPP-02-bb_02_wsi_0074,3,SUPP-02-bb_02_wsi_0022,Lung,Lung,provided,0.9992237138116885,0.8072727431093077,gigapath
+SUPP-02-bb_02_wsi_0074,4,SUPP-02-bb_02_wsi_0064,Lung,Lung,predicted,0.9970327680980172,0.807966239699615,gigapath
+SUPP-02-bb_02_wsi_0074,5,SUPP-02-bb_02_wsi_0071,Lung,Lung,provided,0.9992237138116885,0.7826218777903652,gigapath
+SUPP-02-bb_02_wsi_0074,6,SUPP-02-bb_02_wsi_0073,Lung,Lung,provided,0.9992237138116885,0.78034255289744,gigapath
+SUPP-02-bb_02_wsi_0074,7,SUPP-02-bb_02_wsi_0052,Lung,Lung,provided,0.9992237138116885,0.7777923792705103,gigapath
+SUPP-02-bb_02_wsi_0074,8,SUPP-02-bb_02_wsi_0060,Lung,Lung,predicted,0.9988059513544407,0.7547419830346012,gigapath
+SUPP-02-bb_02_wsi_0074,9,SUPP-02-bb_02_wsi_0051,Lung,Lung,provided,0.9992237138116885,0.7305295967770675,gigapath
+SUPP-02-bb_02_wsi_0074,10,SUPP-02-bb_02_wsi_0041,Lung,Lung,provided,0.9992237138116885,0.692191280768024,gigapath
+SUPP-02-bb_02_wsi_0077,1,SUPP-02-bb_02_wsi_0147,Kidney,Kidney,provided,0.9999548735219199,0.8764278810932937,gigapath
+SUPP-02-bb_02_wsi_0077,2,SUPP-02-bb_02_wsi_0088,Kidney,Kidney,provided,0.9999548735219199,0.8754270196164166,gigapath
+SUPP-02-bb_02_wsi_0077,3,SUPP-02-bb_02_wsi_0153,Kidney,Kidney,provided,0.9999548735219199,0.8739499265345814,gigapath
+SUPP-02-bb_02_wsi_0077,4,SUPP-02-bb_02_wsi_0164,Kidney,Kidney,provided,0.9999548735219199,0.8646078954919497,gigapath
+SUPP-02-bb_02_wsi_0077,5,SUPP-02-bb_02_wsi_0133,Kidney,Kidney,provided,0.9999548735219199,0.810035521631935,gigapath
+SUPP-02-bb_02_wsi_0077,6,SUPP-02-bb_02_wsi_0156,Kidney,Kidney,provided,0.9999548735219199,0.7939417068885661,gigapath
+SUPP-02-bb_02_wsi_0077,7,SUPP-02-bb_02_wsi_0145,Kidney,Kidney,provided,0.9999548735219199,0.7806258497685881,gigapath
+SUPP-02-bb_02_wsi_0077,8,SUPP-02-bb_02_wsi_0139,Kidney,Kidney,provided,0.9999548735219199,0.7346196523116824,gigapath
+SUPP-02-bb_02_wsi_0077,9,SUPP-02-bb_02_wsi_0151,Kidney,Kidney,provided,0.9999548735219199,0.7075665573489978,gigapath
+SUPP-02-bb_02_wsi_0077,10,SUPP-02-bb_02_wsi_0098,Kidney,Kidney,provided,0.9999548735219199,0.692480234398055,gigapath
+SUPP-02-bb_02_wsi_0078,1,SUPP-02-bb_02_wsi_0041,Lung,Lung,provided,0.9960753423867319,0.685863993978479,gigapath
+SUPP-02-bb_02_wsi_0078,2,SUPP-02-bb_02_wsi_0074,Lung,Lung,predicted,0.9953022956828804,0.6200816567532234,gigapath
+SUPP-02-bb_02_wsi_0078,3,SUPP-02-bb_02_wsi_0060,Lung,Lung,predicted,0.9956589467354817,0.608191468182975,gigapath
+SUPP-02-bb_02_wsi_0078,4,SUPP-02-bb_02_wsi_0054,Lung,Lung,provided,0.9960753423867319,0.5953591230406617,gigapath
+SUPP-02-bb_02_wsi_0078,5,SUPP-02-bb_02_wsi_0064,Lung,Lung,predicted,0.9938920631575562,0.5970917251953474,gigapath
+SUPP-02-bb_02_wsi_0078,6,SUPP-02-bb_02_wsi_0051,Lung,Lung,provided,0.9960753423867319,0.5824698443697832,gigapath
+SUPP-02-bb_02_wsi_0078,7,SUPP-02-bb_02_wsi_0058,Lung,Lung,predicted,0.9959182568667612,0.5621172706353287,gigapath
+SUPP-02-bb_02_wsi_0078,8,SUPP-02-bb_02_wsi_0052,Lung,Lung,provided,0.9960753423867319,0.549119450005215,gigapath
+SUPP-02-bb_02_wsi_0078,9,SUPP-02-bb_02_wsi_0076,Lung,Lung,provided,0.9960753423867319,0.5242484174125032,gigapath
+SUPP-02-bb_02_wsi_0078,10,SUPP-02-bb_02_wsi_0073,Lung,Lung,provided,0.9960753423867319,0.5176482536645183,gigapath
+SUPP-02-bb_02_wsi_0079,1,SUPP-02-bb_02_wsi_0166,Kidney,Kidney,predicted,0.5736552603061148,0.5049636418951223,gigapath
+SUPP-02-bb_02_wsi_0079,2,SUPP-02-bb_02_wsi_0133,Kidney,Kidney,provided,0.5759246407707614,0.3282135120672434,gigapath
+SUPP-02-bb_02_wsi_0079,3,SUPP-02-bb_02_wsi_0164,Kidney,Kidney,provided,0.5759246407707614,0.31944425351264066,gigapath
+SUPP-02-bb_02_wsi_0079,4,SUPP-02-bb_02_wsi_0098,Kidney,Kidney,provided,0.5759246407707614,0.3186089853753385,gigapath
+SUPP-02-bb_02_wsi_0079,5,SUPP-02-bb_02_wsi_0088,Kidney,Kidney,provided,0.5759246407707614,0.31704688793396596,gigapath
+SUPP-02-bb_02_wsi_0079,6,SUPP-02-bb_02_wsi_0077,Kidney,Kidney,predicted,0.5759004154669578,0.3141609246046255,gigapath
+SUPP-02-bb_02_wsi_0079,7,SUPP-02-bb_02_wsi_0126,Kidney,Kidney,predicted,0.5742702890487362,0.3229381018782714,gigapath
+SUPP-02-bb_02_wsi_0079,8,SUPP-02-bb_02_wsi_0151,Kidney,Kidney,provided,0.5759246407707614,0.3128469015698248,gigapath
+SUPP-02-bb_02_wsi_0079,9,SUPP-02-bb_02_wsi_0139,Kidney,Kidney,provided,0.5759246407707614,0.3010648552734199,gigapath
+SUPP-02-bb_02_wsi_0079,10,SUPP-02-bb_02_wsi_0145,Kidney,Kidney,provided,0.5759246407707614,0.3001039659910025,gigapath
+SUPP-02-bb_02_wsi_0090,1,SUPP-02-bb_02_wsi_0105,Thyroid,Thyroid,provided,0.999955339704642,0.8054706718167284,gigapath
+SUPP-02-bb_02_wsi_0090,2,SUPP-02-bb_02_wsi_0154,Thyroid,Thyroid,provided,0.999955339704642,0.7644856271751835,gigapath
+SUPP-02-bb_02_wsi_0090,3,SUPP-02-bb_02_wsi_0109,Thyroid,Thyroid,provided,0.999955339704642,0.7357661851851565,gigapath
+SUPP-02-bb_02_wsi_0090,4,SUPP-02-bb_02_wsi_0046,Thyroid,Thyroid,provided,0.999955339704642,0.7113777458404079,gigapath
+SUPP-02-bb_02_wsi_0090,5,SUPP-02-bb_02_wsi_0158,Thyroid,Thyroid,provided,0.999955339704642,0.6945406796105038,gigapath
+SUPP-02-bb_02_wsi_0090,6,SUPP-02-bb_02_wsi_0033,Thyroid,Thyroid,provided,0.999955339704642,0.6906771379982419,gigapath
+SUPP-02-bb_02_wsi_0090,7,SUPP-02-bb_02_wsi_0140,Thyroid,Thyroid,provided,0.999955339704642,0.6518822798267029,gigapath
+SUPP-02-bb_02_wsi_0090,8,SUPP-02-bb_02_wsi_0152,Thyroid,Thyroid,provided,0.999955339704642,0.6217710953271716,gigapath
+SUPP-02-bb_02_wsi_0090,9,SUPP-02-bb_02_wsi_0129,Thyroid,Thyroid,provided,0.999955339704642,0.6067531519187819,gigapath
+SUPP-02-bb_02_wsi_0090,10,SUPP-02-bb_02_wsi_0150,Thyroid,Thyroid,provided,0.999955339704642,0.5783559820573098,gigapath
+SUPP-02-bb_02_wsi_0091,1,SUPP-02-bb_02_wsi_0067,Colon and rectum,Colon and rectum,predicted,0.9999491939138578,0.8091941611326053,gigapath
+SUPP-02-bb_02_wsi_0091,2,SUPP-02-bb_02_wsi_0027,Colon and rectum,Colon and rectum,provided,0.9999978324365347,0.801159679966691,gigapath
+SUPP-02-bb_02_wsi_0091,3,SUPP-02-bb_02_wsi_0099,Colon and rectum,Colon and rectum,provided,0.9999978324365347,0.7639638451770558,gigapath
+SUPP-02-bb_02_wsi_0091,4,SUPP-02-bb_02_wsi_0102,Colon and rectum,Colon and rectum,provided,0.9999978324365347,0.7324469201343045,gigapath
+SUPP-02-bb_02_wsi_0091,5,SUPP-02-bb_02_wsi_0107,Colon and rectum,Colon and rectum,predicted,0.998251069684781,0.6942120428011874,gigapath
+SUPP-02-bb_02_wsi_0091,6,SUPP-02-bb_02_wsi_0082,Colon and rectum,Colon and rectum,provided,0.9999978324365347,0.6527620330736725,gigapath
+SUPP-02-bb_02_wsi_0091,7,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.9999978324365347,0.6312526758060399,gigapath
+SUPP-02-bb_02_wsi_0091,8,SUPP-02-bb_02_wsi_0115,Colon and rectum,Colon and rectum,provided,0.9999978324365347,0.609925018533166,gigapath
+SUPP-02-bb_02_wsi_0091,9,SUPP-02-bb_02_wsi_0031,Colon and rectum,Colon and rectum,provided,0.9999978324365347,0.6062038173280772,gigapath
+SUPP-02-bb_02_wsi_0091,10,SUPP-02-bb_02_wsi_0161,Colon and rectum,Colon and rectum,predicted,0.9950849147977262,0.6341112554412104,gigapath
+SUPP-02-bb_02_wsi_0092,1,SUPP-02-bb_02_wsi_0129,Thyroid,Thyroid,provided,0.9999391898067094,0.7796606993513872,gigapath
+SUPP-02-bb_02_wsi_0092,2,SUPP-02-bb_02_wsi_0152,Thyroid,Thyroid,provided,0.9999391898067094,0.7234090351344791,gigapath
+SUPP-02-bb_02_wsi_0092,3,SUPP-02-bb_02_wsi_0154,Thyroid,Thyroid,provided,0.9999391898067094,0.6525050695540574,gigapath
+SUPP-02-bb_02_wsi_0092,4,SUPP-02-bb_02_wsi_0105,Thyroid,Thyroid,provided,0.9999391898067094,0.643599604335811,gigapath
+SUPP-02-bb_02_wsi_0092,5,SUPP-02-bb_02_wsi_0033,Thyroid,Thyroid,provided,0.9999391898067094,0.5933150945241408,gigapath
+SUPP-02-bb_02_wsi_0092,6,SUPP-02-bb_02_wsi_0157,Thyroid,Thyroid,predicted,0.9911445939815019,0.6353940445813229,gigapath
+SUPP-02-bb_02_wsi_0092,7,SUPP-02-bb_02_wsi_0109,Thyroid,Thyroid,provided,0.9999391898067094,0.5795566030733363,gigapath
+SUPP-02-bb_02_wsi_0092,8,SUPP-02-bb_02_wsi_0072,Thyroid,Thyroid,provided,0.9999391898067094,0.5764613199139306,gigapath
+SUPP-02-bb_02_wsi_0092,9,SUPP-02-bb_02_wsi_0046,Thyroid,Thyroid,provided,0.9999391898067094,0.5662106468508539,gigapath
+SUPP-02-bb_02_wsi_0092,10,SUPP-02-bb_02_wsi_0090,Thyroid,Thyroid,predicted,0.9998945325135342,0.5564056914063017,gigapath
+SUPP-02-bb_02_wsi_0093,1,SUPP-02-bb_02_wsi_0069,Thyroid,Thyroid,predicted,0.6828013190824684,0.7627052578771792,gigapath
+SUPP-02-bb_02_wsi_0093,2,SUPP-02-bb_02_wsi_0072,Thyroid,Thyroid,provided,0.6863018940715614,0.6306352420872583,gigapath
+SUPP-02-bb_02_wsi_0093,3,SUPP-02-bb_02_wsi_0154,Thyroid,Thyroid,provided,0.6863018940715614,0.6179198018419116,gigapath
+SUPP-02-bb_02_wsi_0093,4,SUPP-02-bb_02_wsi_0092,Thyroid,Thyroid,predicted,0.6862617212922851,0.6109971890161089,gigapath
+SUPP-02-bb_02_wsi_0093,5,SUPP-02-bb_02_wsi_0129,Thyroid,Thyroid,provided,0.6863018940715614,0.5734469327203017,gigapath
+SUPP-02-bb_02_wsi_0093,6,SUPP-02-bb_02_wsi_0109,Thyroid,Thyroid,provided,0.6863018940715614,0.5652699149471982,gigapath
+SUPP-02-bb_02_wsi_0093,7,SUPP-02-bb_02_wsi_0046,Thyroid,Thyroid,provided,0.6863018940715614,0.5316047840159402,gigapath
+SUPP-02-bb_02_wsi_0093,8,SUPP-02-bb_02_wsi_0152,Thyroid,Thyroid,provided,0.6863018940715614,0.500740535602265,gigapath
+SUPP-02-bb_02_wsi_0093,9,SUPP-02-bb_02_wsi_0150,Thyroid,Thyroid,provided,0.6863018940715614,0.4705386707530672,gigapath
+SUPP-02-bb_02_wsi_0093,10,SUPP-02-bb_02_wsi_0033,Thyroid,Thyroid,provided,0.6863018940715614,0.45757214348708164,gigapath
+SUPP-02-bb_02_wsi_0094,1,SUPP-02-bb_02_wsi_0061,Colon and rectum,Colon and rectum,provided,0.999867663347715,0.7217117395789067,gigapath
+SUPP-02-bb_02_wsi_0094,2,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.999867663347715,0.6940512394272853,gigapath
+SUPP-02-bb_02_wsi_0094,3,SUPP-02-bb_02_wsi_0104,Colon and rectum,Colon and rectum,predicted,0.9951729717016933,0.7108191462896897,gigapath
+SUPP-02-bb_02_wsi_0094,4,SUPP-02-bb_02_wsi_0017,Colon and rectum,Colon and rectum,provided,0.999867663347715,0.6625249242947472,gigapath
+SUPP-02-bb_02_wsi_0094,5,SUPP-02-bb_02_wsi_0121,Colon and rectum,Colon and rectum,provided,0.999867663347715,0.6366166298717285,gigapath
+SUPP-02-bb_02_wsi_0094,6,SUPP-02-bb_02_wsi_0062,Colon and rectum,Colon and rectum,provided,0.999867663347715,0.6012138179341044,gigapath
+SUPP-02-bb_02_wsi_0094,7,SUPP-02-bb_02_wsi_0118,Colon and rectum,Colon and rectum,predicted,0.999541834105916,0.59353446169621,gigapath
+SUPP-02-bb_02_wsi_0094,8,SUPP-02-bb_02_wsi_0067,Colon and rectum,Colon and rectum,predicted,0.9998190315525978,0.5658710963257904,gigapath
+SUPP-02-bb_02_wsi_0094,9,SUPP-02-bb_02_wsi_0082,Colon and rectum,Colon and rectum,provided,0.999867663347715,0.5530360569673693,gigapath
+SUPP-02-bb_02_wsi_0094,10,SUPP-02-bb_02_wsi_0031,Colon and rectum,Colon and rectum,provided,0.999867663347715,0.5454549602317252,gigapath
+SUPP-02-bb_02_wsi_0097,1,SUPP-02-bb_02_wsi_0066,Breast,Breast,provided,0.34780182389738945,0.5672797210000045,gigapath
+SUPP-02-bb_02_wsi_0097,2,SUPP-02-bb_02_wsi_0056,Breast,Breast,predicted,0.3477912861375289,0.46506820529822673,gigapath
+SUPP-02-bb_02_wsi_0097,3,SUPP-02-bb_02_wsi_0070,Breast,Breast,provided,0.34780182389738945,0.46174405328109375,gigapath
+SUPP-02-bb_02_wsi_0097,4,SUPP-02-bb_02_wsi_0122,Breast,Breast,provided,0.34780182389738945,0.45972056588242877,gigapath
+SUPP-02-bb_02_wsi_0097,5,SUPP-02-bb_02_wsi_0125,Breast,Bladder,provided,0.33380934375462307,0.527785324105288,gigapath
+SUPP-02-bb_02_wsi_0097,6,SUPP-02-bb_02_wsi_0075,Breast,Breast,provided,0.34780182389738945,0.42531435590362776,gigapath
+SUPP-02-bb_02_wsi_0097,7,SUPP-02-bb_02_wsi_0137,Breast,Breast,provided,0.34780182389738945,0.41619096930991234,gigapath
+SUPP-02-bb_02_wsi_0097,8,SUPP-02-bb_02_wsi_0018,Breast,Breast,provided,0.34780182389738945,0.41240089996162616,gigapath
+SUPP-02-bb_02_wsi_0097,9,SUPP-02-bb_02_wsi_0196,Breast,Bladder,provided,0.33380934375462307,0.4758788010143473,gigapath
+SUPP-02-bb_02_wsi_0097,10,SUPP-02-bb_02_wsi_0199,Breast,Bladder,provided,0.33380934375462307,0.47306551733371527,gigapath
+SUPP-02-bb_02_wsi_0104,1,SUPP-02-bb_02_wsi_0061,Colon and rectum,Colon and rectum,provided,0.9953046679506786,0.823409452647262,gigapath
+SUPP-02-bb_02_wsi_0104,2,SUPP-02-bb_02_wsi_0017,Colon and rectum,Colon and rectum,provided,0.9953046679506786,0.7696727237125273,gigapath
+SUPP-02-bb_02_wsi_0104,3,SUPP-02-bb_02_wsi_0121,Colon and rectum,Colon and rectum,provided,0.9953046679506786,0.7268065748025491,gigapath
+SUPP-02-bb_02_wsi_0104,4,SUPP-02-bb_02_wsi_0094,Colon and rectum,Colon and rectum,predicted,0.9951729717016933,0.7108191462896897,gigapath
+SUPP-02-bb_02_wsi_0104,5,SUPP-02-bb_02_wsi_0031,Colon and rectum,Colon and rectum,provided,0.9953046679506786,0.6413204303695005,gigapath
+SUPP-02-bb_02_wsi_0104,6,SUPP-02-bb_02_wsi_0082,Colon and rectum,Colon and rectum,provided,0.9953046679506786,0.6276641768132264,gigapath
+SUPP-02-bb_02_wsi_0104,7,SUPP-02-bb_02_wsi_0118,Colon and rectum,Colon and rectum,predicted,0.994980442838166,0.6231182623072756,gigapath
+SUPP-02-bb_02_wsi_0104,8,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.9953046679506786,0.616502310069516,gigapath
+SUPP-02-bb_02_wsi_0104,9,SUPP-02-bb_02_wsi_0062,Colon and rectum,Colon and rectum,provided,0.9953046679506786,0.52316203601722,gigapath
+SUPP-02-bb_02_wsi_0104,10,SUPP-02-bb_02_wsi_0027,Colon and rectum,Colon and rectum,provided,0.9953046679506786,0.5133035315506976,gigapath
+SUPP-02-bb_02_wsi_0107,1,SUPP-02-bb_02_wsi_0067,Colon and rectum,Colon and rectum,predicted,0.9982046886764155,0.7252872634289645,gigapath
+SUPP-02-bb_02_wsi_0107,2,SUPP-02-bb_02_wsi_0091,Colon and rectum,Colon and rectum,predicted,0.998251069684781,0.6942120428011874,gigapath
+SUPP-02-bb_02_wsi_0107,3,SUPP-02-bb_02_wsi_0099,Colon and rectum,Colon and rectum,provided,0.9982532332205449,0.6756972115912585,gigapath
+SUPP-02-bb_02_wsi_0107,4,SUPP-02-bb_02_wsi_0027,Colon and rectum,Colon and rectum,provided,0.9982532332205449,0.6449880970760459,gigapath
+SUPP-02-bb_02_wsi_0107,5,SUPP-02-bb_02_wsi_0115,Colon and rectum,Colon and rectum,provided,0.9982532332205449,0.5768727907102447,gigapath
+SUPP-02-bb_02_wsi_0107,6,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.9982532332205449,0.5654737759385381,gigapath
+SUPP-02-bb_02_wsi_0107,7,SUPP-02-bb_02_wsi_0102,Colon and rectum,Colon and rectum,provided,0.9982532332205449,0.5385856268063933,gigapath
+SUPP-02-bb_02_wsi_0107,8,SUPP-02-bb_02_wsi_0136,Colon and rectum,Colon and rectum,provided,0.9982532332205449,0.5300635270280374,gigapath
+SUPP-02-bb_02_wsi_0107,9,SUPP-02-bb_02_wsi_0138,Colon and rectum,Colon and rectum,predicted,0.9981234521858486,0.5076796391618354,gigapath
+SUPP-02-bb_02_wsi_0107,10,SUPP-02-bb_02_wsi_0161,Colon and rectum,Colon and rectum,predicted,0.9933493462551327,0.5362570871876295,gigapath
+SUPP-02-bb_02_wsi_0114,1,SUPP-02-bb_02_wsi_0085,Colon and rectum,Colon and rectum,provided,0.6636472644614554,0.505022990889043,gigapath
+SUPP-02-bb_02_wsi_0114,2,SUPP-02-bb_02_wsi_0136,Colon and rectum,Colon and rectum,provided,0.6636472644614554,0.46402736275387313,gigapath
+SUPP-02-bb_02_wsi_0114,3,SUPP-02-bb_02_wsi_0031,Colon and rectum,Colon and rectum,provided,0.6636472644614554,0.4206433209293432,gigapath
+SUPP-02-bb_02_wsi_0114,4,SUPP-02-bb_02_wsi_0118,Colon and rectum,Colon and rectum,predicted,0.6634386740349782,0.4197927413394067,gigapath
+SUPP-02-bb_02_wsi_0114,5,SUPP-02-bb_02_wsi_0082,Colon and rectum,Colon and rectum,provided,0.6636472644614554,0.41005253710577133,gigapath
+SUPP-02-bb_02_wsi_0114,6,SUPP-02-bb_02_wsi_0138,Colon and rectum,Colon and rectum,predicted,0.6635638159838326,0.4096252348715706,gigapath
+SUPP-02-bb_02_wsi_0114,7,SUPP-02-bb_02_wsi_0161,Colon and rectum,Colon and rectum,predicted,0.6604972179927744,0.40250406897512797,gigapath
+SUPP-02-bb_02_wsi_0114,8,SUPP-02-bb_02_wsi_0061,Colon and rectum,Colon and rectum,provided,0.6636472644614554,0.3558698261126618,gigapath
+SUPP-02-bb_02_wsi_0114,9,SUPP-02-bb_02_wsi_0065,Colon and rectum,Colon and rectum,provided,0.6636472644614554,0.35409779679982195,gigapath
+SUPP-02-bb_02_wsi_0114,10,SUPP-02-bb_02_wsi_0017,Colon and rectum,Colon and rectum,provided,0.6636472644614554,0.33640239729247107,gigapath
+SUPP-02-bb_02_wsi_0117,1,SUPP-02-bb_02_wsi_0119,Stomach,Stomach,provided,0.9159430304381633,0.6516721709033562,gigapath
+SUPP-02-bb_02_wsi_0117,2,SUPP-02-bb_02_wsi_0084,Stomach,Stomach,provided,0.9159430304381633,0.5827703073798759,gigapath
+SUPP-02-bb_02_wsi_0117,3,SUPP-02-bb_02_wsi_0038,Stomach,Stomach,predicted,0.9154812953829585,0.527171245220474,gigapath
+SUPP-02-bb_02_wsi_0117,4,SUPP-02-bb_02_wsi_0019,Stomach,Stomach,predicted,0.9118693660933633,0.519524912723858,gigapath
+SUPP-02-bb_02_wsi_0117,5,SUPP-02-bb_02_wsi_0068,Stomach,Stomach,provided,0.9159430304381633,0.48960029723424486,gigapath
+SUPP-02-bb_02_wsi_0117,6,SUPP-02-bb_02_wsi_0080,Stomach,Stomach,provided,0.9159430304381633,0.44468684482829623,gigapath
+SUPP-02-bb_02_wsi_0117,7,SUPP-02-bb_02_wsi_0037,Stomach,Stomach,provided,0.9159430304381633,0.383511713044877,gigapath
+SUPP-02-bb_02_wsi_0117,8,SUPP-02-bb_02_wsi_0120,Stomach,Stomach,provided,0.9159430304381633,0.37617303887227577,gigapath
+SUPP-02-bb_02_wsi_0117,9,SUPP-02-bb_02_wsi_0106,Stomach,Stomach,provided,0.9159430304381633,0.34819094620541213,gigapath
+SUPP-02-bb_02_wsi_0117,10,SUPP-02-bb_02_wsi_0103,Stomach,Stomach,provided,0.9159430304381633,0.33309657128428727,gigapath
+SUPP-02-bb_02_wsi_0118,1,SUPP-02-bb_02_wsi_0061,Colon and rectum,Colon and rectum,provided,0.9996741246401344,0.6624138347282003,gigapath
+SUPP-02-bb_02_wsi_0118,2,SUPP-02-bb_02_wsi_0121,Colon and rectum,Colon and rectum,provided,0.9996741246401344,0.6540058027784578,gigapath
+SUPP-02-bb_02_wsi_0118,3,SUPP-02-bb_02_wsi_0104,Colon and rectum,Colon and rectum,predicted,0.994980442838166,0.6231182623072756,gigapath
+SUPP-02-bb_02_wsi_0118,4,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.9996741246401344,0.59321565692246,gigapath
+SUPP-02-bb_02_wsi_0118,5,SUPP-02-bb_02_wsi_0094,Colon and rectum,Colon and rectum,predicted,0.999541834105916,0.59353446169621,gigapath
+SUPP-02-bb_02_wsi_0118,6,SUPP-02-bb_02_wsi_0082,Colon and rectum,Colon and rectum,provided,0.9996741246401344,0.5897196252291179,gigapath
+SUPP-02-bb_02_wsi_0118,7,SUPP-02-bb_02_wsi_0017,Colon and rectum,Colon and rectum,provided,0.9996741246401344,0.5801842413073597,gigapath
+SUPP-02-bb_02_wsi_0118,8,SUPP-02-bb_02_wsi_0031,Colon and rectum,Colon and rectum,provided,0.9996741246401344,0.5730747639519719,gigapath
+SUPP-02-bb_02_wsi_0118,9,SUPP-02-bb_02_wsi_0062,Colon and rectum,Colon and rectum,provided,0.9996741246401344,0.5258929624974672,gigapath
+SUPP-02-bb_02_wsi_0118,10,SUPP-02-bb_02_wsi_0148,Colon and rectum,Colon and rectum,provided,0.9996741246401344,0.46727051839315126,gigapath
+SUPP-02-bb_02_wsi_0126,1,SUPP-02-bb_02_wsi_0088,Kidney,Kidney,provided,0.9969898908124176,0.8013348227267233,gigapath
+SUPP-02-bb_02_wsi_0126,2,SUPP-02-bb_02_wsi_0098,Kidney,Kidney,provided,0.9969898908124176,0.740893154874374,gigapath
+SUPP-02-bb_02_wsi_0126,3,SUPP-02-bb_02_wsi_0164,Kidney,Kidney,provided,0.9969898908124176,0.7214951460712986,gigapath
+SUPP-02-bb_02_wsi_0126,4,SUPP-02-bb_02_wsi_0139,Kidney,Kidney,provided,0.9969898908124176,0.7212863554384517,gigapath
+SUPP-02-bb_02_wsi_0126,5,SUPP-02-bb_02_wsi_0151,Kidney,Kidney,provided,0.9969898908124176,0.7161925977673612,gigapath
+SUPP-02-bb_02_wsi_0126,6,SUPP-02-bb_02_wsi_0077,Kidney,Kidney,predicted,0.9969449112150286,0.7082417191101681,gigapath
+SUPP-02-bb_02_wsi_0126,7,SUPP-02-bb_02_wsi_0163,Kidney,Kidney,provided,0.9969898908124176,0.6823878158057702,gigapath
+SUPP-02-bb_02_wsi_0126,8,SUPP-02-bb_02_wsi_0145,Kidney,Kidney,provided,0.9969898908124176,0.6681461414758382,gigapath
+SUPP-02-bb_02_wsi_0126,9,SUPP-02-bb_02_wsi_0153,Kidney,Kidney,provided,0.9969898908124176,0.6305133639363499,gigapath
+SUPP-02-bb_02_wsi_0126,10,SUPP-02-bb_02_wsi_0133,Kidney,Kidney,provided,0.9969898908124176,0.5927600577112665,gigapath
+SUPP-02-bb_02_wsi_0127,1,SUPP-02-bb_02_wsi_0085,Colon and rectum,Colon and rectum,provided,0.7479835772356704,0.45027563326194453,gigapath
+SUPP-02-bb_02_wsi_0127,2,SUPP-02-bb_02_wsi_0136,Colon and rectum,Colon and rectum,provided,0.7479835772356704,0.4102084310992655,gigapath
+SUPP-02-bb_02_wsi_0127,3,SUPP-02-bb_02_wsi_0118,Colon and rectum,Colon and rectum,predicted,0.7477461804836182,0.40864628528713054,gigapath
+SUPP-02-bb_02_wsi_0127,4,SUPP-02-bb_02_wsi_0031,Colon and rectum,Colon and rectum,provided,0.7479835772356704,0.3810612335337782,gigapath
+SUPP-02-bb_02_wsi_0127,5,SUPP-02-bb_02_wsi_0138,Colon and rectum,Colon and rectum,predicted,0.7478882523596265,0.37723011071571966,gigapath
+SUPP-02-bb_02_wsi_0127,6,SUPP-02-bb_02_wsi_0082,Colon and rectum,Colon and rectum,provided,0.7479835772356704,0.3644760515835375,gigapath
+SUPP-02-bb_02_wsi_0127,7,SUPP-02-bb_02_wsi_0161,Colon and rectum,Colon and rectum,predicted,0.7444064479608853,0.3777505117866275,gigapath
+SUPP-02-bb_02_wsi_0127,8,SUPP-02-bb_02_wsi_0065,Colon and rectum,Colon and rectum,provided,0.7479835772356704,0.3169705215710452,gigapath
+SUPP-02-bb_02_wsi_0127,9,SUPP-02-bb_02_wsi_0061,Colon and rectum,Colon and rectum,provided,0.7479835772356704,0.31683528742087247,gigapath
+SUPP-02-bb_02_wsi_0127,10,SUPP-02-bb_02_wsi_0108,Colon and rectum,Colon and rectum,provided,0.7479835772356704,0.31211790759807984,gigapath
+SUPP-02-bb_02_wsi_0130,1,SUPP-02-bb_02_wsi_0167,Uterus,Uterus,provided,0.9031579800739866,0.683039759038393,gigapath
+SUPP-02-bb_02_wsi_0130,2,SUPP-02-bb_02_wsi_0174,Uterus,Uterus,provided,0.9031579800739866,0.6180045231381428,gigapath
+SUPP-02-bb_02_wsi_0130,3,SUPP-02-bb_02_wsi_0165,Uterus,Uterus,provided,0.9031579800739866,0.6176228880331582,gigapath
+SUPP-02-bb_02_wsi_0130,4,SUPP-02-bb_02_wsi_0142,Uterus,Uterus,provided,0.9031579800739866,0.602302487003378,gigapath
+SUPP-02-bb_02_wsi_0130,5,SUPP-02-bb_02_wsi_0134,Uterus,Uterus,provided,0.9031579800739866,0.565077052732206,gigapath
+SUPP-02-bb_02_wsi_0130,6,SUPP-02-bb_02_wsi_0159,Uterus,Uterus,predicted,0.9019943821722642,0.5710316363564667,gigapath
+SUPP-02-bb_02_wsi_0130,7,SUPP-02-bb_02_wsi_0144,Uterus,Uterus,provided,0.9031579800739866,0.5506295855067137,gigapath
+SUPP-02-bb_02_wsi_0130,8,SUPP-02-bb_02_wsi_0168,Uterus,Uterus,provided,0.9031579800739866,0.5506126909614592,gigapath
+SUPP-02-bb_02_wsi_0130,9,SUPP-02-bb_02_wsi_0096,Uterus,Uterus,provided,0.9031579800739866,0.5142171306185215,gigapath
+SUPP-02-bb_02_wsi_0130,10,SUPP-02-bb_02_wsi_0169,Uterus,Uterus,provided,0.9031579800739866,0.5053134413491314,gigapath
+SUPP-02-bb_02_wsi_0131,1,SUPP-02-bb_02_wsi_0141,Uterus,Uterus,provided,0.9975444286132529,0.7411069942698592,gigapath
+SUPP-02-bb_02_wsi_0131,2,SUPP-02-bb_02_wsi_0142,Uterus,Uterus,provided,0.9975444286132529,0.7272161995423766,gigapath
+SUPP-02-bb_02_wsi_0131,3,SUPP-02-bb_02_wsi_0144,Uterus,Uterus,provided,0.9975444286132529,0.7039552269002899,gigapath
+SUPP-02-bb_02_wsi_0131,4,SUPP-02-bb_02_wsi_0134,Uterus,Uterus,provided,0.9975444286132529,0.5945480897933668,gigapath
+SUPP-02-bb_02_wsi_0131,5,SUPP-02-bb_02_wsi_0169,Uterus,Uterus,provided,0.9975444286132529,0.5679222939108557,gigapath
+SUPP-02-bb_02_wsi_0131,6,SUPP-02-bb_02_wsi_0159,Uterus,Uterus,predicted,0.9962546834648853,0.487961967434141,gigapath
+SUPP-02-bb_02_wsi_0131,7,SUPP-02-bb_02_wsi_0168,Uterus,Uterus,provided,0.9975444286132529,0.46617615171994464,gigapath
+SUPP-02-bb_02_wsi_0131,8,SUPP-02-bb_02_wsi_0165,Uterus,Uterus,provided,0.9975444286132529,0.4413464284547363,gigapath
+SUPP-02-bb_02_wsi_0131,9,SUPP-02-bb_02_wsi_0111,Uterus,Uterus,provided,0.9975444286132529,0.43621664695542284,gigapath
+SUPP-02-bb_02_wsi_0131,10,SUPP-02-bb_02_wsi_0096,Uterus,Uterus,provided,0.9975444286132529,0.428821129115446,gigapath
+SUPP-02-bb_02_wsi_0132,1,SUPP-02-bb_02_wsi_0122,Breast,Breast,provided,0.5063230794467535,0.4620939519538568,gigapath
+SUPP-02-bb_02_wsi_0132,2,SUPP-02-bb_02_wsi_0056,Breast,Breast,predicted,0.506307282498583,0.398708889028921,gigapath
+SUPP-02-bb_02_wsi_0132,3,SUPP-02-bb_02_wsi_0075,Breast,Breast,provided,0.5063230794467535,0.3632336447453283,gigapath
+SUPP-02-bb_02_wsi_0132,4,SUPP-02-bb_02_wsi_0137,Breast,Breast,provided,0.5063230794467535,0.34918035734186015,gigapath
+SUPP-02-bb_02_wsi_0132,5,SUPP-02-bb_02_wsi_0066,Breast,Breast,provided,0.5063230794467535,0.3446697110224473,gigapath
+SUPP-02-bb_02_wsi_0132,6,SUPP-02-bb_02_wsi_0018,Breast,Breast,provided,0.5063230794467535,0.3344142441192301,gigapath
+SUPP-02-bb_02_wsi_0132,7,SUPP-02-bb_02_wsi_0070,Breast,Breast,provided,0.5063230794467535,0.3313014055894623,gigapath
+SUPP-02-bb_02_wsi_0132,8,SUPP-02-bb_02_wsi_0110,Breast,Breast,provided,0.5063230794467535,0.316378346741736,gigapath
+SUPP-02-bb_02_wsi_0132,9,SUPP-02-bb_02_wsi_0101,Breast,Breast,provided,0.5063230794467535,0.31435959338904373,gigapath
+SUPP-02-bb_02_wsi_0132,10,SUPP-02-bb_02_wsi_0057,Breast,Breast,provided,0.5063230794467535,0.3081984475366669,gigapath
+SUPP-02-bb_02_wsi_0135,1,SUPP-02-bb_02_wsi_0183,Liver,Liver,provided,0.5606921523537629,0.5525901257590999,gigapath
+SUPP-02-bb_02_wsi_0135,2,SUPP-02-bb_02_wsi_0187,Liver,Liver,predicted,0.559716261918298,0.493419050996898,gigapath
+SUPP-02-bb_02_wsi_0135,3,SUPP-02-bb_02_wsi_0180,Liver,Liver,provided,0.5606921523537629,0.4634610474871792,gigapath
+SUPP-02-bb_02_wsi_0135,4,SUPP-02-bb_02_wsi_0185,Liver,Liver,provided,0.5606921523537629,0.451169376462962,gigapath
+SUPP-02-bb_02_wsi_0135,5,SUPP-02-bb_02_wsi_0181,Liver,Liver,provided,0.5606921523537629,0.4387325365151254,gigapath
+SUPP-02-bb_02_wsi_0135,6,SUPP-02-bb_02_wsi_0178,Liver,Liver,provided,0.5606921523537629,0.42811006570912424,gigapath
+SUPP-02-bb_02_wsi_0135,7,SUPP-02-bb_02_wsi_0177,Liver,Liver,provided,0.5606921523537629,0.4233491668672249,gigapath
+SUPP-02-bb_02_wsi_0135,8,SUPP-02-bb_02_wsi_0186,Liver,Liver,provided,0.5606921523537629,0.3988468595757414,gigapath
+SUPP-02-bb_02_wsi_0135,9,SUPP-02-bb_02_wsi_0189,Liver,Liver,provided,0.5606921523537629,0.38472865442755094,gigapath
+SUPP-02-bb_02_wsi_0135,10,SUPP-02-bb_02_wsi_0089,Liver,Liver,provided,0.5606921523537629,0.3752316061463691,gigapath
+SUPP-02-bb_02_wsi_0138,1,SUPP-02-bb_02_wsi_0065,Colon and rectum,Colon and rectum,provided,0.9998699676474262,0.8372713829033877,gigapath
+SUPP-02-bb_02_wsi_0138,2,SUPP-02-bb_02_wsi_0136,Colon and rectum,Colon and rectum,provided,0.9998699676474262,0.8004170201788648,gigapath
+SUPP-02-bb_02_wsi_0138,3,SUPP-02-bb_02_wsi_0082,Colon and rectum,Colon and rectum,provided,0.9998699676474262,0.5479226233392753,gigapath
+SUPP-02-bb_02_wsi_0138,4,SUPP-02-bb_02_wsi_0107,Colon and rectum,Colon and rectum,predicted,0.9981234521858486,0.5076796391618354,gigapath
+SUPP-02-bb_02_wsi_0138,5,SUPP-02-bb_02_wsi_0085,Colon and rectum,Colon and rectum,provided,0.9998699676474262,0.43884454010728546,gigapath
+SUPP-02-bb_02_wsi_0138,6,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.9998699676474262,0.4273315142311663,gigapath
+SUPP-02-bb_02_wsi_0138,7,SUPP-02-bb_02_wsi_0067,Colon and rectum,Colon and rectum,predicted,0.9998213359552764,0.4190883715829147,gigapath
+SUPP-02-bb_02_wsi_0138,8,SUPP-02-bb_02_wsi_0017,Colon and rectum,Colon and rectum,provided,0.9998699676474262,0.4156999489146916,gigapath
+SUPP-02-bb_02_wsi_0138,9,SUPP-02-bb_02_wsi_0061,Colon and rectum,Colon and rectum,provided,0.9998699676474262,0.40738240939043313,gigapath
+SUPP-02-bb_02_wsi_0138,10,SUPP-02-bb_02_wsi_0094,Colon and rectum,Colon and rectum,predicted,0.9997376491320887,0.4060977284377058,gigapath
+SUPP-02-bb_02_wsi_0155,1,SUPP-02-bb_02_wsi_0069,Thyroid,Thyroid,predicted,0.6444781047524839,0.6334591593472302,gigapath
+SUPP-02-bb_02_wsi_0155,2,SUPP-02-bb_02_wsi_0072,Thyroid,Thyroid,provided,0.6478082870343349,0.6101953005969537,gigapath
+SUPP-02-bb_02_wsi_0155,3,SUPP-02-bb_02_wsi_0109,Thyroid,Thyroid,provided,0.6478082870343349,0.5593222478677307,gigapath
+SUPP-02-bb_02_wsi_0155,4,SUPP-02-bb_02_wsi_0152,Thyroid,Thyroid,provided,0.6478082870343349,0.5240544389742089,gigapath
+SUPP-02-bb_02_wsi_0155,5,SUPP-02-bb_02_wsi_0046,Thyroid,Thyroid,provided,0.6478082870343349,0.4784188732700755,gigapath
+SUPP-02-bb_02_wsi_0155,6,SUPP-02-bb_02_wsi_0092,Thyroid,Thyroid,predicted,0.6477704649563382,0.4700109001643825,gigapath
+SUPP-02-bb_02_wsi_0155,7,SUPP-02-bb_02_wsi_0154,Thyroid,Thyroid,provided,0.6478082870343349,0.46751005260927975,gigapath
+SUPP-02-bb_02_wsi_0155,8,SUPP-02-bb_02_wsi_0033,Thyroid,Thyroid,provided,0.6478082870343349,0.43302683801633607,gigapath
+SUPP-02-bb_02_wsi_0155,9,SUPP-02-bb_02_wsi_0150,Thyroid,Thyroid,provided,0.6478082870343349,0.43120662589592434,gigapath
+SUPP-02-bb_02_wsi_0155,10,SUPP-02-bb_02_wsi_0140,Thyroid,Thyroid,provided,0.6478082870343349,0.4161346067105286,gigapath
+SUPP-02-bb_02_wsi_0157,1,SUPP-02-bb_02_wsi_0092,Thyroid,Thyroid,predicted,0.9911445939815019,0.6353940445813229,gigapath
+SUPP-02-bb_02_wsi_0157,2,SUPP-02-bb_02_wsi_0152,Thyroid,Thyroid,provided,0.9912048178343325,0.59968328303455,gigapath
+SUPP-02-bb_02_wsi_0157,3,SUPP-02-bb_02_wsi_0105,Thyroid,Thyroid,provided,0.9912048178343325,0.5886452332328915,gigapath
+SUPP-02-bb_02_wsi_0157,4,SUPP-02-bb_02_wsi_0033,Thyroid,Thyroid,provided,0.9912048178343325,0.5238687925683263,gigapath
+SUPP-02-bb_02_wsi_0157,5,SUPP-02-bb_02_wsi_0154,Thyroid,Thyroid,provided,0.9912048178343325,0.5227872311888943,gigapath
+SUPP-02-bb_02_wsi_0157,6,SUPP-02-bb_02_wsi_0129,Thyroid,Thyroid,provided,0.9912048178343325,0.5144937460684632,gigapath
+SUPP-02-bb_02_wsi_0157,7,SUPP-02-bb_02_wsi_0158,Thyroid,Thyroid,provided,0.9912048178343325,0.475004033558695,gigapath
+SUPP-02-bb_02_wsi_0157,8,SUPP-02-bb_02_wsi_0109,Thyroid,Thyroid,provided,0.9912048178343325,0.44966402873732186,gigapath
+SUPP-02-bb_02_wsi_0157,9,SUPP-02-bb_02_wsi_0090,Thyroid,Thyroid,predicted,0.9911605763878728,0.4276704581660365,gigapath
+SUPP-02-bb_02_wsi_0157,10,SUPP-02-bb_02_wsi_0143,Thyroid,Thyroid,provided,0.9912048178343325,0.39563967690275853,gigapath
+SUPP-02-bb_02_wsi_0159,1,SUPP-02-bb_02_wsi_0169,Uterus,Uterus,provided,0.9987069295714869,0.8613159794333414,gigapath
+SUPP-02-bb_02_wsi_0159,2,SUPP-02-bb_02_wsi_0141,Uterus,Uterus,provided,0.9987069295714869,0.6609848033772616,gigapath
+SUPP-02-bb_02_wsi_0159,3,SUPP-02-bb_02_wsi_0142,Uterus,Uterus,provided,0.9987069295714869,0.6609234018592065,gigapath
+SUPP-02-bb_02_wsi_0159,4,SUPP-02-bb_02_wsi_0096,Uterus,Uterus,provided,0.9987069295714869,0.6060172238150777,gigapath
+SUPP-02-bb_02_wsi_0159,5,SUPP-02-bb_02_wsi_0134,Uterus,Uterus,provided,0.9987069295714869,0.6007790046803411,gigapath
+SUPP-02-bb_02_wsi_0159,6,SUPP-02-bb_02_wsi_0167,Uterus,Uterus,provided,0.9987069295714869,0.5591411253456694,gigapath
+SUPP-02-bb_02_wsi_0159,7,SUPP-02-bb_02_wsi_0111,Uterus,Uterus,provided,0.9987069295714869,0.5433749869232224,gigapath
+SUPP-02-bb_02_wsi_0159,8,SUPP-02-bb_02_wsi_0174,Uterus,Uterus,provided,0.9987069295714869,0.5302999755961886,gigapath
+SUPP-02-bb_02_wsi_0159,9,SUPP-02-bb_02_wsi_0144,Uterus,Uterus,provided,0.9987069295714869,0.5038851091885282,gigapath
+SUPP-02-bb_02_wsi_0159,10,SUPP-02-bb_02_wsi_0165,Uterus,Uterus,provided,0.9987069295714869,0.4803898113657234,gigapath
+SUPP-02-bb_02_wsi_0160,1,SUPP-02-bb_02_wsi_0178,Liver,Liver,provided,0.8248027236210623,0.6553338436804479,gigapath
+SUPP-02-bb_02_wsi_0160,2,SUPP-02-bb_02_wsi_0183,Liver,Liver,provided,0.8248027236210623,0.5023106445897394,gigapath
+SUPP-02-bb_02_wsi_0160,3,SUPP-02-bb_02_wsi_0181,Liver,Liver,provided,0.8248027236210623,0.4641379682199702,gigapath
+SUPP-02-bb_02_wsi_0160,4,SUPP-02-bb_02_wsi_0185,Liver,Liver,provided,0.8248027236210623,0.42345089289835536,gigapath
+SUPP-02-bb_02_wsi_0160,5,SUPP-02-bb_02_wsi_0179,Liver,Liver,provided,0.8248027236210623,0.4167797669708253,gigapath
+SUPP-02-bb_02_wsi_0160,6,SUPP-02-bb_02_wsi_0184,Liver,Liver,provided,0.8248027236210623,0.40745453437837953,gigapath
+SUPP-02-bb_02_wsi_0160,7,SUPP-02-bb_02_wsi_0173,Liver,Liver,provided,0.8248027236210623,0.39211116349735053,gigapath
+SUPP-02-bb_02_wsi_0160,8,SUPP-02-bb_02_wsi_0177,Liver,Liver,provided,0.8248027236210623,0.3839525197345841,gigapath
+SUPP-02-bb_02_wsi_0160,9,SUPP-02-bb_02_wsi_0180,Liver,Liver,provided,0.8248027236210623,0.37433694386345034,gigapath
+SUPP-02-bb_02_wsi_0160,10,SUPP-02-bb_02_wsi_0188,Liver,Liver,provided,0.8248027236210623,0.3729079300698704,gigapath
+SUPP-02-bb_02_wsi_0161,1,SUPP-02-bb_02_wsi_0067,Colon and rectum,Colon and rectum,predicted,0.9950386858737588,0.6423432801574559,gigapath
+SUPP-02-bb_02_wsi_0161,2,SUPP-02-bb_02_wsi_0091,Colon and rectum,Colon and rectum,predicted,0.9950849147977262,0.6341112554412104,gigapath
+SUPP-02-bb_02_wsi_0161,3,SUPP-02-bb_02_wsi_0031,Colon and rectum,Colon and rectum,provided,0.9950870709246066,0.6080054073230502,gigapath
+SUPP-02-bb_02_wsi_0161,4,SUPP-02-bb_02_wsi_0082,Colon and rectum,Colon and rectum,provided,0.9950870709246066,0.5905153160797388,gigapath
+SUPP-02-bb_02_wsi_0161,5,SUPP-02-bb_02_wsi_0099,Colon and rectum,Colon and rectum,provided,0.9950870709246066,0.5782502245611697,gigapath
+SUPP-02-bb_02_wsi_0161,6,SUPP-02-bb_02_wsi_0027,Colon and rectum,Colon and rectum,provided,0.9950870709246066,0.5409592564259029,gigapath
+SUPP-02-bb_02_wsi_0161,7,SUPP-02-bb_02_wsi_0121,Colon and rectum,Colon and rectum,provided,0.9950870709246066,0.5353226455882737,gigapath
+SUPP-02-bb_02_wsi_0161,8,SUPP-02-bb_02_wsi_0100,Colon and rectum,Colon and rectum,provided,0.9950870709246066,0.5273951184072577,gigapath
+SUPP-02-bb_02_wsi_0161,9,SUPP-02-bb_02_wsi_0062,Colon and rectum,Colon and rectum,provided,0.9950870709246066,0.5269606981562852,gigapath
+SUPP-02-bb_02_wsi_0161,10,SUPP-02-bb_02_wsi_0107,Colon and rectum,Colon and rectum,predicted,0.9933493462551327,0.5362570871876295,gigapath
+SUPP-02-bb_02_wsi_0166,1,SUPP-02-bb_02_wsi_0133,Kidney,Kidney,provided,0.9953880106383263,0.7359328067784263,gigapath
+SUPP-02-bb_02_wsi_0166,2,SUPP-02-bb_02_wsi_0156,Kidney,Kidney,provided,0.9953880106383263,0.7164571166441319,gigapath
+SUPP-02-bb_02_wsi_0166,3,SUPP-02-bb_02_wsi_0147,Kidney,Kidney,provided,0.9953880106383263,0.7122359145035579,gigapath
+SUPP-02-bb_02_wsi_0166,4,SUPP-02-bb_02_wsi_0077,Kidney,Kidney,predicted,0.9953431130247702,0.7060939529492823,gigapath
+SUPP-02-bb_02_wsi_0166,5,SUPP-02-bb_02_wsi_0164,Kidney,Kidney,provided,0.9953880106383263,0.677567308871232,gigapath
+SUPP-02-bb_02_wsi_0166,6,SUPP-02-bb_02_wsi_0145,Kidney,Kidney,provided,0.9953880106383263,0.6700927040369491,gigapath
+SUPP-02-bb_02_wsi_0166,7,SUPP-02-bb_02_wsi_0153,Kidney,Kidney,provided,0.9953880106383263,0.6447712915926175,gigapath
+SUPP-02-bb_02_wsi_0166,8,SUPP-02-bb_02_wsi_0088,Kidney,Kidney,provided,0.9953880106383263,0.643749168523881,gigapath
+SUPP-02-bb_02_wsi_0166,9,SUPP-02-bb_02_wsi_0151,Kidney,Kidney,provided,0.9953880106383263,0.5538131935859818,gigapath
+SUPP-02-bb_02_wsi_0166,10,SUPP-02-bb_02_wsi_0139,Kidney,Kidney,provided,0.9953880106383263,0.540977463969613,gigapath
+SUPP-02-bb_02_wsi_0171,1,SUPP-02-bb_02_wsi_0096,Uterus,Uterus,provided,0.7745096576994571,0.7142313972221792,gigapath
+SUPP-02-bb_02_wsi_0171,2,SUPP-02-bb_02_wsi_0159,Uterus,Uterus,predicted,0.7735603805176172,0.682807353243873,gigapath
+SUPP-02-bb_02_wsi_0171,3,SUPP-02-bb_02_wsi_0165,Uterus,Uterus,provided,0.7745096576994571,0.6151130913731495,gigapath
+SUPP-02-bb_02_wsi_0171,4,SUPP-02-bb_02_wsi_0169,Uterus,Uterus,provided,0.7745096576994571,0.6127152802437669,gigapath
+SUPP-02-bb_02_wsi_0171,5,SUPP-02-bb_02_wsi_0142,Uterus,Uterus,provided,0.7745096576994571,0.5909705631299482,gigapath
+SUPP-02-bb_02_wsi_0171,6,SUPP-02-bb_02_wsi_0134,Uterus,Uterus,provided,0.7745096576994571,0.5361749950078472,gigapath
+SUPP-02-bb_02_wsi_0171,7,SUPP-02-bb_02_wsi_0144,Uterus,Uterus,provided,0.7745096576994571,0.5195369748177475,gigapath
+SUPP-02-bb_02_wsi_0171,8,SUPP-02-bb_02_wsi_0141,Uterus,Uterus,provided,0.7745096576994571,0.5028394176604072,gigapath
+SUPP-02-bb_02_wsi_0171,9,SUPP-02-bb_02_wsi_0167,Uterus,Uterus,provided,0.7745096576994571,0.4958971796327785,gigapath
+SUPP-02-bb_02_wsi_0171,10,SUPP-02-bb_02_wsi_0174,Uterus,Uterus,provided,0.7745096576994571,0.49183820726545446,gigapath
+SUPP-02-bb_02_wsi_0172,1,SUPP-02-bb_02_wsi_0194,Bladder,Bladder,provided,0.5296770071159643,0.7390751469076762,gigapath
+SUPP-02-bb_02_wsi_0172,2,SUPP-02-bb_02_wsi_0162,Bladder,Bladder,provided,0.5296770071159643,0.6598205497519343,gigapath
+SUPP-02-bb_02_wsi_0172,3,SUPP-02-bb_02_wsi_0123,Bladder,Bladder,provided,0.5296770071159643,0.508481901759738,gigapath
+SUPP-02-bb_02_wsi_0172,4,SUPP-02-bb_02_wsi_0190,Bladder,Bladder,predicted,0.5289869478200157,0.4466703426397926,gigapath
+SUPP-02-bb_02_wsi_0172,5,SUPP-02-bb_02_wsi_0125,Bladder,Bladder,provided,0.5296770071159643,0.442183010329625,gigapath
+SUPP-02-bb_02_wsi_0172,6,SUPP-02-bb_02_wsi_0196,Bladder,Bladder,provided,0.5296770071159643,0.4391251862511133,gigapath
+SUPP-02-bb_02_wsi_0172,7,SUPP-02-bb_02_wsi_0199,Bladder,Bladder,provided,0.5296770071159643,0.40668552584469864,gigapath
+SUPP-02-bb_02_wsi_0172,8,SUPP-02-bb_02_wsi_0175,Bladder,Bladder,provided,0.5296770071159643,0.3863201858058535,gigapath
+SUPP-02-bb_02_wsi_0172,9,SUPP-02-bb_02_wsi_0193,Bladder,Bladder,predicted,0.5260877067234004,0.3849326048592819,gigapath
+SUPP-02-bb_02_wsi_0172,10,SUPP-02-bb_02_wsi_0200,Bladder,Bladder,provided,0.5296770071159643,0.3442223076626264,gigapath
+SUPP-02-bb_02_wsi_0176,1,SUPP-02-bb_02_wsi_0149,Bladder,Bladder,provided,0.32995611258511826,0.4352398479890962,gigapath
+SUPP-02-bb_02_wsi_0176,2,SUPP-02-bb_02_wsi_0190,Bladder,Bladder,predicted,0.3294372305673598,0.38029544348003397,gigapath
+SUPP-02-bb_02_wsi_0176,3,SUPP-02-bb_02_wsi_0196,Bladder,Bladder,provided,0.32995611258511826,0.3400437255132274,gigapath
+SUPP-02-bb_02_wsi_0176,4,SUPP-02-bb_02_wsi_0125,Bladder,Bladder,provided,0.32995611258511826,0.3147382890574941,gigapath
+SUPP-02-bb_02_wsi_0176,5,SUPP-02-bb_02_wsi_0192,Bladder,Bladder,provided,0.32995611258511826,0.30961467368135925,gigapath
+SUPP-02-bb_02_wsi_0176,6,SUPP-02-bb_02_wsi_0123,Bladder,Bladder,provided,0.32995611258511826,0.3060387868315829,gigapath
+SUPP-02-bb_02_wsi_0176,7,SUPP-02-bb_02_wsi_0162,Bladder,Bladder,provided,0.32995611258511826,0.3057487309964451,gigapath
+SUPP-02-bb_02_wsi_0176,8,SUPP-02-bb_02_wsi_0175,Bladder,Bladder,provided,0.32995611258511826,0.3001482210888536,gigapath
+SUPP-02-bb_02_wsi_0176,9,SUPP-02-bb_02_wsi_0199,Bladder,Bladder,provided,0.32995611258511826,0.29696260452430484,gigapath
+SUPP-02-bb_02_wsi_0176,10,SUPP-02-bb_02_wsi_0197,Bladder,Bladder,provided,0.32995611258511826,0.2934937694187084,gigapath
+SUPP-02-bb_02_wsi_0182,1,SUPP-02-bb_02_wsi_0184,Liver,Liver,provided,0.9999748051887404,0.7207291754906864,gigapath
+SUPP-02-bb_02_wsi_0182,2,SUPP-02-bb_02_wsi_0188,Liver,Liver,provided,0.9999748051887404,0.6989748660776963,gigapath
+SUPP-02-bb_02_wsi_0182,3,SUPP-02-bb_02_wsi_0181,Liver,Liver,provided,0.9999748051887404,0.6284557111805789,gigapath
+SUPP-02-bb_02_wsi_0182,4,SUPP-02-bb_02_wsi_0173,Liver,Liver,provided,0.9999748051887404,0.6272019611493113,gigapath
+SUPP-02-bb_02_wsi_0182,5,SUPP-02-bb_02_wsi_0186,Liver,Liver,provided,0.9999748051887404,0.6261062014896356,gigapath
+SUPP-02-bb_02_wsi_0182,6,SUPP-02-bb_02_wsi_0179,Liver,Liver,provided,0.9999748051887404,0.5912379839862194,gigapath
+SUPP-02-bb_02_wsi_0182,7,SUPP-02-bb_02_wsi_0185,Liver,Liver,provided,0.9999748051887404,0.5868395764501827,gigapath
+SUPP-02-bb_02_wsi_0182,8,SUPP-02-bb_02_wsi_0177,Liver,Liver,provided,0.9999748051887404,0.512996935415585,gigapath
+SUPP-02-bb_02_wsi_0182,9,SUPP-02-bb_02_wsi_0180,Liver,Liver,provided,0.9999748051887404,0.43953390036414564,gigapath
+SUPP-02-bb_02_wsi_0182,10,SUPP-02-bb_02_wsi_0089,Liver,Liver,provided,0.9999748051887404,0.4282150389284763,gigapath
+SUPP-02-bb_02_wsi_0187,1,SUPP-02-bb_02_wsi_0177,Liver,Liver,provided,0.9981549898929569,0.5933395934644382,gigapath
+SUPP-02-bb_02_wsi_0187,2,SUPP-02-bb_02_wsi_0089,Liver,Liver,provided,0.9981549898929569,0.5224913210316717,gigapath
+SUPP-02-bb_02_wsi_0187,3,SUPP-02-bb_02_wsi_0183,Liver,Liver,provided,0.9981549898929569,0.4130607743596071,gigapath
+SUPP-02-bb_02_wsi_0187,4,SUPP-02-bb_02_wsi_0188,Liver,Liver,provided,0.9981549898929569,0.39818118749602155,gigapath
+SUPP-02-bb_02_wsi_0187,5,SUPP-02-bb_02_wsi_0182,Liver,Liver,predicted,0.9981298462078881,0.3833258818426954,gigapath
+SUPP-02-bb_02_wsi_0187,6,SUPP-02-bb_02_wsi_0189,Liver,Liver,provided,0.9981549898929569,0.380955161800354,gigapath
+SUPP-02-bb_02_wsi_0187,7,SUPP-02-bb_02_wsi_0186,Liver,Liver,provided,0.9981549898929569,0.37509780607537035,gigapath
+SUPP-02-bb_02_wsi_0187,8,SUPP-02-bb_02_wsi_0181,Liver,Liver,provided,0.9981549898929569,0.3467894863580053,gigapath
+SUPP-02-bb_02_wsi_0187,9,SUPP-02-bb_02_wsi_0185,Liver,Liver,provided,0.9981549898929569,0.34532282580700113,gigapath
+SUPP-02-bb_02_wsi_0187,10,SUPP-02-bb_02_wsi_0173,Liver,Liver,provided,0.9981549898929569,0.33269676983389157,gigapath
+SUPP-02-bb_02_wsi_0190,1,SUPP-02-bb_02_wsi_0196,Bladder,Bladder,provided,0.9983542017193734,0.7212444037364767,gigapath
+SUPP-02-bb_02_wsi_0190,2,SUPP-02-bb_02_wsi_0149,Bladder,Bladder,provided,0.9983542017193734,0.63060139553452,gigapath
+SUPP-02-bb_02_wsi_0190,3,SUPP-02-bb_02_wsi_0123,Bladder,Bladder,provided,0.9983542017193734,0.5742770515357609,gigapath
+SUPP-02-bb_02_wsi_0190,4,SUPP-02-bb_02_wsi_0193,Bladder,Bladder,predicted,0.9896270506801234,0.6097097813777163,gigapath
+SUPP-02-bb_02_wsi_0190,5,SUPP-02-bb_02_wsi_0194,Bladder,Bladder,provided,0.9983542017193734,0.5565635364926479,gigapath
+SUPP-02-bb_02_wsi_0190,6,SUPP-02-bb_02_wsi_0175,Bladder,Bladder,provided,0.9983542017193734,0.5264053964475883,gigapath
+SUPP-02-bb_02_wsi_0190,7,SUPP-02-bb_02_wsi_0199,Bladder,Bladder,provided,0.9983542017193734,0.5261296427384432,gigapath
+SUPP-02-bb_02_wsi_0190,8,SUPP-02-bb_02_wsi_0125,Bladder,Bladder,provided,0.9983542017193734,0.5257484095855428,gigapath
+SUPP-02-bb_02_wsi_0190,9,SUPP-02-bb_02_wsi_0162,Bladder,Bladder,provided,0.9983542017193734,0.4468043901253465,gigapath
+SUPP-02-bb_02_wsi_0190,10,SUPP-02-bb_02_wsi_0191,Bladder,Bladder,predicted,0.9964880035832892,0.44117794537453997,gigapath
+SUPP-02-bb_02_wsi_0191,1,SUPP-02-bb_02_wsi_0195,Bladder,Bladder,provided,0.9981295413078728,0.607287807734538,gigapath
+SUPP-02-bb_02_wsi_0191,2,SUPP-02-bb_02_wsi_0149,Bladder,Bladder,provided,0.9981295413078728,0.5267002296465082,gigapath
+SUPP-02-bb_02_wsi_0191,3,SUPP-02-bb_02_wsi_0190,Bladder,Bladder,predicted,0.9964880035832892,0.44117794537453997,gigapath
+SUPP-02-bb_02_wsi_0191,4,SUPP-02-bb_02_wsi_0197,Bladder,Bladder,provided,0.9981295413078728,0.4087766714996558,gigapath
+SUPP-02-bb_02_wsi_0191,5,SUPP-02-bb_02_wsi_0123,Bladder,Bladder,provided,0.9981295413078728,0.3951926244624957,gigapath
+SUPP-02-bb_02_wsi_0191,6,SUPP-02-bb_02_wsi_0192,Bladder,Bladder,provided,0.9981295413078728,0.38134242497939247,gigapath
+SUPP-02-bb_02_wsi_0191,7,SUPP-02-bb_02_wsi_0162,Bladder,Bladder,provided,0.9981295413078728,0.3322794584122447,gigapath
+SUPP-02-bb_02_wsi_0191,8,SUPP-02-bb_02_wsi_0196,Bladder,Bladder,provided,0.9981295413078728,0.28143191361291514,gigapath
+SUPP-02-bb_02_wsi_0191,9,SUPP-02-bb_02_wsi_0193,Bladder,Bladder,predicted,0.9894038212857094,0.30113278547725575,gigapath
+SUPP-02-bb_02_wsi_0191,10,SUPP-02-bb_02_wsi_0175,Bladder,Bladder,provided,0.9981295413078728,0.23733002409191525,gigapath
+SUPP-02-bb_02_wsi_0193,1,SUPP-02-bb_02_wsi_0196,Bladder,Bladder,provided,0.9912573170123534,0.6698046910664774,gigapath
+SUPP-02-bb_02_wsi_0193,2,SUPP-02-bb_02_wsi_0190,Bladder,Bladder,predicted,0.9896270506801234,0.6097097813777163,gigapath
+SUPP-02-bb_02_wsi_0193,3,SUPP-02-bb_02_wsi_0194,Bladder,Bladder,provided,0.9912573170123534,0.566871031966326,gigapath
+SUPP-02-bb_02_wsi_0193,4,SUPP-02-bb_02_wsi_0149,Bladder,Bladder,provided,0.9912573170123534,0.5191039886449186,gigapath
+SUPP-02-bb_02_wsi_0193,5,SUPP-02-bb_02_wsi_0175,Bladder,Bladder,provided,0.9912573170123534,0.5155685099166486,gigapath
+SUPP-02-bb_02_wsi_0193,6,SUPP-02-bb_02_wsi_0195,Bladder,Bladder,provided,0.9912573170123534,0.5103054432531289,gigapath
+SUPP-02-bb_02_wsi_0193,7,SUPP-02-bb_02_wsi_0123,Bladder,Bladder,provided,0.9912573170123534,0.4629056576771782,gigapath
+SUPP-02-bb_02_wsi_0193,8,SUPP-02-bb_02_wsi_0199,Bladder,Bladder,provided,0.9912573170123534,0.4042522722404696,gigapath
+SUPP-02-bb_02_wsi_0193,9,SUPP-02-bb_02_wsi_0192,Bladder,Bladder,provided,0.9912573170123534,0.3534892988905545,gigapath
+SUPP-02-bb_02_wsi_0193,10,SUPP-02-bb_02_wsi_0162,Bladder,Bladder,provided,0.9912573170123534,0.3182064535967207,gigapath
+SUPP-02-bb_02_wsi_0198,1,SUPP-02-bb_02_wsi_0196,Bladder,Bladder,provided,0.9426217962000225,0.617748591672102,gigapath
+SUPP-02-bb_02_wsi_0198,2,SUPP-02-bb_02_wsi_0190,Bladder,Bladder,predicted,0.9410940753428366,0.588764579445212,gigapath
+SUPP-02-bb_02_wsi_0198,3,SUPP-02-bb_02_wsi_0193,Bladder,Bladder,predicted,0.9344062564300981,0.6250369408970781,gigapath
+SUPP-02-bb_02_wsi_0198,4,SUPP-02-bb_02_wsi_0175,Bladder,Bladder,provided,0.9426217962000225,0.5260771641656357,gigapath
+SUPP-02-bb_02_wsi_0198,5,SUPP-02-bb_02_wsi_0149,Bladder,Bladder,provided,0.9426217962000225,0.5026114907553205,gigapath
+SUPP-02-bb_02_wsi_0198,6,SUPP-02-bb_02_wsi_0123,Bladder,Bladder,provided,0.9426217962000225,0.48676548914559964,gigapath
+SUPP-02-bb_02_wsi_0198,7,SUPP-02-bb_02_wsi_0195,Bladder,Bladder,provided,0.9426217962000225,0.4467250479065176,gigapath
+SUPP-02-bb_02_wsi_0198,8,SUPP-02-bb_02_wsi_0192,Bladder,Bladder,provided,0.9426217962000225,0.38908650779526743,gigapath
+SUPP-02-bb_02_wsi_0198,9,SUPP-02-bb_02_wsi_0194,Bladder,Bladder,provided,0.9426217962000225,0.3680111924091862,gigapath
+SUPP-02-bb_02_wsi_0198,10,SUPP-02-bb_02_wsi_0199,Bladder,Bladder,provided,0.9426217962000225,0.34107340744243836,gigapath
+SUPP-03-bb_03_wsi_0006,1,SUPP-04-bb_04_wsi_0006,Skin,Skin,provided,0.9668130635454476,0.5886643170764775,gigapath
+SUPP-03-bb_03_wsi_0006,2,SUPP-03-bb_03_wsi_0001,Skin,Skin,provided,0.9668130635454476,0.522101274840566,gigapath
+SUPP-03-bb_03_wsi_0006,3,SUPP-04-bb_04_wsi_0001,Skin,Skin,provided,0.9668130635454476,0.3992550314189542,gigapath
+SUPP-03-bb_03_wsi_0006,4,SUPP-01-biobase_8407d108-54e2-4545-bcdd-7c02a88a0e4e,Skin,Skin,provided,0.9668130635454476,0.22675603860769727,gigapath
+SUPP-03-bb_03_wsi_0006,5,SUPP-01-biobase_83cb2f93-9895-4e5b-80d8-9d772720f018,Skin,Skin,provided,0.9668130635454476,0.20292516526904045,gigapath
+SUPP-03-bb_03_wsi_0006,6,SUPP-03-bb_03_wsi_0007,Skin,Breast,predicted,0.06482867621403059,0.5834957596524998,gigapath
+SUPP-03-bb_03_wsi_0006,7,SUPP-04-bb_04_wsi_0002,Skin,Breast,predicted,0.07087989382216628,0.1346616311404767,gigapath
+SUPP-03-bb_03_wsi_0006,8,SUPP-04-bb_04_wsi_0004,Skin,Esophagus,provided,0.007761466196488406,0.4212304112288475,gigapath
+SUPP-03-bb_03_wsi_0006,9,SUPP-04-bb_04_wsi_0011,Skin,Esophagus,predicted,0.007850597393613889,0.3770791603207378,gigapath
+SUPP-03-bb_03_wsi_0006,10,SUPP-04-bb_04_wsi_0005,Skin,Esophagus,predicted,0.007785382121270673,0.3581935475822343,gigapath
+SUPP-03-bb_03_wsi_0007,1,SUPP-02-bb_02_wsi_0075,Breast,Breast,provided,0.7475156644865948,0.4698068075694986,gigapath
+SUPP-03-bb_03_wsi_0007,2,SUPP-02-bb_02_wsi_0122,Breast,Breast,provided,0.7475156644865948,0.416201244860534,gigapath
+SUPP-03-bb_03_wsi_0007,3,SUPP-02-bb_02_wsi_0018,Breast,Breast,provided,0.7475156644865948,0.38809214039950635,gigapath
+SUPP-03-bb_03_wsi_0007,4,SUPP-02-bb_02_wsi_0056,Breast,Breast,predicted,0.7474915303859297,0.374157658443522,gigapath
+SUPP-03-bb_03_wsi_0007,5,SUPP-02-bb_02_wsi_0066,Breast,Breast,provided,0.7475156644865948,0.3344514433235153,gigapath
+SUPP-03-bb_03_wsi_0007,6,SUPP-02-bb_02_wsi_0137,Breast,Breast,provided,0.7475156644865948,0.3334475019979395,gigapath
+SUPP-03-bb_03_wsi_0007,7,SUPP-01-biobase_a4be46ed-d220-4a19-a5fd-c3528c17eef0,Breast,Breast,provided,0.7475156644865948,0.33117048762613666,gigapath
+SUPP-03-bb_03_wsi_0007,8,SUPP-01-biobase_b90d5985-b539-415d-ac88-57587f990c8f,Breast,Breast,provided,0.7475156644865948,0.328768566483049,gigapath
+SUPP-03-bb_03_wsi_0007,9,SUPP-01-biobase_7e264c9e-0be9-4a72-80bd-c2ee7fe48d89,Breast,Breast,provided,0.7475156644865948,0.2847844710233077,gigapath
+SUPP-03-bb_03_wsi_0007,10,SUPP-02-bb_02_wsi_0070,Breast,Breast,provided,0.7475156644865948,0.26623737947759424,gigapath
