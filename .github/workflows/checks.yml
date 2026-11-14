@@ -12,13 +12,18 @@ permissions:
 jobs:
   numerical-and-artifact-checks:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: biobase
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: pip
-          cache-dependency-path: scripts/requirements_c1.txt
+          cache-dependency-path: |
+            biobase/scripts/requirements_c1.txt
+            biobase/scripts/requirements_c2.txt
       - run: python -m pip install -r scripts/requirements_c1.txt
       - run: python scripts/test_c1.py
       - run: python scripts/verify_repository_artifacts.py

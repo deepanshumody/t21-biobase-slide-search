@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-repo_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+project_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+repo_dir="$(git -C "$project_dir" rev-parse --show-toplevel)"
 cd "$repo_dir"
 
 if [[ "$(git branch --show-current)" != "main" ]]; then
@@ -17,7 +18,7 @@ if git remote get-url origin >/dev/null 2>&1; then
   exit 1
 fi
 
-python3 scripts/verify_repository_artifacts.py
+python3 "$project_dir/scripts/verify_repository_artifacts.py"
 gh repo create t21-biobase-slide-search \
   --private \
   --source . \

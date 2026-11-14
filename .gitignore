@@ -29,3 +29,14 @@ venv/
 /output/c1_reproduced
 /output/c1_reproduced_*
 /output/c2_reproduced
+/biobase/pack_reports
+/biobase/pack_slides
+/biobase/tilepack
+/biobase/tiles20x
+/biobase/thumbnails
+/biobase/tmp
+/biobase/output/c1_20x_features
+/biobase/output/c1_overview_features
+/biobase/output/c1_reproduced
+/biobase/output/c1_reproduced_*
+/biobase/output/c2_reproduced

@@ -77,6 +77,7 @@ Very uncertain queries and rare organs should be inspected using the review queu
 ## Reproduction and checks
 
 Use Python 3.12 and NumPy 1.26.4 for the recorded C2 runtime.
+Run these commands from the `biobase/` folder; use `cd biobase` first when starting at the repository root.
 
 ```bash
 python3 -m pip install -r scripts/requirements_c2.txt

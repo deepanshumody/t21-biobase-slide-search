@@ -1,5 +1,12 @@
 # Reproduce the Biobase work
 
+All project paths, archived hash paths, and commands in this guide are relative to the `biobase/` folder.
+From the repository root, enter it before running the commands below:
+
+```bash
+cd biobase
+```
+
 ## Review without restricted inputs
 
 The committed report and derived outputs are sufficient to inspect the method and its recorded results.
@@ -16,7 +23,7 @@ It does not verify whether the held-out predictions are correct.
 
 ## Recompute the final classifier
 
-With authorized Biobase access, obtain and extract the slide metadata pack and tile/embedding pack so the root contains:
+With authorized Biobase access, obtain and extract the slide metadata pack and tile/embedding pack so the `biobase/` folder contains:
 
 ```text
 pack_slides/
@@ -103,12 +110,22 @@ No checkpoint or extracted feature array is committed.
 
 The supplied PDF can be viewed directly.
 Rebuilding it with `scripts/build_c1_report.py` requires ReportLab and the macOS Arial/Courier font paths used by the original report builder.
+The one-page C2 summary is available at `output/pdf/c2_summary.pdf`; its builder, `scripts/build_c2_summary.py`, uses ReportLab and the macOS Arial font paths.
 Report generation is separate from classifier reproduction.
 
-## Publish the prepared repository
+## Push updates to the repository
 
-The local repository is prepared on `main`.
-From a terminal with an authenticated GitHub CLI and network access, run:
+The private repository is already published with an `origin` remote.
+After committing project changes, push them from the repository root or the `biobase/` folder:
+
+```bash
+git push origin main
+```
+
+## Initial publication helper
+
+For an unpublished checkout on `main` without an `origin` remote, the initial publication helper remains available.
+From the `biobase/` folder in a terminal with an authenticated GitHub CLI and network access, run:
 
 ```bash
 bash scripts/publish_private_repository.sh
