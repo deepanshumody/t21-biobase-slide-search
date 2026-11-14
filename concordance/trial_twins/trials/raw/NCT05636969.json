@@ -1,0 +1,13 @@
+{
+ "nct": "NCT05636969",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "Multimodal Prehabilitation in Patients With Lung Cancer Undergoing Neoadjuvant Therapy",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Adult patients with diagnosed non-small celll lung cancer (NSCLC) undergoing neoadjuvant therapy before lung resection surgery\n\nExclusion Criteria:\n\n* Physical impairments that prevent patients to perform a CardioPulmonary Exercise Test\n* Non-resectable tumours\n* Patients who refuse either surgical resection or neoadjuvant therapy",
+ "path_terms": [
+  "resect"
+ ]
+}

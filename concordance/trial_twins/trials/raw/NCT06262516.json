@@ -1,0 +1,16 @@
+{
+ "nct": "NCT06262516",
+ "organ": "kidney",
+ "fetched": "2026-11-14",
+ "title": "Nephroureterectomy With and Without Lymph Node Dissection for Upper Tract Urothelial Cell Carcinoma",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Adults \\> 18 years\n* Diagnosis of UTUC as determined by upper tract biopsy (either low or high grade)\n* Planned for nephroureterectomy by their urologic surgeon\n* Disease that is \u2264cT4, N0M0. Participants must have complete TNM staging prior to surgery. cT disease can be determined by biopsy of the mass (if biopsy was deep enough) or imaging (CT/MRI). cN and cM stage must be determined by preoperative imaging of the chest, abdomen and pelvis.\n* No concomitant muscle-invasive bladder cancer\n* Subjects must have the ability to understand and the willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n* Pathologically enlarged lymph nodes suspicious for metastases which would require lymph node dissection regardless of trial (\\>cN0)\n* Presence of distant metastases\n* Concomitant muscle invasive bladder cancer\n* The participant is in a reduced general condition or has a life-threatening disease.\n* The participant has a psychiatric disorder that precludes them from understanding the consent process.\n* The patient is pregnant",
+ "path_terms": [
+  "N0",
+  "T4",
+  "grade",
+  "node"
+ ]
+}

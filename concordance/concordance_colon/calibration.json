@@ -1,0 +1,106 @@
+{
+ "kind": {
+  "stage_code": 0.982,
+  "derived": 0.974,
+  "narrative": 0.863,
+  "synoptic": 0.954,
+  "conflict": 0.667
+ },
+ "pair": {
+  "t_major|stage_code": 0.978,
+  "n_major|stage_code": 0.974,
+  "mucinous|narrative": 0.696,
+  "residual|synoptic": 0.98,
+  "nodes_pos|stage_code": 0.967,
+  "mucinous|derived": 0.99,
+  "n_major|derived": 0.808,
+  "nodes_pos|synoptic": 0.905,
+  "lvi|stage_code": 0.971,
+  "residual|stage_code": 0.967,
+  "nodes_pos|narrative": 0.905,
+  "lvi|synoptic": 0.92,
+  "pni|synoptic": 0.962
+ },
+ "counts": {
+  "t_major|stage_code": [
+   219,
+   223
+  ],
+  "n_major|stage_code": [
+   189,
+   193
+  ],
+  "nodes_pos|derived": [
+   1,
+   1
+  ],
+  "mucinous|narrative": [
+   15,
+   21
+  ],
+  "residual|synoptic": [
+   49,
+   49
+  ],
+  "nodes_pos|stage_code": [
+   28,
+   28
+  ],
+  "mucinous|derived": [
+   203,
+   204
+  ],
+  "n_major|derived": [
+   20,
+   24
+  ],
+  "nodes_pos|synoptic": [
+   37,
+   40
+  ],
+  "lvi|narrative": [
+   11,
+   13
+  ],
+  "pni|narrative": [
+   11,
+   12
+  ],
+  "residual|narrative": [
+   13,
+   14
+  ],
+  "lvi|stage_code": [
+   66,
+   67
+  ],
+  "residual|stage_code": [
+   28,
+   28
+  ],
+  "nodes_pos|narrative": [
+   37,
+   40
+  ],
+  "lvi|synoptic": [
+   45,
+   48
+  ],
+  "pni|synoptic": [
+   49,
+   50
+  ],
+  "lvi|conflict": [
+   2,
+   3
+  ],
+  "residual|conflict": [
+   1,
+   1
+  ],
+  "mucinous|synoptic": [
+   5,
+   6
+  ]
+ }
+}

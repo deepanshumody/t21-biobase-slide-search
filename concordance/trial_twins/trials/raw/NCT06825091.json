@@ -1,0 +1,13 @@
+{
+ "nct": "NCT06825091",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Is Adaptive SBRT for Prostate vs Image-guided Radiotherapy a True Evolution (ASPIRE)",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Age \\>18 years\n2. Histologic diagnosis of prostate adenocarcinoma\n3. Localized prostate cancer\n4. Low risk, intermediate risk, or high risk allowed\n5. Patient planned for prostate SBRT\n\nExclusion Criteria:\n\n1. Planned for elective nodal irradiation\n2. Contraindications to radiotherapy\n3. Patients with bilateral hip replacements, as they are ineligible for adaptive treatments at present time (either MR-guided or CT-guided)",
+ "path_terms": [
+  "adenocarcinoma"
+ ]
+}

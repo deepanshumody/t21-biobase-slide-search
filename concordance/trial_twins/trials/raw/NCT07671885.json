@@ -1,0 +1,16 @@
+{
+ "nct": "NCT07671885",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "Evaluating the Response-Guided Therapy With Neoadjuvant Endocrine Therapy to Optimize Adjuvant Treatment in Premenopausal HR+/HER2- Breast Cancer (JCOG2402, Young HOPE)",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Women aged 18 years or older\n2. ECOG PS 0-1\n3. HR-positive/HER2-negative breast cancer\n4. ER expression \u2265 10%\n5. cN0; HG 1: 3 cm\\<T\u22645 cm, HG 2: 2 cm\\<T\u22645 cm or HG3: 1 cm\\<T\u22645 cm cN1; cT\\<5 cm and HG 1/HG 2\n6. Premenopausal women with spontaneous menses within 12 months\n7. No distant metastasis of breast cancer\n8. No prior diagnosis of breast cancer.\n9. No multiple regions of breast cancer\n10. No contralateral breat cancer\n11. Adequate organ function\n\nExclusion Criteria:\n\n1. Presence of active double cancer (synchronous malignancy requiring treatment).\n2. Ongoing infectious disease requiring systemic therapy. Fever \u226538.0\u00b0C at the time of registration.\n3. Women who are pregnant, possibly pregnant, within 28 days postpartum, or breastfeeding; men whose partners intend to become pregnant.\n4. Psychiatric illness or symptoms that interfere with daily living and may compromise trial participation.\n5. Ongoing systemic administration (oral or IV) of steroids equivalent to \u226510 mg/day of prednisolone or other immunosuppressive agents.\n6. Unstable angina (developed or worsened within the past 3 weeks) or myocardial infarction within the past 6 months.\n7. Uncontrolled hypertension.\n8. Uncontrolled diabetes mellitus despite continuous insulin or oral antidiabetic therapy.\n9. Positive for HBs antigen or HCV antibodies (Patients positive for HCV antibodies are not excluded if HCV-RNA is undetectable.)\n10. Positive for HIV antibodies (HIV testing is not mandatory.)\n11. Presence of interstitial pneumonia, pulmonary fibrosis, or severe emphysema as diagnosed by chest CT.",
+ "path_terms": [
+  "ER",
+  "HER2",
+  "N0",
+  "N1"
+ ]
+}

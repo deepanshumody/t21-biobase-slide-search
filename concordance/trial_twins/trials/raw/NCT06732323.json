@@ -1,0 +1,15 @@
+{
+ "nct": "NCT06732323",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "A Phase III Study of ESG401 for Unresectable Recurrent or Metastatic Triple-Negative Breast Cancer",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Key Inclusion Criteria:\n\n1. Males or females aged \u2265 18 years ;\n2. Histologically and/or cytologically confirmed TNBC;\n3. De novo metastatic or relapsed \u2265 6 months post completion of treatment with curative intent;\n4. No prior systemic anti-cancer therapy for unresectable recurrent or metastatic disease;\n5. Participants whose tumours are PD-L1-negative, or Participants whose tumours are PD-L1-positive and have relapsed after prior PD-1/PD-L1 inhibitor therapy for early-stage breast cancer, or comorbidities precluding PD-1/PD-L1 inhibitor therapy;\n6. Eligible for the chemotherapy options listed as investigator's choice chemotherapy (paclitaxel, nab-paclitaxel, capecitabine, eribulin, or carboplatin) as assessed by the investigator;\n7. At least one measurable lesion per RECIST v1.1;\n8. Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1 with no worsening within 2 weeks prior to randomization;\n9. A life expectancy of at least 12 weeks;\n10. Adequate organ and bone marrow function.\n\nKey Exclusion Criteria:\n\n1. Use of any investigational anti-cancer drug within 28 days or 5 half-lives before the first investigational product administration.\n2. Toxicities from prior anti-tumor therapy not recovering to \u2264 Grade 1.\n3. Prior topoisomerase I inhibitor therapy, including antibody-drug conjugate(ADC) therapy, or prior TROP2 targeted therapy.\n4. New thromboembolic events, intestinal obstruction, gastrointestinal bleeding or perforation within 6 months.\n5. Subjects with symptomatic or untreated CNS metastases, or those requiring ongoing treatment for CNS metastases.\n6. Patients with Primary CNS malignancy, or patients with other malignancies within 3 years prior to the first dose.\n7. Patients with uncontrollable systemic diseases.\n8. Patients with gastrointestinal diseases (such as chronic gastritis, chronic enteritis or gastric ulcers), or with a previous history of severe or chronic diarrhea.\n9. Subjects with clinically significant cardiovascular disease.\n10. Human Immunodeficiency Virus (HIV) infection.\n11. Active hepatitis B or hepatitis C.\n12. Known immediate or delayed hypersensitivity reaction to irinotecan or other camptocampin derivatives such as topotecan or to have had grade\u22653 gastrointestinal reactions associated with irinotecan, or allergies, or to any investigational drug or excipient ingredient.\n13. Pregnant or lactating women.",
+ "path_terms": [
+  "grade",
+  "node",
+  "resect"
+ ]
+}

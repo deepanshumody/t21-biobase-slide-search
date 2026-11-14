@@ -1,0 +1,13 @@
+{
+ "nct": "NCT06055387",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Frailty Assessment and Intervention in Elderly Patients with Gastric Cancer Receiving Gastrectomy and Adjuvant Chemotherapy",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patients aged sixty-five or older with locally advanced (stage II and stage III) gastric cancer, preparing for curative gastric cancer surgery and scheduled to receive adjuvant chemotherapy within 4-8 weeks postoperatively, either as outpatients or inpatients.\n* Patients must provide signed informed consent.\n* Estimated survival of more than 3 months.\n* Conscious and able to communicate verbally or in writing, and willing to cooperate with invasive procedures.\n\nExclusion Criteria:\n\n* Patients with cognitive impairment or unable to cooperate with the interventional procedures as determined by the clinical physician.\n* Patients receiving concurrent other anticancer treatments (radiation or surgery).\n* Patients with multiple types of cancer requiring simultaneous treatment.",
+ "path_terms": [
+  "stage I"
+ ]
+}

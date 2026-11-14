@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07406633",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "KQB198 in Combination With Imatinib in Participants With Advanced/Metastatic GIST in 1st Line Setting (SynerGIST-1st Line)",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria\n\nAll Participants:\n\n* Unresectable or metastatic disease\n* Tissue confirmation of GIST\n* Valid results from local testing of blood or tumor tissue documenting the presence of a KIT mutation (must not have exon 9 mutation) or PDGFRA mutation (must not have PDGFRA D842V).\n* Measurable disease per RECIST v1.1.\n* Patients must be in 1st line of treatment for advanced or metastatic disease. Prior imatinib is allowed in adjuvant or neoadjuvant setting, as long as imatinib was stopped over 1 year ago.\n* Adequate organ function and performance status\n\nExclusion Criteria\n\nParticipants are excluded from the study if any of the following criteria apply:\n\n* Unable to swallow or GI condition that prevents absorption.\n* Other active malignancies within the last 2 years.\n* History of hypersensitivity to any component of KQB198 or imatinib.",
+ "path_terms": [
+  "resect"
+ ]
+}

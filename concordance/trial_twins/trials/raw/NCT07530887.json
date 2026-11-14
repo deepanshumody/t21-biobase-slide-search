@@ -1,0 +1,14 @@
+{
+ "nct": "NCT07530887",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "NO Re-excision MelanomA - NORMA 2",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patients must be 18 years or older at time of consent\n* Patients must have an ECOG performance score between 0 and 2\n* Histologically confirmed, stage pT1b - pT4b (TNM AJCC 8th edition) cutaneous primary melanoma\n* Histological subtypes that are eligible are:\n\n  * Superficial Spreading Melanoma (SSM)\n  * Nodular Melanoma (NM)\n* The primary melanoma must have been removed by diagnostic excision and must have at least a minimum of 1 mm tumor free margin for invasive melanoma AND any in situ melanoma\n* Patient must provide informed consent and comply with the treatment protocol and follow-up plan\n* Life expectancy of at least 5 years from the time of diagnosis, not considering the melanoma in question, as determined by the investigator\n* A survivor of prior cancer is eligible provided that ALL of the following criteria are met and documented:\n\n  * The patient has undergone potentially curative therapy for all prior malignancies\n  * Life expectancy should be at least 5 years and\n  * The patient is deemed by their treating physician to be at low risk of recurrence from previous malignancies.\n\nExclusion Criteria:\n\n* Non-cutaneous melanoma (uveal, mucosal)\n* Acral melanoma\n* Lentigo malignant melanoma (LMM)\n* Desmoplastic melanoma\n* Neurotropic melanoma\n* Spitz melanoma/malignant Spitz tumor melanoma\n* Satellites, in-transit melanomas or macroscopic melanoma metastases\n* Uncertain diagnosis of melanoma i.e. so-called 'melanocytic lesions of unknown malignant potential' (MELTUMP or STUMP)\n* Other non-SSM or NM subtypes\n* Melanoma removed by shave excision, excogliation or core biopsy\n* Patient has already undergone a local flap reconstruction of the defect after excision of the primary\n* History of previous or concurrent (i.e., second primary) invasive melanoma\n* Multiple melanomas\n* Patient has undergone surgery on a separate occasion to clear the lymph nodes of the probable draining lymphatic field, except for previous SLNB\n* Any additional solid tumor or hematologic malignancy during the past 5 years with a life expectancy of less than 5 years\n* History of organ transplantation",
+ "path_terms": [
+  "margin",
+  "node"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "nct": "NCT05634889",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "The T-REX Trial: Tailored Regional External Beam Radiotherapy in Clinically Node-negative Breast Cancer Patients With 1-2 Sentinel Node Macrometastases.",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Primary unifocal or multifocal invasive breast cancer T1-T2.\n2. Clinically N0.\n3. Macrometastasis (\\>2mm) in 1-2 lymph nodes at sentinel node biopsy.\n4. Oral and written consent.\n5. Age \u2265 18 years.\n6. All resection margins are tumor free (no tumor on ink).\n7. Primary tumor ER-positive, HER2-negative.\n\nExclusion Criteria:\n\n1. Regional or distant metastases outside the ipsilateral axilla.\n2. Previous RT towards the planned target area, i.e. the ipsilateral chest/lymph nodes.\n3. Neoadjuvant systemic therapy.\n4. Axillary lymph node dissection or other previous axillary surgery on the affected side.\n5. Prior history of invasive breast cancer.\n6. Pregnancy.\n7. Bilateral invasive breast cancer.\n8. Contraindication for radiotherapy or systemic treatment.\n9. Inability to absorb or understand the contents of the informed consent form; for example, through disability, inadequate language skills or dementia.\n10. Other invasive cancer within 5 years prior to breast cancer diagnosis",
+ "path_terms": [
+  "ER",
+  "HER2",
+  "N0",
+  "T1",
+  "T2",
+  "margin",
+  "node",
+  "resect"
+ ]
+}

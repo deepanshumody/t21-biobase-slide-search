@@ -1,0 +1,112 @@
+{
+ "kind": {
+  "synoptic": 0.94,
+  "stage_code": 0.98,
+  "narrative": 0.921,
+  "derived": 0.89,
+  "conflict": 0.537
+ },
+ "pair": {
+  "er|synoptic": 0.991,
+  "pr|synoptic": 0.97,
+  "t_major|stage_code": 0.964,
+  "n_major|stage_code": 0.992,
+  "nodes_pos|narrative": 0.886,
+  "margin|narrative": 0.895,
+  "n_major|derived": 0.89,
+  "margin|synoptic": 0.952,
+  "histology|narrative": 0.948,
+  "er|narrative": 0.978,
+  "pr|narrative": 0.939,
+  "her2|narrative": 0.768,
+  "nodes_pos|synoptic": 0.945,
+  "her2|synoptic": 0.776,
+  "histology|synoptic": 0.896
+ },
+ "counts": {
+  "er|synoptic": [
+   105,
+   105
+  ],
+  "pr|synoptic": [
+   95,
+   97
+  ],
+  "t_major|stage_code": [
+   270,
+   279
+  ],
+  "n_major|stage_code": [
+   257,
+   258
+  ],
+  "nodes_pos|narrative": [
+   185,
+   208
+  ],
+  "margin|narrative": [
+   118,
+   131
+  ],
+  "n_major|derived": [
+   112,
+   125
+  ],
+  "margin|synoptic": [
+   99,
+   103
+  ],
+  "histology|narrative": [
+   306,
+   322
+  ],
+  "er|narrative": [
+   89,
+   90
+  ],
+  "pr|narrative": [
+   76,
+   80
+  ],
+  "histology|conflict": [
+   2,
+   5
+  ],
+  "her2|narrative": [
+   42,
+   54
+  ],
+  "nodes_pos|synoptic": [
+   51,
+   53
+  ],
+  "her2|synoptic": [
+   58,
+   74
+  ],
+  "histology|synoptic": [
+   42,
+   46
+  ],
+  "margin|conflict": [
+   7,
+   12
+  ],
+  "t_major|synoptic": [
+   7,
+   7
+  ],
+  "pr|conflict": [
+   5,
+   8
+  ],
+  "her2|conflict": [
+   6,
+   13
+  ],
+  "er|conflict": [
+   1,
+   1
+  ]
+ }
+}

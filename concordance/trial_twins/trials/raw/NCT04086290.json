@@ -1,0 +1,17 @@
+{
+ "nct": "NCT04086290",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "National Danish Protocol. Surgery+ SBRT for M1 Prostate Cancer Patients",
+ "phases": [
+  "PHASE1",
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Age 18 years or older and willing and able to provide informed consent;\n2. Stage cT1 \u2264 cT3b, Clinical resectable\n3. Gleason score \u2265 6\n4. M1\n\n   1. \u2264 3 bone metastases localized to the spine, pelvis or humeral/femoral bones as evaluated by 68Ga-PSMA PET/CT and magnetic resonance imaging (MRi)\n   2. Absence of PSMA uptake in retroperitoneal lymph nodes, (outside the anatomical region of extended pelvic lymph node dissection as described in the European Association of Urology (EAU) guidelines.\n   3. No visceral metastasis\n   4. Metastases suitable for stereotactic body radiotherapy\n   5. Non symptomatic bone lesions\n5. Eligible for surgery\n\nExclusion Criteria:\n\n1. Prior curative intended treatment for prostate cancer\n2. Prior androgen deprivation therapy (ADT)\n3. History of another invasive cancer within 3 years of screening, with the exception of fully treated cancers with a remote probability of recurrence. The medical monitor and investigator must agree that the possibility of recurrence is remote for exceptions.\n4. Eastern Cooperative Oncology Group (ECOG) Performance Status \\> 1\n5. Evaluated not able to fulfil the study protocol.\n6. Contraindications against MRI",
+ "path_terms": [
+  "Gleason",
+  "T1",
+  "node",
+  "resect"
+ ]
+}

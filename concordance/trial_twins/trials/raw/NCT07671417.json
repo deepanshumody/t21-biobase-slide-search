@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07671417",
+ "organ": "kidney",
+ "fetched": "2026-11-14",
+ "title": "Imaging Study in Metastatic Clear Cell RCC.",
+ "phases": [
+  "EARLY_PHASE1"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* At least 18 years old at the time of signing the informed consent form (ICF).\n* Biopsy proven metastatic clear cell renal cell carcinoma (RCC)\n\nExclusion Criteria:\n\n* Subjects taking below mentioned medications that cannot be stopped 5 half-lives prior to RYZ512 administration and cannot be restarted until all study-related imaging is completed: Anticonvulsants, Antipsychotics, Carbonic Anhydrase inhibitors, COX-2 Inhibitors, Sulfatase Inhibitors, Sulfonamides\n* Women of Childbearing Potential that are pregnant or breastfeeding.\n\nNote: Additional criteria may apply and will be assessed by the study site",
+ "path_terms": [
+  "clear cell"
+ ]
+}

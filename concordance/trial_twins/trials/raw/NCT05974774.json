@@ -1,0 +1,11 @@
+{
+ "nct": "NCT05974774",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Intermittent Androgen Deprivation Therapy in the Era of AR Pathway Inhibitors",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patient treated with ADT and an ARPI for mHNPC for 6-12 months and presenting with a PSA \u2264 0.2 ng/mL Note: Patient may have received docetaxel and radiotherapy of the prostate and metastases Note: Patients with synchronous or metachronous metastases, high volume/risk or low volume/risk who fulfil the criteria can be included.\n* Before patient 's enrolment, written informed consent must be given according to ICH/GCP, and national/local regulations\n\nExclusion Criteria:\n\n* Patients with M1a on modern imaging technique (PET-Choline or -PSMA or Whole Body MRI) for whom radiation therapy and 2-3 years of hormone therapy is planned\n* Patients who underwent or will undergo a bilateral orchiectomy\n* Patients with a prior or concurrent malignancy whose natural history or treatment has the potential to interfere with the safety or efficacy assessment for this trial\n* Patients who have received a systemic anti-prostate cancer treatment not approved by EMA together with MAB or a radical prostatectomy for M1 disease\n* Any psychological, familial, sociological or geographical condition potentially hampering compliance with the study protocol and follow-up schedule; those conditions should be assessed and discussed with the patient before the enrolment in the trial",
+ "path_terms": []
+}

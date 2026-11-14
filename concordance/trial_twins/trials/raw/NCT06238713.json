@@ -1,0 +1,14 @@
+{
+ "nct": "NCT06238713",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Extraperitoneal SINgle-port rObotic-assisted Radical Prostatectomy (RARP) Versus Transperitoneal Multi-port RARP in the Treatment Of Prostate Cancer (SINO-TOP)",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Men aged 18 years \u2264 age \u2264 75 years;\n2. Prostate biopsy within 6 months with diagnosis of organ-localized prostate cancer with preoperative staging of T1c to T2b,N0M0;.\n3. Gleason Score\\<8.\n4. PSA\\<20ng/ml.\n5. Pathologic diagnosis of prostate follicular adenocarcinoma or prostate ductal adenocarcinoma;\n6. The patient has healthy sexual function before surgery and intention for sexual activities after surgery;\n7. Physiological condition acceptable for laparoscopic surgery;\n8. Willing to cooperate and complete the study follow-up and related examinations;\n9. The subject or his agent voluntarily participates in this trial and signs the written informed consent;\n10. The questionnaire can be completed in Chinese.\n11. The patient has been informed of the trial;\n\nExclusion Criteria:\n\n1. High-risk and non-organ localized prostate cancer (clinical stage \u2265 T2c, GS \u2265 8, PSA \\> 20ng/ml);\n2. Special type of prostate cancer\uff0c such as neuroendocrine etc.;\n3. History of previous abdominal surgery and radiotherapy which may affect abdominal incision and Port placement;\n4. Recent surgery of rectum, perianal abscess or around fistula and perineal area;\n5. Patients who have undergone previous electro-prostatectomy/enucleation of the prostate;\n6. Non-recurrent patients with less than 12 months of follow-up;\n7. ECOG\\>1.\n8. Combination of other systemic tumors;\n9. had received any type of preoperative antitumor therapy;\n10. Suffering from poor general condition with the presence of one of the following conditions: including severe mental disorders, cardiovascular disease, active infections, bone marrow transplantation within 3 months, or significant abnormalities in organ function;\n11. Participation in other clinical studies or previous treatment with any gene therapy product within the last 3 months;\n12. Other conditions that the researchers believe may affect the experimental results or are unethical;",
+ "path_terms": [
+  "Gleason",
+  "adenocarcinoma"
+ ]
+}

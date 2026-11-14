@@ -1,0 +1,18 @@
+{
+ "nct": "NCT07658170",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "Evaluation of the Efficacy and Safety of Using Platelet-rich Fibrin (PRF)-Based Lipobolus for the Immediate Reconstruction of Defects After Breast-conserving Resection for Breast Cancer (Minimally Invasive Primary Immediate Grafting)",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologically verified breast cancer (BC).\n* Disease stage from cTis to cT2 according to the TNM classification (AJCC, 8th edition).\n* Tumor grade G1 or G2.\n* Estrogen receptor positivity (ER+).\n* ECOG performance status = 0.\n* Primary tumor size up to 2 cm, based solely on preoperative examination data (mammography, ultrasound, MRI).\n* Indications for breast-conserving surgery (BCS) with a breast resection extent determined by a multidisciplinary oncology board.\n* Submission of an informed voluntary consent (IVC) regarding participation in the study.\n* Ability to understand and comply with the requirements of the study protocol.\n\nExclusion Criteria:\n\n* Male gender.\n* ECOG \u2265 1.\n* Multifocal or multicentric tumor.\n* Grade G3.\n* Triple-negative or HER2-positive tumor with uncontrolled disease.\n* Stage cT3 or higher or distant metastases (M1).\n* Inflammatory breast cancer.\n* Prior neoadjuvant chemotherapy or hormonal therapy.\n* Prior radiation therapy to the breast.\n* Presence of blood coagulation disorders (coagulopathy, thrombocytopathy, thrombocytopenia \\< 100 \u00d7 10\u2079/L).\n* Taking anticoagulants or antiplatelet agents that cannot be temporarily discontinued.\n* Presence of active infectious diseases.\n* Acute autoimmune diseases.\n* Decompensated comorbidities (diabetes mellitus, cardiovascular diseases, etc.).\n* Body mass index (BMI) \\< 18.5 kg/m\u00b2 (insufficient adipose tissue volume for liposuction).\n* Pregnancy or lactation.\n* Mental illnesses that prevent informed consent.\n* Known allergy to local anesthetics or sodium citrate.",
+ "path_terms": [
+  "ER",
+  "HER2",
+  "T2",
+  "T3",
+  "grade",
+  "resect"
+ ]
+}

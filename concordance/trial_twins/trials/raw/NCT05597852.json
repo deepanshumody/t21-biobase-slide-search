@@ -1,0 +1,13 @@
+{
+ "nct": "NCT05597852",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Using Rectal Hydrogel Spacer for Salvage SABR in Prostate Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologically and radiologically confirmed locally recurrent prostate adenocarcinoma\n* Willing to give informed consent to participate in this clinical trial\n* Able and willing to complete EPIC and EQ-5D questionnaires\n\nExclusion Criteria:\n\n* Contraindication to prostate MRI\n* Anticoagulation medication (if unsafe to discontinue)\n* Diagnosis of bleeding diathesis\n* Poor baseline urinary function defined as International Prostate Symptom Score (IPSS) \\>20\n* Evidence of castrate resistance (defined as PSA \\> 3 ng/ml while testosterone is \\< 0.7nmol/l). Patients could have been on combined androgen blockade but are excluded if this was started due to PSA progression.\n* Definitive extrapelvic nodal or distant metastatic disease on staging investigations.\n* Prior ultra-hypofractionated radiotherapy ( SBRT of 5Gy/fraction or higher)",
+ "path_terms": [
+  "adenocarcinoma"
+ ]
+}

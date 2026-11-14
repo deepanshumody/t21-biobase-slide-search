@@ -1,0 +1,11 @@
+{
+ "nct": "NCT06915168",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "CIPN Decision Aid for the Improvement of Chemotherapy Decision Making in Patients With Breast Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patients with breast cancer\n* Currently receiving cycle three of taxane treatment\n* Approval of medical oncologist to enroll patient\n* Experiencing any CIPN based on enrollment screening question, \"In the last 7 days, what was the severity of your numbness or tingling in your hands or feet at its worst? None, Mild, Moderate, Severe, Very Severe. Patient is eligible if their answer is anything except \"None\"\n* Access to a smartphone or similar device that can complete CIPN DecisionAid via Qualtrics while in the waiting room\n\nExclusion Criteria:\n\n* Inability to read or speak English",
+ "path_terms": []
+}

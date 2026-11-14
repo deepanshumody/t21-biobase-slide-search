@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07188246",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "Neoadjuvant, SBRT With Intratumoural Pembrolizumab Followed by Neoadjuvant Chemotherapy in Breast Cancer",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Invasive ductal carcinoma of any subtype (including invasive mammary carcinoma with lobular features), excluding sarcomatous, signet or metaplastic subtypes.\n2. Invasive mammary carcinoma of stages IIB - III (excluding inflammatory breast cancer). Stage IIA is eligible for triple negative and HER2+ breast cancers.\n\n   a. Clinical staging based on AJCC 8th edition.\n3. Lesion palpable by treating physician.\n4. Plan to be treated with neoadjuvant chemotherapy.\n5. Able to tolerate core needle biopsies and pembrolizumab injection.\n6. 18 years of age or older.\n7. Able to provide informed consent.\n\nExclusion Criteria:\n\n1. Any serious medical comorbidities or other contraindications to radiotherapy, chemotherapy, or surgery (e.g., uncontrolled diabetes, serious heart condition, etc).\n2. Prior treatment for current breast cancer.\n3. Previous radiation therapy to the same breast.\n4. Inflammatory breast carcinoma.\n5. Invasive mammary carcinoma with sarcomatous, signet cell or metaplastic subtypes.\n6. Recurrent breast cancer.\n7. Clinical or radiologic evidence or suspicion of distant metastatic disease (metastatic workup that requires additional imaging to follow-up on suspicious findings will exclude patients).\n8. Any collagen vascular disease precluding radiotherapy at the discretion of the treating radiation oncologist (particularly lupus, scleroderma, dermatomyositis, psoriatic arthritis).\n9. No prior stem cell transplantation.\n10. Any poorly controlled autoimmune conditions.\n11. Current use of corticosteroids or immunosuppressants.\n12. Any other malignancy at any site (except non-melanomatous skin cancer) \\<5 years prior to study enrollment. Synchronous bilateral breast cancers are acceptable.\n13. Inability to tolerate core needle biopsies or pembrolizumab injection.\n14. Pregnant or lactating.\n15. Under 18 years of age.\n16. Inability or unwillingness to provide informed consent.\n17. Inability or unwillingness to complete study assessments/interventions and follow-up assessments.",
+ "path_terms": [
+  "HER2"
+ ]
+}

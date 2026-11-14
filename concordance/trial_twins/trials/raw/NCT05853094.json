@@ -1,0 +1,18 @@
+{
+ "nct": "NCT05853094",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Postoperative Effects of Different Enterostomy Approaches",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Pathological confirmed adenocarcinoma of the rectum;\n2. Patients age between 18-80;\n3. Baseline AJCC stage I-III: cT1-4N0-2M0 (AJCC-8 version);\n4. Eastern Cooperative Oncology Group (ECOG) physical status score of 0 to 2;\n5. Patients voluntarily sign informed consent.\n\nExclusion Criteria:\n\n1. Other types of rectal cancer (adenosquamous carcinoma, squamous carcinoma, neuroendocrine tumors, clear cell carcinoma, spindle cell carcinoma, undifferentiated carcinoma);\n2. Combination of rectal cancer with multiple carcinomas;\n3. Pre-operative presence of acute and chronic infectious diseases or foci of infection;\n4. Intraoperative radical surgery was not performed for various reasons\uff1b\n5. Colostomy was not performed at the same time as the radical rectal cancer surgery;\n6. Combined with intestinal obstruction, intestinal perforation, intestinal bleeding, peritonitis, etc. requiring emergency surgery;\n7. Metastatic cancer;\n8. Serious heart, lung, liver and kidney disease, can not tolerate surgery;\n9. Active liver disease or abnormal liver function with ALT, AST and TBIL more than 2 times the upper limit of normal values;\n10. Renal impairment with Cr \u2265 2 times the upper limit of normal or BUN \u2265 2 times the upper limit of normal;\n11. Blood leukocytes below the lower limit of normal value, or platelets below the lower limit of normal value, or with other blood system diseases;\n12. Pregnancy;\n13. Mental illness or serious intellectual disability who cannot describe their feelings correctly;\n14. Severe coagulation disorder, bleeding tendency;\n15. Patients with severe uncontrolled medical disease, recent history of myocardial infarction (within 3 months), uncontrolled severe hypertension and severe diabetes mellitus;\n16. Patients need to be on antibiotics/other probiotics for a long time.",
+ "path_terms": [
+  "N0",
+  "T1",
+  "adenocarcinoma",
+  "clear cell",
+  "squamous",
+  "stage I"
+ ]
+}

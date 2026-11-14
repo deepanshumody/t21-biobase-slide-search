@@ -1,0 +1,14 @@
+{
+ "nct": "NCT06037733",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "Primary Tumor Radiotherapy Omitting CTV for Patients With Advanced NSCLC Responded to Immunotherapy and Chemotherapy",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Histologically or cytologically confirmed advanced non-small cell lung cancer (according to the 8th edition of the TNM cancer staging system of AJCC and UICC);\n2. After over two cycles of chemotherapy combined with immunotherapy, the efficacy was CR, PR or SD (with a decreasing trend);\n3. Age 18 to 80 years old, performance status 0-1;\n4. measurable or evaluable lesions;\n5. Survival expectancy is not less than 6 months;\n6. adequate cardiac, pulmonary, renal, and hepatic and bone marrow function\n\nExclusion Criteria:\n\n1. tumor progress after therapy with immunotherapy and chemotherapy\n2. EGFR, ALK, or ROS1 mutation;\n3. Previous thoracic radiotherapy;\n4. grade 2 or more immune-related adverse events after induction immunotherapy\n5. Previous malignancies (except stage I non-melanic skin cancer or cervical carcinoma in situ);\n6. Pregnant or lactating women\n7. undergoing other clinical trials;\n8. Have serious comorbidities, including myocardial infarction, severe arrhythmia, severe cerebrovascular disease, ulcer disease, psychosis and uncontrollable diabetes;\n9. Patients with HIV positive and undergoing antiviral therapy;\n10. Active tuberculosis",
+ "path_terms": [
+  "grade",
+  "stage I"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "nct": "NCT06914245",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Personalized Care Pathways for Bowel Symptoms in Rectal Cancer Patients_contributing Factors (Treatable)",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Voluntary written informed consent of the participant or their legally authorized representative has been obtained prior to any screening procedures.\n* At least 18 years of age at the time of signing the Informed Consent Form (ICF).\n* Proficient in reading, comprehending, and conversing in Dutch.\n* Patients scheduled for Total Mesorectal Excision (TME) or Partial Mesorectal Excision (PME) or 'Watch and wait' protocol due to rectal cancer.\n\nExclusion Criteria:\n\n* The participant has undergone a different type of surgery, including a Hartmann procedure, abdominoperineal excision, transanal endoscopic microsurgery, or sigmoid resection.\n* Experienced fecal incontinence prior to undergoing surgery.\n* Are affected by neurological disorders affecting bowel function.\n* Already underwent previous pelvic radiation or rectal surgery for non-cancer reasons.\n* Has a permanent stoma.",
+ "path_terms": [
+  "resect"
+ ]
+}

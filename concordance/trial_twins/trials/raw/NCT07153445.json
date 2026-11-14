@@ -1,0 +1,16 @@
+{
+ "nct": "NCT07153445",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "Neoadjuvant Treatment With Atezolizumab and Atezolizumab as Maintenance for the Treatment of Stage III Non Small-Cell Lung Cancer (NSCLC)",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Previously untreated patients with histologically- or cytologically- documented Non Small-Cell Lung Cancer (NSCLC) who present stage IIIA - IIIB disease (according to 8th version of the International Association for the Study of Lung Cancer Staging Manual in Thoracic Oncology)\n* Confirm the absence of distant disease\n* ECOG (Performance status) 0-1\n* Adequate hematologic and organ function\n* All patients are notified of the investigational nature of this study and signed a written in-formed consent in accordance with institutional and national guidelines, including the Declaration of Helsinki prior to any trial-related intervention\n* Adequate lung function\n* Patients aged \\> 18 years\n* For female patients of childbearing potential, agreement (by patient and/or partner) to use a highly effective form(s) of contraception\n* For male patients with female partners of childbearing potential, agreement (by patient and/or partner) to use a highly effective form of contraception\n* Oral contraception should always be combined with an additional contraceptive method\n* Women who are not postmenopausal or surgically sterile must have a negative serum pregnancy test result within 8 days prior to initiation of study drug.\n* Patient capable of proper therapeutic compliance and accessible for correct follow-up\n\nExclusion Criteria:\n\n* Patients mutation or an amplification in the EGFRgene, ALK fusion oncogene.\n* Known STK-11 ligand alterations, MDM2 amplifications or ROS1 translocations.\n* Weight loss \\>10% within the previous 3 months.\n* Patients that receive previous treatment with antineoplasic drugs, chest radiotherapy, or previous surgery for lung cancer.\n* Malignancies other than Non Small-Cell Lung Cancer (NSCLC) within 3 years prior to enrolment\n* Pleural or pericardial effusion\n* Known hypersensitivity or allergy to atezolizumab formulation.\n* History of autoimmune disease or lung disease\n* Positive test for human immunodeficiency viruses (HIV)\n* Patients with active hepatitis B or hepatitis C or psitive for hepatitis C virus.\n* Active tuberculosis.\n* Symptomatic neuropathy grade \\> 1 according to Common Terminology Criteria for Adverse Events (CTCAE) v5.0\n* Severe infections within 4 weeks prior to be included in the study",
+ "path_terms": [
+  "grade",
+  "histolog",
+  "node",
+  "stage I"
+ ]
+}

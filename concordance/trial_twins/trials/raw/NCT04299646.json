@@ -1,0 +1,13 @@
+{
+ "nct": "NCT04299646",
+ "organ": "kidney",
+ "fetched": "2026-11-14",
+ "title": "A Phase II Study Assessing Stereotactic Radiotherapy in Therapeutic Strategy of Oligoprogressive Renal Cell Carcinoma Metastases",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Clear cell renal cancer histologically proved (association with other histologic component are permitted)\n* Patients of good or intermediate prognostic, according to Heng criteria\n* Extracerebral metastatic disease documented with imagery\n* Patients treated in first or second line systemic therapy\n* Systemic treatment may be targeted therapies (tyrosine kinase inhibitors or mammalian target of rapamycin inhibitors) and/or immunotherapy according to French applicable standards; patients treated in a clinical trial are also eligible if allowed by trial sponsor\n* Oligoprogressive disease documented with imagery, defined as the emergence or progression of 1 to 3 metastases and progression localized in up to 2 organs\n* Oligoprogressive disease confirmed with 2 CT scans performed 2 months apart\n* At least one measurable progressing metastasis according to R.E.C.I.S.T. criteria v1.1\n* All oligoprogressive target lesions measuring \u2264 4 cm\n* Good general condition (WHO performance status \u2264 2)\n* All progressive lesions have to be accessible to SRT, performed concurrently or sequentially\n* No contraindication to systemic therapy and stereotactic radiation therapy\n* Patients aged 18 years or older\n* Signed informed consent form\n* Patients affiliated to the social security system\n\nExclusion Criteria:\n\n* More than 3 progressive metastases\n* Non measurable disease according R.E.C.I.S.T. criteria\n* Patients who received 3 or more lines of systemic therapy\n* Inability to treat all progressive metastatic sites with SRT\n* Previous radiation therapy performed in \u2265 1 target lesion\n* At least 1 oligoprogressive target lesion measuring \\> 4 cm\n* Presence of brain metastases\n* Presence of ultra-central pulmonary metastasis\n* Progressing metastasis in a long bone\n* At least 1 progressive metastasis requiring surgical treatment\n* Current or past history of second neoplasm diagnosed within the last 5 years\n* Pregnancy or breast feeding or inadequate contraceptive measures\n* Patients who cannot be adequately followed up\n* Patient deprived of freedom or under guardianship",
+ "path_terms": [
+  "histolog"
+ ]
+}

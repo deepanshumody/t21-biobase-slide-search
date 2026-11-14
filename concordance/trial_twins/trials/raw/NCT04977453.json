@@ -1,0 +1,14 @@
+{
+ "nct": "NCT04977453",
+ "organ": "kidney",
+ "fetched": "2026-11-14",
+ "title": "GI-101/GI-101A as a Single Agent or in Combination With Pembrolizumab or Lenvatinib in Advanced Solid Tumors",
+ "phases": [
+  "PHASE1",
+  "PHASE2"
+ ],
+ "eligibility": "Key Inclusion Criteria:\n\n* Males and females aged \u2265 18 years (or \u2265 19 years according to local regulatory guidelines) at the time of screening.\n* Has adequate organ and marrow function as defined in protocol.\n* Measurable disease as per RECIST v1.1.\n* ECOG performance status 0-1.\n* Adverse events related to any prior chemotherapy, radiotherapy, immunotherapy, other prior systemic anti-cancer therapy, or surgery must have resolved to Grade \u22641, except alopecia and Grade 2 peripheral neuropathy.\n* HIV infected patients must be on anti-retroviral therapy (ART) and have a well-controlled HIV infection/disease as defined in protocol.\n\nKey Exclusion Criteria:\n\n* Has known active CNS metastases and/or carcinomatous meningitis.\n* An active second malignancy\n* Has active or a known history of Hepatitis B or known active Hepatitis C virus infection.\n* Has active tuberculosis or has a known history of active tuberculosis\n* Active or uncontrolled infections, or severe infection within 4 weeks before study treatment administration.\n* History of chronic liver disease or evidence of hepatic cirrhosis, except patients with liver metastasis.\n* Has an active autoimmune disease that has required systemic treatment in past 2 years.\n* Previous immunotherapies related to mode of action of GI-101.\n* Has a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy or any other form of immunosuppressive medications within 2 weeks prior to Cycle 1 Day 1.\n* Administration of prior systemic anti-cancer therapy including investigational agents within 4 weeks prior to treatment.\n* Radiotherapy within the last 2 weeks before start of study treatment administration, with exception of limited field palliative radiotherapy\n* Administration of a live, attenuated vaccine within 4 weeks before Cycle 1 Day 1.\n* Known hypersensitivity to any of the components of the drug products and/or excipients of GI-101/GI-101A, pembrolizumab or lenvatinib.\n\nOther protocol defined inclusion exclusion criteria may apply. Cancer type and part-specific inclusion criteria are described in the study protocol.",
+ "path_terms": [
+  "node"
+ ]
+}

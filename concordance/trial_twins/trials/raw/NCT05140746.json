@@ -1,0 +1,14 @@
+{
+ "nct": "NCT05140746",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Prediction of Neoadjuvant Chemotherapy Efficacy in Locally Advanced Gastric Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion criteria\n\n1. Age between 18-75 years.\n2. Histologically confirmed gastric adenocarcinoma through gastroscopy.\n3. Resectable gastric cancer.\n4. ECOG performance status 0-1.\n5. White blood count \\>4x109/L, Absolute neutrophil count (ANC) \\>2x109/L, Hemoglobin (Hb)\\>90g/L, Platelets \\>100x109/L.\n6. Ejection Fraction\\>50%.\n7. Serum bilirubin \\<1.5x ULN; ALT and AST \\<1.5x ULN.\n8. Serum creatinine \u22641.5x ULN, or GFR\\> 60ml/min.\n9. Agreement to participate in this study with informed consent form.\n10. Willingness and ability to comply with the protocol for the duration of the study.\n11. No children bearing petential in the next six months before enrollment.\n\nExclusion criteria\n\n1. With second primary malignant diseases in past five years, exceptions include basal cell and squamous cell carcinoma of the skin that have been cured.\n2. Known hypersensitivity reaction to chemotherapy drugs or with contraindications.\n3. With severe disease or other unsuitable conditions determined by investigators. Inadequate organ function.\n4. With uncontrollable diabetic or fasting blood glucose level \u226511 mmol/L on the test-day.\n5. With severe mental symptoms, unconscious or unable to complete the examination.\n6. Pregnancy or possibly pregnant woman, breastfeeding woman.\n7. Lack of compliance.",
+ "path_terms": [
+  "adenocarcinoma",
+  "squamous"
+ ]
+}

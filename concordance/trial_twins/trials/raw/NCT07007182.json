@@ -1,0 +1,16 @@
+{
+ "nct": "NCT07007182",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Conversion Therapy Plus Surgery and Radiotherapy for Retroperitoneal Nodal Metastases in Gastric Cancer",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion:\n\nHistologically confirmed gastric adenocarcinoma with isolated para-aortic (station 16) lymph node metastasis; pMMR or MSS subtype; ECOG performance status 0-2; Life expectancy \u2265 3 months; Adequate organ function (hematologic, hepatic, renal); Ability to provide tumor tissue for biomarker analysis; Ability to understand and willingness to sign written informed consent; Women of childbearing potential must have a negative pregnancy test and agree to use effective contraception during study and for 12 months after treatment; men with partners of childbearing potential must also agree to contraception.\n\nExclusion Criteria:\n\nEvidence of visceral or peritoneal metastasis; MSI-H or dMMR subtype; HER2-positive disease (IHC 3+ or IHC 2+ with FISH positive); Prior systemic anti-tumor therapy; Prior malignancy within 3 years (except adequately treated basal cell/squamous cell carcinoma of the skin or in situ carcinoma); Prior PD-1/PD-L1/CTLA-4 therapy; Participation in another interventional trial within 4 weeks; Active autoimmune disease requiring systemic therapy within past 2 years; Uncontrolled infection, hepatitis B, C, or HIV; CNS metastases or carcinomatous meningitis; Uncontrolled cardiovascular disease (unstable angina, recent MI, NYHA III-IV heart failure, QTc \u2265480 ms); Interstitial lung disease or uncontrolled pulmonary disease; Uncontrolled diabetes mellitus (FBG \\>10 mmol/L); Pregnancy or breastfeeding; Major surgery within 4 weeks prior to randomization; Any other condition that may interfere with protocol compliance or increase risk as judged by the investigator.",
+ "path_terms": [
+  "HER2",
+  "adenocarcinoma",
+  "node",
+  "squamous"
+ ]
+}

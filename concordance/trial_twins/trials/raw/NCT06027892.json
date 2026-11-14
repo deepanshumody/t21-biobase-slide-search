@@ -1,0 +1,16 @@
+{
+ "nct": "NCT06027892",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Two-fraction Versus Five-fraction Stereotactic Radiotherapy for Localized Prostate Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion:\n\n* Male patients \u226518 years\n* Diagnosis of low- or favorable intermediate-risk prostate adenocarcinoma\n\n  * T1-T2c\n  * Prostate specific antigen \\< 20\n  * Gleason 6 or 7 (3+4)\n  * Cannot had multiple intermediate-risk factors consistent with unfavorable intermediate risk disease\n* Prostate gland \\< 60 cc (can include following cytoreductive androgen deprivation)\n* International Prostate Symptom Score \\< 15 (unaided by a-adrenergic inhibitor or anticholinergic drugs)\n\nExclusion:\n\n* Unfavorable intermediate-risk disease and above\n* Chronic inflammatory bowel condition (IBD, Crohn's disease, Sarcoidosis, Rheumatic disease)\n* Chronic immunosuppression\n* Contraindications to hydrogel spacer placement\n* Contraindications to a prostate MRI\n* Any prior prostate cancer treatment\n* Prior pelvic radiotherapy\n* Previous transurethral resection of the prostate (TURP) within 12 months\n* Hip prosthesis\n* Prior use of therapeutic androgen deprivation therapy",
+ "path_terms": [
+  "Gleason",
+  "T1",
+  "adenocarcinoma",
+  "resect"
+ ]
+}

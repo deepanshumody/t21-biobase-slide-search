@@ -1,0 +1,16 @@
+{
+ "nct": "NCT07551362",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Dual-target CLDN18.2/HER2 CAR-NK Cells for Advanced Gastric/GEJ Cancer",
+ "phases": [
+  "PHASE1",
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Signed informed consent before any study-specific procedure.\n* Age 18 to 75 years.\n* Histologically confirmed unresectable locally advanced or metastatic gastric adenocarcinoma or gastroesophageal junction adenocarcinoma.\n* Central confirmation of CLDN18.2-positive disease by immunohistochemistry, defined for this draft as membranous CLDN18.2 expression in at least 10% of tumor cells. HER2 testing is required for all subjects; HER2-positive disease is defined as IHC 3+ or IHC 2+/ISH+ using gastric/GEJ testing criteria.\n* Disease progression after at least 2 prior systemic regimens for advanced disease, including a fluoropyrimidine and platinum agent unless contraindicated or not tolerated. If HER2-positive, prior HER2-directed therapy is expected unless unavailable, contraindicated, or not tolerated.\n* At least 1 measurable lesion according to RECIST v1.1.\n* ECOG performance status 0 or 1.\n* Life expectancy of at least 12 weeks.\n* Adequate hematologic, renal, hepatic, pulmonary, and cardiac function.\n* Recovery of prior treatment-related toxicities to Grade 1 or baseline, except alopecia or stable endocrine replacement therapy.\n* Willingness to provide archival tumor tissue or fresh biopsy material if archival tissue is inadequate for central biomarker confirmation.\n* Negative pregnancy test for women of childbearing potential and agreement to use effective contraception during the protocol-defined period\n\nExclusion Criteria:\n\n* Prior CLDN18.2-targeted or HER2-targeted genetically modified cell therapy (CAR-T, CAR-NK, TCR-T, or similar).\n* Active or untreated central nervous system metastases or leptomeningeal disease.\n* Active uncontrolled infection, including uncontrolled HBV, HCV, or HIV viremia.\n* Active autoimmune disease requiring systemic immunosuppression.\n* Clinically significant uncontrolled cardiovascular disease, including recent myocardial infarction, unstable angina, uncontrolled arrhythmia, or severe heart failure.\n* Active gastrointestinal perforation, uncontrolled upper GI bleeding, clinically significant bowel obstruction, or unstable gastric ulcer.\n* History of solid-organ transplantation or prior allogeneic hematopoietic stem-cell transplantation with active graft-versus-host disease.\n* Requirement for systemic corticosteroids above physiologic replacement (for example, \\>10 mg/day prednisone equivalent) within 7 days before lymphodepletion.\n* Pregnancy or breastfeeding.\n* Another active malignancy requiring systemic therapy, except for adequately treated non-melanoma skin cancer, carcinoma in situ, or other protocol-allowed low-risk malignancies.\n* Any medical, psychiatric, or social condition that, in the investigator's judgment, would make study participation unsafe or would interfere with interpretation of study results.",
+ "path_terms": [
+  "HER2",
+  "adenocarcinoma",
+  "resect"
+ ]
+}

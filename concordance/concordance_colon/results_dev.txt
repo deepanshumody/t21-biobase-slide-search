@@ -1,0 +1,57 @@
+===== DEV  n=261 =====
+
+FACTS  coverage / accuracy-when-found
+fact          n  mention |      rules      |      naive     
+t_major     260      91% |   86% /   98%   |   86% /   97%  
+n_major     260      88% |   83% /   96%   |   74% /   98%  
+nodes_pos   249      90% |   44% /   94%   |   44% /   94%  
+mucinous    257      96% |   90% /   97%   |   90% /   97%  
+lvi         246      74% |   53% /   95%   |   53% /   95%  
+pni         112      64% |   55% /   97%   |   55% /   97%  
+residual    221      91% |   42% /   99%   |   42% /   98%  
+
+CRITERIA [rules]
+  id     n  pos  decided  acc|dec      P      R     F1
+  C1   260  110      83%      96%   0.98   0.84   0.90  Node positive (pN>=1)  [c08]
+  C2   257   25      90%      97%   0.88   0.56   0.68  Mucinous adenocarcinoma  [c09]
+  C3   251   33      61%      96%   0.77   0.52   0.62  No positive nodes and LVI present  [c11]
+  C4   260   32      86%      99%   1.00   0.78   0.88  pT4  [c12]
+  C5   112   30      55%      97%   0.94   0.53   0.68  Perineural invasion present  [~c13]
+  C6   246  106      53%      95%   0.93   0.72   0.81  Lymphovascular invasion present
+  C7   260   43      94%      99%   0.97   0.88   0.93  Age >= 70 and node positive  [c29]
+  C8   221   23      42%      99%   1.00   0.13   0.23  Tumor left at resection (R1/R2)  [weak gold]
+  MEAN F1 = 0.716
+
+CRITERIA [naive]
+  id     n  pos  decided  acc|dec      P      R     F1
+  C1   260  110      74%      98%   0.99   0.77   0.87  Node positive (pN>=1)  [c08]
+  C2   257   25      90%      97%   0.88   0.56   0.68  Mucinous adenocarcinoma  [c09]
+  C3   251   33      57%      98%   0.84   0.48   0.62  No positive nodes and LVI present  [c11]
+  C4   260   32      86%      99%   1.00   0.78   0.88  pT4  [c12]
+  C5   112   30      55%      97%   0.94   0.53   0.68  Perineural invasion present  [~c13]
+  C6   246  106      53%      95%   0.94   0.71   0.81  Lymphovascular invasion present
+  C7   260   43      91%      99%   0.97   0.84   0.90  Age >= 70 and node positive  [c29]
+  C8   221   23      42%      98%   1.00   0.09   0.16  Tumor left at resection (R1/R2)  [weak gold]
+  MEAN F1 = 0.699
+
+CALIBRATION [rules] 1352 decided answers, ECE = 0.089
+  0.5-0.6   n=    3 conf=0.60 acc=0.33
+  0.6-0.7   n=    2 conf=0.68 acc=1.00
+  0.7-0.8   n=  313 conf=0.76 acc=0.94
+  0.8-0.9   n=  708 conf=0.90 acc=0.98
+  0.9-1.0   n=  326 conf=0.97 acc=0.98
+
+CALIBRATION [rules+cal] 1352 decided answers, ECE = 0.010
+  0.6-0.7   n=   26 conf=0.69 acc=0.69
+  0.8-0.9   n=   88 conf=0.84 acc=0.86
+  0.9-1.0   n= 1238 conf=0.98 acc=0.99
+
+RECALL AT REVIEW BUDGET [rules+cal]  K=10/25/50
+  C1   1.00   0.96   0.96
+  C2   0.90   0.56   0.56
+  C3   1.00   0.68   0.52
+  C4   1.00   1.00   0.78
+  C5   1.00   0.64   0.53
+  C6   1.00   1.00   0.98
+  C7   1.00   0.96   0.88
+  C8   0.30   0.13   0.13

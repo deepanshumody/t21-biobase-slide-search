@@ -1,0 +1,12 @@
+{
+ "nct": "NCT07909031",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "CR-002 in Adult Participants With Locally Advanced or Metastatic Solid Tumors",
+ "phases": [
+  "PHASE1",
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Life expectancy \u2265 3 months\n* Eastern Cooperative Oncology Group (ECOG) performance status score of 0 - 1\n* Adequate organ function and hematologic reserve based on laboratory parameters\n* Have measurable disease defined by RECIST v1.1\n* Willingness to provide recent archival tumor tissue sample or willingness to undergo biopsy\n* Tumor indication specific inclusion criteria:\n* Is progressing from, intolerant to, or ineligible for (due to unavailability or contraindication) local standard of care therapies and have one of the following locally advanced or metastatic tumor types:\n\n  * Head and Neck Squamous Cell Carcinoma (HNSCC)\n  * Gastric/GEJ Cancer\n  * Biliary Tract Cancer (BTC)\n  * Esophageal Squamous Cell Carcinoma (ESCC)\n  * Ovarian Cancer\n  * Endometrial Carcinoma\n  * Cervical Cancer\n  * Non-Small Cell Lung Cancer (NSCLC)\n\nExclusion Criteria:\n\n* Has malignancies other than disease under study within the past 3 years\n* Has not adequately recovered from recent major surgery\n* Has ongoing clinically significant toxicity related to prior therapy\n* Has known sensitivity to any component of CR-002\n* Has received prior treatment with an antibody-drug conjugate (ADC) with a topoisomerase I inhibitor payload.\n* Has active central nervous system (CNS) metastases\n* Has a medical or psychological condition that could interfere with study participation, increase risk, or affect interpretation of the study results\n* NOTE: Other protocol defined Inclusion and Exclusion criteria may apply.",
+ "path_terms": []
+}

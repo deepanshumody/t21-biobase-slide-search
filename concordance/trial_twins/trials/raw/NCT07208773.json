@@ -1,0 +1,14 @@
+{
+ "nct": "NCT07208773",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "A Study of YL201 and Ivonescimab (AK112) in Advanced Solid Tumors",
+ "phases": [
+  "PHASE1",
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Age \u2265 18 years old.\n2. Inclusion criteria for the study population\uff1a Phase 1: Advanced Solid tumors. Phase 2: Extensive-stage SCLC, Non-AGA NSCLC, EGFR mutation NSCLC.\n3. ECOG PS score is 0 or 1.\n4. Within 7 days before the first dose, the functions of body organs and bone marrow meet the requirements.\n\nExclusion Criteria:\n\n1. Suitable for local curative treatment.\n2. Have received previous treatment with drugs targeting B7-H3 (including antibodies, ADCs, CAR-T, and other drugs).\n3. Have received previous treatment with topoisomerase I inhibitors or ADCs containing topoisomerase I inhibitors.\n4. Have experienced grade \u2265 3 irAEs during previous treatment with anti-programmed death receptor (ligand) \\[anti-PD-(L)1\\] or other immune checkpoint inhibitors.\n5. History of bleeding tendency or coagulation disorders and/or clinically significant bleeding symptoms or risks within 4 weeks before randomization.\n6. Imaging studies during the screening period show that the patient has the Imaging-confirmed tumor invasion of major blood vessels.\n7. Active autoimmune disease requiring systemic treatment.\n8. Brain metastases or spinal cord compression.\n9. Patients with uncontrolled or clinically significant cardiovascular diseases.\n10. Clinically significant concurrent pulmonary diseases.\n11. Known to have active pulmonary tuberculosis. Other protocol-defined inclusion/ exclusion criteria may apply",
+ "path_terms": [
+  "grade"
+ ]
+}

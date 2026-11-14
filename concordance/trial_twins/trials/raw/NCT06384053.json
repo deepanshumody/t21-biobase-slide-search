@@ -1,0 +1,17 @@
+{
+ "nct": "NCT06384053",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "Skin Cancer and Hyperthermia and Radiotherapy",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Personally signed and dated written informed consent\n* Histologically confirmed invasive non-melanoma skin cancer (NMSC), including basal cell carcinoma (BCC) and squamous cell carcinoma (SCC) of any differentiation\n* \u2265 T2 (TNM Classification 8th Edition)\n* Tumor thickness up to 2cm (Maximum Depth invasion and/or exophytic growth, measured on pathology report or imaging)\n* Local recurrence allowed, if primary treatment longer ago than 6 months (after primary treatment other than radiotherapy (RT))\n* Age \u2265 65 years\n* Eastern Cooperative Oncology Group (ECOG) performance status 0-2, with a life expectancy of more than 6 months\n* Presentation at the Swiss Hyperthermia Network (SHN) tumor conference mandatory\n\nExclusion Criteria:\n\n* Other histology than BCC or SCC\n* T1 tumor and/or N+ (according to TNM classification 8th edition)\n* Tumors after resection (R1 or R2 as well as adjuvant indication)\n* Tumor invasion into critical areas\n* Several lesions exceeding the capacity of one treatment/radiation field (multiple lesions within one treatment field are acceptable)\n* Previous (one month) or concurrent Chemo- or Immunotherapy\n* Patients with connective tissue disorders (e.g. Sclerodermia, Lupus erythematodes)\n* Lesions inside or in proximity (within 3cm) previously irradiated area\n* Medical immunosuppression\n* wIRA-specific exclusion criteria\n\n  * Tattoos in irradiated area\n  * Increased photosensitivity (either due to simultaneous treatment with photosensitivity-enhancing medications or conditions such as porphyria)",
+ "path_terms": [
+  "T1",
+  "T2",
+  "histolog",
+  "resect",
+  "squamous"
+ ]
+}

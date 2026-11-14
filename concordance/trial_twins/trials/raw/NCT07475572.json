@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07475572",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "Pharmacokinetic Similarity Study to Compare AVT32-DRL_PB With Keytruda\u00ae in Participants With Fully Resected Melanoma",
+ "phases": [
+  "PHASE1"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Participants (male/female) \u226518 years of age at the time of signing the ICF.\n* Have an Eastern Cooperative Oncology Group (ECOG) performance status (PS) of 0 or 1 at the time of enrollment.\n* Participants with Stage IIB, IIC, or III histologically confirmed cutaneous melanoma\n\nExclusion Criteria:\n\n* Have had a solid organ transplant or bone marrow (stem cell) transplant that used donor stem cells (allogenic).\n* Has received prior systemic anticancer therapy for melanoma including investigational agents.\n* Participants with a history of mucosal or uveal melanoma, even if diagnosis and treatment were completed \\>5 years ago.",
+ "path_terms": [
+  "histolog"
+ ]
+}

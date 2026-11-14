@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07317505",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "A Phase 1 Study of JMT108 in Participants With Advanced Solid Tumors",
+ "phases": [
+  "PHASE1"
+ ],
+ "eligibility": "Major Inclusion Criteria:\n\n* Age \u226518 years\n* Participants with histologically or cytologically confirmed locally advanced or metastatic solid tumors who are unresponsive or intolerant to all standard of care or have no standard of care available\n* At least one evaluable tumor lesion according to RECIST v1.1.\n* ECOG performance status score \u22642.\n* Expected survival \u2265 3 months\n\nMajor Exclusion Criteria:\n\n* Active central nervous system metastases and/or leptomeningeal metastases\n* AEs from prior therapy which have not recovered to Grade \u22641 or baseline as per NCI CTCAE v5.0\n\nPrior therapy\n\n* Any other unapproved investigational drugs or treatments within 4 weeks prior to the first dose of the investigational drug (C1D1).\n* Chemotherapy, radiotherapy, biological therapy, endocrine therapy, targeted therapy, immunotherapy, or other anti-tumor therapies within 4 weeks prior to the first dose of the investigational drug, except in the following situations:\n\n  1. Nitrosoureas or mitomycin C within 6 weeks prior to the first dose of the investigational drug;\n  2. Use of oral fluoropyrimidines and small-molecule targeted drugs within 2 weeks or 5 half-lives of the drug (whichever is longer) prior to the first dose of the investigational drug;\n  3. Use of herbal medicine/products with anti-tumor indications within 2 weeks prior to the first dose of the investigational drug.",
+ "path_terms": [
+  "histolog"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "nct": "NCT05215548",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "Primary Tumor Resection With EGFR TKI for Stage IV NSCLC",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed non-small cell lung cancer\n* Stage IV non-small cell lung cancer which is amenable to thoracic surgery\n* Patients must have one of the following:NSCLC which harbors EGFR exon 19 deletion or L858R mutation.\n* Eastern Cooperative Oncology Group (ECOG) performance status =\\< 1\n* Candidate for therapeutic intent surgery to at least one site of disease\n* Signed and dated written informed consent prior to admission to the study in accordance with International Council for Harmonization of Technical Requirements for Pharmaceuticals for Human Use (ICH)-Good Clinical Practice (GCP) guidelines and to the local legislation\n\nExclusion Criteria:\n\n* Life expectancy \\<= 12 weeks\n* With underlying diseases such as moderate to severe Chronic Obstructive Pulmonary Disease or tuberculosis\n* With uncontrol diseases including acute infection, unstable angina or angina in recent 3 months, Heart failure(NYHA\u22652), myocardial infarction in recent 6 months, severe arrhythmia, moderate to severe cirrhosis, moderate to severe chronic renal insufficiency, immune insufficiency, any systemic disease with poor prognosis after treatment.\n* With Cerebrovascular Accident complicated dependent activities of daily living.\n* Any other cancer with active treatment in recent 5 years.\n* receive thoracic surgery in the ipsilateral site with the lung cancer previously. \uff08the biopsy surgery required for the diagnosis of lung cancer was not excluded)\n* pregnant or breast-feeding woman\n* Previous treatment with other EGFR TKI. NOTE: Patients who are receiving initial afatinib (6-12 weeks) outside this study are not excluded\n* Disagree to receive Next Generation Sequencing for the lesion specimen after surgery.",
+ "path_terms": []
+}

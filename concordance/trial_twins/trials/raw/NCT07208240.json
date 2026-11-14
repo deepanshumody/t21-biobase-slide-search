@@ -1,0 +1,15 @@
+{
+ "nct": "NCT07208240",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Tb-PSMA-I&T Radionuclide Before Radical Prostatectomy in Patients With Locally Advanced Prostate Cancer - TbeforePROST Trial.",
+ "phases": [
+  "PHASE1",
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Male aged 18 years and older.\n* Patients with high-risk localized prostate cancer (cT3/4 and/or Gleason score \u2265 eight and/or prostate biopsy or PSA \u2265 20 ng/dl)\n* High PSMA expression was confirmed according to PROMISE V2 8\n* Patients should have an Eastern Cooperative Oncology Group (ECOG) performance status score of 1 or lower and a life expectancy of \\> 10 years.\n\nExclusion Criteria:\n\n* Platelet count lower than 150\u00d7103/\u00b5l\n* white blood cell count lower than 4\u00d7103/\u00b5l,\n* haemoglobin concentration lower than 12mg/dl.\n* albumin concentration lower than 3.5 g/dl.\n* glomerular filtration rate (GFR) lower than 40 mL/min.\n* usage of nephrotoxic drugs\n* distant metastatic disease",
+ "path_terms": [
+  "Gleason",
+  "T3"
+ ]
+}

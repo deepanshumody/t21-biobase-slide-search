@@ -1,0 +1,14 @@
+{
+ "nct": "NCT02889666",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "A Randomised Trial of Chemotherapy Plus Surgery for Recurrent Non-Small Cell Lung Cancer",
+ "phases": [
+  "PHASE1"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Age \u2264 75 years with histologically proven NSCLC\n* No severe major organ dysfunction\n* WHO performance status of 0 or 1\n* No prior cancer chemotherapy\n* A Clinical Stage \u2265 IA (T1a, N0, M0) of lung disease but without diagnosed distant metastasis (according to the 1997 revision of the International Union Against Cancer TNM staging system) as determined by a preoperative evaluation that included a pleural computed tomography (CT) scan.\n\nExclusion Criteria:\n\n* Age \u2265 76\n* Severe major organ dysfunction\n* WHO performance status of \\>1\n* Prior cancer chemotherapy\n* Stage IV",
+ "path_terms": [
+  "N0",
+  "histolog"
+ ]
+}

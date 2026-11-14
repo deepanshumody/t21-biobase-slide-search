@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07129551",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Navigation, Outcomes and Quality-of-life in Prostate Cancer Patients Undergoing PSMA-targeted Surgery",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\nCohort A:\n\n* Patients with hormone-sensitive prostate cancer scheduled for radical prostatectomy with pelvic lymph node dissection\n* \\<3 PSMA-PET-avid lymph node metastases (PSMA expression score \\>2) in the pelvis.\n\nCohort B:\n\n* Patients with hormone-sensitive recurrent prostate cancer after radical prostatectomy with planned pelvic salvage lymph node dissection\n* \\<3 PSMA-PET-avid lymph node metastases (PSMA expression score \\>2) in the pelvis\n* PSA value \\<2ng/ml.\n\nExclusion Criteria:\n\n* Estimated life expectancy \\<10 years\n* contraindication for surgical intervention\n* androgen deprivation therapy (ADT) within the last 3 months",
+ "path_terms": [
+  "node"
+ ]
+}

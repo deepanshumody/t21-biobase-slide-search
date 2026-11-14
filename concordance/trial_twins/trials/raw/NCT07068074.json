@@ -1,0 +1,16 @@
+{
+ "nct": "NCT07068074",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "Comparing the Effectiveness of Less Invasive Procedures With the Current Standard of Care for the Treatment of Older Adults With Early-Stage Melanoma",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patient must be \u2265 75 years of age.\n* Patient must have Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.\n* Patient must have the ability to understand and the willingness to sign a written informed consent document. Patients with impaired decision-making capacity (IDMC) who have a legally authorized representative (LAR) or caregiver and/or family member available will also be considered eligible.\n* Patient must have newly diagnosed primary cutaneous melanoma with wide local excision (WLE) and sentinel lymph node (SLN) biopsy indicated per the treating physician, pending definitive surgical management.\n\n  * NOTE: For WLE and SLN to be indicated, the patient must have either:\n\n    * Pathologic features that include \u2267 Breslow 0.8 mm OR Breslow \\< 0.8 mm determined at initial biopsy, with a positive margin, ulceration, lymphovascular invasion, perineural invasion or \\> 1 mitosis/mm\\^2.\n\nOR\n\n* Risk of SLN metastasis of at least 5%, as calculated using the Melanoma Institute of Australia (MIA) Sentinel Node Metastasis Prediction Tool.\n\n  * Patient must be eligible for WLE and SLN biopsy. Patients for whom SLN biopsy would be contraindicated, difficult to perform (i.e., after prior surgery in the draining basin) or impossible (i.e., after prior lymphadenectomy for another cause) are not eligible.\n  * Patient must be eligible for surgery and not have uncontrolled medical condition that in the opinion of the medical or surgical oncologist precludes surgical management.\n  * Patient must not have an active infection that precludes enrollment to this study in opinion of treating investigator.\n  * Human immunodeficiency virus (HIV)-infected patients on effective anti-retroviral therapy with undetectable viral load within 6 months of randomization are eligible for this trial.\n  * Patients with a prior or concurrent malignancy whose natural history or treatment does not have the potential to interfere with the safety or efficacy assessment of the investigational regimen are eligible for this trial.\n  * Patients with known history or current symptoms of cardiac disease, or history of treatment with cardiotoxic agents, should have a clinical risk assessment of cardiac function using the New York Heart Association functional classification. To be eligible for this trial, patients should be class 2B or better.\n  * Patient must be English speaking to be eligible for this study in order to complete the patient-reported outcomes (PROs).\n\n    * NOTE: Sites cannot translate the associated quality of life (QOL) forms.",
+ "path_terms": [
+  "Breslow",
+  "lymphovascular",
+  "margin",
+  "node"
+ ]
+}

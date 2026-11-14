@@ -1,0 +1,11 @@
+{
+ "nct": "NCT07498829",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Population Based Germline Testing for Early Detection and Prevention of Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Women, trans men, and non-binary people with female reproductive organs\n* \u226518 years at consent\n\nExclusion Criteria:\n\n* Individuals who have previously undergone genetic testing for one or more of the following CSGs: BRCA1, BRCA2, PALB2, RAD51C, RAD51D, BRIP1, MLH1, MSH2, MSH6\n* One or more first- or second-degree relative with a PV in any of above CSGs\n* Inability to provide informed consent",
+ "path_terms": []
+}

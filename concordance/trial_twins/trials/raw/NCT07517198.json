@@ -1,0 +1,15 @@
+{
+ "nct": "NCT07517198",
+ "organ": "kidney",
+ "fetched": "2026-11-14",
+ "title": "Dose Determining Study of EXS74539 (REC-4539) in Participants With Select Solid Tumors",
+ "phases": [
+  "PHASE1"
+ ],
+ "eligibility": "Key Inclusion Criteria:\n\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0-1.\n* Histologically confirmed diagnosis of the following solid tumors:\n\n  * SCLC\n  * High grade neuroendocrine or small cell carcinomas of non-lung origin\n  * Non-small cell lung cancer \\[NSCLC\\]\n  * Prostate cancer\n  * Ovarian cancer\n  * Renal carcinoma \\[clear and non-clear cell\\]\n  * Head and neck squamous cell carcinoma\n  * Hepatic cancer\n  * Gastric cancer\n  * Triple-negative breast cancer \\[TNBC\\]\n* Participant disease should have progressed, relapsed or the participants should have been intolerant to at least one prior standard systemic therapy for their respective underlying malignancy.\n* Measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1.\n\nKey Exclusion Criteria:\n\n* Any medical or psychiatric condition that, in the opinion of the Investigator, could jeopardize or would compromise the participant's safety or ability to participate in the study.\n* Symptomatic brain metastases, leptomeningeal metastases, or spinal cord compression due to disease. Participants with brain metastases must be clinically stable and off corticosteroids and anticonvulsants for \u22651 month prior to study treatment and not require any specific intervention for brain metastases.\n* Active and clinically significant infection requiring systemic antibacterial, antiviral, or antifungal therapy \\<7 days of the first scheduled dose of the study treatment.\n* Significant cardiac abnormalities.\n* Major surgery within 28 days prior to the start of study treatment.\n\nNote: Other protocol-defined inclusion and exclusion criteria may apply.",
+ "path_terms": [
+  "clear cell",
+  "grade",
+  "squamous"
+ ]
+}

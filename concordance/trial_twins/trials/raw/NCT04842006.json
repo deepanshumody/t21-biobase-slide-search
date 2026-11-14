@@ -1,0 +1,13 @@
+{
+ "nct": "NCT04842006",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Systemic Neoadjuvant and Adjuvant Control by Precision Medicine in Rectal Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. rectal adenocarcinoma,\n2. World Health Organization (WHO) performance status 0-1, assessed by the MDT to be able to undergo capecitabine and oxaliplatin (CAPOX) treatment, 3) extramural vein invasion by magnetic resonance imaging (mrEMVI+) and\n\n4\\) assessed by the multi-disciplinary team (MDT) to require either radiotherapy (RT) or long chemoradiotherapy (CRT) by the current standards.\n\nExclusion Criteria:\n\n1. deficient mismatch repair (MMR) status,\n2. non-dihydropyrimidine dehydrogenase (DPYD) genotype,\n3. a contraindication to capecitabine, oxaliplatin or RT, or\n4. failing in blood tests that describe the adequate circulatory, liver and kidney function for chemotherapy.",
+ "path_terms": [
+  "adenocarcinoma"
+ ]
+}

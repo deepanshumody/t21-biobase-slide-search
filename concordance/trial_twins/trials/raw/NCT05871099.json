@@ -1,0 +1,18 @@
+{
+ "nct": "NCT05871099",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Laparoscopic Gastrectomy With D2 Lymphadenectomy Combined With Hyperthermic Intraperitoneal Chemotherapy (HIPEC) or Not",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n(1) Newly treated patients who did not receive chemotherapy, radiotherapy or other antitumor therapy before the start of the clinical trial;(2) Aged 18-80 years;(3) male or non-pregnant or lactating female;(4) Gastric adenocarcinoma was pathologically confirmed, and laparoscopic (robotic) radical gastrectomy was planned;(5) Patients with T stage T3 or above, no distant metastasis, and feasible criteria for laparoscopic D2 radical resection (AJCC Eighth edition);(6) The estimated survival time is more than 6 months;(7) History of nonabdominal surgery (except laparoscopic cholecystectomy);(8) The bone marrow reserve function was good, and the blood routine met the following conditions: white blood cell count \u22653.5\u00d7109/L, neutrophil \u22651.5\u00d7109/L, platelet count \u2265100\u00d7109/L, hemoglobin \u226590g/L;(9) Organ function was good, and biochemical examination met the following conditions: ALT\u22642.5\u00d7 upper limit of normal value (ULN), AST\u22642.5\u00d7ULN, serum total bilirubin \u22641.5\u00d7ULN, serum creatinine \u22641.5\u00d7ULN;(10) Functional status: 0-1 (ECOG);(11) Preoperative ASA grade I-III;(12) Voluntarily sign the informed consent.\n\nExclusion Criteria:\n\n(1) Lymph node BulkyN2 status was diagnosed by abdominal CT/MRI, that is, at least one lymph node meridian \u22653cm or three consecutive lymph nodes, each meridian \u22651.5cm;(2) pregnant or lactating women;(3) Other malignant tumors within 5 years;(4) Preoperative temperature \u226538\u2103 or complicated with infectious diseases requiring systematic treatment;(5) serious mental illness;(6) Severe respiratory diseases, FEV1\\< 50%;(7) Severe liver and kidney dysfunction, liver enzyme elevation more than 2 times the normal value;(8) History of unstable angina pectoris or myocardial infarction within 6 months;(9) History of cerebral infarction or cerebral hemorrhage within 6 months, except old infarct;(10) Systemic glucocorticoid therapy within 1 month;(11) Patients with gastric cancer complications (bleeding, perforation, obstruction) requiring emergency surgery;(12) The patient has participated in or is currently participating in other clinical studies (within 6 months);(13) Laparoscopic exploration, biopsy and cytology confirmed intraperitoneal implantation and metastasis.",
+ "path_terms": [
+  "N2",
+  "T3",
+  "adenocarcinoma",
+  "grade",
+  "node",
+  "resect"
+ ]
+}

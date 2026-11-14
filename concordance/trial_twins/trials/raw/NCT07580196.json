@@ -1,0 +1,18 @@
+{
+ "nct": "NCT07580196",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Bilateral Versus Unilateral Lymph Node Dissection in High-Risk Prostate Cancer (BALANCE)",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Male patients aged 18 years or older\n* Histologically confirmed unilateral high-risk localized prostate cancer, defined by at least one of the following: ISUP Grade Group 4 or 5; suspicion of at least cT3a disease on multiparametric MRI and/or PSMA PET; or PSA greater than or equal to 20 ng/mL with a unilateral index lesion\n* Unilateral features of the index lesion defined by biopsy, multiparametric MRI, and PSMA PET\n* No PSMA PET-positive pelvic lymph nodes contralateral to the dominant side of the prostate cancer\n* No significant contralateral PSMA uptake on the non-dominant side, defined as lesions with PRIMARY score 3 to 5\n* No contralateral index lesion on multiparametric MRI subsequently confirmed by prostate biopsy\n* No high-risk histology on the side contralateral to the dominant lesion, including ISUP Grade Group greater than 3 or unconventional prostate cancer histology\n* No frank extracapsular invasion or seminal vesicle invasion on the contralateral side\n* Up to two positive systematic cores with unfavorable intermediate-risk disease or up to four with favorable intermediate-risk disease are allowed on the contralateral side\n* A maximum of two pelvic PSMA-positive lymph nodes allowed on the dominant side\n* Clinically localized disease, defined as less than cT4 on multiparametric MRI and no distant metastases, including no retroperitoneal lymph nodes on PSMA PET\n* Life expectancy greater than 10 years according to physician judgment\n* Scheduled for robot-assisted radical prostatectomy and fit for surgery\n* Written informed consent provided\n\nExclusion Criteria:\n\n* Any prostate cancer treatment prior to prostatectomy, including androgen deprivation therapy, neoadjuvant chemotherapy, radiotherapy, or focal ablative therapy\n* Prior active treatment for prostate cancer\n* Contralateral ISUP Grade Group 4 to 5 prostate cancer\n* Contralateral ISUP Grade Group 2 in more than 4 positive cores or ISUP Grade Group 3 in more than 2 positive cores\n* Contralateral cT3 disease on multiparametric MRI\n* N1 or M1 disease on PSMA PET or multiparametric MRI, except for up to two positive pelvic lymph nodes on the dominant side\n* No systematic prostate biopsies performed, with a minimum of 10 cores, and targeted biopsies when a target lesion is present\n* Other active malignancy\n* Contraindication to multiparametric MRI and/or PSMA PET\n* Inability to provide written informed consent\n* Age younger than 18 years\n* ASA score greater than 3\n* Any contraindication to pelvic lymph node dissection\n* Severe psychiatric disease\n* Inadequate hematologic and/or coagulation function\n* Active infection\n* Any other serious medical, psychiatric, psychological, familial, or geographic condition that, in the judgment of the investigator, may interfere with staging, treatment, follow-up, compliance, or increase treatment-related risk\n* Patients with prior malignancy treated with curative intent are eligible only with mandatory approval by the local multidisciplinary tumor board",
+ "path_terms": [
+  "ISUP",
+  "N1",
+  "T3",
+  "T4",
+  "histolog",
+  "node"
+ ]
+}

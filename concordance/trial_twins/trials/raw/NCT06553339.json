@@ -1,0 +1,14 @@
+{
+ "nct": "NCT06553339",
+ "organ": "kidney",
+ "fetched": "2026-11-14",
+ "title": "A Study of HS-10516 in Patients With VHL Syndrome Associated Tumors",
+ "phases": [
+  "PHASE1"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Male or female from 18 to 80 year-old\n2. Patients with advanced clear cellrenal cell carcinoma or von Hippel-Lindau Syndrome associated tumors\n3. Has an Eastern Cooperative Oncology Group performance status of 0-1\n4. Has a life expectancy of \u2265 12 weeks\n5. Should use adequate contraceptive measures throughout the study\n6. Females subject must not be pregnant at screening\n7. Has the ability to understand and willingness to sign a written informed consent before the performance of the study.\n\nExclusion Criteria:\n\n1. Recieved or being received treatment as follows:\n\n   1. Hypoxia-induced factor inhibitors\n   2. Traditional Chinese medicine indicated for tumors within 2 weeks prior to the first dose of study treatment.\n   3. Cytotoxic chemotherapeutic drugs, investigational drugs or other systematic anti-tumor therapies within 3 weeks before the first dose of study treatment\n   4. Colony-stimulating factors (CSFs) within 4 weeks before the first dose of study treatment\n   5. Local radiotherapy within 2 weeks prior to the first dose of study treatment; more than 30% of bone marrow radiotherapy or large-area irradiation within 4 weeks before the first dose of study treatment.\n   6. Major surgery within 4 weeks prior to the first dose of study treatment.\n2. Has a pulse oximetry reading less than 92% at screening, requires intermittent supplemental oxygen, or requires chronic supplemental oxygen\n3. Has failed to recover from a \u2265 grade 2 adverse event due to prior anti-tumor therapy\n4. Has another malignancy or a history of another non-VHL syndrome associated malignancy\n5. Has inadequate bone marrow reserve or organ dysfunction\n6. Has a clinically significant bleeding events or tendency within 1 month prior to the first dose of study treatment\n7. Has severe infections within 4 weeks prior to the first dose of study treatment\n8. Has digestive system diseases may influencing ADME of study drug\n9. Has a history of severe hypersensitivity reaction, or proven allergic to HS-10516 or its metabolin\n10. Has any disease or condition would compromise subject safety or interfere with study assessments by investigator's decision",
+ "path_terms": [
+  "clear cell",
+  "grade"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "nct": "NCT06521710",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Nerve Grafting Technique to Preserve Erectile Function in Patients Undergoing Robotic Assisted Radical Prostatectomy",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Patients undergoing standard of care robotic radical prostatectomy for high-risk localized prostate cancer as defined by any of:\n\n   1. Gleason grade \u22658\n   2. PSA \u226520\n   3. \\>pT2 on preoperative MRI imaging\n2. Patients must have preoperative erectile function with a baseline IIEF score of \u226517\n\nExclusion Criteria:\n\n1. Patients with previous pelvic surgery\n2. Patients with previous pelvic radiotherapy\n3. Patient with previous focal therapy for prostate cancer\n4. Patients aged \\< 18 years at diagnosis\n5. Legally incapable patients\n6. Patients who are unable to complete questionnaires and have no companion to help complete them\n7. Patients undergoing a concomitant cancer surgery\n8. Patients with pre-existing neurologic disease",
+ "path_terms": [
+  "Gleason",
+  "T2",
+  "grade"
+ ]
+}

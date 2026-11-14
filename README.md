@@ -8,6 +8,8 @@
 All project code, reports, results, and experiment records are grouped in [`biobase/`](biobase/).
 Start with the [full project README](biobase/README.md).
 
+The report-side work (Task A criteria search, TCGA validation, trial matching) is in [`concordance/`](concordance/); start with its [README](concordance/README.md).
+
 ## Problem
 
 Classify pathology slides by organ (C1) and retrieve similar slides using organ evidence and visual similarity (C2).

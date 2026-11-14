@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07500701",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Salvage Moderate Hypofractionated Versus Ultrahypofractionated Radiotherapy for Biochemical Recurrence After Radical Prostatectomy in Prostate Cancer",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patients who have undergone radical prostatectomy for prostate cancer\n* Age \u2265 20 years\n* Persistent prostate-specific antigen (PSA) elevation after radical prostatectomy, defined as prostate-specific antigen (PSA) levels of 0.1-1.0 ng/mL with at least three consecutive increases\n* Patients who have undergone prostate-specific membrane antigen positron emission tomography/computed tomography (PSMA PET/CT) for evaluation of prostate-specific antigen (PSA) elevation\n* Good performance status (ECOG performance status 0-1)\n\nExclusion Criteria:\n\n* Radiologic or clinical evidence of gross local recurrence, lymph node metastasis, or distant metastasis, including findings on prostate-specific membrane antigen positron emission tomography/computed tomography (PSMA PET/CT), as determined by the treating physician\n* Presence of lymph node metastasis or distant metastasis at the time of radical prostatectomy\n* History of prior pelvic radiotherapy\n* Diseases associated with a high risk of radiation toxicity (e.g., inflammatory bowel disease, systemic lupus erythematosus, scleroderma, or other connective tissue diseases)\n* History of another malignancy diagnosed or recurrent within the past 3 years (except for skin cancer and thyroid cancer)\n* Uncontrolled acute or chronic conditions deemed inappropriate for study participation by the investigator (e.g., dementia, Alzheimer's disease, cerebral infarction, etc.)",
+ "path_terms": [
+  "node"
+ ]
+}

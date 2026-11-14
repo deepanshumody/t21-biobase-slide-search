@@ -1,0 +1,12 @@
+{
+ "nct": "NCT06819215",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Phase I/II Clinical Study to Evaluate VB15010 Tablets in Patients With Advanced Solid Tumors",
+ "phases": [
+  "PHASE1",
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Age \u2265 18 at the time of screening;\n* Histological or cytological confirmation of advanced malignancy ;\n* Progressive cancer at the time of study entry;\n* Adequate organ and marrow function as defined by the protocol;\n* Homologous recombination repair gene mutation.\n\nExclusion Criteria:\n\n* Major surgery within 4 weeks of the \ufb01rst dose of study treatment.\n* Spinal cord compression or brain metastases unless asymptomatic, treated and stable and not requiring continuous corticosteroids at a dose of \\>10mg prednisone/day or equivalent for at least 4 weeks prior to start of study treatment. Patients with leptomeningeal carcinomatosis are excluded.\n* Patients with myelodysplastic syndrome/acute myeloid leukaemia or with features suggestive of myelodysplastic syndrome (MDS)/acute myeloid leukaemia (AML).",
+ "path_terms": []
+}

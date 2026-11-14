@@ -1,0 +1,17 @@
+{
+ "nct": "NCT07431827",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "MK-3475A\u00b1Calderasib (MK-1084) in Completely Resected Stage IIA-IIIB (N2) KRAS G12Cm NSCLC (MK-1084-013)",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Has a histological/cytological diagnosis of non-small cell lung cancer (NSCLC) with predominantly nonsquamous histology and meets one of the following criteria:\n\n  * Has newly diagnosed, treatment-na\u00efve, resectable, clinical Stage IIA-IIIB (N2) NSCLC\n  * Has completely resected, pathological Stage IIA-IIIB (N2) NSCLC, including those previously treated outside the study with neoadjuvant platinum-doublet chemotherapy plus pembrolizumab or MK-3475A, or those who received adjuvant platinum-doublet chemotherapy.\n* Tumor tissue shows the presence of Kirsten rat sarcoma viral oncogene homolog G12C (KRAS G12C) mutation\n* No more than 12 weeks have elapsed between either the surgery following neoadjuvant treatment or last dose of adjuvant platinum-based chemotherapy and the first dose of investigational adjuvant study intervention.\n* Has no evidence of disease based on postsurgical radiological assessment as documented by contrast-enhanced chest/abdomen computed tomography (or magnetic resonance imaging) within 28 days before randomization\n* Has an Eastern Cooperative Oncology Group performance status of 0 or 1 within 10 days before the first dose of the study intervention\n* Human immunodeficiency virus-infected participants must have well controlled HIV on antiretroviral therapy\n* Participants who are Hepatitis B surface antigen positive are eligible if they have received hepatitis B virus (HBV) antiviral therapy and have undetectable HBV viral load\n* Participants with history of hepatitis C virus (HCV) infection are eligible if HCV viral load is undetectable\n\nExclusion Criteria:\n\n* Has a diagnosis of any 1 of the following tumor types/locations: small cell lung cancer or, for mixed tumors, presence of small cell elements, neuroendocrine tumor with large cell components, sarcomatoid carcinoma, or NSCLC involving the superior sulcus\n* HIV-infected participants with a history of Kaposi's sarcoma and/or Multicentric Castleman's Disease\n* Has active inflammatory bowel disease requiring immunosuppressive medication or previous clear history of inflammatory bowel disease (eg, Crohn's disease, ulcerative colitis, chronic diarrhea)\n* Has uncontrolled, significant cardiovascular disease or cerebrovascular disease within the 6 months preceding study intervention\n* Is unable to swallow orally administered medication, or has a gastrointestinal disorder affecting absorption (e.g. gastrectomy, partial bowel obstruction, or malabsorption)\n* Has known additional malignancy that is progressing or has required active treatment within the past 3 years\n* Has an active autoimmune disease that has required systemic treatment in the past 2 years except replacement therapy\n* Has a history of (noninfectious) pneumonitis/interstitial lung disease that required steroids or has current pneumonitis/interstitial lung disease\n* Has active infection requiring systemic therapy\n* Has not adequately recovered from major surgery or has ongoing surgical complications",
+ "path_terms": [
+  "N2",
+  "histolog",
+  "node",
+  "resect",
+  "squamous"
+ ]
+}

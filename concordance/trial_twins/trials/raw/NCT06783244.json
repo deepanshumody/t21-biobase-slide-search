@@ -1,0 +1,13 @@
+{
+ "nct": "NCT06783244",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Low Versus Standard Intraabdominal Pressure in Robot-assisted Colorectal Cancer Surgery",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* age \\>18 years\n* a diagnosis of colorectal cancer\n* scheduled for curative intended robot-assisted resection\n\nExclusion Criteria:\n\n* BMI above 35\n* inability to fulfill QoR15 questionnaire\n* construction of a stoma either proactive or permanent\n* metastatic cancer disease\n* recieving neoadjuvant treatment\n* previous multiple abdominal operations defined as 3 or more",
+ "path_terms": [
+  "resect"
+ ]
+}

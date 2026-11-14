@@ -1,0 +1,14 @@
+{
+ "nct": "NCT05328505",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Molecular Imaging Informed Radiation Dose Escalation to Sites of Recurrent Disease and De-escalation to Uninvolved Areas in Salvage Radiotherapy for Prostate Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Men older than 18 years old.\n* Histologically proven initial diagnosis of adenocarcinoma prostate cancer.\n* Previous radical prostatectomy.\n* Biochemical relapse with local or regional recurrence proven on PSMA PET.\n* Five or less positive nodes on the PSMA PET.\n* ECOG 0-1\n\nExclusion Criteria:\n\n* Presence of para-aortic lymph nodes or distant metastasis.\n* Chronic pelvic inflammatory disease.\n* Contraindication for radiation treatment.\n* Previous radiation treatment within the pelvis",
+ "path_terms": [
+  "adenocarcinoma",
+  "node"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "nct": "NCT07135271",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "BeSpoke Decision Support for Patients With Newly Diagnosed Localised Prostate Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria for Patient-Participants:\n\n1. Newly diagnosed localised prostate cancer\n2. Clinically suitable for at least two of the following treatment options:\n\n   1. active surveillance\n   2. focal therapy\n   3. radical prostatectomy\n   4. external beam radiotherapy\n3. Willing and able to provide informed consent\n\nExclusion Criteria for Patient Participants:\n\n1. Unsuitable for active treatment due to very low risk prostate cancer or significant health issues.\n2. Suspicion of metastatic prostate cancer based on clinical or imaging evidence including:\n\n   1. Imaging identified suspicious lesion on bone scan, CT, whole-body MRI or PSMA-PET/CT;\n   2. PSA \u226550 ng/mL.\n3. Not able to provide informed consent.\n4. Insufficient English proficiency for adequate use of BeSpoke Decision Support. (Patients with support from a family member, friend or partner, to overcome lack of English proficiency will be included.)\n5. Enrolled in other localised prostate cancer studies where treatment is assigned rather than chosen by participants, e.g. PART Trial (Partial prostate Ablation vs Radical prostaTectomy)\n\nInclusion criteria for Health Care Professionals:\n\n1. Have seen BeSpoke Decision Support and spoken to patients in the intervention arm.\n2. Willing and able to provide written or electronic informed consent\n\nExclusion criteria for Health Care Professionals\n\n1\\. No experience of BeSpoke Decision Support.",
+ "path_terms": []
+}

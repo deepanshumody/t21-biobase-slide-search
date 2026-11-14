@@ -1,0 +1,20 @@
+{
+ "nct": "NCT07342283",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "QL1706 Plus Chemotherapy as Neoadjuvant Therapy in Triple-Negative Breast Cancer",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Histologically or cytologically confirmed newly diagnosed ER-/HER2- breast cancer. ER and PR with Allred score \\<3 or \\<1% positively stained cells in tumor infiltrating components. HER2 negativity defined as 0 or 1+ by FISH or IHC staining per NCCN guidelines;\n2. Clinical stage II or III breast cancer eligible for neoadjuvant chemotherapy (per AJCC 8th edition: at least T2 any N M0, or any T if N+), with treatment goal of complete surgical resection following neoadjuvant therapy;\n3. Tumor size \u22652 cm by clinical or imaging assessment per WHO criteria. Patients with histologically confirmed or clinically palpable lymph nodes are eligible regardless of tumor size;\n4. Treatment-na\u00efve subjects;\n5. Age \u226518 years, both genders eligible;\n6. ECOG performance status 0-1;\n7. Adequate bone marrow, cardiac, and organ function;\n8. Women of childbearing potential must have a negative pregnancy test (serum or urine HCG) within 30 days prior to study enrollment and must practice effective contraception during the study;\n9. Ability to comprehend and provide written informed consent.\n\nExclusion Criteria:\n\n1. History of invasive malignancies within 5 years prior to signing the informed consent form, except for adequately treated basal cell carcinoma, squamous cell skin cancer, or carcinoma in situ of the cervix;\n2. Subjects who have received chemotherapy, immunotherapy, targeted therapy, or radiotherapy within the past 12 months;\n3. Stage IV metastatic breast cancer;\n4. Administration of a vaccine within 30 days before the first dose of the study treatment;\n5. Subjects with severe systemic diseases;\n6. Subjects with active infections (including but not limited to HIV, hepatitis B or C, tuberculosis);\n7. Severe cardiovascular diseases, such as: history of myocardial infarction, acute coronary syndrome, or coronary angioplasty/stenting/bypass grafting within the past 6 months; or congestive heart failure (CHF) of New York Heart Association (NYHA) class II-IV, or history of CHF NYHA class III or IV;\n8. Lactating women should discontinue breastfeeding during the study;\n9. Subjects with known allergies to the study drug or any of its excipients;\n10. Any other condition deemed inappropriate for participation in the study by the investigator.\n\n    \\-",
+ "path_terms": [
+  "ER",
+  "HER2",
+  "T2",
+  "histolog",
+  "node",
+  "resect",
+  "squamous",
+  "stage I"
+ ]
+}

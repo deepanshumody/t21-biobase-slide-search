@@ -1,0 +1,15 @@
+{
+ "nct": "NCT05494086",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Dual-Port Laparoscopic Distal Gastrectomy for Gastric Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. patients within 18--75 years old;\n2. patients with a preoperative pathological diagnosis of gastric adenocarcinoma;\n3. patients with a clinical tumor stage of T1N1,T2N0 according to the preoperative examinations (gastroscopy, ultrasound gastroscopy and computed tomography);\n4. patients with a plan to undergo laparoscopic distal gastrectomy and obtain R0 surgical results;\n5. patients without severe heart, liver, lung, or kidney dysfunction;\n6. patients with an Eastern Cooperative Oncology Group performance status (ECOG PS) of 0-1; and (7) patients with American Society of Anesthesiologists (ASA) I-II.\n\nExclusion Criteria:\n\n1. patients with a history of upperabdominal surgery;\n2. patients who presentedas an emergency case;\n3. patients with other histories of malignant diseases within 5 years;\n4. patients with prior neoadjuvant chemotherapy or radiation therapy; and (5)patients who need simultaneous surgical treatment for other malignant diseases.",
+ "path_terms": [
+  "N0",
+  "N1",
+  "adenocarcinoma"
+ ]
+}
