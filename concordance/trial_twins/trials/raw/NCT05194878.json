@@ -1,0 +1,17 @@
+{
+ "nct": "NCT05194878",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Neoadjuvant FOLFOXIRI Versus Immediate Surgery for Stage II and III Colon Cancers",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologically proven adenocarcinoma or high grade dysplasia on histology plus unequivocal radiological evidence of invasive cancer of the colon(\u2265 12 cm from the anal verge).\n* pMMR in immunohistochemical detection or MSI-H in MSI test.\n* Determined preoperatively by either spiral or multidetector CT: high risk T3 (tumor disruption of muscle wall and extension into pericolic fat with more than 5 mm protrusion into adjacent mesenteric fat) or T4 (tumor penetrates to the surface of the visceral peritoneum or directly invades or is adherent to adjacent organs or structures).\n* Patients presenting with acute colonic obstruction may enter the trial only after obstruction is relieved by a successful defunctioning stoma, and when recovered to a fitness level consistent with the other eligibility criteria\n* Adequate full blood count: WBC \\>3.0 x109/l; Plts \\>100 x109/l. Anaemia (Hb \\< 10.0 g/dl) is not an exclusion, but should be corrected by transfusion prior to surgery and chemotherapy. If Hb remains low despite transfusions, surgery and chemotherapy can be given at the decision of the surgical and oncology teams.\n* Adequate renal biochemistry: serum creatinine was less than 1.5 times the normal value.\n* Adequate hepatobiliary function: serum total bilirubin and ALT were less than 1.5 times the normal value.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n\nExclusion Criteria:\n\n* Any patient for whom radiotherapy is advised by the MDT\n* Strong evidence of distant metastases or peritoneal nodules (M1)\n* dMMR in immunohistochemical detection or MSI-L/MS-S in MSI test.\n* Peritonitis (secondary to perforated tumour)\n* Colonic obstruction that has not been defunctioned\n* Serious medical comorbidity, eg uncontrolled inflammatory bowel disease, uncontrolled angina or recent (\\<6 months) MI\n* Another serious medical condition judged to compromise ability to tolerate neoadjuvant therapy and/or surgery\n* Any other malignant disease within the preceding 5 years with the exception of non-melanomatous skin cancer, carcinoma in situ and early stage disease with a recurrence risk \\<5%",
+ "path_terms": [
+  "T3",
+  "T4",
+  "adenocarcinoma",
+  "grade",
+  "histolog"
+ ]
+}

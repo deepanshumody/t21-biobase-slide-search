@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07545356",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "A Study of KIVU-305 in Participants With Locally Advanced or Metastatic Solid Tumors",
+ "phases": [
+  "PHASE1"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Male or female \u226518 years of age\n* Pathologically or histologically documented diagnosis of advanced / metastatic solid tumor malignancy that is resistant to standard therapy or for which no standard therapy is available\n* Adequate bone marrow, kidney, and liver function\n* Measurable disease using RECIST v1.1\n* ECOG 0 or 1\n* Life expectancy \u2265 3 months\n\nExclusion Criteria:\n\n* Prior treatment with any ADC with a topoisomerase 1 inhibitor payload\n* Prior treatment with any CEACAM5 targeted therapy\n* Uncontrolled cardiovascular disease\n* Uncontrolled active Hepatitis B, Hepatitis C, or HIV infection\n* History of interstitial lung disease\n* Major surgery, radiation therapy, or systemic anti-cancer within 3 weeks of study treatment start",
+ "path_terms": [
+  "histolog"
+ ]
+}

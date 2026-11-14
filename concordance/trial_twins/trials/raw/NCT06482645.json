@@ -1,0 +1,13 @@
+{
+ "nct": "NCT06482645",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Evaluation of Perilesional Biopsy in Diagnosis of Prostate Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* The age of the patient is between 45 and 85.\n* No previous biopsy.\n* Patients with single suspicious lesion, complete MRI data, qualified image quality control, suspicious lesions, and Prostate Imaging Reporting and Data System version 2.1 (PI-RADS V2.1) of \\> 3.\n* Patients were in accordance with the indication of prostate biopsy, including patients with suspicious prostate nodes found by digital rectal examination (DRE), the suspicious lesions found by transrectal ultrasound (TRUS) or MRI, total prostate-specific antigen (tPSA) \\>10ng/mL, tPSA 4-10ng/mL with free-to-total PSA ratio (f/tPSA) \\<0.16 or PSA density (PSAD) \\>0.15.\n* The prostate biopsy pathological results were complete. The time interval between prostate biopsy and prostate MRI examination should not exceed one month.\n* PSA\\<50ng/mL.\n* Patients with complete clinical information.\n\nExclusion Criteria:\n\n* The MRI data was unqualified or incomplete.\n* Patients had received radiotherapy, chemotherapy, androgen deprivation therapy, or surgery treatment before prostate MRI examination or prostate biopsy.\n* Patients with previous biopsy.\n* Patients with PI-RADS V2.1 of \\< 4.\n* Patients were not in accordance with the indication of prostate biopsy.\n* The patient could not cooperate to complete the prostate biopsy.\n* The patients or their family members refused to participate in this study.\n* Patients with incomplete clinical information.",
+ "path_terms": [
+  "node"
+ ]
+}

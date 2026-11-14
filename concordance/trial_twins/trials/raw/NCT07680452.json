@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07680452",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "Clinical Study on High-fiber Diet and Short-term Fasting in Melanoma Under Immunotherapy With Checkpoint Inhibition",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed stage IIB-IIIC melanoma\n* Indication for immune checkpoint inhibition as monotherapy as determined by the tumor board\n* No prior systemic melanoma therapy\n* ECOG 0 or 1\n* \u2265 18 years of age\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding\n* Underweight (BMI \u226419.5)\n* Pre-existing eating disorder\n* Severe internal medical conditions (e.g., renal insufficiency with creatinine \\> 2 mg/dL) or secondary malignancy\n* Current vegan diet or prolonged fasting (\u2264 4 days) within the last 6 months\n* Use of antibiotics within 4 weeks prior to the start of the study intervention",
+ "path_terms": [
+  "stage I"
+ ]
+}

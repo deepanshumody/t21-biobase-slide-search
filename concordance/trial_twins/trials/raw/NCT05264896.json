@@ -1,0 +1,18 @@
+{
+ "nct": "NCT05264896",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Perioperative FLOT vs Adjuvant XELOX for CA Stomach",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Locally advanced adenocarcinoma of stomach or esophagogastric junction (Siewert type II and III), defined by clinical stage \u2265T3 and/or \u2265N1, in the absence of distant metastasis\n2. Surgically resectable disease based on clinical staging\n3. No previous gastrectomy or chemotherapy\n4. Age 18 or above but less than 80, and\n5. ECOG \u22642\n6. Hemoglobin \\>/= 8.0 g/dL\n7. Neutrophils \\>/= 1.500/\u00b5l\n8. Platelets \u2265 100.000/\u00b5l\n9. Creatinine clearance \u2265 50 ml/min\n10. Serum albumin \\>25 g/L\n\nExclusion criteria:\n\n1. Distant metastases, direct tumor invasion to organs not resectable by surgery\n2. Hypersensitivity or contraindication against Capacitabine, 5-FU, Leucovorin, Oxaliplatin, Docetaxel\n3. Active CHD, Cardiomyopathy or cardiac insufficiency stage III-IV according to NYHA\n4. Peripheral polyneuropathy \u2265 NCI grade II\n5. Severe liver dysfunction (i) ALT \\>3 x upper limit of normal, and/ or (ii) total bilirubin \\>1.5 x upper limit of normal (subjects with Gilbert Syndrome with total bilirubin level of \\>/= 3.0 x upper limit of normal)\n6. Pregnancy or lactation\n7. Malignant secondary disease, dated back \\<5 years (except in-situ carcinoma of cervix uteri, adequately treated skin basal cell carcinoma)\n8. Serious uncontrolled infection or cocomitant severe medical conditions",
+ "path_terms": [
+  "N1",
+  "T3",
+  "adenocarcinoma",
+  "grade",
+  "resect",
+  "stage I"
+ ]
+}

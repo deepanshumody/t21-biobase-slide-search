@@ -1,0 +1,15 @@
+{
+ "nct": "NCT06451211",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Neoadjuvant Immunotherapy Plus Chemotherapy in Borrmann Type 4 and Large Type 3 Gastric Cancer",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologically confirmed gastric adenocarcinoma,cT1-2N+M0 or cT3-4NanyM0;\n* Males or females, aged 18-70 years;\n* Gastroscopy and abdominal computed tomography (CT) scan-confirmed typical scirrhous gastric cancer (borrmann type 4) or large type 3 (over 8 cm);\n* No peritoneal metastasis confirmed by laparoscopic exploration and with cytological examination of peritoneal washing of the Douglas pouch;\n* ECOG performance status 0 or 1;\n* Sufficient organ function:\n\n  * white blood cell count \\> 4\\*10\\^9/L, neutrophil cell count \\> 1.5\\*10\\^9/L, hemoglobin \\> 90 g/L, platelet count \\> 100\\*10\\^9 /L\n  * Serum bilirubin \u2264 1.5\u00d7upper limit of normal (ULN), AST, ALT \u2264 2.5\u00d7ULN\n  * Creatinine \u2264 1.5 \u00d7ULN or serum clearance \\> 60 ml/min\n  * INR and aPTT \u2264 1.5 \u00d7 ULN, only for subjects not receiving anticoagulant therapy;Subjects undergoing coagulation therapy should use a stable dose\n* No prior anti-tumor therapy;\n* Have signed informed consent before the beginning of treatment.\n\nExclusion Criteria:\n\n* History of another malignancy within the last five years;\n* Previous cytotoxic chemotherapy, radiotherapy or immunotherapy\n* Unable to take drugs orally\n* Allergic to to any drug of the study regimen;\n* Women who are pregnant or breastfeeding or may be pregnant",
+ "path_terms": [
+  "T1",
+  "T3",
+  "adenocarcinoma"
+ ]
+}

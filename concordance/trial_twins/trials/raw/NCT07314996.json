@@ -1,0 +1,18 @@
+{
+ "nct": "NCT07314996",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Laparoscopic Versus Open Surgery for Colon Cancer With Visceral Obesity",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Body Roundness Index (BRI) \u2265 5.0, with no laparoscopic surgery contraindications as assessed by the surgeon;\n2. Pathologically confirmed colon adenocarcinoma, mucinous adenocarcinoma, or signet ring cell carcinoma;\n3. Tumor lower edge \\> 12 cm from the anus as measured by colonoscopy, and the tumor lower edge not directly palpable by digital rectal examination;\n4. Single primary lesion;\n5. Aged 18 (inclusive) to 75 (inclusive) years;\n6. Clinical stage T3/4Nany or T1-4N+ on chest non-contrast CT and abdominal enhanced CT, no distant metastasis, and resectable as judged by the surgeon;\n7. Treatment-naive, no prior anti-tumor treatment;\n8. Completed blood routine, liver and kidney function tests, carcinoembryonic antigen (CEA), and carbohydrate antigen 199 (CA199) before randomization, with American Society of Anesthesiologists (ASA) score \u2264 III;\n9. Patient able to understand the study protocol and willing to participate in the study.\n\nExclusion Criteria:\n\n1. Height and waist circumference data are unavailable;\n2. Hereditary colorectal cancer (Lynch syndrome or Familial Adenomatous Polyposis \\[FAP\\]);\n3. History of previous malignant neoplasm, with the exception of basal cell carcinoma/papillary thyroid carcinoma/various types of in situ cancers/micro-invasive early-stage lung cancer;\n4. Acute exacerbation of major organ diseases (such as, but not limited to, COPD, coronary heart disease, and renal insufficiency) and/or severe acute infectious diseases (such as, but not limited to, hepatitis, pneumonia, and myocarditis);\n5. The tumor presents with obstruction or is at high risk of obstruction, and/or there is bleeding and/or perforation, which may necessitate emergency surgery;\n6. Pregnancy or breastfeeding;\n7. Inability to undergo contrast-enhanced CT scan;\n8. Additional surgery after EMR or ESD;\n9. Patients with unremitted severe mental illness, moderate or above cognitive impairment (MMSE \u2264 23 points), or those who have been hospitalized due to mood disorders in the past year or have unstable antipsychotic medication;\n10. Patients with enlarged mesenteric root lymph nodes detected by preoperative CT or intraoperative exploration and suspected metastasis, or suspected metastasis in organs such as peritoneum or liver detected by intraoperative exploration;\n11. Patients with a history of major abdominal surgery and severe adhesions precluding laparoscopic surgery upon laparoscopic exploration.",
+ "path_terms": [
+  "T1",
+  "T3",
+  "adenocarcinoma",
+  "mucinous",
+  "node",
+  "resect"
+ ]
+}

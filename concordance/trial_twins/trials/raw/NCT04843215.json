@@ -1,0 +1,16 @@
+{
+ "nct": "NCT04843215",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "A Phase III Study Comparing Total and Partial Omentectomy for Patients With Advanced Gastric Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Had been treated with Radical resection (D2, R0) of gastric cancer (Lymph node\u226516);\n2. Physical condition and organ function allows to tolerable abdominal surgery;\n3. Willing and able to comply with the program during the study period;\n4. Written informed consent provided;\n5. \u2265 18 and \u2264 70 years of age; preoperative gastric cancer patients with pathologically confirmed;\n6. With more than a 6-month life expectancy;\n7. No other serious concomitant diseases; Sufficient organ functions;\n8. No previous history of chemotherapy or radiotherapy;\n9. All patients accept 8 cycles XELOX chemotherapy regimen;\n10. Clinical stage: T3-4aN0-+M0; 11 . Macroscopic types :Borrmann I-III;\n\n12\\. Not greater curvature tumor; with distal or total gastrectomy\uff1b 13. No previous surgery for any abdominal disease, except an appendectomy for appendicitis, a laparoscopic cholecystectomy for gallbladder stones; No previous history of peritonitis, pancreatitis; 14. Karnofsky performance status (KPS)\\>60; Eastern Cooperative Oncology Group Performance Status (ECOG): 0-1.\n\nExclusion Criteria:\n\nPregnancy or breast feeding; 2. Patients with Serious liver disease (such as cirrhosis, etc.), kidney disease, respiratory disease or uncontrolled diabetes, hypertension and other chronic systemic diseases, heart disease with Clinical symptoms, such as congestive heart failure, coronary heart disease symptoms, drug is difficult to control arrhythmia, hypertension, or six months had a myocardial infarction attack, or cardiac insufficiency; 3. Organ transplantation patients need immunosuppressive therapy; 4. Severe recurrent infections were not controlled or with other serious concomitant diseases; 5. Patients got other primary malignant tumors (except curable skin basal cell carcinoma and cervical cancer in situ) except gastric cancer within 5 years; 6. Psychiatric disease which require treatment; 7. Have the history of organ transplantation; 8. Within 6 months before study starts and in the process of this study, patients participate in other clinical researches. 9. Advanced gastric cancer with omentum invasion 10. Patients can't treated with XELOX after surgery; 11 . Macroscopic types : Borrmann IV; 12. Tumor invasion of adjacent organ (T4b) or with distant metastasis#M1 #; 13. Tumor invasion the greater curvature invasion.",
+ "path_terms": [
+  "N0",
+  "T3",
+  "node",
+  "resect"
+ ]
+}

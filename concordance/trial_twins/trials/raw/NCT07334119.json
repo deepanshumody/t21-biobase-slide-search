@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07334119",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Efficacy of MT-304 in Adults With Advanced HER2-Expressing Solid Tumors",
+ "phases": [
+  "PHASE1"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Aged 18 years or above\n* Histologically confirmed diagnosis of metastatic or advanced epithelial cancer expressing HER2 (Note: Participants with other tumor types expressing HER2 may be considered pending discussion with the Medical Monitor).\n* Measurable lesion per RECIST 1.1 criteria.\n* Eastern Cooperative Oncology Group (ECOG) performance status Grade of 0 or 1.\n* Adequate Organ function\n\nExclusion Criteria:\n\n* Known active CNS metastasis and/or carcinomatous meningitis.\n* Any acute illness including fever.\n* History of symptomatic congestive heart failure\n* History of (noninfectious) pneumonitis/interstitial lung disease that required steroids or has current pneumonitis/interstitial lung disease.\n* Uncontrolled pleural effusion, pericardial effusion, or ascites\n* Active autoimmune disease not related to prior therapy for primary malignancy that has required systemic therapy in the last 1 year.",
+ "path_terms": [
+  "HER2"
+ ]
+}

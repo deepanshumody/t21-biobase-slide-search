@@ -1,0 +1,14 @@
+{
+ "nct": "NCT07360743",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "Immunotherapy Without Chemotherapy for Advanced Lung Cancer Patients With High PD-L1 Levels",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\nIn addition to the inclusion criteria of the METAREM master protocol, following additional criteria must be respected during patient inclusion in META-1 trial:\n\n1. Patients with age \u226518 years\n2. Patients in first-line therapy for advanced metastatic NSCLC with PD-L1 Tumor Proportion Score (TPS) \\>50%, without EGFR/ ALK/ ROS1 mutations and irrespective of their histological subtype (squamous or non-squamous).\n3. Patients with a PTI score of zero in plasma on the baseline PORTRAIT report. Note: Patients with PTI score \u2265 1 who meet all other criteria will be followed up to 36 months or death according to standard of care.\n\nExclusion Criteria:\n\nIn addition to the Exclusion criteria of the METAREM master protocol, following additional criteria must be considered during patient exclusion from META-1 trial:\n\n1. Patients who have previously received an anti-PD(L)1 or anti-CTLA4 or anti-LAG-3 or anti-TIM3 immunotherapy.\n2. Patients with any Hypersensitivity to the active ingredient or to any of the excipients of Pembrolizumab or Cemiplimab.",
+ "path_terms": [
+  "histolog",
+  "squamous"
+ ]
+}

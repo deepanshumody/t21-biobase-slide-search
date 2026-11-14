@@ -1,0 +1,16 @@
+{
+ "nct": "NCT06582446",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Artificial Intelligence to Personalize Prostate Cancer Treatment (the HypoElect Trial)",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologically confirmed adenocarcinoma of the prostate (histological confirmation can be based on tissue taken at any time, but a re-biopsy should be considered if the biopsy is more than 12 months old)\n* Primary PCa (in PSMA-PET imaging and multiparametric magnetic resonance imaging (mpMRI)\n* High- or very high-risk according to NCCNv1.2023 criteria\n* Signed written informed consent for this study\n* Age \\>18 years\n* Previously conducted PSMA-PET/CT, mpMRI or PSMA-PET/MR\n* MMAI high-risk\n* ECOG Performance score 0 or 1\n* IPSS Score \u226415\n\nExclusion Criteria:\n\n* Prior radiotherapy to the prostate or pelvis\n* Prior radical prostatectomy\n* Prior focal therapy approaches to the prostate\n* Evidence of pelvic nodal disease (cN+) in mpMRI and/or PSMA-PET/CT\n* Evidence of distant metastatic disease (cM+) in mpMRI and/or PSMA-PET/CT\n* Time gap between the beginning of any systemic therapyADT and conduction of PSMA-PET scans is \\>2 months\n* Evidence of cT4 disease in mpMRI and/or PSMA-PET/CT\n* PSA \\>50 ng/ml prior to starting of systemic therapy\n* Expected patient survival \\<5 years\n* Bilateral hip prostheses or any other implants/hardware that would introduce substantial CT artifacts\n* Contraindication to undergo a MRI scan\n* Contraindication to undergo HDR brachytherapy (brachytherapy not feasible due to large prostate volume, prostate anatomy, tumor in distant seminal vesicles and/or unfit for anesthesia)\n* Prostate surgery (TURP or HOLEP) with a significant tissue cavity or prostate surgery (TURP or HOLEP) within the last 6 months prior to randomization\n* Medical conditions likely to make radiotherapy inadvisable e.g. acute inflammatory bowel disease, hemiplegia or paraplegia\n* Previous malignancy within the last 2 years (except basal cell carcinoma or squamous cell carcinoma of the skin), or if previous malignancy is expected to significantly compromise 5 year survival\n* Any other contraindication to external beam radiotherapy (EBRT) to the pelvis\n* Participation in any other interventional clinical trial within the last 30 days before the start of this trial\n* Simultaneous participation in other interventional trials which could interfere with this trial; simultaneous participation in registry and diagnostic trials is allowed\n* Patient without legal capacity who is unable to understand the nature, significance and consequences of the trial\n* Known or persistent abuse of medication, drugs or alcohol",
+ "path_terms": [
+  "T4",
+  "adenocarcinoma",
+  "histolog",
+  "squamous"
+ ]
+}

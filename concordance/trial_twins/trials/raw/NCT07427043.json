@@ -1,0 +1,11 @@
+{
+ "nct": "NCT07427043",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Robotic Opioid-free Prostatectomy Enhanced Strategy (ROPES)",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Men \u226545 years old\n* Undergoing Robotic Assisted Laparoscopic Prostatectomy (RALP) at BWH or BWFH\n* Able to provide informed consent\n\nExclusion Criteria:\n\n* Chronic kidney disease (baseline Cr \\>1.3)\n* NSAID contraindication/allergy\n* Regular opioid use or substance abuse prior to surgery\n* Inability to provide their own consent\n* Deviation from standard surgical practice for RALP (e.g. major complication requiring operative intervention that would result in patient no longer being considered a routine case)",
+ "path_terms": []
+}

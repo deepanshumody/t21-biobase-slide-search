@@ -1,0 +1,14 @@
+{
+ "nct": "NCT06717711",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Low-Intensity Extracorporeal Shockwave Therapy on Penile Rehabilitation After Robot-assisted Surgical Treatment of Genitourinary Cancers",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patients aged \u226475 yrs;\n* PSA \\<10 ng/mL\n* Prostate Cancer ISUP grade \u22642 and cT\u22642 at prostate biopsy\n* undergoing nerve sparing RARP;\n* preoperative IIEF-5 score \u2265 17;\n* First PSA (45d after surgery) \\<0.1\n* Prostate Cancer ISUP grade \u22642 pT\\<3b and at final pathology\n* \u2265 18 yrs old;\n* compliants patients able to follow the study protocol and fill in IIEF-5 scores and EORTC quality of life questionnaires;\n* patients able to provide a written informed consent for the trial.\n\nExclusion Criteria:\n\n* anaesthesiologic contraindications to robotic surgery\n* patients submitted to pelvic radiotherapy or androgen deprivation\n* patients reporting major postoperative complications (CD\u22653)\n* cardiovascular contraindications to PDE5i medical treatment",
+ "path_terms": [
+  "ISUP",
+  "grade"
+ ]
+}

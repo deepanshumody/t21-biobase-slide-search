@@ -1,0 +1,13 @@
+{
+ "nct": "NCT04068155",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "Alpha Radiation Emitters Device (DaRT) for the Treatment of of Malignant Cutaneous Tumors",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Subjects with histopathological confirmation of newly diagnosed (Cohort A) or locally recurrent (Cohort B) malignant cutaneous lesions of the following histopathologies:\n\n  * SCC\n  * BCC\n  * Lentigo maligna melanoma (Dubreuilh melanoma)\n  * Carcinosarcoma\n* Acceptable tumor locations include the following:\n\n  * Skin (facial, scalp, extremities, torso)\n  * Lips\n  * Eyelids\n* Subjects with a tumor size \u2264 7 centimeters in the longest diameter.\n* Target lesion technically amenable for full tumor coverage with the Alpha DaRT seeds.\n* Measurable disease according to RECIST v1.1.\n* Subjects over 18 years old.\n* Subjects' ECOG Performance Status Scale is \\< 2.\n* Subjects' life expectancy is more than 6 months.\n* Platelet count \u2265100,000/mm3.\n* International normalized ratio of prothrombin time \u22641.8.\n* Women of childbearing potential (WOCBP) will have evidence of negative pregnancy test.\n* Subjects are willing to sign an informed consent form\n\nExclusion Criteria:\n\n* Subject has a tumor with histology of one of the following:\n\n  * Keratoacanthoma\n  * Merkel cell carcinoma\n  * Sarcoma other than carcinosarcoma\n* Metastatic disease (according to the TNM staging system - M1 patients are excluded)\n* Patients with significant comorbidities that the treating physician deems may conflict with the endpoints of the study (e.g., poorly controlled autoimmune diseases, vasculitis, etc.).\n* Patients undergoing systemic immunosuppressive therapy excepting intermittent, brief use of systemic corticosteroids.\n* Volunteers participating in another interventional study in the past 30 days which might conflict with the endpoints of this study or the evaluation of response or toxicity of DaRT.\n* High probability of protocol non-compliance (in opinion of investigator).\n* Subjects not willing to sign an informed consent.\n* Women who are pregnant or breastfeeding.",
+ "path_terms": [
+  "histolog"
+ ]
+}

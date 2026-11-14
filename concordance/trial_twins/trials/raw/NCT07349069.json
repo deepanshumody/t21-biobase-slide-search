@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07349069",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "A Phase III Trial Comparing HRS-8080 With Standard Endocrine Therapy in Patients With Intermediate or High Risk Early Breast Cancer",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Female patients aged \u2265 18 and \u2264 75 years. Premenopausal patients must meet the eligibility of LHRH agonist therapy during the study period.\n2. Histologically confirmed invasive breast cancer by postoperative pathology, having received at least 2 years, but no more than 5 years, of adjuvant endocrine therapy.\n3. No evidence of recurrent or metastatic disease after surgery.\n4. ECOG performance status of 0 or 1.\n5. Adequate organ and bone marrow function.\n6. Women of childbearing potential must have a negative serum pregnancy test within 7 days prior to randomization and be willing to use acceptable non-hormonal contraception methods from the time of informed consent until 7 months after the last dose of the study drug.\n7. Any acute toxicities from previous anti-tumor therapy have resolved to Grade 0-1 (per CTCAE v5.0).\n8. The patient has provided written informed consent (ICF), and is willing and able to comply with scheduled visits, treatment plans, laboratory tests, and other study procedures.\n\nExclusion Criteria:\n\n1. Tumor clinical stage IV (metastatic) breast cancer.\n2. History and/or treatment of any malignancy other than breast cancer within 5 years prior to randomization.\n3. History of severe pulmonary disease, such as interstitial lung disease.\n4. Concurrent or potential use of any anti-tumor therapy not specified in the study protocol.\n5. Major surgical procedure within 4 weeks prior to randomization.\n6. HIV infection or known AIDS, active hepatitis B, hepatitis C, or co-infection with hepatitis B and C.\n7. Poor cardiac function.\n8. Severe infection within 4 weeks prior to randomization.\n9. History of drug allergy.\n10. History of organ transplantation.\n11. History of substance abuse.\n12. Women within 1 year postpartum or who are currently breastfeeding.\n13. Patients deemed by the investigator as unsuitable for participation in this study.",
+ "path_terms": [
+  "stage I"
+ ]
+}

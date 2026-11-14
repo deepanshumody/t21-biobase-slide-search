@@ -1,0 +1,11 @@
+{
+ "nct": "NCT07258056",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "GUidance In Prostate Cancer DEtection With 18F-PSMA-1007-PET/MRI and Targeted Biopsies",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* PSAdensity \\> 0.20\n* Negative MRI (PI-RADS 1-2) or negative biopsy from MRI-target\n* MRI within 6 months\n* Read and understand danish\n* Expected remaining lifetime \\> 10 years\n\nExclusion Criteria:\n\n* Known prostate cancer\n* MRI contraindications",
+ "path_terms": []
+}

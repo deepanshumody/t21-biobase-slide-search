@@ -1,0 +1,16 @@
+{
+ "nct": "NCT06830239",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Phase II Study of Neoadjuvant Dostarlimab in Patients With Untreated T3-4N0-2 or Stage III pMMR/MSS Resectable Colon Cancer",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* at least 18 years of age and capable of giving informed consent\n* primary adenocarcinoma colon cancer than can be removed surgically, staged cT3-4, cN0-2, cM0 or stage III\n* tumour expresses an MMR proficient/microsatellite stable called MSS\n* tissue samples from tumour and colon mucosa available for molecular analyses\n* capable of receiving immunotherapy\n* adequate general health status and organ function (blood tests)\n\nExclusion Criteria:\n\n* no prior cancer treatment\n* not pregnant and using effective contraception if applicable",
+ "path_terms": [
+  "N0",
+  "T3",
+  "adenocarcinoma",
+  "stage I"
+ ]
+}

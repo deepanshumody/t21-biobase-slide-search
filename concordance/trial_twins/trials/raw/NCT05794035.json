@@ -1,0 +1,15 @@
+{
+ "nct": "NCT05794035",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "Impact of Hypofractionated Radiotherapy Strategy After Surgery of Skin Carcinomas in Older Patients",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patients aged \u2265 70 years\n* OMS 0-3\n* Pathology confirmation of invasive SCC or BCC\n* At least one of high-risk factors for recurrence (R0 but close margins, location/size, microscopic perineural invasion, recurrent primary disease, immunosuppression, thickness including Breslow and Clark level, poorly-moderately differentiated)\n* No indication of regional nodal RT\n* No prior RT to the treated site\n* Written consent from patient or his/her legal representative, trustworthy person or family member if the person is physically unable to give his or her written consent\n* Life expectancy \u2265 6 months, as clinically estimated by the investigator in charge of enrolment\n* No contraindication for surgery and RT after multidisciplinary board meeting evaluation\n* Affiliated to a social security scheme\n\nExclusion Criteria:\n\n* Macroscopic incomplete resection of the primary tumor (\u2265 R1)\n* Patient with severe dementia not allowing follow-up\n* Any psychological, familial, sociological, geographical or logistical reasons that would prevent participation to surveillance during treatment and follow-up\n* Other active cancers in treatment\n* Participation in another interventional study (therapeutic trial interfering with the study's endpoints)\n* Patient on AME (state medical aid)\n* Persons deprived of their liberty by a judicial or administrative decision",
+ "path_terms": [
+  "Breslow",
+  "margin",
+  "resect"
+ ]
+}

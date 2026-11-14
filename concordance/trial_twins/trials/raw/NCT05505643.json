@@ -1,0 +1,15 @@
+{
+ "nct": "NCT05505643",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "Cryoablation vs Lumpectomy in T1 Breast Cancers",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Diagnosis of invasive ductal carcinoma of the breast (ER , Her-2 negative) that is grade 1 or 2 with intraductal component \\<25%. Must be T1N0M0 (2 cm or less).\n* If DCIS is present in the biopsy specimen it should be \\<25% of the tumor and should be contiguous with the IDC. (i.e. DCIS should not be a separate tumor from the IDC).\n* Oncotyping will be performed on T1b+Allred\\<6/8 and T1c tumors. Oncotype score in this subset of patients must be \\<26 to be included in the trial.\n* At least 50 years of age.\n* Negative ipsilateral axillary assessment as determined either by (1) negative axillary ultrasound (2) negative sentinel lymph node biopsy or (3) negative percutaneous axillary node biopsy with no further clinical or imaging concern for nodal metastatic disease.\n* Able to understand and willing to sign an IRB-approved written informed consent document.\n\nExclusion Criteria:\n\n* Indication for neoadjuvant chemotherapy.\n* Prior history of breast cancer.\n* Breast augmentation.\n* Allergy to local anesthetics.\n* Pregnant or lactating. Women of childbearing potential must have a negative pregnancy test within 14 days of study entry.\n* Tumoral involvement of skin or chest wall.",
+ "path_terms": [
+  "ER",
+  "grade",
+  "node"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "nct": "NCT07155317",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "Time-of-Day Specified Immunotherapy for Advanced Melanoma, The TIME Trial",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Pathologically confirmed American Joint Committee on Cancer (AJCC) 8th edition stage IV unresectable cutaneous, acral, or mucosal melanoma\n* No uveal melanoma\n* Patients with asymptomatic, non-hemorrhagic brain metastases \\< 2 cm are eligible\n* No prior immunotherapy within 1 year, (serine/threonine-protein kinase B-raf \\[BRAF\\]/mitogen-activated protein kinase \\[MEK\\] inhibitors allowed)\n* Eastern Cooperative Oncology Group (ECOG) 0-1\n* Age \u2265 18\n* Adequate organ function to receive ipilimumab/nivolumab\n\nExclusion Criteria:\n\n* Immunosuppression (\\> 10mg prednisone daily)\n* Active autoimmune disease that would preclude the administration of immunotherapy\n* Active leptomeningeal disease",
+ "path_terms": [
+  "resect",
+  "stage I"
+ ]
+}

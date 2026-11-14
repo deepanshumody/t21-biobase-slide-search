@@ -1,0 +1,18 @@
+{
+ "nct": "NCT06690840",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "Atezolizumab and Chemotherapy Treatment as T-cell Activators in Metastatic Triple Negative Breast Cancer Patients",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Signed Informed Consent Form\n* Patients with locally advanced or metastatic, histologically documented TNBC (absence of human epidermal growth factor 2 \\[HER2\\], estrogen receptor \\[ER\\], and progesterone receptor \\[PR\\] expression) PD-L1+ (Immune Cell \\>1% using Ventana SP142 assay), not amenable to surgical therapy\n* Locally advanced or metastatic TNBC, who have received an anti-PD-1/PD-L1 containing regimen in the neoadjuvant/adjuvant setting\n* No prior chemotherapy or targeted systemic therapy (including endocrine therapy) or immunotherapy for inoperable locally advanced or metastatic TNBC\n* Tissue accessible for biopsies\n* Expected survival of \\> 3 months\n* Female or male subject \u226518 years\n* Have measurable/evaluable metastatic disease (RECIST 1.1 criteria)\n* Performance status 0-1 on Eastern Cooperative Oncology Group Performance Status (ECOG PS)\n* Demonstrate adequate organ (kidney, liver) function\n\nExclusion Criteria:\n\n* Patients with de novo metastatic TNBC OR those who have received 1 or more chemotherapy or targeted systemic therapy (including endocrine therapy) or immunotherapy regimens for advanced disease\n* Immunodeficiency or systemic steroid therapy/immunosuppressive therapy within 7 days prior to study entry\n* Known history of active Bacillus Tuberculosis (TBC)\n* Hypersensitivity to anti- PD-L1 antibodies or its excipients\n* Active autoimmune disease\n* Known history of non-infectious pneumonitis\n* Active infection requiring systemic therapy\n* Known history of Human Immunodeficiency Virus (HIV)\n* Known active Hepatitis B (e.g., HBsAg reactive) or Hepatitis C (e.g., HCV RNA \\[qualitative\\])\n* Live vaccine within 30 days\n* Bone or brain metastases",
+ "path_terms": [
+  "ER",
+  "HER2",
+  "estrogen",
+  "histolog",
+  "node",
+  "progesterone"
+ ]
+}

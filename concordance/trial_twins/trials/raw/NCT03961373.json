@@ -1,0 +1,16 @@
+{
+ "nct": "NCT03961373",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Standard Versus Super-extended Lymphadenectomy After Neo-adjuvant Chemotherapy for Gastric Cancer",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Age equal or greater than 18 years\n* IIA-IIIC histologically proven primary gastric adenocarcinoma, before the treatment with NAC. Not including gastro-oesophageal junction/cardia carcinoma but only Siewert 3, without any previous treatment (surgery and / or chemotherapy) for this diagnosis\n* Lack in CT scan of following:\n\n  1. Mediastinal lymph nodes\n  2. Lung metastases\n  3. Peritoneal metastases\n  4. Liver metastases\n  5. Pleural effusion, ascites\n  6. Metastases to para-aortic lymph nodes No 16a2/b1\n  7. Metastases to lymph nodes located in the \"posterior\" area (8p, 12 b/p, 13)\n  8. Extra-regional lymph node metastases\n* ECOG performance status \u2264 2\n* No prior radio- or chemotherapy conflicting with the treatment of gastric cancer\n* No oesophageal invasion, or invasion \\<=3cm\n* Negative peritoneal washing cytology findings and no peritoneal metastases in staging laparoscopy\n* No gastric stump cancer\n* No signs of cervical and subclavear lymph nodes or distal metastases\n* Patient's consent form obtained, signed and dated before beginning specific protocol procedures\n* Absence of any psychological, familial, sociological or geographical condition potentially hampering compliance with the study protocol and follow-up schedule; those conditions should be discussed with the patient before registration in the trial\n\nExclusion Criteria:\n\n* Contraindications for any sort of appropriate chemotherapy according to local standards\n* Linitis plastica\n* Second uncontrolled malignant tumour (synchronous or metachronous (last 5 years) other than Cis or mucosal cancer\n* Neoplasms involving the esophago-gastric junction (Siewert types I and II)\n* Expected unresectability after neo-adjuvant treatment or progression in metastases\n* Emergency surgery due to bleeding or perforation\n* Uncontrolled infections\n* Other serious underlying medical conditions that could impair the ability of the patient to participate in the study\n* Pregnant or lactating women\n* Significant neurologic or psychiatric disorders\n* Severe cardiac illness (NYHA class IV)\n* Under treatment of systemic steroids\n* Participation in any other clinical trial that might interfere with the results of this trial\n* Lack of compliance\n* Inability to fill in questionnaires (insufficient command of language, dementia, lack of time)",
+ "path_terms": [
+  "adenocarcinoma",
+  "histolog",
+  "node",
+  "resect"
+ ]
+}

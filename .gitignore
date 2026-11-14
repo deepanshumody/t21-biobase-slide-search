@@ -40,3 +40,9 @@ venv/
 /biobase/output/c1_reproduced
 /biobase/output/c1_reproduced_*
 /biobase/output/c2_reproduced
+
+# concordance/: restricted Biobase packs and re-downloadable public data (see concordance/README.md)
+/concordance/criteria_search/pack_reports
+/concordance/concordance_breast/data
+/concordance/concordance_colon/data
+/concordance/trial_twins/trec

@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07930182",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "Adjuvant/Neoadjuvant Immunotherapy in Melanoma Based on Serial Plasma ctDNA Monitoring",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Age \u226518 years\n* Histologically confirmed melanoma (excluding uveal melanoma)\n* Neoadjuvant Cohort: Surgically resectable AJCC 8th edition Stage III or Stage IV melanoma\n* Adjuvant Cohort: Completely resected AJCC 8th edition Stage IIB, IIC, III, or IV melanoma\n* ECOG Performance Status \u22642\n* Adequate organ function: AST and ALT \u22645 \u00d7 upper limit of normal (ULN) and Creatinine \u22642 \u00d7 ULN.\n* Baseline imaging obtained within 28 days prior to treatment initiation\n* Negative pregnancy test for women of childbearing potential\n* Ability to understand and sign informed consent\n\nExclusion Criteria:\n\n* Prior anti-PD-1, anti-PD-L1, anti-PD-L2, or anti-CTLA-4 therapy within 1 year before enrollment\n* Contraindication to nivolumab and/or ipilimumab\n* Active autoimmune disease requiring systemic immunosuppressive therapy\n* Concurrent malignancy requiring active treatment that could interfere with study treatment or assessments\n* Unresectable disease\n* Uveal melanoma\n* Any medical, psychiatric, or social condition that would interfere with protocol compliance or study participation",
+ "path_terms": [
+  "resect"
+ ]
+}

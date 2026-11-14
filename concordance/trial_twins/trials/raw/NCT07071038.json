@@ -1,0 +1,16 @@
+{
+ "nct": "NCT07071038",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "Evaluating the Use of a Medication 'Switch' vs Guideline-directed Interventions for Relieving Side Effects of Aromatase Inhibitors Among Breast Cancer Patients",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologic documentation of DCIS or invasive breast cancer by core needle or incisional biopsy.\n* The DCIS or invasive cancer must be estrogen receptor alpha (ER)-positive\n* The invasive cancer must be HER2-negative (IHC 0-1+, or with a FISH ratio of \\<1.8 if IHC is 2+ or if IHC has not been done)\n* Clinical Stage I-III invasive breast cancer or DCIS\n* Patients for whom adjuvant treatment with one of the following would be clinically indicated: letrozole, anastrozole, exemestane\n* Patients who anticipate continuing with adjuvant endocrine therapy for a minimum of 2 years at the time of registration\n* Women over 18 years of age who are post-menopausal, defined as last menstrual period \\>2 years prior to registration, or \\>1 year prior to registration with FSH and estradiol in post-menopausal range.\n* Patients must meet the following clinical laboratory criteria:\n\n  * Absolute neutrophil count (ANC) \\>1,000/mm3 and platelet count \\> 75,000/mm3\n  * Total bilirubin \\<1.5 x the upper limit of the normal range (ULN).\n  * Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) \\< 3 x ULN.\n* Ability to give informed consent.\n\nExclusion Criteria:\n\n* Prior endocrine therapy for any histologically-confirmed cancer or prevention of breast cancer in the last 10 years is not allowed.\n* Any other adjuvant therapy for breast cancer. Exception: Bisphosphonate or denosumab treatment for metabolic bone issues are allowed.\n* Patients who are prescribed tamoxifen as the first endocrine therapy rather than an aromatase inhibitor.\n* Women who are pregnant or lactating.\n* Prisoners.",
+ "path_terms": [
+  "ER",
+  "HER2",
+  "estrogen",
+  "histolog"
+ ]
+}

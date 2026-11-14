@@ -1,0 +1,14 @@
+{
+ "nct": "NCT05797077",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Postoperation Maintenance Therapy for Resectable Liver Metastases of Colorectal Cancer Guided by ctDNA",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Both males and females, aged 18-75 years;\n2. Patients with liver metastatic colorectal cancer who have undergone R0 resection based on MDT evaluation (including patients whose metastases have been treated with ablation achieving similar R0 resection effect);\n3. Postoperative ctDNA-positive patients;\n4. ASA grade \\< IV and/or ECOG performance status score \u2264 2;\n5. Participants must have a full understanding of the study and voluntarily sign an informed consent form.\n\nExclusion Criteria:\n\n1. Patients with distant metastases to other sites, including the pelvis, ovaries, peritoneum, etc.\n2. Patients with a history of other malignant tumors.\n3. Patients with severe liver or kidney dysfunction, cardiorespiratory dysfunction, coagulation dysfunction, or underlying diseases that cannot tolerate chemotherapy.\n4. Patients who are allergic to any component of the study.\n5. Patients who have received other tumor-related investigational drug treatments.\n6. Patients with severe uncontrolled recurrent infections or other severe uncontrolled accompanying diseases.\n7. Patients with other factors that may affect the study results or lead to early termination of the study, such as alcoholism, drug abuse, other serious diseases requiring comprehensive treatment (including mental illness), and severe laboratory abnormalities.\n8. Patients with a history of severe mental illness.\n9. Pregnant or lactating women.\n10. Patients who, in the opinion of the researchers, have other clinical or laboratory conditions that make them unsuitable for participation in the study.",
+ "path_terms": [
+  "grade",
+  "resect"
+ ]
+}

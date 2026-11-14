@@ -1,0 +1,15 @@
+{
+ "nct": "NCT04212715",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Prostate SABR With Intra-Prostatic SABR Boost",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologically confirmed prostate adenocarcinoma\n* High-risk prostate cancer, defined as at least one of: T3, Gleason 8-10, OR PSA \\> 20 ng/mL\n* Willing to give informed consent to participate in this clinical trial\n\nExclusion Criteria:\n\n* Prior pelvic radiotherapy\n* Contraindication to radical prostate radiotherapy e.g. connective tissue disease or inflammatory bowel disease\n* Contraindication to prostate MRI\n* No evidence of castrate resistance (defined as PSA \\< 3 ng/ml while testosterone is \\< 0.7nmol/l. Patients could have been on combined androgen blockade but are excluded if this was started due to PSA progression.\n* Definitive extrapelvic nodal or distant metastatic disease on staging investigations.",
+ "path_terms": [
+  "Gleason",
+  "T3",
+  "adenocarcinoma"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "nct": "NCT04987086",
+ "organ": "kidney",
+ "fetched": "2026-11-14",
+ "title": "68Ga-PSMA PET in the Renal Cell Carcinoma",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* 2017 AJCC renal cell carcinoma TNM stage III, IV lesions;\n* In contrast-enhanced CT staging, suspicious metastases were found;\n* There were no known peripheral or central venous problems;\n* 68Ga PSMA PET / CT imaging can be performed within 6 weeks after the diagnosis of renal cell carcinoma;\n* Signed the informed consent form of voluntary participation in clinical trials.\n\nExclusion Criteria:\n\n* Age \u2264 18 years old;\n* Can't stand lying flat in PET / CT examination;\n* There are contraindications for 68Ga PSMA ligands;\n* In the past two years, there was a history of other malignant tumors, or according to the doctor's research judgment, complications may occur and affect the normal operation of the test;\n* Renal function is impaired or hemodialysis is in progress.",
+ "path_terms": [
+  "stage I"
+ ]
+}

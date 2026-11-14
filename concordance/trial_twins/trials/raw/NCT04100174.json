@@ -1,0 +1,11 @@
+{
+ "nct": "NCT04100174",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Focal HDR Brachytherapy Boost to Stereotactic Radiotherapy",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histological diagnosis of prostate cancer planned for curative-intent HDR brachytherapy boost to external beam radiotherapy to the prostate gland.\n* ECOG 0-1\n* Charlson Comorbidity Index \u2264 4\n* Imaging visible disease encompassing \\< 50% of the prostate gland and consistent with biopsy findings.\n\nExclusion - none",
+ "path_terms": []
+}

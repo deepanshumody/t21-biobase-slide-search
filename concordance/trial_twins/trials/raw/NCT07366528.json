@@ -1,0 +1,19 @@
+{
+ "nct": "NCT07366528",
+ "organ": "stomach",
+ "fetched": "2026-11-14",
+ "title": "Adjuvant Oxaliplatin Plus S-1 Versus Docetaxel Plus S-1 for Stage III Gastric Cancer",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. age 18 to 80 years old, male and female\n2. histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction\n3. patients underwent standard D2 gastrectomy and achieved R0 resection, and had no systemic therapy like neoadjuvant therapy\n4. American Joint Committee on Cancer stage IIIA (T2N3a, T3N2, T4aN1, T4aN2, T4bN0), IIIB (T1N3b, T2N3b, T3N3a, T4aN3a, T4bN1, T4bN2), IIIC (T3N3b, T4aN3b, T4bN3a, T4bN3b), and has Lauren classification\n5. with no evidence of metastatic disease\n6. ECOG 0 to 1\n7. Enough organ functions that can tolerate treatment: Absolute neutrophil count (ANC) \u22651.5x109/L, White blood count \u22653.5x109/L, Platelets \u226575x109/L, Hemoglobin (Hb) \u226580g/L, ALT/AST \u22642.5x ULN (for patient with liver metastasis ALT/AST \u22645x ULN), Serum bilirubin \u22641.5x ULN, Serum creatinine \u22641.5x ULN.\n8. Woman of childbearing age should contracept for at least one month before screening and commit to using contraception throughout the entire study period and for the specified time after the study ends.\n9. Signed informed consent and willing to follow the study protocol\n\nExclusion Criteria:\n\n1. other primary malignancies, except for cured skin tumors or cervical carcinoma in situ\n2. severe complications that may lead to an expected survival time less than 5 years\n3. uncontrollable comorbidities, such as infectious disease, chronic diseases like hypertension, diabetes, heart diseases.\n4. allergic to study medication\n5. bowel obstruction or other conditions affecting oral administration\n6. organ functions that cannot tolerate study treatment\n7. other conditions that patients are unsuitable for this study assessed by the investigators",
+ "path_terms": [
+  "N0",
+  "N1",
+  "N2",
+  "adenocarcinoma",
+  "histolog",
+  "resect",
+  "stage I"
+ ]
+}

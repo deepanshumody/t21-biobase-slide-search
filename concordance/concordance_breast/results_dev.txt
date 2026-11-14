@@ -1,0 +1,65 @@
+===== DEV  n=513 patients =====
+
+FACTS: coverage (found a value) / accuracy when found   [mention = fact appears in text at all]
+fact           n  mention |      rules      |      naive      |    template     |    rules+cal   
+er           494      63% |   40% /   99%   |   44% /   99%   |    0% /    0%   |   40% /   99%  
+pr           492      63% |   38% /   95%   |   43% /   94%   |    0% /    0%   |   38% /   95%  
+her2         440      64% |   32% /   75%   |   37% /   74%   |    0% /    0%   |   32% /   75%  
+t_major      512      96% |   56% /   97%   |   62% /   96%   |    0% /    0%   |   56% /   97%  
+n_major      502      87% |   76% /   96%   |   56% /  100%   |    0% /    0%   |   76% /   96%  
+nodes_pos    444      93% |   59% /   90%   |   59% /   90%   |    0% /    0%   |   59% /   90%  
+margin       477      84% |   52% /   91%   |   53% /   90%   |    0% /    0%   |   52% /   91%  
+histology    513     100% |   73% /   94%   |   73% /   95%   |    0% /    0%   |   73% /   94%  
+
+CRITERIA (patients with known gold): decided = not 'undetermined'; P/R/F1 count undetermined as no flag
+
+  reader: rules
+  id     n  pos  decided  acc|dec      P      R     F1  criterion
+  B1   465  153      55%      93%   0.97   0.24   0.39  HER2 negative with >=1 positive lymph node (pN>=1)
+  B2   492   63      36%      97%   0.88   0.22   0.35  ER positive and PR negative
+  B3   481   69      43%      96%   0.91   0.14   0.25  Triple negative (ER-, PR-, HER2-)
+  B4   446  266      30%      87%   0.96   0.25   0.40  HR positive (ER+ or PR+) and HER2 negative
+  B5   512  373      56%      99%   1.00   0.60   0.75  Tumor pT2 or higher
+  B6   502  252      76%      96%   0.98   0.74   0.84  Node positive (pN>=1)
+  B7   477   39      52%      91%   0.48   0.26   0.33  Positive surgical margin
+  B8   513   96      73%      98%   0.92   0.76   0.83  Invasive lobular carcinoma
+  MEAN F1 = 0.519
+
+  reader: naive
+  id     n  pos  decided  acc|dec      P      R     F1  criterion
+  B1   465  153      41%      95%   0.92   0.22   0.36  HER2 negative with >=1 positive lymph node (pN>=1)
+  B2   492   63      42%      96%   0.78   0.29   0.42  ER positive and PR negative
+  B3   481   69      45%      95%   0.81   0.19   0.31  Triple negative (ER-, PR-, HER2-)
+  B4   446  266      33%      89%   0.93   0.29   0.44  HR positive (ER+ or PR+) and HER2 negative
+  B5   512  373      62%      98%   0.99   0.64   0.77  Tumor pT2 or higher
+  B6   502  252      56%     100%   0.99   0.62   0.77  Node positive (pN>=1)
+  B7   477   39      53%      90%   0.43   0.31   0.36  Positive surgical margin
+  B8   513   96      73%      98%   0.93   0.79   0.85  Invasive lobular carcinoma
+  MEAN F1 = 0.534
+
+CALIBRATION [rules]  (hand-set confidences): 2065 decided answers, ECE = 0.104
+  bin           n  mean conf  accuracy
+  0.3-0.4      19       0.40      0.58
+  0.4-0.5      11       0.47      0.55
+  0.5-0.6      17       0.54      0.53
+  0.6-0.7       8       0.65      1.00
+  0.7-0.8     929       0.79      0.93
+  0.8-0.9     665       0.90      1.00
+  0.9-1.0     416       0.95      0.97
+
+CALIBRATION [rules+cal]  (confidences fit on DEV): 2065 decided answers, ECE = 0.027
+  bin           n  mean conf  accuracy
+  0.5-0.6      57       0.54      0.61
+  0.7-0.8     171       0.77      0.85
+  0.8-0.9     378       0.89      0.91
+  0.9-1.0    1459       0.97      0.99
+
+RECALL AT REVIEW BUDGET (rules+cal; top-K by confidence)   K=10 / 25 / 50
+  B1   1.00   0.96   0.74
+  B2   1.00   0.56   0.28
+  B3   0.60   0.40   0.20
+  B4   0.70   0.80   0.88
+  B5   1.00   1.00   1.00
+  B6   1.00   1.00   1.00
+  B7   0.50   0.40   0.26
+  B8   0.70   0.88   0.90

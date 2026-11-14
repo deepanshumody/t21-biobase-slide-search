@@ -1,0 +1,14 @@
+{
+ "nct": "NCT06270017",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Evaluation of Metastatic Disease and Oncological Treatment in Patients With Colon Cancer Using Zebra Fish Avatars",
+ "phases": [
+  "PHASE1",
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Colon cancer planned for radical colon resection signed informed consent\n\nExclusion Criteria:\n\n* Not willing to participate",
+ "path_terms": [
+  "resect"
+ ]
+}

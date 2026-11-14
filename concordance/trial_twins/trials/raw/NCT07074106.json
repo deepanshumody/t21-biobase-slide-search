@@ -1,0 +1,17 @@
+{
+ "nct": "NCT07074106",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "TIL-Driven De-escalated Chemotherapy in Stage I-II TNBC",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Histologically confirmed primary invasive breast carcinoma.\n* One of the following conditions:\n* Clinical stage T1c N0 M0 with any level of TILs; or\n* Clinical stage T2 N0 M0 with TILs \u2265 50%.\n* Estrogen receptor (ER) and progesterone receptor (PR) expression \\< 10%.\n* HER2-negative or non-amplified, according to current ASCO-CAP criteria.\n* No evidence of distant metastasis based on imaging performed prior to study entry (chest/abdomen/pelvis CT scan or FDG PET-CT).\n* Age \u2265 18 years.\n* ECOG performance status of 0 to 2.\n* Adequate organ function\n\nExclusion Criteria:\n\n* The subject has an uncontrolled severe concomitant condition, including but not limited to: active or ongoing infection, unstable angina, uncontrolled cardiac arrhythmia, congestive heart failure (NYHA Class III or IV), active ischemic heart disease, or chronic liver or kidney disease.\n* Pregnant or breastfeeding participants.\n* History of severe allergic reactions, including anaphylaxis or other hypersensitivity reactions to platinum-based agents or taxanes.",
+ "path_terms": [
+  "ER",
+  "HER2",
+  "N0",
+  "T2",
+  "progesterone"
+ ]
+}

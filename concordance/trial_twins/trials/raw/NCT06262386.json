@@ -1,0 +1,13 @@
+{
+ "nct": "NCT06262386",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "Combined Relapse Prediction Model for Resectable Non-Small Cell Patients - a Prospective Clinical Feasibility Trial",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Patients who presented with resectable disease ( Clinical stage 1a to 3a)\n2. Patients who received tumor resection\n\nExclusion Criteria:\n\n1. Pathologic stage greater than stage 3b or 4\n2. Pathologic stage less than stage 1a1\n3. Could not complete treatment course\n4. Could not receive blood sampling for CTC (circulating tumor cell) or regular surveillance",
+ "path_terms": [
+  "resect"
+ ]
+}

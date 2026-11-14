@@ -1,0 +1,15 @@
+{
+ "nct": "NCT06950385",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Participant must be \u226518 years of age inclusive.\n2. Participant must have documented FAP, confirmed by adenomatous polyposis coli genotype mutation testing.\n3. Participant must have at least 1 of the following high-risk features: \\>100 polyps but \u2264500 polyps in the colon, or \u226510 polyps in the retained rectum/sigmoid or ileal pouch (\u22653 mm in size), or Spigelman stage 3 or 4 with at least 1 polyp \u226510 mm to be removed at baseline or on endoscopy performed within 18 months of screening.\n4. Contraceptive use by participants or participant partners until at at least 12 weeks after stopping study treatment.\n5. Agree not to donate gametes for the purpose of reproduction until at at least 12 weeks after stopping study treatment.\n6. Willing to undergo endoscopic evaluation.\n\nExclusion Criteria:\n\n1. Participant has unresected or incompletely resected high-grade dysplasia or cancer within the duodenum, colon, rectum, or ileal pouch at screening endoscopy.\n2. Participant has any polyps \u22658 mm in the duodenum, colon, rectum, or ileal pouch remaining after screening endoscopy (polyps \u22658 mm are to be resected during screening endoscopy).\n3. Participant has had surgery within 6 weeks of the trial.\n4. Participant has active malignancy or history of malignancy diagnosed within 24 months of first dose of trial intervention.\n5. Participant has a history of, or currently has, an acquired or primary (congenital) immunodeficiency.\n6. Participant has active and clinically significant tuberculosis (positive Quantiferon Gold test), bacterial, fungal, or viral infection, including human immunodeficiency virus (HIV).\n7. Participant has any medical or social condition that, in the opinion of the Investigator, might increase participant risk if enrolled, prevent participant compliance to trial procedures, or present an unacceptable confound to safety or clinical trial data.",
+ "path_terms": [
+  "grade",
+  "node",
+  "resect"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "nct": "NCT04794777",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Comparing \"Salvage\" Radiotherapy and Individualized PSMA PET/CT Targeted Treatment in With Relapsing Prostate Cancer",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patients previously treated for prostate cancer with radical prostatectomy and now having a biochemical recurrence (BCR) defined as: PSA \\>0.2 \\<2.0 ng/mL, and increasing measured twice.\n* Multidisciplinary conference (MDK) decision to offer the patient SRT\n* Signed Informed Consent\n\nExclusion Criteria:\n\n* Patients previously treated for prostate cancer with biochemical recurrence\n* Previous treatment with androgen deprivation therapy (ADT) after surgery\n* Previous pelvic radiotherapy\n* Patients with positive lymph nodes at surgery",
+ "path_terms": [
+  "node"
+ ]
+}

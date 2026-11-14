@@ -1,0 +1,16 @@
+{
+ "nct": "NCT06192849",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "To Assess the Efficacy and Safety of Furmonertinib in Patients With Epidermal Growth Factor Receptor 20ins Mutation Positive Stage IB-IIIA Non-small Cell Lung Carcinoma, Following Complete Tumour Resection With or Without Adjuvant Chemotherapy",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Provide informed consent prior to any study specific procedures;\n* Male or female, aged at least 18 years;\n* Complete surgical resection of the primary NSCLC is mandatory. All gross disease must have been removed at the end of surgery. All surgical margins of resection must be negative for the tumor;\n* Patients must be classified post-operatively as Stage IB, II, or IIIA on the basis of pathologic criteria;\n* Complete recovery from surgery and standard post-operative therapy (if applicable);\n* Patient with EGFR 20 insertion mutation diagnosed histologically or cytologically, the reports must be issued or recognized by Tier 3A hospitals;\n* ECOG PS of 0 to 1;\n* For premenopausal women with childbearing potential, a pregnancy test must be performed within 14 days before the first dose, and the pregnancy test (blood or urine test) must be negative; female subjects must not be lactating;\n\nExclusion Criteria:\n\n* Patients who have had only segmentectomies or wedge resections;\n* Any prior anticancer therapy\uff08excluding adjuvant platinum-based chemotherapy\uff09;\n* Patients currently receiving medications or herbal supplements known to be potent inducers of cytochrome P450 (CYP) 3A4;\n* Treatment with an investigational drug within five half-lives of the compound or any of its related material;\n* History of other malignancies, except: adequately treated non-melanoma skin cancer, curatively treated in-situ cancer, or other solid tumors curatively treated with no evidence of disease for \\> 5 years following the end of treatment;\n* Any unresolved toxicities from prior therapy greater than CTCAE Grade 1 at the time of starting study treatment with the exception of alopecia and Grade 2, prior platinum-therapy related neuropathy;\n* Any evidence of severe or uncontrolled systemic diseases, including uncontrolled hypertension and active bleeding diatheses; or active infection including hepatitis B, hepatitis C, and human immunodeficiency virus (HIV);\n* Mean resting corrected QT interval (QTc) \\>470 msec, obtained from 3 ECGs, using the screening clinic ECG Machine-derived QTc value;\n* Any clinically important abnormalities in rhythm, conduction, or morphology of resting ECG;\n* Any factors that increase the risk of QTc prolongation or risk of arrhythmic events, or unexplained sudden death under 40 years of age in first-degree relatives or any concomitant medication known to prolong the QT interval;\n* Past medical history of ILD, drug-induced ILD, radiation pneumonitis which required steroid treatment, or any evidence of clinically active ILD;\n* Inadequate bone marrow reserve or organ function;",
+ "path_terms": [
+  "histolog",
+  "margin",
+  "node",
+  "resect"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "nct": "NCT07188480",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "The Role of DNA and RNA in NGS Analyses for Advaced Stage NSCLC Patients",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Age \u2265 18 years;\n* Indication for bronchoscopic cytological sampling for further diagnosis of suspected stage IV lung cancer on CT (computed tomography)/PET (positron emission tomography) scans, with consequent need for NGS analysis.\n* Indication for bronchoscopy in patients with known lung cancer who have already undergone NGS analysis on a cytological-histological sample in the previous five years.\n* Acquisition of written informed consent.\n\nExclusion Criteria:\n\n* Confirmation of small cell lung cancer or other non-NSCLC pathology where there is no indication for NGS testing.",
+ "path_terms": [
+  "histolog",
+  "stage I"
+ ]
+}

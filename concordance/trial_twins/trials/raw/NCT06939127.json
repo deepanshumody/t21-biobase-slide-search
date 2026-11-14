@@ -1,0 +1,16 @@
+{
+ "nct": "NCT06939127",
+ "organ": "lung",
+ "fetched": "2026-11-14",
+ "title": "Cryoablation Combined With Tislelizumab and Chemotherapy as Neoadjuvant and Adjuvant Therapy in Resectable Stage II-IIIB NSCLC",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Aged \u226518 years at informed consent signing.\n* ECOG performance status of 0 or 1.\n* Histologically confirmed stage II-IIIB NSCLC (AJCC 9th edition).\n* Tumor size \u22645 cm.\n* Deemed suitable for R0 resection by a thoracic surgeon for radical treatment.\n* Adequate cardiopulmonary function for radical surgical resection.\n* Eligible for cryoablation and platinum-based doublet chemotherapy.\n* Adequate blood and organ function, as per laboratory tests within 14 days before enrollment.\n\nExclusion Criteria:\n\n* Prior treatment for current lung cancer, including chemotherapy or radiotherapy.\n* LCNEC diagnosis.\n* Known EGFR mutations or ALK translocations. For non-squamous NSCLC, EGFR mutation status must be confirmed locally or centrally if unknown.\n\nFor squamous NSCLC, EGFR testing is not required if status is unknown. ALK translocation testing is not required if status is unknown.\n\n* Locally advanced, unresectable disease, regardless of stage or metastasis (stage IV). Patients with mediastinal lymph node involvement on CT must undergo sampling for clinical staging to exclude stage IIIB/C.\n* History of interstitial lung disease, non-infectious pneumonitis, or uncontrolled pulmonary fibrosis.\n* Severe chronic or active infections requiring systemic antimicrobials, including tuberculosis.\n* Hospitalization for severe infections within 4 weeks before enrollment. Systemic antibiotic treatment within 2 weeks before enrollment.\n* Active autoimmune disease or history of recurrent autoimmune disease.\n* Exceptions: Well-controlled type 1 diabetes, hypothyroidism on hormone replacement, celiac disease, skin conditions not requiring systemic therapy, or diseases unlikely to recur without provocation.\n* Severe infections requiring systemic treatment within the past 4 weeks.\n* Corticosteroid or immunosuppressive use within 14 days before enrollment, except for specific local, topical, or short-term uses.",
+ "path_terms": [
+  "node",
+  "resect",
+  "squamous",
+  "stage I"
+ ]
+}

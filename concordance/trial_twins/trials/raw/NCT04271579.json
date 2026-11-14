@@ -1,0 +1,13 @@
+{
+ "nct": "NCT04271579",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Early Prostate Cancer Recurrence With PSMA PET Positive Unilateral Pelvic Lesion(s)",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patients in good general condition with life expectancy\\> 10 years\n* Hormone-sensitive prostate cancer recurrence after radical prostatectomy (patients with status post salvage prostatectomy may be included; salvage radiotherapy for prostate fossa and / or pelvic lymph drainage after radical prostatectomy is not an exclusion criterion)\n* Unilateral detection of \u2264 3 PSMA PET positive lymph node metastases in the pelvis (up ot origin of the inferior mesenteric artery)\n* PSA at the time of PSMA PET imaging \\<4 ng / ml\n\nExclusion Criteria:\n\n* Contraindication for surgery or bilateral salvage lymph node dissection\n* Suspected prostate cancer recurrence in the prostate fossa (local recurrence) or extrapelvic metastasis on PSMA PET imaging\n* Date of PSMA PET examination \\> 4 months prior to salvage lymph node dissection\n* Hormone therapy within 6 months prior to study enrollment",
+ "path_terms": [
+  "node"
+ ]
+}

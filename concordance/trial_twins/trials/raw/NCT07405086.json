@@ -1,0 +1,13 @@
+{
+ "nct": "NCT07405086",
+ "organ": "skin",
+ "fetched": "2026-11-14",
+ "title": "Morning Versus Afternoon Administration of Immunotherapy for the Treatment of Advanced or Metastatic Solid Tumors, The Knight SHIFT Study",
+ "phases": [
+  "PHASE4"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Must provide written informed consent before any study-specific procedures or interventions are performed\n* Aged \u2265 18 years\n* Histologically confirmed advanced/metastatic solid tumor as follows:\n\n  * Non small cell lung cancer (NSCLC) (non-actionable genomic alteration, inhibitor \\[ICI\\]-eligible)\n  * Recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) (platinum-eligible),\n  * Renal cell carcinoma (RCC)\n  * Biliary-tract cancer (BTC)\n  * Hepatocellular carcinoma (HCC)\n  * Melanoma\n  * Gastroesophageal cancer, including esophageal cancer, gastroesophageal cancer, or gastric cancer\n* Planned to receive a Food and Drug Administration (FDA)-approved immune check point inhibitor (e.g., anti-PD-1, anti-PD-L1, anti-CTLA4) regimen for the treatment of their malignancy\n* Measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1\n\nExclusion Criteria:\n\n* Prior ICI-based regimen for treatment of cancer\n* Current or prior use of immunosuppressive medication within 28 days before planned standard-of-care immunotherapy infusion, with the exception of intranasal and inhaled corticosteroids or systemic corticosteroids at physiological doses not exceeding 10 mg/day of prednisone (or equivalent corticosteroid)\n* Uncontrolled autoimmune disease requiring immunosuppression\n* Known Active, uncontrolled central nervous system (CNS) metastases",
+ "path_terms": [
+  "squamous"
+ ]
+}

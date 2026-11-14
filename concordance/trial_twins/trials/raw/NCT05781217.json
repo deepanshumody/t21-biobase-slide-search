@@ -1,0 +1,19 @@
+{
+ "nct": "NCT05781217",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "Short Versus Long-term Androgen Deprivation Therapy With Salvage Radiotherapy in Prostate Cancer. URONCOR 0624",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Patients with histologically-confirmed prostate cancer treated with radical prostatectomy. Patients who have not undergone lymph node dissection are eligible for inclusion.\n2. Biochemical recurrence after prostatectomy: BCR is defined as a PSA value \u2265 0.2 ng/mL, with at least one confirmatory PSA determination \u2265 two weeks after the first test (the confirmatory PSA level must be higher than the initial value). Patients with Gleason 8-10, pT3b or R1 are eligible for inclusion in the trial with PSA \u2265 0.15 ng/mL; however, in patients with PSA \\> 0.4 ng/mL, imaging tests (conventional CT and bone scans or advanced imaging techniques such as PSMA or choline PET/CT) should be performed to check for metastases. In patients with PSA levels between 0.15 and 0.4 ng/mL, no further tests are required to check for distant metastases prior to inclusion.\n3. Intermediate and high-risk patients according to the classification criteria proposed by Gonz\u00e1lez San Segundo et al. (18):\n\n   CHARACTERISTICS INTERMEDIATE RISK (\u2265 2) HIGH RISK(\u2265 1)\n\n   PSA at diagnosis, ng/mL 0.6-1.0 \u22651.0 PSA doubling time, months 6-12 \\< 6 GLEASON / ISUP 7/3 \u22658/\u22654 TNM (prostatectomy specimen) pT2-3a pN0-Mx pT3b pN0-Mx Time to biochemical recurrence, months \\>18 \\<18 Margins Positive Positive\n4. Testosterone level \\> 150 ng/dL at inclusion\n5. ECOG 0-1\n6. Life expectancy \\> 5 years\n7. Signed informed consent\n\nExclusion Criteria:\n\n1. Presence of pN1 disease in the original surgical specimen\n2. Presence of macroscopic disease on imaging tests. If the PSA at diagnosis is \\> 0.4 ng/mL, then imaging tests (CT and bone scan and/or PET/CT or body magnetic resonance imaging \\[MRI\\]) are required.\n3. PSA \\<0.2 or \\<0.15 ng/mL (if Gleason score=10, pT3b, or R1 in the radical prostatectomy specimen).\n4. Previous pelvic radiotherapy\n5. Radiotherapy contraindicated\n6. Ongoing treatment with ADT or PSA-modulating drugs (e.g., finasteride, dutasteride, high dose steroids)\n7. Inability to understand the treatment protocol or sign informed consent",
+ "path_terms": [
+  "Gleason",
+  "ISUP",
+  "N0",
+  "N1",
+  "T2",
+  "histolog",
+  "node"
+ ]
+}

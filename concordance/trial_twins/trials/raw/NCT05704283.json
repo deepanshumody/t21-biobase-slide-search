@@ -1,0 +1,13 @@
+{
+ "nct": "NCT05704283",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "3D Ultrasound for the Imaging of Lymph Nodes in Patients With Breast Cancer",
+ "phases": [
+  "EARLY_PHASE1"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Patients with lymph node biopsy or lymph node clip placement as per routine clinical care.\n* Age of 18 or older.\n\nExclusion Criteria:\n\n* Vulnerable subjects such as prisoners and adults lacking capacity to consent.",
+ "path_terms": [
+  "node"
+ ]
+}

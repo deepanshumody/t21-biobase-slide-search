@@ -1,0 +1,14 @@
+{
+ "nct": "NCT07190443",
+ "organ": "breast",
+ "fetched": "2026-11-14",
+ "title": "Adjuvant Abemaciclib for Locoregional Recurrence of HR-positive, HER2-negative Breast Cancer (JCOG2313, AURA)",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": "Inclusion criteria:\n\n1. The patient has been diagnosed with the first locoregional recurrence (LRR) after receiving definitive treatment for primary breast cancer. LRR includes one or more of the following:\n\n   (i) Ipsilateral breast tumor recurrence (ii) Ipsilateral chest wall recurrence (iii) Regional lymph node recurrence\n2. At least one LRR lesion must be confirmed by a biopsy, surgical specimen, or cell block from cytology, and must meet all of the following:\n\n   (i) Pathologically confirmed as invasive breast cancer, or diagnosed as breast cancer in a cytology cell block (in cases where only a cell block is available, the initial primary breast cancer must have been invasive).\n\n   (ii) Hormone receptor (HR) expression is positive. (iii) HER2 expression is negative.\n\n   \u203b If multiple lesions are pathologically evaluated and any lesion is HR-negative or HER2-positive, the patient is ineligible.\n3. No prior diagnosis of distant metastasis of breast cancer.\n4. Imaging assessment before registration confirms:\n\n   No lymph nodes \u226510 mm in short axis No evidence of distant metastasis\n5. Age \u226518 years at the time of registration.\n6. ECOG Performance Status of 0 or 1.\n7. Chemotherapy for LRR is allowed prior to enrollment.\n8. The patient does not have bilateral breast cancer.\n9. No prior history of treatment with CDK4/6 inhibitors.\n10. Written informed consent has been obtained for participation in this clinical trial.\n\nExclusion Criteria:\n\n1. Presence of active double cancer (synchronous malignancy requiring treatment).\n2. Ongoing infectious disease requiring systemic therapy.\n3. Fever \u226538.0\u00b0C at the time of registration.\n4. Women who are pregnant, possibly pregnant, within 28 days postpartum, or breastfeeding; men whose partners intend to become pregnant.\n5. Psychiatric illness or symptoms that interfere with daily living and may compromise trial participation.\n6. Ongoing systemic administration (oral or IV) of steroids equivalent to \u226510 mg/day of prednisolone or other immunosuppressive agents.\n7. Unstable angina (developed or worsened within the past 3 weeks) or myocardial infarction within the past 6 months.\n8. Uncontrolled hypertension.\n9. Uncontrolled diabetes mellitus despite continuous insulin or oral antidiabetic therapy.\n10. Positive for HBs antigen or HCV antibodies (Patients positive for HCV antibodies are not excluded if HCV-RNA is undetectable.)\n11. Positive for HIV antibodies (HIV testing is not mandatory.)\n12. Presence of interstitial pneumonia, pulmonary fibrosis, or severe emphysema as diagnosed by chest CT.",
+ "path_terms": [
+  "HER2",
+  "node"
+ ]
+}

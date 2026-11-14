@@ -1,0 +1,13 @@
+{
+ "nct": "NCT03280511",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Adjuvant Pressurized IntraPeritoneal Aerosol Chemotherapy (PIPAC) in Resected High Risk Colon Cancer Patients",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n* Radically resected colon cancer patients with adeno- or signet ring cell carcinomas with high-risk tumors defined as: perforated / pT4NanyM0 (UICC 8th edition) / pTanyNanyM1 with radically resected PM including ovarian metastases\n* Performance status 0-1\n* Fertile women must use approved contraceptives (see below)\n* Age \\> 18 years\n* Written informed consent\n\nExclusion Criteria:\n\n* Radiologically or clinically proven relapse.\n* Previous cytoreductive surgery (CRS) with HIPEC\n* Other malignant diagnosis within the last 2 years\n* Contraindications to laparoscopy (e.g. severe adhesions, peritonitis)\n* A history of allergic reaction to oxaliplatin or other platinum containing compounds\n* Renal impairment, defined as GFR \\< 50 ml/min, (Cockcroft-Gault Equation).\n* Myocardial insufficiency, defined as NYHA class \\> 2.\n* Impaired liver function defined as bilirubin \u2265 1.5 x UNL (upper normal limit).\n* Inadequate haematological function defined as ANC \u2264 1.5 x 109/l and platelets \u2264 100 x 109/l.\n* Any other condition or therapy, which in the investigator's opinion may pose a risk to the patient or interfere with the study objectives.",
+ "path_terms": [
+  "resect"
+ ]
+}

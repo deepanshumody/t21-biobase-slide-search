@@ -1,0 +1,18 @@
+{
+ "nct": "NCT05529615",
+ "organ": "colon",
+ "fetched": "2026-11-14",
+ "title": "Circulating Tumor DNA Guided Adjuvant Chemotherapy for Colon Cancer",
+ "phases": [
+  "NA"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Age: 18 to 75\n2. Colon adenocarcinoma confirmed by pathology (including high and high differentiated tubular adenocarcinoma, papillary adenocarcinoma, low differentiated adenocarcinoma, mucinous adenocarcinoma and signet ring cell carcinoma)\n3. Postoperative pathology is stage II with high-risk factors or stage III;\n\n   High risk stage II refers to stage II colon cancer with at least one of the following:\n\n   a) T4 stage; b) The number of lymph nodes detected was less than 12; c) Poor differentiation (except MSI-H); d) Complicated with LVI or PNI\uff1be) Complicated with obstruction or perforation.\n4. No distant metastasis was found in preoperative imaging examination and operation;\n5. ECOG score: 0-2 points;\n6. MSS/pMMR and BRAF wild type\n7. Start time of chemotherapy is less than 2 months from the operation\n8. Have sufficient organ functions;\n9. The baseline blood routine and biochemical indexes of the subject meet the following standards:\n\n   * hemoglobin \u2265 9.0 g / dl;\n   * absolute neutrophil count (ANC) \u2265 1500 / mm3;\n   * platelet count \u2265 100000 / mm3;\n   * total bilirubin \u2264 1.5 times the upper limit of normal value (ULN);\n   * glutamic pyruvic transaminase and glutamic oxalic transaminase \u2264 2.5 times ULN;\n   * creatinine \u2264 1.5 times ULN;\n10. Patients or family members who can understand the study protocol and are willing to participate in the study shall provide written informed consent.\n\nExclusion Criteria:\n\n1. Receive chemotherapy, radiotherapy or immunotherapy before operation\n2. History of malignant tumor in the past 5 years (except fully cured cervical carcinoma in situ or basal cell carcinoma or squamous epithelial cell skin cancer)\n3. Pregnant women\n4. Serious mental illness\n5. Those with poor physical condition and difficult to complete chemotherapy\n6. Patients or family members cannot understand the conditions and objectives of this study",
+ "path_terms": [
+  "T4",
+  "adenocarcinoma",
+  "mucinous",
+  "node",
+  "squamous",
+  "stage I"
+ ]
+}

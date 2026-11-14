@@ -1,0 +1,16 @@
+{
+ "nct": "NCT07332000",
+ "organ": "prostate",
+ "fetched": "2026-11-14",
+ "title": "A Biomarker Study in Men With Localized Prostate Cancer Treated With Aglatimagene Besadenovec",
+ "phases": [
+  "PHASE2"
+ ],
+ "eligibility": "Inclusion Criteria:\n\n1. Participants must give study-specific informed consent prior to enrollment\n2. Histologically confirmed adenocarcinoma of the prostate\n3. Participants meeting National Comprehensive Cancer Network (NCCN) intermediate-risk criteria\n4. Participants must be planning and medically able to undergo standard or moderate hypofractionated prostate-only EBRT (treatment and control group) and able to tolerate multiple transrectal ultrasound guided injections (treatment group only)\n5. 18 years of age or older\n6. Performance status must be Eastern Cooperative Oncology Group 0-2\n7. The following laboratory criteria must be met (treatment group only):\n\n   1. Aspartate aminotransferase (AST) \\< 3 x upper limit of normal\n   2. Serum creatinine \\< 2 mg/dL\n   3. Calculated creatinine clearance \\> 30 mL/min\n   4. White blood cells \\> 3000/mm3\n   5. Platelets \\>100,000/mm3\n\nExclusion Criteria:\n\n1. Active liver disease, including known cirrhosis or active hepatitis\n2. Participants on systemic corticosteroids (\\> 10 mg prednisone per day) or other immunosuppressive drugs\n3. Known HIV+ participants\n4. Regional lymph node involvement or distant metastases\n5. Participants planning to receive whole pelvic irradiation\n6. Other current malignancy (except squamous or basal cell skin cancers)\n7. Other serious co-morbid illness or compromised organ function that, in the opinion of the Investigator, would interfere with treatment or follow-up. For example, participants with diseases that preclude radiation therapy to the prostate such as severe prostatitis and inflammatory bowel disease.\n8. Prior treatment for prostate cancer except transurethral resection of the prostate (TURP). If prior TURP, participants must be deemed able to receive multiple intra-prostatic injections by the Investigator.\n9. Participants who had or plan to have orchiectomy as the form of hormonal ablation\n10. Known sensitivity or allergic reactions to acyclovir or valacyclovir (treatment group only)",
+ "path_terms": [
+  "adenocarcinoma",
+  "node",
+  "resect",
+  "squamous"
+ ]
+}
