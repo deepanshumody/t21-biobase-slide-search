@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Filter Decision Review</title>
+<style>
+:root{
+  --bg:#f7f7f4;--surface:#fff;--ink:#1d1f1e;--muted:#5f6663;--line:#dedfda;--accent:#2f6f5e;
+  --keep:#2f7d4f;--remove:#b4462f;--warn:#a86b00;--sample:#2f6f9e;--control:#c0512f;--chip:#eef0eb;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#151716;--surface:#1e211f;--ink:#e8eae6;--muted:#a1a8a3;--line:#343935;--accent:#7cc4ab;
+  --keep:#6cc28c;--remove:#ef8a72;--warn:#e0b04f;--sample:#7fb6e0;--control:#f0936f;--chip:#2a2e2b;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header,main{max-width:1280px;margin:0 auto;padding:0 16px}
+header{padding-top:24px}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:16px;margin:28px 0 10px}h3{font-size:14px;margin:14px 0 6px}
+.sub{color:var(--muted);margin:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:16px}
+.tile .v{font-size:24px;font-weight:600;font-variant-numeric:tabular-nums}.tile .l{color:var(--muted);font-size:12px}
+.buckets{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.bucket{cursor:pointer;text-align:left;font:inherit;color:inherit}
+.bucket[aria-pressed=true]{outline:2px solid var(--accent)}
+.bucket .n{font-size:20px;font-weight:600}.bucket p{margin:4px 0 0;color:var(--muted);font-size:12px}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:99px;background:var(--chip);color:var(--muted);margin-left:6px;vertical-align:2px}
+.tag.dis{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font-size:12px;color:var(--muted);font-weight:500}
+td.num,th.num{text-align:right}
+tbody tr{cursor:pointer}tbody tr:hover{background:var(--chip)}tbody tr.sel{background:color-mix(in srgb,var(--accent) 15%,transparent)}
+.keep{color:var(--keep);font-weight:600}.remove{color:var(--remove);font-weight:600}
+.layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:14px;align-items:start}
+@media (max-width:900px){.layout{grid-template-columns:1fr}}
+.scroll{overflow-x:auto}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;align-items:center}
+select,input[type=search],textarea,button{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:5px 8px}
+button{cursor:pointer}button.primary{background:var(--accent);color:var(--surface);border-color:var(--accent)}
+.seg button[aria-pressed=true]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+#inspector{position:sticky;top:12px}
+.saw{display:grid;grid-template-columns:1fr 1fr;gap:8px}.saw>div{background:var(--chip);border-radius:8px;padding:10px}
+.saw .h{font-size:12px;color:var(--muted)}
+ul.next{padding-left:18px;margin:4px 0}ul.next li{margin:4px 0}
+.decide{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.decide button[aria-pressed=true]{outline:2px solid var(--accent)}
+textarea{width:100%;min-height:54px;margin-top:6px}
+.bar{display:flex;height:10px;border-radius:5px;overflow:hidden;background:var(--chip);min-width:120px}
+.bar span{display:block;height:100%}
+.muted{color:var(--muted)}.small{font-size:12px}
+.pager{display:flex;gap:8px;align-items:center;margin-top:8px}
+svg text{fill:var(--muted);font-size:10px}
+.limits{display:grid;grid-template-columns:1fr 1fr;gap:10px}@media (max-width:700px){.limits{grid-template-columns:1fr}.saw{grid-template-columns:1fr}}
+footer{max-width:1280px;margin:30px auto;padding:0 16px;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Filter decision review</h1>
+  <p class="sub">Control-aware filter (keep if control signal ÷ sample signal &lt; <span id="tRatio"></span>) compared with abundance-only filter (keep if mean sample signal ≥ <span id="tAb"></span>). Source: <span id="src"></span>.</p>
+  <div class="controls" style="margin-top:12px">
+    <span class="seg" role="group" aria-label="Dataset">
+      <button data-split="cases" aria-pressed="true">Held-out cases</button>
+      <button data-split="train" aria-pressed="false">Labeled examples (cohort A)</button>
+    </span>
+    <button id="demo" class="primary" title="Open the highest-priority rare, recurring feature">Open demo case</button>
+    <span class="small muted">Tip: link to any feature with <code>report.html#&lt;feature id&gt;</code></span>
+  </div>
+  <div class="tiles" id="tiles"></div>
+</header>
+<main>
+  <h2>Signal retained and removed, by cohort</h2>
+  <div class="card scroll"><table id="signalTable"></table>
+    <p class="small muted" style="margin:8px 0 0">Signal is the sum of normalized sample measurements, the same formula as <code>workflow.py</code>. Each sample is normalized to 1, so a cohort's total is about its number of sample replicates.</p></div>
+
+  <h2>Decision buckets <span class="small muted">(click one to filter the table)</span></h2>
+  <div class="buckets" id="buckets"></div>
+
+  <h2>How often each filter is right, by bucket <span class="small muted">(293 labeled features, cohort A only)</span></h2>
+  <div class="card scroll"><table id="accTable"></table>
+    <p class="small muted" style="margin:8px 0 0">"Real" means the feature is a member of the known mixture. These labels come from cohort A, so they don't prove how the filters behave on Rapid1, Rapid2 or B.</p></div>
+
+  <h2>Features</h2>
+  <div class="layout">
+    <div class="card">
+      <div class="controls">
+        <select id="fBucket" aria-label="Bucket"></select>
+        <select id="fCohort" aria-label="Cohort"></select>
+        <select id="fDecision" aria-label="Review state">
+          <option value="">Any review state</option><option value="none">Not reviewed</option><option value="done">Reviewed</option>
+        </select>
+        <label class="small"><input type="checkbox" id="fLow"> Low abundance only</label>
+        <input type="search" id="fId" placeholder="Feature ID" aria-label="Search by ID" size="12">
+      </div>
+      <div class="scroll"><table id="featTable"></table></div>
+      <div class="pager"><button id="prev">Previous</button><span id="pageInfo" class="small muted"></span><button id="next">Next</button></div>
+    </div>
+    <div class="card" id="inspector"></div>
+  </div>
+
+  <h2>Your decisions</h2>
+  <div class="card">
+    <p style="margin:0 0 8px" id="decSummary"></p>
+    <button class="primary" id="export">Export decisions.csv</button>
+    <button id="load">Load decisions.csv</button>
+    <input type="file" id="loadFile" accept=".csv,text/csv" hidden>
+    <button id="clear">Clear all decisions</button>
+    <p class="small muted" style="margin:8px 0 0">Decisions are kept in this browser only. Export the CSV to share them, and load a colleague's CSV to continue or audit their review.</p>
+  </div>
+
+  <h2>What these data can and can't support</h2>
+  <div class="limits">
+    <div class="card"><h3>Supported by the processed measurements</h3><ul class="next">
+      <li>Whether a feature's mean signal is above or below a cutoff.</li>
+      <li>Whether it shows up in negative controls, and how strongly compared with samples.</li>
+      <li>How many sample replicates carry it, which separates recurring signal from single-well events.</li>
+      <li>How each filter did on the cohort A mixture, where membership is known.</li></ul></div>
+    <div class="card"><h3>Needs more evidence</h3><ul class="next">
+      <li>Raw read counts and read quality. Normalized signal hides how few reads a rare feature has.</li>
+      <li>Taxonomy and sequence identity. Feature IDs are hashed, so you can't name the organism here.</li>
+      <li>Plate layout and control type, to tell reagent contamination from sample-to-control leakage.</li>
+      <li>Spike-ins or qPCR to confirm absolute abundance. Whether either filter's accuracy carries over to other cohorts.</li></ul></div>
+  </div>
+</main>
+<footer>Data: MicrobIEM known-mixture benchmark and NASA OSD-890 (see 03-qc/NOTICE.md). This report reviews filter decisions; it doesn't establish biological outcomes.</footer>
+
+<script>
+const D = /*__DATA__*/null;
+const T = D.thresholds, B = D.buckets;
+const $ = s => document.querySelector(s);
+const fmt = v => v == null ? '–' : v === 0 ? '0' : Math.abs(v) >= .01 ? v.toFixed(3) : v.toExponential(1);
+const pct = (a, b) => b ? (100 * a / b).toFixed(a / b < .01 && a ? 2 : 1) + '%' : '–';
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const KEY = 'filter-review-decisions';
+let decisions = {};
+try { decisions = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { decisions = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(decisions)); } catch (e) {} renderDecSummary(); };
+const state = {split: 'cases', bucket: '', cohort: '', low: false, id: '', review: '', page: 0, sel: null};
+const PAGE = 50;
+$('#tRatio').textContent = T.ratio; $('#tAb').textContent = T.abundance; $('#src').textContent = D.source;
+
+const rows = () => D.features.filter(f => f.split === state.split);
+const kd = k => k ? '<span class="keep">Keep</span>' : '<span class="remove">Remove</span>';
+
+function renderTiles() {
+  const r = rows(), dis = r.filter(f => f.disagree), tot = r.reduce((a, f) => a + f.signal_mass, 0);
+  const ca = r.reduce((a, f) => a + f.ca_retained, 0), ab = r.reduce((a, f) => a + f.ab_retained, 0);
+  const low = r.filter(f => f.low_abundance && f.disagree).length;
+  $('#tiles').innerHTML = [
+    [r.length, 'features'], [dis.length, 'filters disagree (' + pct(dis.length, r.length) + ')'],
+    [low, 'low-abundance disagreements'],
+    [pct(ca, tot), 'signal kept by control-aware'], [pct(ab, tot), 'signal kept by abundance-only'],
+  ].map(([v, l]) => `<div class="card tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+}
+
+function renderSignal() {
+  const by = {};
+  rows().forEach(f => { const o = by[f.cohort] ||= {n: 0, d: 0, t: 0, car: 0, cam: 0, abr: 0, abm: 0};
+    o.n++; o.d += f.disagree; o.t += f.signal_mass; o.car += f.ca_retained; o.cam += f.ca_removed; o.abr += f.ab_retained; o.abm += f.ab_removed; });
+  const bar = (r, m) => `<div class="bar" title="kept ${pct(r, r + m)}"><span style="width:${100 * r / (r + m || 1)}%;background:var(--keep)"></span><span style="width:${100 * m / (r + m || 1)}%;background:var(--remove)"></span></div>`;
+  $('#signalTable').innerHTML = `<thead><tr><th>Cohort</th><th class="num">Features</th><th class="num">Disagree</th><th class="num">Total signal</th>
+    <th>Control-aware kept / removed</th><th class="num">Kept</th><th>Abundance-only kept / removed</th><th class="num">Kept</th></tr></thead><tbody>` +
+    Object.entries(by).map(([c, o]) => `<tr><td>${esc(c)}</td><td class="num">${o.n}</td><td class="num">${o.d}</td><td class="num">${o.t.toFixed(3)}</td>
+      <td>${bar(o.car, o.cam)}</td><td class="num">${pct(o.car, o.t)}</td><td>${bar(o.abr, o.abm)}</td><td class="num">${pct(o.abr, o.t)}</td></tr>`).join('') + '</tbody>';
+}
+
+function renderBuckets() {
+  const r = rows(), c = {};
+  r.forEach(f => c[f.bucket] = (c[f.bucket] || 0) + 1);
+  $('#buckets').innerHTML = Object.entries(B).filter(([k]) => c[k]).map(([k, [name, desc]]) =>
+    `<button class="card bucket" data-b="${k}" aria-pressed="${state.bucket === k}"><div><span class="n">${c[k]}</span>${D.disagree.includes(k) ? '<span class="tag dis">disagree</span>' : ''}</div>
+     <strong>${name}</strong><p>${desc}</p></button>`).join('');
+  document.querySelectorAll('.bucket').forEach(b => b.onclick = () => { state.bucket = state.bucket === b.dataset.b ? '' : b.dataset.b; state.page = 0; $('#fBucket').value = state.bucket; renderBuckets(); renderTable(); });
+}
+
+function renderAcc() {
+  $('#accTable').innerHTML = `<thead><tr><th>Bucket</th><th class="num">Features</th><th class="num">Real</th><th class="num">Control-aware right</th><th class="num">Abundance-only right</th></tr></thead><tbody>` +
+    Object.entries(D.accuracy).map(([k, a]) => `<tr><td>${k === 'all' ? '<strong>All labeled</strong>' : B[k][0]}</td><td class="num">${a.n}</td><td class="num">${a.real}</td>
+      <td class="num">${a.ca_right} (${pct(a.ca_right, a.n)})</td><td class="num">${a.ab_right} (${pct(a.ab_right, a.n)})</td></tr>`).join('') + '</tbody>';
+}
+
+function filtered() {
+  return rows().filter(f => (!state.bucket || f.bucket === state.bucket) && (!state.cohort || f.cohort === state.cohort) && (!state.low || f.low_abundance)
+    && (!state.id || f.id.includes(state.id.toLowerCase()))
+    && (!state.review || (state.review === 'done') === !!decisions[f.id]))
+    .sort((a, b) => b.priority - a.priority || b.sample_mass - a.sample_mass);
+}
+
+function renderTable() {
+  const all = filtered(), pages = Math.max(1, Math.ceil(all.length / PAGE));
+  state.page = Math.min(state.page, pages - 1);
+  const page = all.slice(state.page * PAGE, (state.page + 1) * PAGE);
+  $('#featTable').innerHTML = `<thead><tr><th>Feature</th><th>Cohort</th><th>Bucket</th><th class="num">Replicates with signal</th><th class="num">Sample mean</th><th class="num">Control mean</th><th class="num">Ratio</th><th>Control-aware</th><th>Abundance</th><th>Review</th></tr></thead><tbody>` +
+    page.map(f => `<tr data-id="${f.id}" class="${state.sel === f.id ? 'sel' : ''}"><td><code>${f.id}</code></td><td>${esc(f.cohort)}</td><td>${B[f.bucket][0]}</td>
+      <td class="num">${f.sample_hits}/${f.sample_count}</td><td class="num">${fmt(f.sample_mass)}</td><td class="num">${fmt(f.control_mass)}</td><td class="num">${f.ratio == null ? '–' : f.ratio > 999 ? '>999' : f.ratio.toFixed(2)}</td>
+      <td>${kd(f.ca_keep)}</td><td>${kd(f.ab_keep)}</td><td class="small">${decisions[f.id] ? esc(dlabel(decisions[f.id])) : '<span class="muted">–</span>'}</td></tr>`).join('') + '</tbody>';
+  $('#pageInfo').textContent = `${all.length} features · page ${state.page + 1} of ${pages}`;
+  $('#prev').disabled = state.page === 0; $('#next').disabled = state.page >= pages - 1;
+  document.querySelectorAll('#featTable tbody tr').forEach(tr => tr.onclick = () => select(tr.dataset.id));
+  if (!state.sel && all.length) select(all[0].id, true);
+}
+
+function plot(f) {
+  const W = 470, H = 150, L = 96, R = 12, lo = -7, hi = 0;
+  const x = v => v <= 0 ? L - 34 : L + (Math.max(lo, Math.min(hi, Math.log10(v))) - lo) / (hi - lo) * (W - L - R);
+  const lane = (vals, y, color, label) => `<text x="0" y="${y + 4}">${label}</text>` + vals.map((v, i) =>
+    `<circle cx="${x(v) + ((i % 3) - 1) * 2}" cy="${y + ((i % 5) - 2) * 3}" r="4" fill="${color}" fill-opacity=".75"><title>${label} replicate ${i + 1}: ${fmt(v)}</title></circle>`).join('');
+  let ticks = '';
+  for (let e = lo; e <= hi; e++) ticks += `<line x1="${x(10 ** e)}" x2="${x(10 ** e)}" y1="18" y2="${H - 26}" stroke="var(--line)"/><text x="${x(10 ** e)}" y="${H - 12}" text-anchor="middle">1e${e}</text>`;
+  const mk = (v, color, dash, label, y) => v > 0 ? `<line x1="${x(v)}" x2="${x(v)}" y1="14" y2="${H - 26}" stroke="${color}" stroke-width="1.5" stroke-dasharray="${dash}"/><text x="${x(v) > W - 110 ? x(v) - 3 : x(v) + 3}" y="${y}" text-anchor="${x(v) > W - 110 ? 'end' : 'start'}" style="fill:${color}">${label}</text>` : '';
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Signal for each sample and control replicate on a log scale">
+    ${ticks}<text x="${L - 34}" y="${H - 12}" text-anchor="middle">0</text>
+    ${mk(T.abundance, 'var(--warn)', '4 3', 'abundance cutoff', 12)}
+    ${mk(f.sample_mass, 'var(--sample)', '', 'sample mean', 24)}
+    ${lane(f.samples, 50, 'var(--sample)', 'Samples')}${lane(f.controls, 96, 'var(--control)', 'Controls')}</svg>`;
+}
+
+const dlabel = d => d.choice === 'evidence' ? 'Needs more evidence' : (d.final_keep ? 'Keep' : 'Remove') + (d.final_keep === d.ca_keep && d.final_keep === d.ab_keep ? '' : d.final_keep === d.ca_keep ? ' (control-aware)' : d.final_keep === d.ab_keep ? ' (abundance-only)' : ' (override)');
+function select(id, quiet) {
+  state.sel = id; const f = D.features.find(x => x.id === id && x.split === state.split); if (!f) return;
+  const dec = decisions[id] || {};
+  const caSaw = f.control_count === 0 ? 'No controls, so it keeps by default.' : f.sample_mass === 0 ? 'Zero sample signal; the ratio 0 ÷ ~0 passes, so it keeps.'
+    : `Control mean ${fmt(f.control_mass)} vs sample mean ${fmt(f.sample_mass)}: ratio ${f.ratio > 999 ? '>999' : f.ratio.toFixed(2)} is ${f.ca_keep ? 'below' : 'at or above'} ${T.ratio}.`;
+  const abSaw = `Sample mean ${fmt(f.sample_mass)} is ${f.ab_keep ? 'at or above' : 'below'} ${T.abundance}${f.ab_keep ? '' : ` (${pct(f.sample_mass, T.abundance)} of the cutoff)`}.`;
+  const truth = f.split === 'train' ? `<p class="small">Label: <strong>${f.target ? 'real mixture member' : 'not in mixture'}</strong>. Control-aware was ${f.ca_keep === f.target ? 'right' : 'wrong'}; abundance-only was ${f.ab_keep === f.target ? 'right' : 'wrong'}.</p>` : '';
+  const ca = f.ca_keep ? 'keep' : 'remove', ab = f.ab_keep ? 'keep' : 'remove';
+  const choices = f.ca_keep === f.ab_keep ? [[ca, `Accept: ${ca}`], [ca === 'keep' ? 'remove' : 'keep', `Override: ${ca === 'keep' ? 'remove' : 'keep'}`]] : [['ca', `Keep (control-aware)`], ['ab', `Remove (abundance-only)`]];
+  if (!f.ca_keep && f.ab_keep) { choices[0] = ['ab', 'Keep (abundance-only)']; choices[1] = ['ca', 'Remove (control-aware)']; }
+  choices.push(['evidence', 'Needs more evidence']);
+  $('#inspector').innerHTML = `<div><code>${f.id}</code> <span class="tag">${esc(f.cohort)}</span><span class="tag ${f.disagree ? 'dis' : ''}">${B[f.bucket][0]}</span></div>
+    <p class="small muted" style="margin:4px 0">${B[f.bucket][1]}</p>
+    ${plot(f)}
+    <p class="small muted" style="margin:0">Each dot is one replicate (log scale). ${f.sample_hits} of ${f.sample_count} sample replicates and ${f.control_hits} of ${f.control_count} controls have signal. Signal: ${fmt(f.signal_mass)}, which the control-aware filter ${f.ca_keep ? 'keeps' : 'removes'} and the abundance-only filter ${f.ab_keep ? 'keeps' : 'removes'}.</p>
+    <h3>What each filter saw</h3>
+    <div class="saw"><div><div class="h">Control-aware → ${kd(f.ca_keep)}</div>${caSaw}</div><div><div class="h">Abundance-only → ${kd(f.ab_keep)}</div>${abSaw}</div></div>
+    ${truth}
+    <h3>Check next</h3><ul class="next small">${f.check_next.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+    <h3>Your decision</h3>
+    <div class="decide">${choices.map(([k, l]) => `<button data-c="${k}" aria-pressed="${dec.choice === k}">${l}</button>`).join('')}</div>
+    <textarea id="note" placeholder="Reason (optional)">${esc(dec.note || '')}</textarea>`;
+  document.querySelectorAll('.decide button').forEach(b => b.onclick = () => {
+    decisions[id] = {choice: b.dataset.c, note: $('#note').value, final_keep: b.dataset.c === 'evidence' ? '' : b.dataset.c === 'ca' ? f.ca_keep : b.dataset.c === 'ab' ? f.ab_keep : b.dataset.c === 'keep',
+      bucket: f.bucket, cohort: f.cohort, split: f.split, ca_keep: f.ca_keep, ab_keep: f.ab_keep, at: new Date().toISOString()};
+    save(); select(id); renderTable();
+  });
+  $('#note').oninput = e => { if (decisions[id]) { decisions[id].note = e.target.value; save(); } };
+  if (!quiet) document.querySelectorAll('#featTable tbody tr').forEach(tr => tr.classList.toggle('sel', tr.dataset.id === id));
+  if (!quiet && location.hash.slice(1) !== id) history.replaceState(null, '', '#' + id);
+}
+
+// Jump to any feature: switch dataset if needed, clear filters, show its page, open the inspector.
+function openFeature(id) {
+  const f = D.features.find(x => x.id === id && x.split === state.split) || D.features.find(x => x.id === id);
+  if (!f) return false;
+  if (f.split !== state.split) setSplit(f.split);
+  Object.assign(state, {bucket: '', cohort: '', low: false, id: '', review: ''});
+  $('#fBucket').value = ''; $('#fCohort').value = ''; $('#fDecision').value = ''; $('#fLow').checked = false; $('#fId').value = '';
+  state.page = Math.floor(filtered().findIndex(x => x.id === id) / PAGE);
+  state.sel = id; renderBuckets(); renderTable(); select(id);
+  $('#inspector').scrollIntoView({behavior: 'smooth', block: 'start'});
+  return true;
+}
+
+function parseCSV(text) {
+  const out = []; let row = [], cell = '', q = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (q) { if (ch === '"' && text[i + 1] === '"') { cell += '"'; i++; } else if (ch === '"') q = false; else cell += ch; }
+    else if (ch === '"') q = true;
+    else if (ch === ',') { row.push(cell); cell = ''; }
+    else if (ch === '\n' || ch === '\r') { if (ch === '\r' && text[i + 1] === '\n') i++; row.push(cell); out.push(row); row = []; cell = ''; }
+    else cell += ch;
+  }
+  if (cell || row.length) { row.push(cell); out.push(row); }
+  return out;
+}
+
+function renderDecSummary() {
+  const v = Object.values(decisions), c = {};
+  v.forEach(d => { const k = dlabel(d); c[k] = (c[k] || 0) + 1; });
+  $('#decSummary').textContent = v.length ? `${v.length} reviewed: ` + Object.entries(c).map(([k, n]) => `${n} ${k.toLowerCase()}`).join(', ') : 'No features reviewed yet.';
+}
+
+function setupFilters() {
+  $('#fBucket').innerHTML = '<option value="">All buckets</option>' + Object.entries(B).map(([k, [n]]) => `<option value="${k}">${n}</option>`).join('');
+  const cohorts = [...new Set(rows().map(f => f.cohort))];
+  $('#fCohort').innerHTML = '<option value="">All cohorts</option>' + cohorts.map(c => `<option>${esc(c)}</option>`).join('');
+  $('#fBucket').value = state.bucket; $('#fCohort').value = '';
+}
+$('#fBucket').onchange = e => { state.bucket = e.target.value; state.page = 0; renderBuckets(); renderTable(); };
+$('#fCohort').onchange = e => { state.cohort = e.target.value; state.page = 0; renderTable(); };
+$('#fDecision').onchange = e => { state.review = e.target.value; state.page = 0; renderTable(); };
+$('#fLow').onchange = e => { state.low = e.target.checked; state.page = 0; renderTable(); };
+$('#fId').oninput = e => { state.id = e.target.value.trim(); state.page = 0; renderTable(); };
+$('#prev').onclick = () => { state.page--; renderTable(); };
+$('#next').onclick = () => { state.page++; renderTable(); };
+function setSplit(split) {
+  state.split = split; state.bucket = ''; state.cohort = ''; state.page = 0; state.sel = null;
+  document.querySelectorAll('.seg button').forEach(x => x.setAttribute('aria-pressed', x.dataset.split === split)); renderAll();
+}
+document.querySelectorAll('.seg button').forEach(b => b.onclick = () => setSplit(b.dataset.split));
+$('#demo').onclick = () => {
+  const demo = D.features.filter(f => f.split === 'cases' && f.bucket === 'rare_recurring').sort((a, b) => b.priority - a.priority || b.sample_mass - a.sample_mass)[0];
+  if (demo) openFeature(demo.id);
+};
+$('#load').onclick = () => $('#loadFile').click();
+$('#loadFile').onchange = async e => {
+  const file = e.target.files[0]; if (!file) return;
+  const [head, ...body] = parseCSV(await file.text()).filter(r => r.some(c => c.trim()));
+  const known = new Set(D.features.map(f => f.id)); let added = 0, unknown = 0;
+  const bool = v => v === 'true' ? true : v === 'false' ? false : '';
+  if (!head || !head.includes('id') || !head.includes('choice')) { alert('That file is not a decisions.csv exported from this report.'); return; }
+  body.forEach(cells => {
+    const r = Object.fromEntries(head.map((h, i) => [h, cells[i] ?? '']));
+    if (!known.has(r.id)) { unknown++; return; }
+    decisions[r.id] = {choice: r.choice, note: r.note, final_keep: bool(r.final_keep), bucket: r.bucket, cohort: r.cohort, split: r.split, ca_keep: bool(r.ca_keep), ab_keep: bool(r.ab_keep), at: r.at};
+    added++;
+  });
+  save(); renderTable(); if (state.sel) select(state.sel, true);
+  alert(`Loaded ${added} decisions` + (unknown ? `; skipped ${unknown} unknown feature IDs.` : '.'));
+  e.target.value = '';
+};
+$('#export').onclick = () => {
+  const cols = ['id', 'split', 'cohort', 'bucket', 'ca_keep', 'ab_keep', 'choice', 'final_keep', 'note', 'at'];
+  const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const csv = [cols.join(',')].concat(Object.entries(decisions).map(([id, d]) => cols.map(c => q(c === 'id' ? id : d[c])).join(','))).join('\n');
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([csv], {type: 'text/csv'})); a.download = 'decisions.csv'; a.click();
+};
+$('#clear').onclick = () => { if (confirm('Clear all review decisions?')) { decisions = {}; save(); renderTable(); if (state.sel) select(state.sel); } };
+function renderAll() { setupFilters(); renderTiles(); renderSignal(); renderBuckets(); renderAcc(); renderTable(); renderDecSummary(); }
+renderAll();
+if (location.hash.length > 1) openFeature(decodeURIComponent(location.hash.slice(1)));
+window.addEventListener('hashchange', () => { const id = decodeURIComponent(location.hash.slice(1)); if (id && id !== state.sel) openFeature(id); });
+</script>
+</body>
+</html>

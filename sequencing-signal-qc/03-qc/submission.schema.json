@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Controlled-mixture sequencing signal QC version 0.3.0 submission",
+  "type": "object",
+  "required": [
+    "packet_version",
+    "route",
+    "model",
+    "provenance",
+    "rows"
+  ],
+  "properties": {
+    "packet_version": {
+      "const": "0.5.0-internal"
+    },
+    "route": {
+      "const": "03-qc"
+    },
+    "model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "training",
+        "external_models",
+        "hyperparameters",
+        "pre_event_work"
+      ],
+      "properties": {
+        "training": {
+          "type": "string"
+        },
+        "external_models": {
+          "type": "array"
+        },
+        "hyperparameters": {
+          "type": "object"
+        },
+        "pre_event_work": {
+          "type": "string"
+        }
+      }
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 3425,
+      "maxItems": 3425,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "keep",
+          "ratio",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "keep": {
+            "type": "boolean"
+          },
+          "ratio": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
