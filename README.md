@@ -9,6 +9,7 @@ All project code, reports, results, and experiment records are grouped in [`biob
 Start with the [full project README](biobase/README.md).
 
 The report-side work (Task A criteria search, TCGA validation, trial matching) is in [`concordance/`](concordance/); start with its [README](concordance/README.md).
+Proposed evaluation questions for the Biobase prize, each with our own answer and evidence: [`evaluation_questions.md`](evaluation_questions.md).
 
 ## Problem
 

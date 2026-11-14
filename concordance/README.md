@@ -13,7 +13,7 @@ pathology reports and a first step towards matching patients to real clinical tr
 | [`criteria_search/`](criteria_search/) | **Task A.** Biobase reports → fact card → 30 criterion rules. Writes `submission.json`. | Train mean F1 **1.000** (keyword baseline 0.27). Prose-only robustness check: 0.975 on a held-out half. |
 | [`concordance_breast/`](concordance_breast/) | External validation on **1,034 real TCGA breast reports** with curated labels (ER/PR/HER2, pT/pN, nodes, margin, histology) | Holdout F1 0.52; accurate when it answers (82–98%); **ECE 0.097 → 0.022** after calibration |
 | [`concordance_colon/`](concordance_colon/) | Same framework on **580 real TCGA colorectal reports**; criteria mirror the challenge's colon criteria | Holdout F1 **0.68**; 95–100% accurate when it answers; **ECE 0.011** |
-| [`trial_twins/`](trial_twins/) | Digital twins (the fact card) matched against **real recruiting trials** from ClinicalTrials.gov | Design + trial fetch done; matching not built yet |
+| [`trial_matching/`](trial_matching/) | Patient profiles (from the report) matched to **10 real recruiting trials** found with Paperclip (GXL) search + ClinicalTrials.gov SQL | 1,795 eligible-on-available-data pairs; report profile = label profile on all 12,096 decisions; completeness 0.33–0.51 |
 
 Each folder has a `*_design.md` covering how it works, its results and its limits. Start with
 [`criteria_search/criteria_search_design.md`](criteria_search/criteria_search_design.md).
@@ -44,8 +44,8 @@ bash fetch_public_data.sh
 cd concordance_breast && python3 calibrate.py && python3 evaluate.py && cd ..   # add --holdout for the held-out half
 cd concordance_colon  && python3 evaluate.py --fit && python3 evaluate.py && cd ..
 
-# Trial twins: refresh candidate trials from ClinicalTrials.gov (public API, generic queries only)
-cd trial_twins && python3 fetch_trials.py
+# Trial matching: match Biobase profiles to the 10 encoded trials (needs the Biobase pack, as for Task A)
+cd trial_matching && python3 match.py && python3 match.py --test
 ```
 
 ## Data and permissions
@@ -60,6 +60,6 @@ cd trial_twins && python3 fetch_trials.py
   - cBioPortal `brca_tcga` / `coadread_tcga` clinical data
   
   The audit CSVs quote short snippets of those public reports.
-- **`trial_twins/trials/raw/`** holds ClinicalTrials.gov records as fetched on 2026-11-14.
+- **`trial_matching/trials/`** holds ClinicalTrials.gov records as fetched on 2026-11-14 (`raw/` first keyword pass, `selected/` the 10 encoded trials).
   Trial text changes over time, so each record carries its fetch date.
 - Synthetic and research data only. Nothing here is for clinical or enrollment decisions.

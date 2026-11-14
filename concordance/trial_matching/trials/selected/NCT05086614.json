@@ -1,0 +1,21 @@
+{
+ "nct": "NCT05086614",
+ "title": "Thymosin-alpha 1 for Adjuvant Treatment After Radical Resection of High-risk Stage II and III Colorectal Cancer",
+ "status": "RECRUITING",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": {
+  "eligibilityCriteria": "Inclusion Criteria:\n\n* Colorectal cancer receiving radical resection\n* Pathologically diagnosed with high-risk stage II or stage III\n* Eastern Cooperative Oncology Group performance status of 0-2\n* Adequate hepatic, renal, and hematologic function\n\nExclusion Criteria:\n\n* Had previously taken any immune-promoting drugs\n* Pregnancy or lactation",
+  "healthyVolunteers": false,
+  "sex": "ALL",
+  "minimumAge": "18 Years",
+  "maximumAge": "75 Years",
+  "stdAges": [
+   "ADULT",
+   "OLDER_ADULT"
+  ]
+ },
+ "fetched": "2026-11-14",
+ "found_via": "Paperclip search + ctgov SQL (AACT); text from ClinicalTrials.gov API v2"
+}

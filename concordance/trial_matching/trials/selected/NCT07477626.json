@@ -1,0 +1,20 @@
+{
+ "nct": "NCT07477626",
+ "title": "Radiotherapy After Prostatectomy for Node Positive Prostate Cancer",
+ "status": "RECRUITING",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": {
+  "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u2265 18 years.\n* Histologically confirmed adenocarcinoma of the prostate.\n* Radical prostatectomy with pelvic lymph node dissection and pathologically confirmed positive pelvic lymph nodes (AJCC 8th edition: external iliac, internal iliac, obturator, presacral, periprostatic, and/or perirectal nodes).\n* ECOG performance status 0-2.\n* Started postoperative GnRH agonist or antagonist therapy for less than 1 year if receiving postoperative androgen deprivation therapy\\*.\n* Adequate major organ function, defined as:\n\nHemoglobin \u2265 90 g/L Platelet count \u2265 75 \u00d7 10\u2079/L Total bilirubin \u2264 3 \u00d7 ULN AST or ALT \u2264 5 \u00d7 ULN\n\n* Use of effective contraception during the study and for 3 months after.\n* Written informed consent provided, with willingness and ability to comply with study visits, treatments, and procedures.\n\n  * Prior postoperative ARAT use \u2264 3 months is eligible after treatment discontinuation.\n\nExclusion Criteria:\n\n* Measurable pelvic recurrence on postoperative MRI or CT (RECIST 1.1, including prostate bed and lymph nodes).\n* Radiographically confirmed distant metastasis (M1a, M1b, or M1c).\n* Neoadjuvant hormonal therapy \\> 3 months before prostatectomy.\n* Malignancy within 5 years that may interfere with study safety or efficacy assessments.\n* Castration-resistant prostate cancer (CRPC) prior to enrollment per 2025 EAU criteria\n* Prior radiotherapy overlapping irradiation fields that may compromise normal tissue.\n* Serious comorbidities affecting study treatment.\n* Psychiatric disorders preventing understanding or compliance.\n* Any condition that, in the investigator's judgment, makes participation unsuitable.",
+  "healthyVolunteers": false,
+  "sex": "MALE",
+  "minimumAge": "18 Years",
+  "stdAges": [
+   "ADULT",
+   "OLDER_ADULT"
+  ]
+ },
+ "fetched": "2026-11-14",
+ "found_via": "Paperclip search + ctgov SQL (AACT); text from ClinicalTrials.gov API v2"
+}
