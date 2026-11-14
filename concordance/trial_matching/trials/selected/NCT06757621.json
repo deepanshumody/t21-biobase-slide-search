@@ -1,0 +1,20 @@
+{
+ "nct": "NCT06757621",
+ "title": "Hypofractionated Postoperative Regional Nodal Irradiation for Patients With Intermediate-risk Breast Cancer",
+ "status": "RECRUITING",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": {
+  "eligibilityCriteria": "Inclusion Criteria:\n\n1. \u226545 years old\n2. Receiving breast-conserving surgery or total mastectomy and axillary lymph node dissection or sentinel lymph node biopsy\n3. Negative surgical margins\n4. Tumor staging\uff1a A. patients without neoadjuvant chemotherapy: pT1-2N1M0, axillary lymph node dissection with 1-3 metastatic lymph nodes, at least 1 lymph node with macroscopic metastasis, and a score of 0-2 according to the following risk factors: \u226440 years of age (1 point), tumour located in the inner quadrant (1 point), 2-3 lymph nodes positive in the axilla (1 point), presence of choroidal tumour thrombus (1 point), and restaging according to the 8th edition of the staging criteria (IB-IIA 1 point, and IIB-IIIA 2 points) B. patients without neoadjuvant chemotherapy: pT1-2N1M0, sentinel lymph node biopsy with 1-2 metastatic lymph nodes, at least 1 lymph node with macroscopic metastasis, and a score of 0-2 according to the following risk factors: \u226440 years of age (1 point), tumour located in the inner quadrant (1 point), 2-3 lymph nodes positive in the axilla (1 point), presence of choroidal tumour thrombus (1 point), and restaging according to the 8th edition of the staging criteria (IB-IIA 1 point, and IIB-IIIA 2 points) C. patients with neoadjuvant chemotherapy: cT1-2N1-2M0\u2192ypT0-2N0M0, requiring positive clinical lymph nodes with pathological confirmation, receiving \u22656 cycles of neoadjuvant chemotherapy, and \u22653 sentinel lymph nodes detected for those with simple sentinel lymph node biopsy\n5. Signed informed consent\n\nExclusion Criteria:\n\n1. Distant metastases\n2. Metastasis to ipsilateral internal breast, supraclavicular or subclavicular lymph nodes\n3. Previous radiotherapy to the chest\n4. Bilateral breast cancer\n5. Pregnancy, breastfeeding\n6. Previous or concurrent other malignancy with tumor-free survival \\<5 years (but excluding skin cancer with non-malignant melanoma, papillary/follicular thyroid cancer, cervical carcinoma in situ)",
+  "healthyVolunteers": false,
+  "sex": "FEMALE",
+  "minimumAge": "45 Years",
+  "stdAges": [
+   "ADULT",
+   "OLDER_ADULT"
+  ]
+ },
+ "fetched": "2026-11-14",
+ "found_via": "Paperclip search + ctgov SQL (AACT); text from ClinicalTrials.gov API v2"
+}

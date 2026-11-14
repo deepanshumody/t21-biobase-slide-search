@@ -45,4 +45,4 @@ venv/
 /concordance/criteria_search/pack_reports
 /concordance/concordance_breast/data
 /concordance/concordance_colon/data
-/concordance/trial_twins/trec
+/concordance/trial_matching/trec

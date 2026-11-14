@@ -1,0 +1,20 @@
+{
+ "nct": "NCT04997837",
+ "title": "Study of Adjuvant Chemotherapy With or Without PD-1 Inhibitors and Chemoradiotherapy in Resected pN3 Gastric (G) or GEJ Adenocarcinoma",
+ "status": "RECRUITING",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": {
+  "eligibilityCriteria": "Inclusion Criteria:\n\n* Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) score of 0 or 1\n* Patients with expected survival time more than 6 months\n* Patients after standard D2/R0 resection\n* Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ\n* Positive lymph nodes more than 7, stage pN3\n* Patients without distant metastasis (M0) or M1 with abdominal exfoliated cell detection positive (CY1P0)\n* Patients' physical condition and visceral function allows following adjuvant therapy, including chemotherapy, chemoradiotherapy and PD-1 inhibitor therapy.\n* Patients' blood routine and biochemical indicators should meet the following standard: Hb\u226590g/L, ANC\u22651.5\\*10\\^9/L, PLT\u2265100\\*10\\^9/L, ALT \\& AST\u22642.5 U/L, TB \u2264 1.5 UNL, serum creatinine\\<1 UNL.\n* Patients who are willing to obey regimens during the study.\n* Written informed consent is acquired before random entry, and patients should know that he/she has the right to quit, and following treatment won't be affected.\n* Patients are willing to provide samples of blood and tissue.\n\nExclusion Criteria:\n\n* Patients with gross peritoneal metastasis (CY1P0 excluded) or distant metastasis.\n* Patients who has received any anti-tumor therapy before surgery.\n* Patients who had received radiotherapy for abdominal organs including stomach, liver, kidney, etc.\n* Patients who had active systematic autoimmune diseases which need systematic treatment within 2 years before first medication in the study, substitutive therapy (such as thyroxine, insulin, etc) excluded.\n* Patients diagnosed with immunodeficiency, or was receiving systematic glucocorticoid treatment or other immunosuppressive therapy within 7 days before medication, physiological dose of glucocorticoid is allowed (\u226410 mg/d prednison or equivalent medication)\n* Patients who have known severe allergic reaction (\u2265level 3) to anti-PD-1 monoclonal antibody, 5-FU, Oxaliplatin or any auxiliary material.\n* Patient diagnosed with other malignant tumor in the past 5 years, excluding radical basal cell carcinoma of the skin and/or radical resected carcinoma in situ.\n* Patient with severe vital organ failure.\n* Pregnant or lactation period\n* Patient with known mental illness or drug abuse that may influence compliance.\n* Patient with known HIV infection, or active tuberculosis.\n* Untreated active hepatitis B\n* Patient with active HCV infection\n* Uncontrolled complications\n* Other situations that might disturb study results and compliance.",
+  "healthyVolunteers": false,
+  "sex": "ALL",
+  "minimumAge": "18 Years",
+  "stdAges": [
+   "ADULT",
+   "OLDER_ADULT"
+  ]
+ },
+ "fetched": "2026-11-14",
+ "found_via": "Paperclip search + ctgov SQL (AACT); text from ClinicalTrials.gov API v2"
+}

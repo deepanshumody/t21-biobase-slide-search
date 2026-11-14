@@ -1,0 +1,20 @@
+{
+ "nct": "NCT05487391",
+ "title": "A Study of QL1706 Combined With Platinum-containing Chemotherapy in Adjuvant Treatment of Stage II-IIIB Non-small Cell Lung Cancer After Complete Surgical Resection.",
+ "status": "RECRUITING",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": {
+  "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects voluntarily participated, signed an informed consent form (ICF), and were able to follow the study procedures.\n* Histopathologically confirmed squamous or non-squamous non-small cell lung cancer\n* Stage II-IIIB according to the 8th edition of the American Joint Committee on Cancer (AJCC) , and had received radical surgical resection (R0) treatment.\n* Participants were enrolled to receive adjuvant therapy within 10 weeks after surgery (\u226470 days) and had to recover sufficiently from surgery.\n* Non-squamous NSCLC subjects without EGFR-sensitizing mutation or ALK fusion gene.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n* Subjects (including women and men) agreed to use effective contraception from the time of signing the informed consent to 180 days after the last use of the study drug.\n\nExclusion Criteria:\n\n* Currently participating in and receiving study treatment or participating in an investigational drug study and receiving study treatment or using an investigational device within 4 weeks prior to the first dose of study treatment.\n* Previous treatment with neoadjuvant/adjuvant chemotherapy or immune checkpoint inhibitor therapy.\n* Cardiovascular and cerebrovascular diseases with clinical significance.\n* Gastrointestinal disease of clinical significance.\n* Clinically significant lung damage.\n* Human immunodeficiency virus (HIV) antibody positive; Treponema pallidum antibody positive.\n* Active uncontrolled hepatitis B or active hepatitis C.\n* Administer a live vaccine within 30 days prior to the first dose of study treatment.\n* Other malignancies occurred within 5 years prior to study enrollment. (Except: Bowen's disease; cured basal cell or squamous cell skin cancer; prostate cancer with a Gleason score of 6; treated cervical carcinoma in situ.)\n* Previously allergic to macromolecular protein preparations, or to any component of QL1706 and other investigational drugs; history of severe allergy to chemotherapy drugs (pemetrexed, vinorelbine, paclitaxel, cisplatin, carboplatin) or their preventive drugs, etc.\n* History of psychotropic substance abuse, alcohol or drug abuse; prior history of clear neurological or psychiatric disorders, including epilepsy or dementia.",
+  "healthyVolunteers": false,
+  "sex": "ALL",
+  "minimumAge": "18 Years",
+  "stdAges": [
+   "ADULT",
+   "OLDER_ADULT"
+  ]
+ },
+ "fetched": "2026-11-14",
+ "found_via": "Paperclip search + ctgov SQL (AACT); text from ClinicalTrials.gov API v2"
+}

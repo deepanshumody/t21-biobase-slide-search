@@ -1,0 +1,21 @@
+{
+ "nct": "NCT05797467",
+ "title": "Adjuvant Chemotherapy Combined With Targeted Therapy or Not in the T3-4N2 Colorectal Cancer Patients",
+ "status": "RECRUITING",
+ "phases": [
+  "PHASE3"
+ ],
+ "eligibility": {
+  "eligibilityCriteria": "Inclusion Criteria:\n\n1. Both sexes, aged 18-75 years;\n2. Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery;\n3. ASA grade \\< IV and/or ECOG performance status score \u2264 2 points;\n4. Fully understand and voluntarily sign the informed consent form for this study.\n\nExclusion Criteria:\n\n1. A history of other malignant tumors;\n2. Patients with severe liver, kidney, cardio-pulmonary, coagulation dysfunction, or underlying diseases that cannot tolerate chemotherapy;\n3. Patients allergic to any component in the study;\n4. Patients with severe uncontrollable recurrent infections or other severe uncontrollable concurrent diseases;\n5. Patients with other factors that may affect the study results or lead to premature termination of the study, such as alcoholism, drug abuse, other serious diseases requiring comprehensive treatment (including mental illness), and severe abnormalities in laboratory tests;\n6. Patients with emergent surgery due to intestinal obstruction, intestinal perforation, intestinal bleeding, etc.;\n7. Patients with a history of severe mental illness;\n8. Pregnant or lactating women;\n9. Patients with other clinical or laboratory conditions that the investigators consider inappropriate for participation in this trial.",
+  "healthyVolunteers": false,
+  "sex": "ALL",
+  "minimumAge": "18 Years",
+  "maximumAge": "75 Years",
+  "stdAges": [
+   "ADULT",
+   "OLDER_ADULT"
+  ]
+ },
+ "fetched": "2026-11-14",
+ "found_via": "Paperclip search + ctgov SQL (AACT); text from ClinicalTrials.gov API v2"
+}

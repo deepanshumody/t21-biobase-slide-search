@@ -28,8 +28,8 @@ echo "Linking reports to labels"
 python3 concordance_breast/scripts/build_linked.py
 python3 concordance_colon/build_linked.py
 
-echo "Optional: TREC Clinical Trials 2021/2022 topics + judgments (trial_twins)"
-T=trial_twins/trec/raw
+echo "Optional: TREC Clinical Trials 2021/2022 topics + judgments (trial_matching)"
+T=trial_matching/trec/raw
 mkdir -p "$T"
 for y in 2021 2022; do
   curl -sfL -o "$T/topics$y.xml" "https://www.trec-cds.org/topics$y.xml" || true

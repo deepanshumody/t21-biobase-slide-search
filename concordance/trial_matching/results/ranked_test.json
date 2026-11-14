@@ -1,0 +1,1786 @@
+{
+ "NCT06757621": [
+  {
+   "patient": "SYN-91fab25641",
+   "verdict": "eligible",
+   "completeness": 0.6,
+   "passed": [
+    "\u226545 years old",
+    "Receiving breast-conserving surgery or total mastectomy and axillary lymph node dissection or sentinel lymph node biopsy",
+    "Negative surgical margins",
+    "patients without neoadjuvant chemotherapy",
+    "pT1-2N1M0 \u2026 1-3 [ALND] / 1-2 [SLNB] metastatic lymph nodes, at least 1 lymph node with macroscopic metastasis",
+    "a score of 0-2 according to the following risk factors \u2026 (inner quadrant, 2-3 nodes, tumour thrombus, stage)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ASSUMPTION: 'choroidal tumour thrombus' read as lymphovascular invasion; stage = AJCC anatomic",
+    "prior malignancy history",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-92fe86ab5c",
+   "verdict": "eligible",
+   "completeness": 0.6,
+   "passed": [
+    "\u226545 years old",
+    "Receiving breast-conserving surgery or total mastectomy and axillary lymph node dissection or sentinel lymph node biopsy",
+    "Negative surgical margins",
+    "patients without neoadjuvant chemotherapy",
+    "pT1-2N1M0 \u2026 1-3 [ALND] / 1-2 [SLNB] metastatic lymph nodes, at least 1 lymph node with macroscopic metastasis",
+    "a score of 0-2 according to the following risk factors \u2026 (inner quadrant, 2-3 nodes, tumour thrombus, stage)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ASSUMPTION: 'choroidal tumour thrombus' read as lymphovascular invasion; stage = AJCC anatomic",
+    "prior malignancy history",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-97d9c6c41d",
+   "verdict": "eligible",
+   "completeness": 0.6,
+   "passed": [
+    "\u226545 years old",
+    "Receiving breast-conserving surgery or total mastectomy and axillary lymph node dissection or sentinel lymph node biopsy",
+    "Negative surgical margins",
+    "patients without neoadjuvant chemotherapy",
+    "pT1-2N1M0 \u2026 1-3 [ALND] / 1-2 [SLNB] metastatic lymph nodes, at least 1 lymph node with macroscopic metastasis",
+    "a score of 0-2 according to the following risk factors \u2026 (inner quadrant, 2-3 nodes, tumour thrombus, stage)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ASSUMPTION: 'choroidal tumour thrombus' read as lymphovascular invasion; stage = AJCC anatomic",
+    "prior malignancy history",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-b90c471e50",
+   "verdict": "eligible",
+   "completeness": 0.6,
+   "passed": [
+    "\u226545 years old",
+    "Receiving breast-conserving surgery or total mastectomy and axillary lymph node dissection or sentinel lymph node biopsy",
+    "Negative surgical margins",
+    "patients without neoadjuvant chemotherapy",
+    "pT1-2N1M0 \u2026 1-3 [ALND] / 1-2 [SLNB] metastatic lymph nodes, at least 1 lymph node with macroscopic metastasis",
+    "a score of 0-2 according to the following risk factors \u2026 (inner quadrant, 2-3 nodes, tumour thrombus, stage)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ASSUMPTION: 'choroidal tumour thrombus' read as lymphovascular invasion; stage = AJCC anatomic",
+    "prior malignancy history",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-c05b8a336c",
+   "verdict": "eligible",
+   "completeness": 0.6,
+   "passed": [
+    "\u226545 years old",
+    "Receiving breast-conserving surgery or total mastectomy and axillary lymph node dissection or sentinel lymph node biopsy",
+    "Negative surgical margins",
+    "patients without neoadjuvant chemotherapy",
+    "pT1-2N1M0 \u2026 1-3 [ALND] / 1-2 [SLNB] metastatic lymph nodes, at least 1 lymph node with macroscopic metastasis",
+    "a score of 0-2 according to the following risk factors \u2026 (inner quadrant, 2-3 nodes, tumour thrombus, stage)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ASSUMPTION: 'choroidal tumour thrombus' read as lymphovascular invasion; stage = AJCC anatomic",
+    "prior malignancy history",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-f000f48db4",
+   "verdict": "eligible",
+   "completeness": 0.6,
+   "passed": [
+    "\u226545 years old",
+    "Receiving breast-conserving surgery or total mastectomy and axillary lymph node dissection or sentinel lymph node biopsy",
+    "Negative surgical margins",
+    "patients without neoadjuvant chemotherapy",
+    "pT1-2N1M0 \u2026 1-3 [ALND] / 1-2 [SLNB] metastatic lymph nodes, at least 1 lymph node with macroscopic metastasis",
+    "a score of 0-2 according to the following risk factors \u2026 (inner quadrant, 2-3 nodes, tumour thrombus, stage)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ASSUMPTION: 'choroidal tumour thrombus' read as lymphovascular invasion; stage = AJCC anatomic",
+    "prior malignancy history",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-f50daec1e5",
+   "verdict": "undetermined",
+   "completeness": 0.5,
+   "passed": [
+    "Receiving breast-conserving surgery or total mastectomy and axillary lymph node dissection or sentinel lymph node biopsy",
+    "Negative surgical margins",
+    "patients without neoadjuvant chemotherapy",
+    "pT1-2N1M0 \u2026 1-3 [ALND] / 1-2 [SLNB] metastatic lymph nodes, at least 1 lymph node with macroscopic metastasis",
+    "a score of 0-2 according to the following risk factors \u2026 (inner quadrant, 2-3 nodes, tumour thrombus, stage)"
+   ],
+   "failed": [],
+   "unknown": [
+    "\u226545 years old"
+   ],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ASSUMPTION: 'choroidal tumour thrombus' read as lymphovascular invasion; stage = AJCC anatomic",
+    "prior malignancy history",
+    "consent"
+   ]
+  }
+ ],
+ "NCT07237256": [
+  {
+   "patient": "SYN-0d0d7578df",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  },
+  {
+   "patient": "SYN-13a52d4cd2",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  },
+  {
+   "patient": "SYN-43135ea1a5",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  },
+  {
+   "patient": "SYN-458af46eb1",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  },
+  {
+   "patient": "SYN-8442de2070",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  },
+  {
+   "patient": "SYN-92fe86ab5c",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  },
+  {
+   "patient": "SYN-97d9c6c41d",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  },
+  {
+   "patient": "SYN-a2e44b7317",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  },
+  {
+   "patient": "SYN-b90c471e50",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  },
+  {
+   "patient": "SYN-ba36ffc217",
+   "verdict": "eligible",
+   "completeness": 0.5,
+   "passed": [
+    "Patient is \u2265 18 years old",
+    "Patient is female",
+    "pT2 pN0 Grade 3 or pT2 pN0 Grade 2 with Ki67\u226520% or pT0-2 pN1 or pT3-4 pN0",
+    "ER-positive (with tumor cells showing \u226510% ER staining)",
+    "HER2-negative according to the most recent ASCO/CAP guidelines",
+    "Curative surgery \u2026 with negative surgical margins (or revision surgery planned)"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "known menopausal status",
+    "Ki-67 for pT2 pN0 grade 2 (not in reports)",
+    "ECOG 0-1",
+    "blood counts, renal and hepatic function",
+    "QTcF < 450 ms",
+    "chemotherapy eligible per investigator"
+   ]
+  }
+ ],
+ "NCT05797467": [
+  {
+   "patient": "SYN-0c13606cd2",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-11135dd97e",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-1d2903ed5b",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-74483e3583",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-795d23e7a5",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-800ee67c00",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-97e0575892",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-a2afb04ddf",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-aca9f74c6c",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-b84094034a",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "aged 18-75 years",
+    "Pathologically confirmed pT3-4N2 stage colorectal adenocarcinoma after surgery",
+    "EXCLUSION: Patients with emergent surgery due to intestinal obstruction, int[estinal perforation]\u2026"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "ASA < IV and/or ECOG \u2264 2",
+    "no other malignancy",
+    "organ function",
+    "consent"
+   ]
+  }
+ ],
+ "NCT05086614": [
+  {
+   "patient": "SYN-0aa43b8551",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  },
+  {
+   "patient": "SYN-0c13606cd2",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  },
+  {
+   "patient": "SYN-0e9bc750c2",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  },
+  {
+   "patient": "SYN-11135dd97e",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  },
+  {
+   "patient": "SYN-19dbeb9ac0",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  },
+  {
+   "patient": "SYN-1bc4e931d9",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  },
+  {
+   "patient": "SYN-1d2903ed5b",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  },
+  {
+   "patient": "SYN-2290101c1c",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  },
+  {
+   "patient": "SYN-38e2b636bb",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  },
+  {
+   "patient": "SYN-3f0c2ebd1d",
+   "verdict": "eligible",
+   "completeness": 0.429,
+   "passed": [
+    "Colorectal cancer receiving radical resection",
+    "Pathologically diagnosed with high-risk stage II or stage III",
+    "[age] 18 to 75 Years"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-2",
+    "hepatic, renal and hematologic function",
+    "no prior immune-promoting drugs"
+   ]
+  }
+ ],
+ "NCT05487391": [
+  {
+   "patient": "SYN-19291b579b",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-1d410fa50c",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-205efc0416",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-28bf612533",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-2c2eae0d11",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-32a10ba977",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-3db762bad0",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-3fe2706111",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-41a7e91393",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-51bbae92e2",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Histopathologically confirmed squamous or non-squamous non-small cell lung cancer",
+    "Stage II-IIIB according to the 8th edition of the AJCC",
+    "had received radical surgical resection (R0)",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology",
+    "non-squamous: no EGFR-sensitizing mutation or ALK fusion (not in reports)",
+    "enrolled \u2264 70 days after surgery",
+    "ECOG 0-1",
+    "contraception",
+    "consent"
+   ]
+  }
+ ],
+ "NCT07477626": [],
+ "NCT07366528": [
+  {
+   "patient": "SYN-028f8bc519",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  },
+  {
+   "patient": "SYN-085b824d1c",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  },
+  {
+   "patient": "SYN-16dd2458f2",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  },
+  {
+   "patient": "SYN-1a086a662c",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  },
+  {
+   "patient": "SYN-1d2f244acf",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  },
+  {
+   "patient": "SYN-2a79889295",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  },
+  {
+   "patient": "SYN-2af2416d76",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  },
+  {
+   "patient": "SYN-2ee91e46f8",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  },
+  {
+   "patient": "SYN-3440cb1675",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  },
+  {
+   "patient": "SYN-4109ac4ebc",
+   "verdict": "eligible",
+   "completeness": 0.462,
+   "passed": [
+    "age 18 to 80 years old",
+    "histologically confirmed adenocarcinoma of the stomach or gastroesophageal junction",
+    "achieved R0 resection",
+    "had no systemic therapy like neoadjuvant therapy",
+    "AJCC stage IIIA (T2N3a, T3N2, \u2026) \u2026 IIIC (\u2026 T4bN3b)",
+    "and has Lauren classification"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy (extent of dissection not in reports)",
+    "no distant metastasis (M0): imaging, not pathology",
+    "ECOG 0-1",
+    "organ function",
+    "contraception",
+    "consent",
+    "no other primary malignancy"
+   ]
+  }
+ ],
+ "NCT04997837": [
+  {
+   "patient": "SYN-085b824d1c",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-2a79889295",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-2ee91e46f8",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-648afe9bec",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-7986bd7637",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-90cf842041",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-b18cc5830d",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-b7c3583f2f",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-bbdabaaf04",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  },
+  {
+   "patient": "SYN-be69972550",
+   "verdict": "eligible",
+   "completeness": 0.4,
+   "passed": [
+    "Patients after standard D2/R0 resection",
+    "Postoperative histologically confirmed adenocarcinoma of the stomach or GEJ",
+    "Positive lymph nodes more than 7, stage pN3",
+    "[age] 18 Years and older"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "D2 lymphadenectomy",
+    "M0 or M1 with CY1P0 only",
+    "ECOG 0-1",
+    "expected survival > 6 months",
+    "blood and biochemistry thresholds",
+    "consent"
+   ]
+  }
+ ],
+ "NCT06661720": [
+  {
+   "patient": "SYN-2c1de666f1",
+   "verdict": "eligible",
+   "completeness": 0.364,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  },
+  {
+   "patient": "SYN-69b7d0ef8f",
+   "verdict": "eligible",
+   "completeness": 0.364,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  },
+  {
+   "patient": "SYN-ac19228fbf",
+   "verdict": "eligible",
+   "completeness": 0.364,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  },
+  {
+   "patient": "SYN-14cc06e57d",
+   "verdict": "undetermined",
+   "completeness": 0.273,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+"
+   ],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  },
+  {
+   "patient": "SYN-278f656984",
+   "verdict": "undetermined",
+   "completeness": 0.273,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+"
+   ],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  },
+  {
+   "patient": "SYN-3156efff9b",
+   "verdict": "undetermined",
+   "completeness": 0.273,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+"
+   ],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  },
+  {
+   "patient": "SYN-5d922aeb44",
+   "verdict": "undetermined",
+   "completeness": 0.273,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+"
+   ],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  },
+  {
+   "patient": "SYN-80804e4b78",
+   "verdict": "undetermined",
+   "completeness": 0.273,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+"
+   ],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  },
+  {
+   "patient": "SYN-be9c134af7",
+   "verdict": "undetermined",
+   "completeness": 0.273,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+"
+   ],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  },
+  {
+   "patient": "SYN-dfd6ed2842",
+   "verdict": "undetermined",
+   "completeness": 0.273,
+   "passed": [
+    "RCC with clear cell component with or without sarcomatoid features following complete resection",
+    "Age >= 18 years",
+    "Note: microscopically positive soft tissue or vascular margins without gross residual disease are permitted"
+   ],
+   "failed": [],
+   "unknown": [
+    "Intermediate-high risk: pT2 grade 4 or sarcomatoid, N0M0; pT3 any grade N0 \u2014 High risk: pT4 N0; any pT N+"
+   ],
+   "to_verify": [
+    "no distant metastasis (M0): imaging, not pathology (or resected cM1 NED)",
+    "surgery 4-16 weeks before registration",
+    "no prior systemic therapy",
+    "ECOG \u2264 2",
+    "blood counts, renal, hepatic function, urine protein",
+    "HIV/HBV/HCV status",
+    "cardiac history, pneumonitis, blood pressure"
+   ]
+  }
+ ],
+ "NCT07581509": [
+  {
+   "patient": "SYN-a22fad3bf7",
+   "verdict": "undetermined",
+   "completeness": 0.375,
+   "passed": [
+    "Male or female patients aged \u226518 years",
+    "Histologically confirmed melanoma that is completely surgically resected with negative margins",
+    "EXCLUSION: History of ocular/uveal and mucosal melanoma"
+   ],
+   "failed": [],
+   "unknown": [
+    "Stage IIB, IIC, or Stage III melanoma per AJCC 8th edition"
+   ],
+   "to_verify": [
+    "ECOG 0-1",
+    "resection \u2265 28 days before consent; randomization \u2264 12 weeks after surgery",
+    "disease-free on imaging; no brain metastases",
+    "autoimmune disease, steroids, prior checkpoint therapy"
+   ]
+  },
+  {
+   "patient": "SYN-b0433f8d74",
+   "verdict": "undetermined",
+   "completeness": 0.375,
+   "passed": [
+    "Male or female patients aged \u226518 years",
+    "Histologically confirmed melanoma that is completely surgically resected with negative margins",
+    "EXCLUSION: History of ocular/uveal and mucosal melanoma"
+   ],
+   "failed": [],
+   "unknown": [
+    "Stage IIB, IIC, or Stage III melanoma per AJCC 8th edition"
+   ],
+   "to_verify": [
+    "ECOG 0-1",
+    "resection \u2265 28 days before consent; randomization \u2264 12 weeks after surgery",
+    "disease-free on imaging; no brain metastases",
+    "autoimmune disease, steroids, prior checkpoint therapy"
+   ]
+  },
+  {
+   "patient": "SYN-b70c0f1fc6",
+   "verdict": "undetermined",
+   "completeness": 0.375,
+   "passed": [
+    "Male or female patients aged \u226518 years",
+    "Histologically confirmed melanoma that is completely surgically resected with negative margins",
+    "EXCLUSION: History of ocular/uveal and mucosal melanoma"
+   ],
+   "failed": [],
+   "unknown": [
+    "Stage IIB, IIC, or Stage III melanoma per AJCC 8th edition"
+   ],
+   "to_verify": [
+    "ECOG 0-1",
+    "resection \u2265 28 days before consent; randomization \u2264 12 weeks after surgery",
+    "disease-free on imaging; no brain metastases",
+    "autoimmune disease, steroids, prior checkpoint therapy"
+   ]
+  },
+  {
+   "patient": "SYN-ccdf209063",
+   "verdict": "undetermined",
+   "completeness": 0.375,
+   "passed": [
+    "Male or female patients aged \u226518 years",
+    "Histologically confirmed melanoma that is completely surgically resected with negative margins",
+    "EXCLUSION: History of ocular/uveal and mucosal melanoma"
+   ],
+   "failed": [],
+   "unknown": [
+    "Stage IIB, IIC, or Stage III melanoma per AJCC 8th edition"
+   ],
+   "to_verify": [
+    "ECOG 0-1",
+    "resection \u2265 28 days before consent; randomization \u2264 12 weeks after surgery",
+    "disease-free on imaging; no brain metastases",
+    "autoimmune disease, steroids, prior checkpoint therapy"
+   ]
+  },
+  {
+   "patient": "SYN-d6f877b246",
+   "verdict": "undetermined",
+   "completeness": 0.375,
+   "passed": [
+    "Male or female patients aged \u226518 years",
+    "Histologically confirmed melanoma that is completely surgically resected with negative margins",
+    "EXCLUSION: History of ocular/uveal and mucosal melanoma"
+   ],
+   "failed": [],
+   "unknown": [
+    "Stage IIB, IIC, or Stage III melanoma per AJCC 8th edition"
+   ],
+   "to_verify": [
+    "ECOG 0-1",
+    "resection \u2265 28 days before consent; randomization \u2264 12 weeks after surgery",
+    "disease-free on imaging; no brain metastases",
+    "autoimmune disease, steroids, prior checkpoint therapy"
+   ]
+  },
+  {
+   "patient": "SYN-de53c997bf",
+   "verdict": "undetermined",
+   "completeness": 0.375,
+   "passed": [
+    "Male or female patients aged \u226518 years",
+    "Histologically confirmed melanoma that is completely surgically resected with negative margins",
+    "EXCLUSION: History of ocular/uveal and mucosal melanoma"
+   ],
+   "failed": [],
+   "unknown": [
+    "Stage IIB, IIC, or Stage III melanoma per AJCC 8th edition"
+   ],
+   "to_verify": [
+    "ECOG 0-1",
+    "resection \u2265 28 days before consent; randomization \u2264 12 weeks after surgery",
+    "disease-free on imaging; no brain metastases",
+    "autoimmune disease, steroids, prior checkpoint therapy"
+   ]
+  },
+  {
+   "patient": "SYN-f2ab221741",
+   "verdict": "undetermined",
+   "completeness": 0.375,
+   "passed": [
+    "Male or female patients aged \u226518 years",
+    "Histologically confirmed melanoma that is completely surgically resected with negative margins",
+    "EXCLUSION: History of ocular/uveal and mucosal melanoma"
+   ],
+   "failed": [],
+   "unknown": [
+    "Stage IIB, IIC, or Stage III melanoma per AJCC 8th edition"
+   ],
+   "to_verify": [
+    "ECOG 0-1",
+    "resection \u2265 28 days before consent; randomization \u2264 12 weeks after surgery",
+    "disease-free on imaging; no brain metastases",
+    "autoimmune disease, steroids, prior checkpoint therapy"
+   ]
+  }
+ ]
+}
